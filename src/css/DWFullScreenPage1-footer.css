@@ -1,0 +1,18 @@
+.footer {
+    min-height: 50px;
+    display: none;
+    width: 100%;
+    background: none scroll rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    top: auto;
+    z-index: 10000;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: none;
+    background-size: initial;
+    background-position: 0px 0px;
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1024px) {
+}
