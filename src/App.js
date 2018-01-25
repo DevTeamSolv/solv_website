@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import '../src/css/reset.css';
@@ -12,6 +11,7 @@ import '../src/css/DWFullScreenPage1-footer.css';
 import '../src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menu.css';
 import '../src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menualt.css';
 import '../src/css/HoverFX.css';
+import '../src/css/main.css';
 
 
 class App extends Component {

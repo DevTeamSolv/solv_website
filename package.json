@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.2",
+    "@fortawesome/fontawesome-free-solid": "^5.0.4",
+    "@fortawesome/react-fontawesome": "^0.0.17",
+    "jquery": "^3.3.1",
+    "jquery-scrollify": "^1.0.19",
+    "moment": "^2.20.1",
     "react": "^16.2.0",
+    "react-awesome-countdowntimer": "^1.1.1",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-rotating-text": "^1.2.1",
+    "react-scripts": "1.1.0",
+    "react-skylight": "^0.5.0",
+    "react-slick": "^0.16.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3006 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
