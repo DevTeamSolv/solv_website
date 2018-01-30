@@ -312,11 +312,10 @@ class Home extends React.Component {
                                             This website outlines a summary of our goals for the four different platforms that we are building so that you can learn
                                             what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it,
                                             and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed
-                                            decision possible, you can also explore our interactive whitepaper.
-                                            <p>(presale coming soon)</p>
+                                            decision possible, you can also explore our interactive whitepaper.<br/>
+                                            <b>(presale coming soon)</b>
                                             {/*<ReactRotatingText items={['A TOKEN FOR HUMANITY']} />*/}
                                         </span>
-
                                     </h1>
 
                                     {/*<div id="countdown_with_background_v1">*/}
@@ -451,7 +450,8 @@ class Home extends React.Component {
                                         <div className="row_48">
                                             <div className="column_36">
                                                 <h3>Team Members</h3>
-                                                <p>Experience has shown that our best customers are ones who have as much respect for our time as we have for theirs.</p>
+                                                <p>"We are a team, we are a family. This is our whole crew. This was created not by big names Eli karadsheh
+                                                    or powerful corporations, but bright and passionate individuals who want to change the world for the better."</p>
                                                 <a className="button" href="#">Learn more</a></div>
                                         </div>
                                         <div>
@@ -680,7 +680,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="member-container">
+                                       {/* <div className="member-container">
                                             <div className="inner-member-container">
                                                 <img src={require("../images/team/sample.png")}/>
                                                 <div className="links">
@@ -693,10 +693,10 @@ class Home extends React.Component {
                                                     <p className="designation">Public Relations America</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>*/}
                                     </div>
 
-                                    <div className="members-row">
+                                    {/*<div className="members-row">
                                         <div className="member-container">
                                             <div className="inner-member-container">
                                                 <img src={require("../images/team/sample.png")}/>
@@ -711,7 +711,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>*/}
                                 </div>
 
                                 <div className="mobile-menu">
@@ -948,7 +948,7 @@ class Home extends React.Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="member-container">
+                                            {/*<div className="member-container">
                                                 <div className="inner-member-container">
                                                     <img src={require("../images/team/sample.png")}/>
                                                     <div className="links">
@@ -961,11 +961,11 @@ class Home extends React.Component {
                                                         <p className="designation">Public Relations America</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>*/}
                                         </div>
 
                                         <div className="slider-continer">
-                                            <div className="member-container">
+                                            {/*<div className="member-container">
                                                 <div className="inner-member-container">
                                                     <img src={require("../images/team/sample.png")}/>
                                                     <div className="links">
@@ -978,7 +978,7 @@ class Home extends React.Component {
                                                         <p className="designation">Finance Operator</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>*/}
                                         </div>
                                     </Slider>
                                 </div>
@@ -1000,18 +1000,30 @@ class Home extends React.Component {
                 <div className="footer">
                     <div className="box">
                         <a href="#" className="facebook2">
-                            <svg enableBackground="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" space="preserve" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><path id="facebook" className="footer_icons" d="M18,32V18h6l1-6h-7V9c0-2,1.002-3,3-3h3V0c-1,0-3.24,0-5,0c-5,0-7,3-7,8v4H6v6h6v14H18z"  /><g/><g/><g/><g/><g/><g/></svg>
+                            <img src={require("../images/facebook_w.png")}/>
+                        </a>
+                        <a href="#" className="facebook2">
+                            <img src={require("../images/facebook.png")}/>
+                        </a>
+
+                        <a href="#" className="twitter2">
+                            <img src={require("../images/twitter_w.png")}/>
                         </a>
                         <a href="#" className="twitter2">
-
+                            <img src={require("../images/twitter.png")}/>
                         </a>
                         <a href="#" className="slack2">
-
+                            <img src={require("../images/slack_w.png")}/>
+                        </a>
+                        <a href="#" className="slack2">
+                            <img src={require("../images/slack.png")}/>
                         </a>
                         <a href="#" className="btc2 forcedState__hover">
                             <i className="fa fa-btc" aria-hidden="true"></i>
                         </a>
-                        <a href="#" className="steem2"></a>
+                        <a href="#" className="steem2">
+
+                        </a>
                     </div>
                     {/*<div className="box">
                         <a href="#" className="facebook2">

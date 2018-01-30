@@ -33,7 +33,7 @@
   margin-top: -50px;
   position: relative;
   bottom: 50px;
-  left: 50px;
+  margin-left: 50px;
   img {
       width: 50px;
       height: 50px;
@@ -107,6 +107,10 @@
     display: flex;
     justify-content: space-around;
     a {
+      img{
+        width: 44px;
+      }
+
       i {
         font-size: 34px;
         color: #fff;
@@ -135,6 +139,7 @@
 
     }
   }
+
   .skylight-dialog {
     width: 90% !important;
     height: 83% !important;
@@ -167,23 +172,29 @@
   //height: auto !important;
 }
 .row_38 {
-  background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
-  //background-image: url("../images/futuristic-technology-interface_13339-51296.jpg");
+  //background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
+  background-image: url("../images/futuristic-technology-interface_13339-51296.jpg");
   padding-top: 360px;
   height: 976px;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 120px;
+  height: 976px;
+  text-align: center;
+  h1 {
+    font-size: 40px;
+    color: #1d8f19;
+    margin-top: 0px;
+    //margin-left: 50%;
+    margin-bottom: 0px;
+    font-family: Sans Pro, sans-serif;
+  }
+
   .row_41 {
-    width: 50%;
-    margin-left: 250px;
-    padding: 50px 0px;
-    h1 {
-      font-size: 40px;
-      color: #1d8f19;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      font-family: Sans Pro, sans-serif;
-    }
+    width: 70%;
+    margin: 0px auto;
+    padding: 70px 0px;
+
     .inner {
       display: flex;
       justify-content: space-around;
@@ -191,6 +202,7 @@
       p.presale-heading {
         text-align: left;
         font-weight: 500;
+        margin-top: 12px;
       }
       p {
         color: #fff;
@@ -222,14 +234,26 @@
             margin-left: -5px;
           }
         }
+
         a.button {
           width: 72%;
+          color: #fff;
+          border-color: #fff;
           font-size: 21px !important;
           padding: 7px 15px !important;
+          margin-top: 110px;
+        }
+        a.button:hover {
+          //width: 72%;
+          color: #fff;
+          border-color: #fff;
+          background-color: #ffffff30;
+          //font-size: 21px !important;
+          //padding: 7px 15px !important;
         }
       }
       .my-rangeslider {
-        width: 40%;
+        width: 20%;
         .rangeslider-vertical{
           height: 230px;
         }
@@ -245,8 +269,46 @@
           background: linear-gradient(to top, rgba(22,109,19,1) 0%, rgba(44,83,45,1) 1%, rgba(44,84,45,1) 5%, rgba(81,214,74,1) 98%, rgba(81,214,74,1) 100%);
         }
       }
+      .my-rangeslider-2 {
+        display: none;
+      }
+    }
+    .solv-svg {
+      height: 220px;
+      width: 220px;
+    }
+    .eth-svg {
+      height: 250px;
+      width: 250px;
     }
   }
+}
+.rangeslider-vertical .rangeslider__labels {
+  width: 20px !important;
+}
+.rangeslider-vertical .rangeslider__handle:after {
+  content: ' ';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: #dadada;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
+}
+.rangeslider-horizontal .rangeslider__handle:after {
+  content: ' ';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 6px;
+  left: 6px;
+  border-radius: 50%;
+  background-color: #dadada;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
 }
 .row_39 {
   border: none;
@@ -364,7 +426,7 @@
       background-color: #2c532d;
       border-radius: 100%;
       width: 120px;
-      box-shadow: 0px 0px 5px 2px #3e3d3d61;
+      //box-shadow: 0px 0px 5px 2px #3e3d3d61;
       height: 120px;
     }
     .time {
@@ -509,7 +571,7 @@ div.FM2_DWFullScreenPage1menu_container {
   color: transparent;
   border: none;
   outline: none;
-  background: #0000008f;
+  //background: #0000008f;
   border-radius: 100%;
 }
 .slide-prev:before, .slide-next:before {
@@ -576,7 +638,7 @@ div.FM2_DWFullScreenPage1menu_container {
 }
 .scrolled {
   height: 69px;
-  box-shadow: 0px 0px 5px 2px #3e3d3d61;
+  //box-shadow: 0px 0px 5px 2px #3e3d3d61;
   padding-top: 5px;
   background-image: url("../images/gifs/Nav-Bar_ver-4.gif");
   background-size: cover;
@@ -599,9 +661,12 @@ div.FM2_DWFullScreenPage1menu_container {
       height: 60px;
     }
   }
+
+
   .column_26 {
     padding-top: 1px;
     margin-top: 0px;
+
     a {
       text-transform: uppercase;
       word-spacing: 1px;
@@ -1051,22 +1116,31 @@ video {
     }
   }
 }
-#svg_con {
+.svg_con {
   display: inline-flex;
   text-align: center;
-
-  #svg_con > svg{
+  .svg_con > svg{
     margin-top: 25px;
   }
-  #svg_con > svg:last-child{
+  .svg_con > svg:last-child{
     margin-left: 20px;
+  }
+  .eth-svg-con, .solv-svg-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 336px;
+    svg {
+      margin-bottom: 20px;
+    }
   }
   .counter{
     display: flex;
     justify-content: space-between;
     width: 150px;
     height: 40px;
-    border-radius: 150px 100px 100px 0px;
+    border-radius: 100px 100px 100px 100px;
     svg{
       margin-top: 10px;
       margin-left: 5px;
@@ -1075,10 +1149,10 @@ video {
       text-align: center;
     }
   }
-  #counter_eth{
+  .counter_eth{
     background-color: #1b251a;
   }
-  #counter_sol{
+  .counter_sol{
     background-color: #5ebb46;
   }
 }
