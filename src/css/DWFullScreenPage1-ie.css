@@ -66,7 +66,6 @@ a.button-white {
 }
 
 .row_30 {
-	-pie-background: transparent url("../includes/DWFullScreenPage/DWFullScreenPage1/hero_image_3.jpg") no-repeat scroll center center ;
 }
 
 .row_57 {
@@ -194,98 +193,6 @@ img.image-field1, img.image-field2 {
 }
 
 .sidebar_social1 .pinterest1 {
-	position: relative;
-}
-
-.sidebar_social2 .facebook2 {
-	-pie-background: transparent url("../images/xtd_facebook.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .facebook2:hover {
-	-pie-background: transparent url("../images/xtd_facebook_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .facebook2 {
-	position: relative;
-}
-
-.sidebar_social2 .facebook2:active {
-	-pie-background: transparent url("../images/xtd_facebook_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .facebook2 {
-	position: relative;
-}
-
-.sidebar_social2 .twitter2 {
-	-pie-background: transparent url("../images/xtd_twitter.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .twitter2:hover {
-	-pie-background: transparent url("../images/xtd_twitter_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .twitter2 {
-	position: relative;
-}
-
-.sidebar_social2 .twitter2:active {
-	-pie-background: transparent url("../images/xtd_twitter_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .twitter2 {
-	position: relative;
-}
-
-.sidebar_social2 .slack2 {
-	-pie-background: transparent url("../images/xtd_slack.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .googleplus2:hover {
-	-pie-background: transparent url("../images/xtd_slack_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .googleplus2 {
-	position: relative;
-}
-
-.sidebar_social2 .googleplus2:active {
-	-pie-background: transparent url("../images/xtd_googleplus_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .googleplus2 {
-	position: relative;
-}
-
-.sidebar_social2 .btc2, .sidebar_social2 .steem2 {
-	-pie-background: transparent url("../images/xtd_btc.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .pinterest2:hover {
-	-pie-background: transparent url("../images/xtd_btc_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .pinterest2 {
-	position: relative;
-}
-
-.sidebar_social2 .pinterest2:active {
-	-pie-background: transparent url("../images/xtd_pinterest_over.png") no-repeat scroll left top ;
-	position: relative;
-}
-
-.sidebar_social2 .pinterest2 {
 	position: relative;
 }
 

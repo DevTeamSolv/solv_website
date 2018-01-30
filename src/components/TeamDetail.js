@@ -5,83 +5,193 @@ class TeamDetail extends React.Component {
     render() {
         return (
             <div>
-
-                <SkyLight
-                    hideOnOverlayClicked={true}
-                    ref={ref => this.simpleDialog = ref}
-                    title="My cool custon title"
-                >
-                    <div className="slide-div">
-                        {this.state.currentTab >1 && this.state.currentTab <=4 && <button onClick={this.handleSlide.bind(this, "prev")} className="slide-prev">
-                            <i className="fa fa-chevron-left" aria-hidden="true"></i>
-                        </button>}
-                        <div className="slide-track">
-                            <div className="slide slide2" data-id="humanitarian" data-tooltip="Humanitarian" data-anchor="humanitarian" id="human">
-                                <div className="custom-post-content1"><img className="image-field2" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")} /><span className="client-name1"><span>Humanitity</span> Platform</span>
-                                    <div className="testimonials-content-inner1">
-                                            <span>
-                                                <div className="testimonials-content-inner">
-                                                    <p>
-                                                        The solution humanitarian program is what solution believes will be the set standard for donations of
-                                                        any sort in the future, which is for 100% of the donations to be going to theexact place of intention.
-                                                        By building a donational module on a blockchain, it will allow people to make decentralised donations
-                                                        without having to worry about cuts and admin fees from middle parties.
-                                                    </p>
-                                                </div>
-                                            </span>
-                                    </div>
-                                </div>
-                            </div><div className="slide slide3" data-id="water" data-tooltip="Water Solutions" data-anchor="water" id="water">
-                            <div className="custom-post-content1"><img className="image-field2" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")} /><span className="client-name1"><span>Water</span> Solutions</span>
-                                <div className="testimonials-content-inner1">
-                                            <span>
-                                                <div className="testimonials-content-inner">
-                                                  <p>
-                                                      Bringing Crypto to the real world for productivity. Breaking this barrier will help solutiongo to
-                                                      new heights as well as bringing the world closer to mass adoption. Solution decided to create and
-                                                      market solution bottles of water to stores world wide, why Solution believes this will be a success
-                                                      is because of the benefits the consumer gets from purchasing a solution water bottle.
-                                                  </p>
-                                                </div>
-                                            </span>
-                                </div>
-                            </div>
-                        </div><div className="slide slide4"  data-id="gaming" data-tooltip="Gaming Platform" data-anchor="gaming" id="game">
-                            <div className="custom-post-content1"><img className="image-field2" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")} /><span className="client-name1"><span>Gaming</span> Platform</span>
-                                <div className="testimonials-content-inner1">
-                                            <span>
-                                                <div className="testimonials-content-inner">
-                                                  <p>
-                                                      This peer to peer platform will allow users to have a fun and interactive way to enjoy a game within the crypto
-                                                      realm. This game will allow you to level up and constantly grow and edit your character while putting them into
-                                                      events and competitions which willresult in a prize. Since it is a skilled game it will allow users to make an
-                                                      active incomeform work rate and use of the game.
-                                                  </p>
-                                                </div>
-                                            </span>
-                                </div>
-                            </div>
-                        </div><div className="slide slide5" data-id="rewards" data-tooltip="Wallet Rewards" data-anchor="rewards" id="wallet">
-                            <div className="custom-post-content1"><img className="image-field2" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")} /><span className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
-                                <div className="testimonials-content-inner1">
-                                            <span>
-                                                <div className="testimonials-content-inner">
-                                                  <p>
-                                                      The Rewards Wallet will allow the user to hold Solution Tokens and gain KEY tokens (KEY Tokens are a secondary
-                                                      token with a decreasing supply that is capped) The user will be rewarded the tokens for holding solution tokens
-                                                      which helps the value stability.
-                                                  </p>
-                                                </div>
-                                            </span>
-                                </div>
-                            </div>
+                {
+                    this.props.member === "andrew" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/ingram.jpg")}/>
                         </div>
-                        </div>
-                        {this.state.currentTab >=1 && this.state.currentTab <4 && <button onClick={this.handleSlide.bind(this, "next")} className="slide-next">
-                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                        </button>}
+                        <p className="name">Andrew Ingram</p>
+                        <p className="designation">CEO & Founder</p>
+                        <p className="description">Andrew believes that the world needed certain changes in society to help aid those in need, with the concept of Solution, it will provide many opportunities for everyone. Andrew will also lead the project for future successes.</p>
                     </div>
-                </SkyLight>
+                }
+                {
+                    this.props.member === "zain" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/ali_Zain.jpg")}/>
+                        </div>
+                        <p className="name">Ali Zain</p>
+                        <p className="designation">Head Developer</p>
+                        <p className="description">Full-stack developer in the Ethereum Blockchain, who built the smart contracts for the Token as well as on going assistance for solution platforms.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "matthew" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/sample.png")}/>
+                        </div>
+                        <p className="name">Andrew Ingram</p>
+                        <p className="designation">COO</p>
+                        <p className="description">(vision and goal) In charge of the operations and overview management of the company, while setting goals and targets for the company to achieve the best possible results.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "dean" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/Dean_James.jpg")}/>
+                        </div>
+                        <p className="name">Dean James</p>
+                        <p className="designation">Marketing Director</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto</p>
+                    </div>
+                }
+                {
+                    this.props.member === "mike" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/Michael.png")}/>
+                        </div>
+                        <p className="name">Michael Gogarty</p>
+                        <p className="designation">Communications Manager</p>
+                        <p className="description">(vision and goal) deals with company partnerships and international business operations.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "mahar" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/mahar_husnain.jpg")}/>
+                        </div>
+                        <p className="name">Mahar Husnain</p>
+                        <p className="designation">Lead Developer</p>
+                        <p className="description">Mahar Husnain is a full-stack web developer who built web platforms.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "david" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/david.png")}/>
+                        </div>
+                        <p className="name">David Casciato</p>
+                        <p className="designation">Humanitarian Director</p>
+                        <p className="description">Responsible for alleviating suffering, assistance and action with the purpose of saving lives and protecting human dignity.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "hassan" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/hasan-small.jpg")}/>
+                        </div>
+                        <p className="name">Hassan</p>
+                        <p className="designation">ReactJS & FrontEnd Developer</p>
+                        <p className="description">Hassan is lead FrontEnd and ReactJS developer and Blockchain Enthusiast. Hassan has worked previously on different ICOs and non-Blockchain platforms.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "sean" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/sample.png")}/>
+                        </div>
+                        <p className="name">Sean Gallagher</p>
+                        <p className="designation">Chief Editor</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "eli" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/sample.png")}/>
+                        </div>
+                        <p className="name">Eli Karadsheh</p>
+                        <p className="designation">Social Media Manager</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "james" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/James fawk.jpg")}/>
+                        </div>
+                        <p className="name">James Fawke</p>
+                        <p className="designation">Public Relation Australia</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "arik" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/Arik.jpg")}/>
+                        </div>
+                        <p className="name">Arik Balolong</p>
+                        <p className="designation">Web & Graphic Designer</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "daniel" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/SOLV PROFILES 005.jpg")}/>
+                        </div>
+                        <p className="name">Daniel Faraj</p>
+                        <p className="designation">Digital Media Manager</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "joshua" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/sample.png")}/>
+                        </div>
+                        <p className="name">Joshua Julia</p>
+                        <p className="designation">Public Relations America</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "damian" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/Damian.png")}/>
+                        </div>
+                        <p className="name">Damian Godlewski</p>
+                        <p className="designation">Public Relations Europe</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "kamil" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/sample.png")}/>
+                        </div>
+                        <p className="name">Kamil Helou</p>
+                        <p className="designation">Finance Operator</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
+                {
+                    this.props.member === "legaspi" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/sample.png")}/>
+                        </div>
+                        <p className="name">Joshua Legaspi</p>
+                        <p className="designation">Lead Graphics</p>
+                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                    </div>
+                }
             </div>
         )
     }

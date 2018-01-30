@@ -530,11 +530,10 @@ img.image4 {
     clear : both;
     min-height : 100px;
     text-align : center;
-    background : url("../js/includes/DWFullScreenPage/DWFullScreenPage1/hero_image_3.jpg") center center/cover no-repeat scroll transparent;
     position : relative;
     z-index : 1;
     background-color : transparent;
-    background-image : url('../js/includes/DWFullScreenPage/DWFullScreenPage1/wallpaper.png');
+    /*background-image : url('../js/includes/DWFullScreenPage/DWFullScreenPage1/wallpaper.png');*/
     background-repeat : no-repeat;
     background-size : cover;
     background-position : center center;
@@ -814,60 +813,6 @@ img.image-field2:hover {
 .sidebar_social1 .pinterest1:active {
     background : transparent url("../images/xtd_pinterest_over.png") no-repeat left top;
 }
-.sidebar_social2 {
-    padding : 25px;
-    display : none;
-}
-.sidebar_social2 a {
-    display : inline-block;
-    float : none;
-    margin-right : 5px;
-    width : 39px;
-    height : 39px;
-}
-.sidebar_social2 h2 {
-    margin-bottom : 22px;
-    margin-top : 0;
-}
-.sidebar_social2 .facebook2 {
-    background : transparent url("../images/xtd_facebook.png") no-repeat left top;
-    transition:all 0.4s linear 0s;
-}
-.sidebar_social2 .facebook2:hover {
-    background : transparent url("../images/xtd_facebook_over.png") no-repeat left top;
-}
-.sidebar_social2 .facebook2:active {
-    background : transparent url("../images/xtd_facebook_over.png") no-repeat left top;
-}
-.sidebar_social2 .twitter2 {
-    background : transparent url("../images/xtd_twitter.png") no-repeat left top;
-    transition:all 0.4s linear 0s;
-}
-.sidebar_social2 .twitter2:hover {
-    background : transparent url("../images/xtd_twitter_over.png") no-repeat left top;
-}
-.sidebar_social2 .twitter2:active {
-    background : transparent url("../images/xtd_twitter_over.png") no-repeat left top;
-}
-.sidebar_social2 .slack2 {
-    background : url("../images/xtd_slack.png") left top no-repeat scroll transparent;
-    transition:all 0.4s linear 0s;
-}
-.sidebar_social2 .googleplus2:hover {
-    background : url("../images/xtd_slack_over.png") left top no-repeat scroll transparent;
-}
-.sidebar_social2 .googleplus2:active {
-    background : transparent url("../images/xtd_googleplus_over.png") no-repeat left top;
-}
-.sidebar_social2 .btc2, .sidebar_social2 .steem2 {
-    background : url("../images/xtd_btc.png") left top no-repeat scroll transparent;
-}
-.sidebar_social2 .pinterest2:hover {
-    background : url("../images/xtd_btc_over.png") left top no-repeat scroll transparent;
-}
-.sidebar_social2 .pinterest2:active {
-    background : transparent url("../images/xtd_pinterest_over.png") no-repeat left top;
-}
 img.image-field2 {
     transition : all 0.4s linear 0s;
     display : inline-block;
@@ -902,11 +847,6 @@ h3.heading1 {
     top : 0px;
     z-index : -1;
 }
-.sidebar_social2 .steem2 {
-    background-image: url("../images/xtd_steemit.png");
-    background-size:auto;
-    transition:all 0.4s linear 0s;
-}
 a.steem2:hover {
     background:url("../images/xtd_steemit_over.png") scroll transparent;
 }
@@ -915,9 +855,6 @@ a.slack2:hover {
 }
 a.btc2:hover {
     background:url("../images/xtd_btc_over.png");
-}
-.sidebar_social2 .btc2 {
-    transition: all 0.4s linear 0s;
 }
 span.span14 {
     font-family: Source Sans Pro, sans-serif;
@@ -1252,9 +1189,7 @@ span.span14 {
     .sidebar_social1 .pinterest1 {
         width : 10px;
     }
-    .sidebar_social2 {
-        display : inline-block;
-    }
+
     img.image-field2 {
         transition : none;
         width : auto;
@@ -1580,10 +1515,6 @@ span.span14 {
         width : 80%;
         margin-left : auto;
         margin-right : auto;
-    }
-    .sidebar_social2 {
-        float : right;
-        display : inline-block;
     }
     .sidebar_social1 .facebook1 {
         width : 10px;

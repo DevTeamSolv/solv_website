@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import moment from 'moment';
 
 class CountdownTimer extends React.Component {
@@ -63,13 +62,13 @@ class CountdownTimer extends React.Component {
             marginTop: '43px'
         }
         const label = {
-            fontSize: '22px',
+            fontSize: '17px',
             display: 'flex',
             justifyContent: 'center',
             minWidth: 'inherit',
-            color: '#1e8e1a',
+            color: '#51d64b',
             fontWeight: '500',
-            marginTop: '64px'
+            marginTop: '41px'
     }
         const section = {
             display: 'flex',
@@ -86,46 +85,42 @@ class CountdownTimer extends React.Component {
             <div className="timer" style={timer}>
                 {
                     this.state.timeRemaining.months &&
-                    <div className="section months" style={section}>
-                        <div className="time" style={time}>{this.state.timeRemaining.months}</div>
-                        <div className="label" style={label}>Months</div>
+                    <div className="section months">
+                        <div className="time" >{this.state.timeRemaining.months}</div>
+                        <div className="label" >Months</div>
                     </div>
                 }
                 {
                     this.state.timeRemaining.days &&
-                    <div className="section days" style={section}>
-                        <div className="time" style={time}>{this.state.timeRemaining.days}</div>
-                        <div className="label" style={label}>Days</div>
+                    <div className="section days">
+                        <div className="time" >{this.state.timeRemaining.days}</div>
+                        <div className="label" >Days</div>
                     </div>
                 }
                 {
                     this.state.timeRemaining.h &&
-                    <div className="section hours" style={section}>
-                        <div className="time" style={time}>{this.state.timeRemaining.h}</div>
-                        <div className="label" style={label}>Hours</div>
+                    <div className="section hours">
+                        <div className="time" >{this.state.timeRemaining.h}</div>
+                        <div className="label" >Hours</div>
                     </div>
                 }
                 {
                     this.state.timeRemaining.m &&
-                    <div className="section minutes" style={section}>
-                        <div className="time" style={time}>{this.state.timeRemaining.m}</div>
-                        <div className="label" style={label}>Minutes</div>
+                    <div className="section minutes">
+                        <div className="time" >{this.state.timeRemaining.m}</div>
+                        <div className="label" >Minutes</div>
                     </div>
                 }
                 {
                     this.state.timeRemaining.s &&
-                    <div className="section seconds" style={section}>
-                        <div className="time" style={time}>{this.state.timeRemaining.s}</div>
-                        <div className="label" style={label}>Seconds</div>
+                    <div className="section seconds">
+                        <div className="time" >{this.state.timeRemaining.s}</div>
+                        <div className="label" >Seconds</div>
                     </div>
                 }
             </div>
         )
     }
-}
-
-CountdownTimer.PropTypes = {
-    endDate: PropTypes.object.isRequired,
 }
 
 export default CountdownTimer;
