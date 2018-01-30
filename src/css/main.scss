@@ -14,21 +14,52 @@
       font-size: 50px;
       margin-bottom: 30px;
       line-height: 40px;
+      font-weight: 300;
     }
     span.span13 {
       letter-spacing: 0px;
       word-spacing: 0px;
+      p {
+        margin-top: 10px;
+        font-size: 28px;
+      }
     }
   }
 }
 
 .audio-icon {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: -50px;
   position: relative;
-  bottom: 60px;
-  right: 20px;
+  bottom: 50px;
+  left: 50px;
+  img {
+      width: 50px;
+      height: 50px;
+      background: #ffffffbf;
+      border: 1px solid #212f1d;
+      border-radius: 100%;
+      padding: 6px;
+      -webkit-transition: all 0.1s linear 0s;
+      -o-transition: all 0.1s linear 0s;
+      transition: all 0.1s linear 0s;
+  }
+  img:hover, img:focus, img:active {
+    background: #fffffff5;
+    border: 1px solid #212f1d;
+    border-radius: 100%;
+    padding: 6px;
+  }
+}
+.video-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -50px;
+  bottom: 50px;
+  right: 50px;
+  position: fixed;
+  z-index: 999;
   img {
       width: 50px;
       height: 50px;
@@ -136,10 +167,14 @@
   //height: auto !important;
 }
 .row_38 {
+  background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
+  //background-image: url("../images/futuristic-technology-interface_13339-51296.jpg");
   padding-top: 360px;
   height: 976px;
+  background-size: cover;
+  background-repeat: no-repeat;
   .row_41 {
-    width: 40%;
+    width: 50%;
     margin-left: 250px;
     padding: 50px 0px;
     h1 {
@@ -1014,5 +1049,36 @@ video {
         }
       }
     }
+  }
+}
+#svg_con {
+  display: inline-flex;
+  text-align: center;
+
+  #svg_con > svg{
+    margin-top: 25px;
+  }
+  #svg_con > svg:last-child{
+    margin-left: 20px;
+  }
+  .counter{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    border-radius: 150px 100px 100px 0px;
+    svg{
+      margin-top: 10px;
+      margin-left: 5px;
+    }
+    p{
+      text-align: center;
+    }
+  }
+  #counter_eth{
+    background-color: #1b251a;
+  }
+  #counter_sol{
+    background-color: #5ebb46;
   }
 }

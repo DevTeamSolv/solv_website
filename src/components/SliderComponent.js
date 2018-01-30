@@ -46,7 +46,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide2" data-id="humanitarian" data-tooltip="Humanitarian"
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/><span
+                                                                       src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Humanitity</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -65,7 +65,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide3" data-id="water" data-tooltip="Water Solutions" data-anchor="water"
                              id="water">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/><span
+                                                                       src={require("../images/gifs/Water-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Water</span> Solutions</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -84,7 +84,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide4" data-id="gaming" data-tooltip="Gaming Platform"
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/><span
+                                                                       src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
                                 className="client-name1"><span>Gaming</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -103,7 +103,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide5" data-id="rewards" data-tooltip="Wallet Rewards"
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/><span
+                                                                       src={require("../images/gifs/Reward-logo-Render.gif")}/><span
                                 className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -126,7 +126,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide2" data-id="humanitarian" data-tooltip="Humanitarian"
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/><span
+                                                                       src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Humanitity</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -145,7 +145,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide3" data-id="water" data-tooltip="Water Solutions" data-anchor="water"
                              id="water">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/><span
+                                                                       src={require("../images/gifs/Water-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Water</span> Solutions</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -164,7 +164,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide4" data-id="gaming" data-tooltip="Gaming Platform"
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/><span
+                                                                       src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
                                 className="client-name1"><span>Gaming</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -183,7 +183,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide5" data-id="rewards" data-tooltip="Wallet Rewards"
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/><span
+                                                                       src={require("../images/gifs/Reward-logo-Render.gif")}/><span
                                 className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -206,7 +206,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide2" data-id="humanitarian" data-tooltip="Humanitarian"
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/><span
+                                                                       src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Humanitity</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -225,7 +225,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide3" data-id="water" data-tooltip="Water Solutions" data-anchor="water"
                              id="water">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/><span
+                                                                       src={require("../images/gifs/Water-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Water</span> Solutions</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -244,7 +244,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide4" data-id="gaming" data-tooltip="Gaming Platform"
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/><span
+                                                                       src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
                                 className="client-name1"><span>Gaming</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -263,7 +263,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide5" data-id="rewards" data-tooltip="Wallet Rewards"
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/><span
+                                                                       src={require("../images/gifs/Reward-logo-Render.gif")}/><span
                                 className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -286,7 +286,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide2" data-id="humanitarian" data-tooltip="Humanitarian"
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/><span
+                                                                       src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Humanitity</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -305,7 +305,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide3" data-id="water" data-tooltip="Water Solutions" data-anchor="water"
                              id="water">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/><span
+                                                                       src={require("../images/gifs/Water-Logo-Render.gif")}/><span
                                 className="client-name1"><span>Water</span> Solutions</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -324,7 +324,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide4" data-id="gaming" data-tooltip="Gaming Platform"
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/><span
+                                                                       src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
                                 className="client-name1"><span>Gaming</span> Platform</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
@@ -343,7 +343,7 @@ class SliderComponent extends React.Component {
                         <div className="slide slide5" data-id="rewards" data-tooltip="Wallet Rewards"
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
-                                                                       src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/><span
+                                                                       src={require("../images/gifs/Reward-logo-Render.gif")}/><span
                                 className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>

@@ -32,6 +32,7 @@ class Home extends React.Component {
             currentTab: 9,
             hide: true,
             mounted: true,
+            paused: false,
             muted: false,
             member: "",
             phrase: ['S','O','L','U','T','I','O','N',' ','T','O','K','E','N'],
@@ -80,10 +81,9 @@ class Home extends React.Component {
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll.bind(this));
         var el = document.getElementById('myVideo')
-        el.muted = false;
-        this.setState({
-            muted: el.muted
-        })
+        el.play();
+        el.muted = true;
+
     }
     mount = true;
     componentWillUnmount () {
@@ -121,10 +121,43 @@ class Home extends React.Component {
         $("#overlay").removeClass('open');
     }
     handleVideo(){
-        var x = this.state.muted
-        this.setState({
-            muted: !x
-        })
+        var el = document.getElementById('myVideo')
+        el.muted = false;
+        var audioEl = document.getElementById('myAudio')
+
+        if(el.paused) {
+            el.play();
+            audioEl.pause();
+            this.setState({
+                paused: false,
+                muted: true
+            })
+        }
+        else {
+            el.pause();
+            this.setState({
+                paused: true
+            })
+        }
+    }
+    handleMusic(){
+        var el = document.getElementById('myAudio')
+        var videoEl = document.getElementById('myVideo')
+        videoEl.muted = true;
+        if(el.paused) {
+            console.log(this.state.muted, "paused")
+            el.play();
+            this.setState({
+                muted: false
+            })
+        }
+        else {
+            console.log(this.state.muted, "play")
+            el.pause();
+            this.setState({
+                muted: true
+            })
+        }
     }
     handleJq(){
         // $('body').append(
@@ -242,14 +275,23 @@ class Home extends React.Component {
                 </div>
                 <Element name="video" className="element">
 
-                <video onClick={this.handleVideo.bind(this)} autoPlay muted={this.state.muted} loop id="myVideo">
+                <video onClick={this.handleVideo.bind(this)} loop id="myVideo">
                     <source src={require("../images/gifs/acx.mp4")} type="video/mp4" />
                         Your browser does not support HTML5 video.
                 </video>
 
-                <div className="audio-icon">
-                    {!this.state.muted && <img src={require("../images/icons8-audio-100.png")}/>}
-                    {this.state.muted && <img src={require("../images/icons8-no-audio-100.png")}/>}
+                <audio src={require("../images/gifs/BG-music.mp3")} autoPlay={true} loop id="myAudio">
+                    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+                </audio>
+
+                <div onClick={this.handleVideo.bind(this)} className="audio-icon">
+                    {!this.state.paused && <img src={require("../images/paused-icon.png")}/>}
+                    {this.state.paused && <img src={require("../images/play-icon.png")}/>}
+                </div>
+
+                <div onClick={this.handleMusic.bind(this)} className="video-icon">
+                    {!this.state.muted && <div><img src={require("../images/music.png")}/></div>}
+                    {this.state.muted && <div><img src={require("../images/no-music.png")}/></div>}
                 </div>
 
                 <div className="content">
@@ -271,8 +313,10 @@ class Home extends React.Component {
                                             what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it,
                                             and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed
                                             decision possible, you can also explore our interactive whitepaper.
+                                            <p>(presale coming soon)</p>
                                             {/*<ReactRotatingText items={['A TOKEN FOR HUMANITY']} />*/}
                                         </span>
+
                                     </h1>
 
                                     {/*<div id="countdown_with_background_v1">*/}
@@ -304,34 +348,34 @@ class Home extends React.Component {
                                             not directly interact with the physical world will be the Solution wallet.</p>
                                         <div className="column_46 desktop-view">
                                                 <button onClick={this.handleDialog.bind(this, 1)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 2)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
                                                 </button>
 
                                                 <button onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 4)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
                                                 </button>
                                         </div>
                                         <div className="mobile-view">
                                             <div>
                                                 <button onClick={this.handleDialog.bind(this, 1)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 2)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
                                                 </button>
                                             </div>
                                             <div>
                                                 <button onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 4)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
                                                 </button>
                                             </div>
                                         </div>
@@ -956,6 +1000,21 @@ class Home extends React.Component {
                 <div className="footer">
                     <div className="box">
                         <a href="#" className="facebook2">
+                            <svg enableBackground="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" space="preserve" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><path id="facebook" className="footer_icons" d="M18,32V18h6l1-6h-7V9c0-2,1.002-3,3-3h3V0c-1,0-3.24,0-5,0c-5,0-7,3-7,8v4H6v6h6v14H18z"  /><g/><g/><g/><g/><g/><g/></svg>
+                        </a>
+                        <a href="#" className="twitter2">
+
+                        </a>
+                        <a href="#" className="slack2">
+
+                        </a>
+                        <a href="#" className="btc2 forcedState__hover">
+                            <i className="fa fa-btc" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" className="steem2"></a>
+                    </div>
+                    {/*<div className="box">
+                        <a href="#" className="facebook2">
                             <i className="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
                         <a href="#" className="twitter2">
@@ -968,7 +1027,7 @@ class Home extends React.Component {
                             <i className="fa fa-btc" aria-hidden="true"></i>
                         </a>
                         <a href="#" className="steem2"></a>
-                    </div>
+                    </div>*/}
                 </div>
                 {<Notification />}
                 </Element>

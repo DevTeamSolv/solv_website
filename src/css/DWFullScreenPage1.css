@@ -330,7 +330,7 @@ img.image7 {
     border-bottom : 1px solid #21cd99;
     background : url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png") scroll rgb(171, 171, 171);
     background-color : rgb(171, 171, 171);
-    background-image : url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
+    /*background-image : url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");*/
     background-repeat : repeat;
     background-position : 0px 0px;
     position : relative;

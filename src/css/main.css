@@ -13,18 +13,22 @@
     .row_30 h1.heading1 span.span12 {
       font-size: 50px;
       margin-bottom: 30px;
-      line-height: 40px; }
+      line-height: 40px;
+      font-weight: 300; }
     .row_30 h1.heading1 span.span13 {
       letter-spacing: 0px;
       word-spacing: 0px; }
+      .row_30 h1.heading1 span.span13 p {
+        margin-top: 10px;
+        font-size: 28px; }
 
 .audio-icon {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: -50px;
   position: relative;
-  bottom: 60px;
-  right: 20px; }
+  bottom: 50px;
+  left: 50px; }
   .audio-icon img {
     width: 50px;
     height: 50px;
@@ -36,6 +40,30 @@
     -o-transition: all 0.1s linear 0s;
     transition: all 0.1s linear 0s; }
   .audio-icon img:hover, .audio-icon img:focus, .audio-icon img:active {
+    background: #fffffff5;
+    border: 1px solid #212f1d;
+    border-radius: 100%;
+    padding: 6px; }
+
+.video-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -50px;
+  bottom: 50px;
+  right: 50px;
+  position: fixed;
+  z-index: 999; }
+  .video-icon img {
+    width: 50px;
+    height: 50px;
+    background: #ffffffbf;
+    border: 1px solid #212f1d;
+    border-radius: 100%;
+    padding: 6px;
+    -webkit-transition: all 0.1s linear 0s;
+    -o-transition: all 0.1s linear 0s;
+    transition: all 0.1s linear 0s; }
+  .video-icon img:hover, .video-icon img:focus, .video-icon img:active {
     background: #fffffff5;
     border: 1px solid #212f1d;
     border-radius: 100%;
@@ -121,10 +149,13 @@
     font-weight: 300; }
 
 .row_38 {
+  background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
   padding-top: 360px;
-  height: 976px; }
+  height: 976px;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .row_38 .row_41 {
-    width: 40%;
+    width: 50%;
     margin-left: 250px;
     padding: 50px 0px; }
     .row_38 .row_41 h1 {
@@ -822,5 +853,28 @@ video {
             height: 170px !important; }
           .team-details .team-container .members-row .member-container .inner-member-container:hover hr {
             width: 95%; }
+
+#svg_con {
+  display: inline-flex;
+  text-align: center; }
+  #svg_con #svg_con > svg {
+    margin-top: 25px; }
+  #svg_con #svg_con > svg:last-child {
+    margin-left: 20px; }
+  #svg_con .counter {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    border-radius: 150px 100px 100px 0px; }
+    #svg_con .counter svg {
+      margin-top: 10px;
+      margin-left: 5px; }
+    #svg_con .counter p {
+      text-align: center; }
+  #svg_con #counter_eth {
+    background-color: #1b251a; }
+  #svg_con #counter_sol {
+    background-color: #5ebb46; }
 
 /*# sourceMappingURL=main.css.map */
