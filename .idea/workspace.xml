@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="487f68a5-6a7c-4460-b65a-4d51a3a8883d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/ETH_1-2.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/if_ETH.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/.sass-cache/1e0e237bdbc8374b2ed6c7a07b80416c3002aee2/main.scssc" afterPath="$PROJECT_DIR$/src/css/.sass-cache/1e0e237bdbc8374b2ed6c7a07b80416c3002aee2/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Sale.js" afterPath="$PROJECT_DIR$/src/components/Sale.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css.map" afterPath="$PROJECT_DIR$/src/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.scss" afterPath="$PROJECT_DIR$/src/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/if_ETH.svg" afterPath="$PROJECT_DIR$/src/images/if_ETH.svg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,23 +48,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="142" column="18" lean-forward="false" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+            <state relative-caret-position="487">
+              <caret line="179" column="29" lean-forward="false" selection-start-line="179" selection-start-column="29" selection-end-line="179" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sale.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sale.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Sale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="64" column="78" lean-forward="false" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
+            <state relative-caret-position="681">
+              <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!block;n#getEthPrice#0;n#Sale#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,16 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
               <caret line="127" column="13" lean-forward="false" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="if_ETH.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/if_ETH.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4338">
-              <caret line="23" column="58" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ant-notification-notice-message</find>
       <find>.ant-notification-notice</find>
       <find>mymove</find>
       <find>ant-notification-notice-description</find>
@@ -135,11 +126,12 @@
       <find>audio</find>
       <find>team</find>
       <find>sale</find>
-      <find>434</find>
       <find>row_38</find>
       <find>background</find>
-      <find>slider</find>
       <find>xlink:href</find>
+      <find>slider</find>
+      <find>434</find>
+      <find>hr</find>
     </findStrings>
     <replaceStrings>
       <replace>(&quot;</replace>
@@ -148,8 +140,8 @@
       <replace>all .3s</replace>
       <replace>&quot; className=</replace>
       <replace>className=</replace>
-      <replace>i className=</replace>
       <replace>xlinkHref</replace>
+      <replace>i className=</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/css</dir>
@@ -188,8 +180,10 @@
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/Notification.js" />
         <option value="$PROJECT_DIR$/src/images/if_ETH.svg" />
-        <option value="$PROJECT_DIR$/src/components/Sale.js" />
+        <option value="$PROJECT_DIR$/src/images/Shape 1-1.svg" />
+        <option value="$PROJECT_DIR$/src/images/ETH_1-2.svg" />
         <option value="$PROJECT_DIR$/src/css/main.scss" />
+        <option value="$PROJECT_DIR$/src/components/Sale.js" />
       </list>
     </option>
   </component>
@@ -303,6 +297,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -410,12 +405,12 @@
       <workItem from="1516757298460" duration="15929000" />
       <workItem from="1516799379182" duration="44640000" />
       <workItem from="1517031530595" duration="46603000" />
-      <workItem from="1517209288061" duration="32382000" />
+      <workItem from="1517209288061" duration="35668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139554000" />
+    <option name="totallyTimeSpent" value="142840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1457" height="947" extended-state="0" />
@@ -450,8 +445,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.455b9693.css" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.a0acc361.js" />
     <entry file="file://$PROJECT_DIR$/src/css/main.v1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -794,21 +787,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sale.js">
+    <entry file="file://$PROJECT_DIR$/src/images/Shape 1-1.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="64" column="78" lean-forward="false" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/ETH_1-2.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="142" column="18" lean-forward="false" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+        <state relative-caret-position="487">
+          <caret line="179" column="29" lean-forward="false" selection-start-line="179" selection-start-column="29" selection-end-line="179" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#getEthPrice#0;n#Sale#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -144,6 +144,7 @@
     padding: 50px 0px;
     h1 {
       font-size: 40px;
+      color: #1d8f19;
       margin-top: 0px;
       margin-bottom: 0px;
       font-family: Sans Pro, sans-serif;
@@ -163,19 +164,39 @@
       }
       .data {
         display: flex;
-        width: 40%;
+        width: 60%;
         flex-direction: column;
         justify-content: flex-start;
         .inner-data {
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
+          span.solv {
+            font-weight: 500;
+            //color: #1e8e1a;
+          }
+          span.eth {
+            font-weight: 500;
+            //color: #232e23;
+          }
+          hr {
+            height: 1px;
+            border: none;
+            background: linear-gradient(to left, rgba(22,109,19,1) 0%, rgba(44,83,45,1) 1%, rgba(44,84,45,1) 2%, rgba(81,214,74,1) 98%, rgba(81,214,74,1) 100%);
+            width: 100%;
+            margin-left: -5px;
+          }
+        }
+        a.button {
+          width: 72%;
+          font-size: 21px !important;
+          padding: 7px 15px !important;
         }
       }
       .my-rangeslider {
-        width: 60%;
+        width: 40%;
         .rangeslider-vertical{
-          height: 200px;
+          height: 230px;
         }
         .rangeslider-vertical .rangeslider__handle {
           width: 28px;
@@ -186,7 +207,7 @@
           box-shadow: none;
         }
         .rangeslider-vertical .rangeslider__fill {
-          background: linear-gradient(to top, rgba(22,109,19,1) 0%, rgba(44,83,45,1) 1%, rgba(44,84,45,1) 2%, rgba(81,214,74,1) 98%, rgba(81,214,74,1) 100%);
+          background: linear-gradient(to top, rgba(22,109,19,1) 0%, rgba(44,83,45,1) 1%, rgba(44,84,45,1) 5%, rgba(81,214,74,1) 98%, rgba(81,214,74,1) 100%);
         }
       }
     }

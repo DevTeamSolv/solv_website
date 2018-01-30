@@ -129,6 +129,7 @@
     padding: 50px 0px; }
     .row_38 .row_41 h1 {
       font-size: 40px;
+      color: #1d8f19;
       margin-top: 0px;
       margin-bottom: 0px;
       font-family: Sans Pro, sans-serif; }
@@ -145,17 +146,31 @@
         text-align: left; }
       .row_38 .row_41 .inner .data {
         display: flex;
-        width: 40%;
+        width: 60%;
         flex-direction: column;
         justify-content: flex-start; }
         .row_38 .row_41 .inner .data .inner-data {
           display: flex;
           flex-direction: column;
           justify-content: flex-end; }
+          .row_38 .row_41 .inner .data .inner-data span.solv {
+            font-weight: 500; }
+          .row_38 .row_41 .inner .data .inner-data span.eth {
+            font-weight: 500; }
+          .row_38 .row_41 .inner .data .inner-data hr {
+            height: 1px;
+            border: none;
+            background: linear-gradient(to left, #166d13 0%, #2c532d 1%, #2c542d 2%, #51d64a 98%, #51d64a 100%);
+            width: 100%;
+            margin-left: -5px; }
+        .row_38 .row_41 .inner .data a.button {
+          width: 72%;
+          font-size: 21px !important;
+          padding: 7px 15px !important; }
       .row_38 .row_41 .inner .my-rangeslider {
-        width: 60%; }
+        width: 40%; }
         .row_38 .row_41 .inner .my-rangeslider .rangeslider-vertical {
-          height: 200px; }
+          height: 230px; }
         .row_38 .row_41 .inner .my-rangeslider .rangeslider-vertical .rangeslider__handle {
           width: 28px;
           height: 28px;
@@ -164,7 +179,7 @@
           -webkit-box-shadow: none;
           box-shadow: none; }
         .row_38 .row_41 .inner .my-rangeslider .rangeslider-vertical .rangeslider__fill {
-          background: linear-gradient(to top, #166d13 0%, #2c532d 1%, #2c542d 2%, #51d64a 98%, #51d64a 100%); }
+          background: linear-gradient(to top, #166d13 0%, #2c532d 1%, #2c542d 5%, #51d64a 98%, #51d64a 100%); }
 
 .row_39 {
   border: none;
