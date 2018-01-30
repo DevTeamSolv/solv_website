@@ -73,7 +73,13 @@
     position: fixed;
     top: 34% !important;
     left: 35% !important;
-    padding-top: 50px; } }
+    padding-top: 50px; }
+
+  .slider-calc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%; } }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .column_46 {
     width: 100%;
@@ -120,6 +126,12 @@
 
   .row_51 .column_27 {
     padding-top: 5px; }
+
+  .slider-calc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%; }
 
   .scrolled .column_26, .scrolled .column_27, .scrolled .column_25, .row_51 .column_26, .row_51 .column_27, .row_51 .column_25 {
     min-height: 0px;

@@ -104,6 +104,12 @@
     padding-top: 50px;
   }
 
+  .slider-calc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -158,6 +164,13 @@
     .column_27 {
       padding-top: 5px;
     }
+  }
+
+  .slider-calc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
   }
   .scrolled, .row_51 {
     .column_26, .column_27, .column_25 {
