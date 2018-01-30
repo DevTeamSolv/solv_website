@@ -56,6 +56,7 @@
     transform: translate3d(0, -100%, 0); }
   100% {
     transform: translate3d(0, -100%, 0); } }
+
 @keyframes mymove2 {
   0% {
     transform: translate3d(0, 100%, 0); }
@@ -67,6 +68,7 @@
     transform: translate3d(0, 0, 0); }
   100% {
     transform: translate3d(0, 100%, 0); } }
+
 .footer {
   width: 100%;
   height: 100px;
@@ -77,6 +79,8 @@
     margin: 0px auto;
     display: flex;
     justify-content: space-around; }
+    .footer .box a img {
+      width: 44px; }
     .footer .box a i {
       font-size: 34px;
       color: #fff;
@@ -121,18 +125,19 @@
     font-weight: 300; }
 
 .row_38 {
-  padding-top: 360px;
-  height: 976px; }
+  padding-top: 120px;
+  height: 976px;
+  text-align: center; }
+  .row_38 h1 {
+    font-size: 40px;
+    color: #1d8f19;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Sans Pro, sans-serif; }
   .row_38 .row_41 {
     width: 40%;
     margin-left: 250px;
     padding: 50px 0px; }
-    .row_38 .row_41 h1 {
-      font-size: 40px;
-      color: #1d8f19;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      font-family: Sans Pro, sans-serif; }
     .row_38 .row_41 .inner {
       display: flex;
       justify-content: space-around;
@@ -276,7 +281,6 @@
     background-color: #2c532d;
     border-radius: 100%;
     width: 120px;
-    box-shadow: 0px 0px 5px 2px #3e3d3d61;
     height: 120px; }
   .countDown .timer .time {
     color: #fff;
@@ -314,6 +318,7 @@ button {
     display: inline-block; }
   .column_46 button img.image-field1:focus {
     outline: -webkit-focus-ring-color auto 0px; }
+
 .column_46 button:focus {
   outline: -webkit-focus-ring-color auto 0px; }
 
@@ -334,19 +339,25 @@ button {
 
 .row_58 .slick-prev:before, .row_58 .slick-next:before {
   color: #a4a4a4 !important; }
+
 .row_58 .slick-slide {
   padding-top: 30px; }
+
 .row_58 .testimonials-content-inner1 {
   width: 100%; }
   .row_58 .testimonials-content-inner1 p {
     padding: 0px; }
+
 .row_58 .slick-next:before {
   right: -5px !important; }
+
 .row_58 .slick-next {
   right: 5px !important; }
+
 .row_58 .slick-prev:before {
   z-index: 99;
   left: -5px !important; }
+
 .row_58 .slick-prev {
   z-index: 99;
   left: 5px !important; }
@@ -392,7 +403,6 @@ div.FM2_DWFullScreenPage1menu_container {
   color: transparent;
   border: none;
   outline: none;
-  background: #0000008f;
   border-radius: 100%; }
 
 .slide-prev:before, .slide-next:before {
@@ -449,7 +459,6 @@ div.FM2_DWFullScreenPage1menu_container {
 
 .scrolled {
   height: 69px;
-  box-shadow: 0px 0px 5px 2px #3e3d3d61;
   padding-top: 5px;
   background-image: url("../images/gifs/Nav-Bar_ver-4.gif");
   background-size: cover;
@@ -522,9 +531,11 @@ div.FM2_DWFullScreenPage1menu_container {
 @-webkit-keyframes slide {
   100% {
     left: 0; } }
+
 @keyframes slide {
   100% {
     left: 0; } }
+
 /* Icon 4 */
 .row_51 #nav-icon4 span:nth-child(1) {
   top: 0px;
@@ -532,18 +543,21 @@ div.FM2_DWFullScreenPage1menu_container {
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
   transform-origin: left center; }
+
 .row_51 #nav-icon4 span:nth-child(2) {
   top: 18px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
   transform-origin: left center; }
+
 .row_51 #nav-icon4 span:nth-child(3) {
   top: 36px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
   transform-origin: left center; }
+
 .row_51 #nav-icon4.open span:nth-child(1) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -551,9 +565,11 @@ div.FM2_DWFullScreenPage1menu_container {
   transform: rotate(45deg);
   top: -3px;
   left: 8px; }
+
 .row_51 #nav-icon4.open span:nth-child(2) {
   width: 0%;
   opacity: 0; }
+
 .row_51 #nav-icon4.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -561,6 +577,7 @@ div.FM2_DWFullScreenPage1menu_container {
   transform: rotate(-45deg);
   top: 39px;
   left: 8px; }
+
 .row_51 #nav-icon4 {
   width: 60px;
   height: 45px;
@@ -577,6 +594,7 @@ div.FM2_DWFullScreenPage1menu_container {
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer; }
+
 .row_51 #nav-icon4 span {
   display: block;
   position: absolute;
@@ -601,18 +619,21 @@ div.FM2_DWFullScreenPage1menu_container {
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
   transform-origin: left center; }
+
 .scrolled #nav-icon4 span:nth-child(2) {
   top: 13px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
   transform-origin: left center; }
+
 .scrolled #nav-icon4 span:nth-child(3) {
   top: 27px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
   transform-origin: left center; }
+
 .scrolled #nav-icon4.open span:nth-child(1) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -620,9 +641,11 @@ div.FM2_DWFullScreenPage1menu_container {
   transform: rotate(45deg);
   top: 1px;
   left: 8px; }
+
 .scrolled #nav-icon4.open span:nth-child(2) {
   width: 0%;
   opacity: 0; }
+
 .scrolled #nav-icon4.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -630,6 +653,7 @@ div.FM2_DWFullScreenPage1menu_container {
   transform: rotate(-45deg);
   top: 35px;
   left: 8px; }
+
 .scrolled #nav-icon4 {
   width: 60px;
   height: 45px;
@@ -646,6 +670,7 @@ div.FM2_DWFullScreenPage1menu_container {
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer; }
+
 .scrolled #nav-icon4 span {
   display: block;
   position: absolute;
@@ -663,6 +688,7 @@ div.FM2_DWFullScreenPage1menu_container {
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out; }
+
 .scrolled .overlay {
   top: 68px; }
 
@@ -822,5 +848,3 @@ video {
             height: 170px !important; }
           .team-details .team-container .members-row .member-container .inner-member-container:hover hr {
             width: 95%; }
-
-/*# sourceMappingURL=main.css.map */

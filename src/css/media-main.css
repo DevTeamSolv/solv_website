@@ -1,45 +1,38 @@
 @media only screen and (min-width: 1400px) {
   .scrolled, .row_51 {
     background-position: 0px 41%; } }
+
 @media only screen and (max-width: 1600px) {
   .team-details .team-container {
     width: 100%; } }
+
 @media only screen and (min-width: 1240px) {
   .column_46 button {
     width: 244px; }
-
   .row_47 {
     width: 77%; }
-
   .row_51 .collumn_25, .scrolled .collumn_25 {
     width: 20% !important; }
   .row_51 .collumn_26, .scrolled .collumn_26 {
     width: 60% !important; }
   .row_51 .collumn_27, .scrolled .collumn_27 {
     width: 20% !important; }
-
   .column_46 {
     width: 100%;
     display: flex;
     justify-content: space-between; }
     .column_46 button {
       width: auto; }
-
   .row_58 {
     height: 910px; }
-
   .row_58 .custom-post-content1 {
     width: 79%; }
-
   .row_47 {
     width: 77%; }
-
   .row_42 {
     width: 80%; }
-
   .row_51 .column_27 {
     padding-top: 5px; }
-
   .scrolled .column_26, .scrolled .column_27, .scrolled .column_25, .row_51 .column_26, .row_51 .column_27, .row_51 .column_25 {
     min-height: 0px;
     height: auto; }
@@ -57,12 +50,13 @@
     .scrolled .column_27 a.button-white, .row_51 .column_27 a.button-white {
       padding: 8px 22px;
       text-transform: uppercase; } }
+
 @media only screen and (min-width: 1024px) and (max-width: 1240px) {
   .row_58 {
     height: 1280px; }
-
   .team-details .team-container .members-row .member-container {
     width: 18%; } }
+
 @media only screen and (min-width: 1024px) {
   .row_58 .skylight-dialog {
     width: 80% !important;
@@ -71,6 +65,7 @@
     top: 34% !important;
     left: 35% !important;
     padding-top: 50px; } }
+
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .column_46 {
     width: 100%;
@@ -78,37 +73,27 @@
     justify-content: space-between; }
     .column_46 button {
       width: auto; }
-
   .slide-div .slide-track .slide2, .slide-div .slide-track .slide3, .slide-div .slide-track .slide4, .slide-div .slide-track .slide5 {
     width: 90% !important;
     padding-top: 30px !important; }
-
   .row_58 .skylight-dialog {
     top: 34% !important; }
-
   img.image-field2 {
     width: 40%; }
-
   span.client-name1 {
     padding-bottom: 0px; }
-
   .team-details {
     margin-top: 80px; }
     .team-details .team-container .members-row .member-container {
       width: 18%; }
-
   .row_58 .custom-post-content1 {
     width: 79%; }
-
   .row_47 {
     width: 77%; }
-
   .row_42 {
     width: 80%; }
-
   .row_51 .column_27 {
     padding-top: 5px; }
-
   .scrolled .column_26, .scrolled .column_27, .scrolled .column_25, .row_51 .column_26, .row_51 .column_27, .row_51 .column_25 {
     min-height: 0px;
     height: auto; }
@@ -130,58 +115,50 @@
     .scrolled .column_27 a.button-white, .row_51 .column_27 a.button-white {
       padding: 8px 22px;
       text-transform: uppercase; } }
+
 @media only screen and (min-width: 768px) and (max-width: 888px) {
   .slide-div .slide-track .slide2, .slide-div .slide-track .slide3, .slide-div .slide-track .slide4, .slide-div .slide-track .slide5 {
     width: 68%;
     padding-top: 34px; }
-
   .row_58 .skylight-dialog {
     top: 34% !important; }
-
   img.image-field2 {
     width: 30%; }
-
   span.client-name1 {
     padding-bottom: 0px; }
-
   .row_30 .home-section {
     padding: 60px 0; }
     .row_30 .home-section .heading1 .span12 {
       font-size: 43px; }
     .row_30 .home-section .heading1 .span13 {
       font-size: 24px; } }
+
 @media only screen and (min-width: 888px) and (max-width: 992px) {
   .slide-div .slide-track .slide2, .slide-div .slide-track .slide3, .slide-div .slide-track .slide4, .slide-div .slide-track .slide5 {
     width: 80%;
     padding-top: 34px; }
-
   .row_58 .skylight-dialog {
     top: 34% !important; }
-
   img.image-field2 {
     width: 30%; }
-
   span.client-name1 {
     padding-bottom: 0px; }
-
   .row_30 .home-section {
     padding: 80px 0; }
     .row_30 .home-section .heading1 .span12 {
       font-size: 45px; }
     .row_30 .home-section .heading1 .span13 {
       font-size: 25px; } }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .row_30 {
     height: 800px; }
-
   video {
     margin-top: 68px; }
-
   .team-details {
     margin-top: 100px; }
     .team-details .team-container .members-row .member-container {
       width: 23%; }
-
   .team-details .skylight-dialog {
     text-align: center;
     color: #fff;
@@ -191,14 +168,12 @@
     width: 70% !important;
     height: 340px !important;
     left: 40% !important; }
-
   .column_46 {
     width: 100%;
     display: flex;
     justify-content: space-between; }
     .column_46 button {
       width: auto; }
-
   .scrolled, .row_51 {
     height: 68px;
     min-height: 0px;
@@ -226,7 +201,6 @@
       .scrolled .column_27 a.button-white, .row_51 .column_27 a.button-white {
         padding: 3px 10px;
         font-size: 16px; }
-
   .row_30 {
     height: 650px; }
     .row_30 .heading1 .span12 {
@@ -244,16 +218,14 @@
       .row_30 .countDown .section .label {
         font-size: 17px;
         margin-top: 41px; }
-
   .footer .box {
     width: 40%; } }
+
 @media only screen and (max-width: 767px) {
   .mobile-menu {
     display: block; }
-
   .overlay.open {
     height: 100%; }
-
   .team-details .skylight-dialog {
     text-align: center;
     color: #fff;
@@ -263,33 +235,27 @@
     width: 80% !important;
     height: 340px !important;
     left: 35% !important; }
-
   .row_58 .skylight-dialog {
     height: 64% !important;
     top: 37% !important; }
-
   .desktop-view {
     display: none !important; }
-
   .mobile-view {
     display: flex; }
     .mobile-view img.image-field1 {
       width: 65%; }
-
   .row_51 .column_25, .scrolled .column_25 {
     width: 15%; }
   .row_51 .column_26, .scrolled .column_26 {
     width: 60%; }
   .row_51 .column_26 .navigation, .row_51 .column_27, .scrolled .column_26 .navigation, .scrolled .column_27 {
     display: none; }
-
   .column_46 {
     width: 100%;
     display: flex;
     justify-content: space-between; }
     .column_46 button {
       width: auto; }
-
   .row_58 {
     height: auto; }
     .row_58 .custom-post-content1 {
@@ -299,16 +265,12 @@
       background: transparent; }
     .row_58 .mobile-view img.image-field1 {
       width: 85%; }
-
   .row_47 {
     width: 77%; }
-
   .row_42 {
     width: 80%; }
-
   .footer .box {
     width: 40%; }
-
   .row_30 {
     height: 546px; }
     .row_30 .home-section {
@@ -319,7 +281,6 @@
         font-size: 40px; }
       .row_30 .home-section h1.heading1 span.span13 {
         font-size: 22px; }
-
   .countDown {
     padding: 0; }
     .countDown .timer {
@@ -342,7 +303,6 @@
       color: #51d64b;
       font-weight: 500;
       margin-top: 43px !important; }
-
   .row_39 {
     padding-bottom: 120px;
     padding-top: 0px;
@@ -351,7 +311,6 @@
       padding: 0px; }
     .row_39 .column_36 {
       padding-bottom: 50px; }
-
   .row_38 {
     height: 776px;
     padding: 0px; }
@@ -360,13 +319,11 @@
       .row_38 .row_41 .row_42 {
         margin-top: 220px;
         padding: 0px; }
-
   .row_31 {
     padding-top: 0px;
     padding-bottom: 100px; }
     .row_31 .row_36 {
       width: 80%; }
-
   .team-details {
     margin-top: 70px; }
     .team-details .slider-continer {
@@ -447,6 +404,7 @@
       z-index: 99; }
     .team-details .slick-next {
       right: 13px; } }
+
 @media only screen and (max-width: 600px) {
   .row_51 #nav-icon4 {
     width: 50px;
@@ -457,26 +415,20 @@
       top: 15px; }
     .row_51 #nav-icon4 span:nth-child(3) {
       top: 30px; }
-
   video {
     width: 100%;
     margin-top: 82px; }
-
   .team-details hr {
     width: 80% !important; }
-
   .audio-icon img {
     width: 40px;
     height: 40px;
     background: #fff; }
-
   .audio-icon {
     bottom: 30px;
     right: 20px; }
-
   .team-details p {
     text-align: center; }
-
   .team-details .skylight-dialog {
     text-align: center;
     color: #fff;
@@ -486,13 +438,11 @@
     width: 90% !important;
     height: 340px !important;
     left: 30% !important; }
-
   .row_58 .skylight-dialog {
     overflow: scroll;
     top: 50% !important; }
     .row_58 .skylight-dialog img.image-field2 {
       width: 45%; }
-
   .scrolled #nav-icon4 {
     width: 50px;
     margin-right: 25px; }
@@ -502,7 +452,6 @@
       top: 13px; }
     .scrolled #nav-icon4 span:nth-child(3) {
       top: 26px; }
-
   .countDown {
     padding: 0;
     margin-top: 220px; }
@@ -526,10 +475,8 @@
       color: #51d64b;
       font-weight: 500;
       margin-top: 29px !important; }
-
   p {
     text-align: justify; }
-
   .row_30 {
     height: 546px; }
     .row_30 .home-section {
@@ -541,10 +488,8 @@
       .row_30 .home-section h1.heading1 span.span13 {
         text-align: justify;
         font-size: 19px; }
-
   .footer .box {
     width: 70%; }
-
   .row_31 {
     padding-top: 0px;
     padding-bottom: 140px; }
@@ -552,14 +497,12 @@
       padding: 0px; }
       .row_31 .row_36 .column_29 {
         padding-top: 20px; }
-
   .row_39 {
     padding-bottom: 100px; }
     .row_39 .column_36 {
       width: 100%; }
     .row_39 .slick-dots li button:before {
       font-size: 29px; }
-
   .row_51 {
     height: 82px; }
     .row_51 .column_26 {
@@ -590,7 +533,6 @@
       transform: rotate(-45deg);
       top: 31px;
       left: 8px; }
-
   .scrolled #nav-icon4.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -608,28 +550,22 @@
     transform: rotate(-45deg);
     top: 31px;
     left: 8px; }
-
   .overlay.open {
     height: 100%; }
-
   .overlay {
     top: 80px; } }
+
 @media only screen and (max-width: 434px) {
   .row_58 .mobile-view img.image-field1 {
     width: 100%; }
-
   img.image-field2 {
     width: 55%; }
-
   .overlay.open {
     height: 100%; }
-
   .row_51 .column_26 {
     display: none; }
-
   .team-details hr {
     width: 60% !important; }
-
   .countDown {
     padding: 0;
     margin-top: 190px; }
@@ -653,7 +589,6 @@
       color: #51d64b;
       font-weight: 500;
       margin-top: 23px !important; }
-
   .row_30 {
     height: 500px; }
     .row_30 .home-section {
@@ -666,11 +601,9 @@
       .row_30 .home-section h1.heading1 span.span13 {
         font-size: 18px;
         letter-spacing: 0px; }
-
   .row_31 {
     padding-top: 0px;
     padding-bottom: 140px; }
-
   .row_51 {
     height: 82px; }
     .row_51 .column_26 {
@@ -701,7 +634,6 @@
       transform: rotate(-45deg);
       top: 31px;
       left: 8px; }
-
   .scrolled #nav-icon4.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -719,28 +651,23 @@
     transform: rotate(-45deg);
     top: 31px;
     left: 8px; }
-
   .ant-notification-notice-closable .ant-notification-notice-message {
     padding-right: 5px; } }
+
 @media only screen and (max-width: 379px) {
   .countdown_with_background_v1 {
     display: none; }
-
   .overlay.open {
     height: 100%; }
-
   .audio-icon img {
     width: 30px;
     height: 30px;
     background: #fff; }
-
   .audio-icon {
     bottom: 20px;
     right: 20px; }
-
   .team-details .skylight-dialog {
     top: 60% !important; }
-
   .row_51 {
     height: 82px; }
     .row_51 .column_26 {
@@ -771,7 +698,6 @@
       transform: rotate(-45deg);
       top: 28px;
       left: 8px; }
-
   .scrolled #nav-icon4.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -789,7 +715,6 @@
     transform: rotate(-45deg);
     top: 31px;
     left: 8px; }
-
   .countDown {
     padding: 0;
     margin-top: 155px; }
@@ -813,14 +738,11 @@
       color: #51d64b;
       font-weight: 500;
       margin-top: 17px !important; }
-
   .ant-notification-notice-close {
     right: 12px;
     top: 6px; }
-
   .ant-notification {
     margin-right: 12px; }
-
   .row_30 {
     height: 500px; }
     .row_30 .home-section {
@@ -835,19 +757,16 @@
         .row_30 .home-section h1.heading1 span.span13 {
           font-size: 17px;
           letter-spacing: 0px; } }
+
 @media only screen and (max-width: 350px) {
   .countdown_with_background_v1 {
     display: none; }
-
   .slick-dots {
     bottom: -60px; }
-
   .row_39 .slick-dots li button:before {
     font-size: 18px; }
-
   .row_51 .column_26 {
     display: none; }
-
   .row_30 {
     height: 480px; }
     .row_30 .home-section {
@@ -860,7 +779,6 @@
           font-size: 33px; }
         .row_30 .home-section h1.heading1 span.span13 {
           font-size: 16px; }
-
   .countDown {
     padding: 0;
     margin-top: 155px; }
@@ -884,5 +802,3 @@
       color: #51d64b;
       font-weight: 500;
       margin-top: 17px !important; } }
-
-/*# sourceMappingURL=media-main.css.map */

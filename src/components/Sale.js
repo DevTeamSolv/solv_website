@@ -44,8 +44,8 @@ class Sale extends React.Component {
     render() {
         return (
             <div className="section row_38" data-section-name="sale" data-tooltip="Token Sale" data-arrow="#ffffff" data-id="sale" data-anchor="sale">
+                <h1>Token Sale</h1>
                 <div className="full_row_6 full_row_type_fs_t3 row_41">
-                    <h1>Token Sale</h1>
                     <div className="inner">
                         <div className="data">
                             <p className="presale-heading">Pre Sale Coming Soon</p>
@@ -88,6 +88,7 @@ class Sale extends React.Component {
                             </svg>
 
                         </div>
+
                     </div>
 
 
