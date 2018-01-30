@@ -54,7 +54,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "mike" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/Michael.png")}/>
+                            <img src={require("../images/team/Micheal.png")}/>
                         </div>
                         <p className="name">Michael Gogarty</p>
                         <p className="designation">Communications Manager</p>
@@ -112,7 +112,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "eli" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/sample.png")}/>
+                            <img src={require("../images/team/eli.jpg")}/>
                         </div>
                         <p className="name">Eli Karadsheh</p>
                         <p className="designation">Social Media Manager</p>
@@ -193,7 +193,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "legaspi" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/sample.png")}/>
+                            <img src={require("../images/team/Joshua L.jpg")}/>
                         </div>
                         <p className="name">Joshua Legaspi</p>
                         <p className="designation">Lead Graphics</p>
