@@ -51,6 +51,19 @@ class Sale extends React.Component {
                     {/*</div>*/}
                     <h1>Token Sale</h1>
                     <div className="inner">
+                        <div className="data">
+                            <div>
+
+
+                            </div>
+                            <p className="presale-heading">Pre Sale Coming Soon</p>
+                            <div className="inner-data">
+                                <p>1 SOLV = $0.10</p>
+                                <p>1 ETH = ${this.state.ethPrice}</p>
+                                <p>{this.state.numberofEth} ETH = {numeral(this.state.numberofEth * (this.state.ethPrice / 0.1)).format('0.000a')} SOLV</p>
+                            </div>
+                            <a className="button" href="#">Join Token Sale</a>
+                        </div>
                         <div className="my-rangeslider">
                             <Slider
                                 orientation="vertical"
@@ -60,17 +73,6 @@ class Sale extends React.Component {
                                 max={100}
                                 step={1}
                             />
-                        </div>
-                        <div className="data">
-                            <div>
-                                {/*<svg enableBackground="new 0 0 226.777 226.777" height="226.777px" id="Layer_1" version="1.1" viewBox="0 0 226.777 226.777" width="226.777px" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><g><polygon fill="#231F20" points="112.553,157 112.553,86.977 44.158,116.937  "/><polygon fill="#231F20" points="112.553,82.163 112.553,-0.056 46.362,111.156  "/><polygon fill="#231F20" points="116.962,-0.09 116.962,82.163 184.083,111.566  "/><polygon fill="#231F20" points="116.962,86.977 116.962,157.002 185.405,116.957  "/><polygon fill="#231F20" points="112.553,227.406 112.553,171.085 44.618,131.31  "/><polygon fill="#231F20" points="116.962,227.406 184.897,131.31 116.962,171.085  "/></g></svg>*/}
-                            </div>
-                            <p className="presale-heading">Pre Sale Coming Soon</p>
-                            <div className="inner-data">
-                                <p>1 SOLV = $0.10</p>
-                                <p>1 ETH = ${this.state.ethPrice}</p>
-                                <p>{this.state.numberofEth} ETH = {numeral(this.state.numberofEth * (this.state.ethPrice / 0.1)).format('0.000a')} SOLV</p>
-                            </div>
                         </div>
                     </div>
 
