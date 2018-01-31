@@ -292,23 +292,21 @@ class Home extends React.Component {
 
                                 <div className="section row_30" data-tooltip="Home" data-section-name="home" data-arrow="#FFFFFF" data-id="home" data-anchor="home">
                                     <div className="home-section container-hero">
-                                        <h1 className="heading1">
-                                        <span className="span12">
-                                            <span>
+                                        <div className="heading1">
+                                            <h3>
                                                 ARE YOU A PART OF THE SOLUTION?
                                                 {/*<ReactRotatingText items={['SOLUTION TOKEN']} eraseMode="erase"/>*/}
-                                            </span>
-                                        </span>
-                                            <span className="span13">
+                                            </h3>
+                                            <p className="span13">
                                             Here at Solution Token, the benefit of our users - which we hope will span across all kinds of humanity - is our priority.
                                             This website outlines a summary of our goals for the four different platforms that we are building so that you can learn
                                             what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it,
                                             and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed
                                             decision possible, you can also explore our interactive whitepaper.<br/>
-                                            <b>(presale coming soon)</b>
                                                 {/*<ReactRotatingText items={['A TOKEN FOR HUMANITY']} />*/}
-                                        </span>
-                                        </h1>
+                                        </p>
+                                            <h4 className="pre-sale-news">Pre Sale Coming Soon</h4>
+                                        </div>
 
                                         {/*<div id="countdown_with_background_v1">*/}
                                         {/*<div className="myloader"></div>*/}
@@ -318,9 +316,9 @@ class Home extends React.Component {
                                         {/*</li>*/}
                                         {/*</ul>*/}
                                         {/*</div>*/}
-                                        {/*<div className="countDown">*/}
-                                        {/*<CountdownTimer endDate={moment('06/2/2018 12:00:00', 'DD/MM/YYYY hh:mm:ss')}/>*/}
-                                        {/*</div>*/}
+                                        <div className="countDown">
+                                        <CountdownTimer endDate={moment('06/2/2018 12:00:00', 'DD/MM/YYYY hh:mm:ss')}/>
+                                        </div>
                                     </div>
                                 </div>
                             </Element>
@@ -329,7 +327,7 @@ class Home extends React.Component {
 
                                 <div className="section row_58" data-section-name="platforms" data-tooltip="Our Platforms" data-arrow="#1d8f19" data-alternate-header="true" data-id="platforms" data-anchor="platforms" data-slider="true">
                                     <div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">
-                                        <div className="custom-post-content1"> <span className="client-name1">Platforms</span>
+                                        <div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>
                                             <p>
                                                 <span>Solution Token prides itself on the platforms it provides, these are the pieces that make a Solution.</span>
                                                 <br/>

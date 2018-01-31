@@ -1,10 +1,23 @@
 @charset "UTF-8";
 .row_30 {
-  height: 776px;
-  background-image: url("../images/gifs/wallpaper.png"); }
+  height: auto !important;
+  padding-bottom: 100px;
+  background-image: url("../images/gifs/wallpaper.png") !important; }
   .row_30 .home-section {
     height: 100%;
     padding: 120px 0px; }
+    .row_30 .home-section p, .row_30 .home-section h3 {
+      color: #fff; }
+    .row_30 .home-section p {
+      width: 70%;
+      text-align: center;
+      margin: 0px auto; }
+    .row_30 .home-section h4.pre-sale-news {
+      font-size: 22px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: 1px;
+      word-spacing: 1px; }
   .row_30 h1.heading1 {
     display: flex;
     flex-direction: column;
@@ -342,7 +355,7 @@
     font-size: 24px; }
 
 .column_36 {
-  width: 63%; }
+  width: 100%; }
   .column_36 h3 {
     font-weight: bold; }
 
@@ -356,8 +369,10 @@
   height: auto !important;
   left: 55% !important; }
   .team-details .skylight-dialog .member-img img {
+    background-image: url("../images/team/sample.png");
     border: 3px solid #77b174;
     width: 100px;
+    background-size: cover;
     height: 100px;
     margin: 0px auto;
     border-radius: 100%; }
@@ -371,6 +386,9 @@
     margin: 0px;
     margin-top: 10px;
     font-size: 15px; }
+
+h3 {
+  font-weight: 600; }
 
 .countDown {
   padding: 0 20%; }
@@ -924,7 +942,10 @@ video {
             -o-transition: all 0.2s linear 0s;
             transition: all 0.2s linear 0s; }
           .team-details .team-container .members-row .member-container .inner-member-container img {
+            background-image: url("../images/team/sample.png") !important;
             width: 150px;
+            background-position: center;
+            background-size: cover;
             height: 150px;
             margin: 0px auto;
             border-radius: 100%;

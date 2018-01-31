@@ -86,6 +86,9 @@
     justify-content: space-between;
     flex-direction: row;
     width: 40%; } }
+p {
+  font-size: 22px !important; }
+
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .column_46 {
     width: 100%;
@@ -209,6 +212,9 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .row_30 {
     height: 800px; }
+
+  p {
+    font-size: 20px !important; }
 
   video {
     margin-top: 68px; }
@@ -341,6 +347,14 @@
 @media only screen and (max-width: 767px) {
   .mobile-menu {
     display: block; }
+
+  .row_30 .home-section p {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto; }
+
+  p {
+    font-size: 19px !important; }
 
   .hamburger-button {
     display: flex;
@@ -638,6 +652,10 @@
     width: 100%;
     margin-top: 66px; }
 
+  p {
+    text-align: justify !important;
+    font-size: 19px !important; }
+
   .team-details hr {
     width: 80% !important; }
 
@@ -690,7 +708,7 @@
 
   .countDown {
     padding: 0;
-    margin-top: 220px; }
+    margin-top: 0px; }
     .countDown .timer {
       justify-content: space-between !important; }
     .countDown .section {
@@ -849,6 +867,9 @@
 
   .row_51 .column_26 {
     display: none; }
+
+  p {
+    font-size: 18px !important; }
 
   .team-details .skylight-dialog {
     text-align: center;
