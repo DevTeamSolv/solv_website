@@ -1,6 +1,6 @@
 .row_30 {
   height: 776px;
-  background-image: url("../images/gifs/wallpaper.png");
+  background-image: url("../images/gifs/wallpaper.png") !important;
   .home-section {
     height: 100%;
     padding: 120px 0px;
@@ -416,6 +416,7 @@
 
     .member-img {
       img {
+        background-image: url("../images/team/sample.png") ;
         border: 3px solid #77b174;
         width: 100px;
         height: 100px;
@@ -1089,6 +1090,7 @@ video {
             transition: all 0.2s linear 0s;
           }
           img {
+            background-image: url("../images/team/sample.png") !important;
             width: 150px;
             height: 150px;
             margin: 0px auto;

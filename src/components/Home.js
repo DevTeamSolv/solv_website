@@ -347,17 +347,17 @@ class Home extends React.Component {
                                             not directly interact with the physical world will be the Solution wallet.</p>
                                         <div className="column_46 desktop-view">
                                                 <button onClick={this.handleDialog.bind(this, 1)}>
-                                                    <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
+                                                    <img title="Operation Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 2)}>
                                                     <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
                                                 </button>
 
                                                 <button onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img title="Gaming Plateform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                    <img title="Street QRed Gaming" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 4)}>
-                                                    <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
+                                                    <img title="SOLV Wallet" className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
                                                 </button>
                                         </div>
                                         <div className="mobile-view">
@@ -478,14 +478,14 @@ class Home extends React.Component {
                                         </div>
                                         <div className="member-container">
                                             <div className="inner-member-container">
-                                                <img src={require("../images/team/sample.png")}/>
+                                                <img src={require("../")}/>
                                                 <div className="links">
                                                     <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                     <i className="fa fa-envelope" aria-hidden="true"></i>
                                                 </div>
                                                 <hr/>
                                                 <div className="info">
-                                                    <p className="name">Metthew Wolff</p>
+                                                    <p className="name">Matthew Wolff</p>
                                                     <p className="designation">COO</p>
                                                 </div>
                                             </div>
@@ -733,14 +733,14 @@ class Home extends React.Component {
                                             </div>
                                             <div className="member-container">
                                                 <div className="inner-member-container">
-                                                    <img src={require("../images/team/sample.png")}/>
+                                                    <img src={require("../")}/>
                                                     <div className="links">
                                                         <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                         <i className="fa fa-envelope" aria-hidden="true"></i>
                                                     </div>
                                                     <hr/>
                                                     <div className="info">
-                                                        <p className="name">Metthew Wolff</p>
+                                                        <p className="name">Matthew Wolff</p>
                                                         <p className="designation">COO</p>
                                                     </div>
                                                 </div>
