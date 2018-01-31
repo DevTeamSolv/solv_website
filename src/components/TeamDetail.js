@@ -29,6 +29,17 @@ class TeamDetail extends React.Component {
                     </div>
                 }
                 {
+                    this.props.member === "david" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/david.png")}/>
+                        </div>
+                        <p className="name">David Casciato</p>
+                        <p className="designation">Humanitarian Director</p>
+                        <p className="description">David is responsible for building the humanitarian platform by reaching out and maintaining communications with charities and setting up arrangements with existing organizations using effective program management, David will also seek out potential projects to benefit individual groups or areas, such as providing relief after natural disasters or setting up green energy in areas without electricity shelter and water readily available.</p>
+                    </div>
+                }
+                {
                     this.props.member === "matthew" &&
                     <div>
                         <div className="member-img">
@@ -37,17 +48,6 @@ class TeamDetail extends React.Component {
                         <p className="name">Andrew Ingram</p>
                         <p className="designation">COO</p>
                         <p className="description">Matthew is in charge of general management of Solution and its operations. His primary responsibility is to set goals and targets for the company and delegate tasks to team members to ensure optimal performance.</p>
-                    </div>
-                }
-                {
-                    this.props.member === "dean" &&
-                    <div>
-                        <div className="member-img">
-                            <img src={require("../images/team/Dean_James.jpg")}/>
-                        </div>
-                        <p className="name">Dean James</p>
-                        <p className="designation">Marketing Director</p>
-                        <p className="description">As Solution Token’s Australian public relations manager, James works with the marketing and media teams in order to distribute and specialize materials for the Australian market. He is also responsible for directly interacting with the Australian community and answering any of their questions about Solution.</p>
                     </div>
                 }
                 {
@@ -63,6 +63,17 @@ class TeamDetail extends React.Component {
                     </div>
                 }
                 {
+                    this.props.member === "dean" &&
+                    <div>
+                        <div className="member-img">
+                            <img src={require("../images/team/Dean_James.jpg")}/>
+                        </div>
+                        <p className="name">Dean James</p>
+                        <p className="designation">Marketing Director</p>
+                        <p className="description">Dean is Solution Token’s marketing director. He is responsible for managing the company’s marketing campaigns across all media platforms, and spreading the word about Solution to potential users, investors, and beneficiaries. He will also mastermind advertising campaigns, as well as perfect and finalize those suggested by other team members.</p>
+                    </div>
+                }
+                {
                     this.props.member === "mahar" &&
                     <div>
                         <div className="member-img">
@@ -72,17 +83,6 @@ class TeamDetail extends React.Component {
                         <p className="designation">Lead Developer</p>
                         <p className="description">Mahar is a seasoned full-stack web developer, and great contributor to assist building this website. Besides hundreds of hours of coding and development, Mahar also had to work closely with other team members to combine text, graphics, and visual ideas into one smooth and polished website.
                         </p>
-                    </div>
-                }
-                {
-                    this.props.member === "david" &&
-                    <div>
-                        <div className="member-img">
-                            <img src={require("../images/team/david.png")}/>
-                        </div>
-                        <p className="name">David Casciato</p>
-                        <p className="designation">Humanitarian Director</p>
-                        <p className="description">David is responsible for building the humanitarian platform by reaching out and maintaining communications with charities and setting up arrangements with existing organizations using effective program management, David will also seek out potential projects to benefit individual groups or areas, such as providing relief after natural disasters or setting up green energy in areas without electricity shelter and water readily available.</p>
                     </div>
                 }
                 {
