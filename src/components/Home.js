@@ -441,7 +441,8 @@ class Home extends React.Component {
                                                     <h3>Team Members</h3>
                                                     <p>"We are a team, we are a family. This is our whole crew. This was created not by big names Eli karadsheh
                                                         or powerful corporations, but bright and passionate individuals who want to change the world for the better."</p>
-                                                    <a className="button" href="#">Learn more</a></div>
+                                                    {/*<a className="button" href="#">Learn more</a>*/}
+                                                </div>
                                             </div>
                                             <div>
 
