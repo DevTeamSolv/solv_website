@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './components/Home';
-
 import '../src/css/reset.css';
 import '../src/js/includes/DWFullScreenPage/jquery.fullpage.css';
 import '../src/font-awesome-4.7.0/css/font-awesome.min.css';
@@ -15,8 +14,12 @@ import '../src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menualt.css';
 import '../src/css/HoverFX.css';
 import '../src/css/main.css';
 import '../src/css/media-main.css';
+// import "./js/afterLoading";
 
 class App extends Component {
+  componentDidMount(){
+      document.getElementById('outer-loader').style.display = 'none';
+  }
   render() {
     return (
       <div>
