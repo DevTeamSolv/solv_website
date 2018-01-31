@@ -43,9 +43,9 @@ class TeamDetail extends React.Component {
                     this.props.member === "matthew" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/sample.png")}/>
+                            <img src={require("../")}/>
                         </div>
-                        <p className="name">Andrew Ingram</p>
+                        <p className="name">Matthew Wolff</p>
                         <p className="designation">COO</p>
                         <p className="description">Matthew is in charge of general management of Solution and its operations. His primary responsibility is to set goals and targets for the company and delegate tasks to team members to ensure optimal performance.</p>
                     </div>
