@@ -155,18 +155,6 @@ class TeamDetail extends React.Component {
                         </p>
                     </div>
                 }
-                {/*{
-                    this.props.member === "joshua" &&
-                    <div>
-                        <div className="member-img">
-                            <img src={require("../images/team/sample.png")}/>
-                        </div>
-                        <p className="name">Joshua Julia</p>
-                        <p className="designation">Public Relations America</p>
-                        <p className="description">Joshua is one of Solution Token’s graphics design team, and works closely with other graphics designers, web designers, and the marketing and media team to produce the graphics we need for all purposes.
-                        </p>
-                    </div>
-                */}}
                 {
                     this.props.member === "damian" &&
                     <div>
@@ -178,17 +166,6 @@ class TeamDetail extends React.Component {
                         <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
                     </div>
                 }
-                {/*{
-                    this.props.member === "kamil" &&
-                    <div>
-                        <div className="member-img">
-                            <img src={require("../images/team/sample.png")}/>
-                        </div>
-                        <p className="name">Kamil Helou</p>
-                        <p className="designation">Finance Operator</p>
-                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
-                    </div>
-                }*/}
                 {
                     this.props.member === "legaspi" &&
                     <div>
