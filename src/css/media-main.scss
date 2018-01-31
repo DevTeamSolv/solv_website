@@ -86,6 +86,10 @@
   .row_58 {
     height: 1280px;
   }
+  .row_38 .row_41 {
+    width: 80%;
+  }
+
   .team-details .team-container .members-row .member-container {
     width: 18%;
   }
@@ -100,6 +104,12 @@
     padding-top: 50px;
   }
 
+  .slider-calc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -111,7 +121,17 @@
       width: auto;
     }
   }
-
+  .row_38 .row_41 {
+    width: 80%;
+    svg.solv-svg {
+      height: 190px;
+      width: 190px;
+    }
+    svg.eth-svg {
+      height: 220px;
+      width: 220px;
+    }
+  }
   .slide-div .slide-track .slide2, .slide-div .slide-track .slide3, .slide-div .slide-track .slide4, .slide-div .slide-track .slide5 {
     width: 90% !important;
     padding-top: 30px !important;
@@ -144,6 +164,13 @@
     .column_27 {
       padding-top: 5px;
     }
+  }
+
+  .slider-calc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
   }
   .scrolled, .row_51 {
     .column_26, .column_27, .column_25 {
@@ -339,6 +366,32 @@
   .footer .box {
     width: 40%;
   }
+  .row_38 {
+    .row_41 {
+      padding-top: 60px;
+      .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px;
+        .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between;
+        }
+        .svg_con {
+          display: flex;
+          justify-content: space-between;
+        }
+        .data a.button {
+          margin-top: 35px;
+        }
+        .my-rangeslider {
+          width: 7%;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -468,7 +521,7 @@
     }
   }
   .row_38 {
-    height:776px;
+    height:846px;
     padding: 0px;
     .row_41 {
       padding: 0px;
@@ -593,6 +646,44 @@
     }
     .slick-next {
       right: 13px;
+    }
+  }
+
+
+  .row_38 {
+    padding-top: 60px;
+    .row_41 {
+      padding-top: 25px;
+      .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px;
+        .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between;
+        }
+        .svg_con {
+          display: flex;
+          justify-content: space-between;
+          svg.eth-svg {
+            width: 210px;
+            height: 210px;
+          }
+          svg.solv-svg {
+            width: 190px;
+            height: 190px;
+          }
+        }
+        .data a.button {
+          width: 92%;
+          margin-top: 35px;
+        }
+        .my-rangeslider {
+          width: 7%;
+        }
+      }
     }
   }
 }
@@ -807,6 +898,48 @@
   .overlay {
     top: 80px;
   }
+
+  .row_38 {
+    height: 796px;
+    padding-top: 60px;
+    .row_41 {
+      padding-top: 25px;
+      width: 80%;
+      .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px;
+        .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between;
+        }
+        .svg_con {
+          display: flex;
+          justify-content: space-between;
+          .solv-svg-con, .eth-svg-con {
+            height: 290px;
+          }
+          svg.eth-svg {
+            width: 120px;
+            height: 190px;
+          }
+          svg.solv-svg {
+            width: 170px;
+            height: 170px;
+          }
+        }
+        .data a.button {
+          width: 92%;
+          margin-top: 35px;
+        }
+        .my-rangeslider {
+          width: 7%;
+        }
+      }
+    }
+  }
 }
 @media only screen and (max-width: 434px) {
   .row_58 .mobile-view img.image-field1 {
@@ -946,6 +1079,53 @@
   .ant-notification-notice-closable .ant-notification-notice-message {
     padding-right: 5px;
   }
+
+
+  .row_38 {
+    height: 796px;
+    padding-top: 60px;
+    .row_41 {
+      padding-top: 25px;
+      width: 80%;
+      .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px;
+        .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between;
+        }
+        .svg_con {
+          display: flex;
+          justify-content: space-between;
+          .solv-svg-con, .eth-svg-con {
+            height: 290px;
+          }
+          .counter {
+            width: 120px;
+          }
+          svg.eth-svg {
+            width: 100px;
+            height: 190px;
+          }
+          svg.solv-svg {
+            width: 140px;
+            height: 140px;
+          }
+        }
+        .data a.button {
+          width: 100%;
+          margin-top: 35px;
+          padding: 7px 5px !important;
+        }
+        .my-rangeslider {
+          width: 7%;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 379px) {
@@ -968,6 +1148,7 @@
   .team-details .skylight-dialog {
     top: 60% !important;
   }
+
   .row_51 {
     height: 82px;
     .column_26{
@@ -1083,6 +1264,62 @@
         span.span13 {
           font-size: 17px;
           letter-spacing: 0px;
+        }
+      }
+    }
+  }
+
+
+  .row_38 {
+    height: 796px;
+    padding-top: 60px;
+    .row_41 {
+      padding-top: 25px;
+      width: 80%;
+      .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px;
+        .data {
+          width: 100%;
+        }
+        .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between;
+        }
+        .svg_con {
+          display: flex;
+          justify-content: space-between;
+          .solv-svg-con, .eth-svg-con {
+            height: 290px;
+          }
+          .counter {
+            width: 120px;
+          }
+          svg.eth-svg {
+            width: 100px;
+            height: 190px;
+          }
+          svg.solv-svg {
+            width: 140px;
+            height: 140px;
+          }
+        }
+        .data a.button {
+          width: 100%;
+          margin-top: 35px;
+          padding: 7px 5px !important;
+        }
+        .my-rangeslider {
+          display: none;
+        }
+        .my-rangeslider-2 {
+          display: block;
+        }
+        .rangeslider-horizontal .rangeslider__fill {
+          background:  linear-gradient(to right, rgba(22,109,19,1) 0%, rgba(44,83,45,1) 1%, rgba(44,84,45,1) 5%, rgba(81,214,74,1) 98%, rgba(81,214,74,1) 100%);
         }
       }
     }

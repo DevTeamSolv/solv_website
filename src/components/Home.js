@@ -32,6 +32,7 @@ class Home extends React.Component {
             currentTab: 9,
             hide: true,
             mounted: true,
+            paused: false,
             muted: false,
             member: "",
             phrase: ['S','O','L','U','T','I','O','N',' ','T','O','K','E','N'],
@@ -80,10 +81,9 @@ class Home extends React.Component {
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll.bind(this));
         var el = document.getElementById('myVideo')
-        el.muted = false;
-        this.setState({
-            muted: el.muted
-        })
+        el.play();
+        el.muted = true;
+
     }
     mount = true;
     componentWillUnmount () {
@@ -121,10 +121,43 @@ class Home extends React.Component {
         $("#overlay").removeClass('open');
     }
     handleVideo(){
-        var x = this.state.muted
-        this.setState({
-            muted: !x
-        })
+        var el = document.getElementById('myVideo')
+        el.muted = false;
+        var audioEl = document.getElementById('myAudio')
+
+        if(el.paused) {
+            el.play();
+            audioEl.pause();
+            this.setState({
+                paused: false,
+                muted: true
+            })
+        }
+        else {
+            el.pause();
+            this.setState({
+                paused: true
+            })
+        }
+    }
+    handleMusic(){
+        var el = document.getElementById('myAudio')
+        var videoEl = document.getElementById('myVideo')
+        videoEl.muted = true;
+        if(el.paused) {
+            console.log(this.state.muted, "paused")
+            el.play();
+            this.setState({
+                muted: false
+            })
+        }
+        else {
+            console.log(this.state.muted, "play")
+            el.pause();
+            this.setState({
+                muted: true
+            })
+        }
     }
     handleJq(){
         // $('body').append(
@@ -242,14 +275,23 @@ class Home extends React.Component {
                 </div>
                 <Element name="video" className="element">
 
-                <video onClick={this.handleVideo.bind(this)} autoPlay muted={this.state.muted} loop id="myVideo">
+                <video onClick={this.handleVideo.bind(this)} loop id="myVideo">
                     <source src={require("../images/gifs/acx.mp4")} type="video/mp4" />
                         Your browser does not support HTML5 video.
                 </video>
 
-                <div className="audio-icon">
-                    {!this.state.muted && <img src={require("../images/icons8-audio-100.png")}/>}
-                    {this.state.muted && <img src={require("../images/icons8-no-audio-100.png")}/>}
+                <audio src={require("../images/gifs/BG-music.mp3")} autoPlay={true} loop id="myAudio">
+                    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+                </audio>
+
+                <div onClick={this.handleVideo.bind(this)} className="audio-icon">
+                    {!this.state.paused && <img src={require("../images/paused-icon.png")}/>}
+                    {this.state.paused && <img src={require("../images/play-icon.png")}/>}
+                </div>
+
+                <div onClick={this.handleMusic.bind(this)} className="video-icon">
+                    {!this.state.muted && <div><img src={require("../images/music.png")}/></div>}
+                    {this.state.muted && <div><img src={require("../images/no-music.png")}/></div>}
                 </div>
 
                 <div className="content">
@@ -270,7 +312,8 @@ class Home extends React.Component {
                                             This website outlines a summary of our goals for the four different platforms that we are building so that you can learn
                                             what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it,
                                             and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed
-                                            decision possible, you can also explore our interactive whitepaper.
+                                            decision possible, you can also explore our interactive whitepaper.<br/>
+                                            <b>(presale coming soon)</b>
                                             {/*<ReactRotatingText items={['A TOKEN FOR HUMANITY']} />*/}
                                         </span>
                                     </h1>
@@ -304,34 +347,34 @@ class Home extends React.Component {
                                             not directly interact with the physical world will be the Solution wallet.</p>
                                         <div className="column_46 desktop-view">
                                                 <button onClick={this.handleDialog.bind(this, 1)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 2)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
                                                 </button>
 
                                                 <button onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 4)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
                                                 </button>
                                         </div>
                                         <div className="mobile-view">
                                             <div>
                                                 <button onClick={this.handleDialog.bind(this, 1)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Heart.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 2)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Water.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
                                                 </button>
                                             </div>
                                             <div>
                                                 <button onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Gaming.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                 </button>
                                                 <button onClick={this.handleDialog.bind(this, 4)}>
-                                                    <img className="image-field1" src={require("../js/includes/DWFullScreenPage/DWFullScreenPage1/Icon_Rewards.png")}/>
+                                                    <img className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
                                                 </button>
                                             </div>
                                         </div>

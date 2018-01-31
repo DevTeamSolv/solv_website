@@ -14,21 +14,52 @@
       font-size: 50px;
       margin-bottom: 30px;
       line-height: 40px;
+      font-weight: 300;
     }
     span.span13 {
       letter-spacing: 0px;
       word-spacing: 0px;
+      p {
+        margin-top: 10px;
+        font-size: 28px;
+      }
     }
   }
 }
 
 .audio-icon {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: -50px;
   position: relative;
-  bottom: 60px;
-  right: 20px;
+  bottom: 50px;
+  margin-left: 50px;
+  img {
+      width: 50px;
+      height: 50px;
+      background: #ffffffbf;
+      border: 1px solid #212f1d;
+      border-radius: 100%;
+      padding: 6px;
+      -webkit-transition: all 0.1s linear 0s;
+      -o-transition: all 0.1s linear 0s;
+      transition: all 0.1s linear 0s;
+  }
+  img:hover, img:focus, img:active {
+    background: #fffffff5;
+    border: 1px solid #212f1d;
+    border-radius: 100%;
+    padding: 6px;
+  }
+}
+.video-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -50px;
+  bottom: 50px;
+  right: 50px;
+  position: fixed;
+  z-index: 999;
   img {
       width: 50px;
       height: 50px;
@@ -165,6 +196,12 @@
   //height: auto !important;
 }
 .row_38 {
+  //background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
+  background-image: url("../images/futuristic-technology-interface_13339-51296.jpg");
+  padding-top: 360px;
+  height: 976px;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   height: 976px;
   text-align: center;
@@ -178,9 +215,9 @@
   }
 
   .row_41 {
-    width: 40%;
-    margin-left: 250px;
-    padding: 50px 0px;
+    width: 70%;
+    margin: 0px auto;
+    padding: 70px 0px;
 
     .inner {
       display: flex;
@@ -189,6 +226,7 @@
       p.presale-heading {
         text-align: left;
         font-weight: 500;
+        margin-top: 12px;
       }
       p {
         color: #fff;
@@ -223,12 +261,23 @@
 
         a.button {
           width: 72%;
+          color: #fff;
+          border-color: #fff;
           font-size: 21px !important;
           padding: 7px 15px !important;
+          margin-top: 110px;
+        }
+        a.button:hover {
+          //width: 72%;
+          color: #fff;
+          border-color: #fff;
+          background-color: #ffffff30;
+          //font-size: 21px !important;
+          //padding: 7px 15px !important;
         }
       }
       .my-rangeslider {
-        width: 40%;
+        width: 20%;
         .rangeslider-vertical{
           height: 230px;
         }
@@ -244,8 +293,46 @@
           background: linear-gradient(to top, rgba(22,109,19,1) 0%, rgba(44,83,45,1) 1%, rgba(44,84,45,1) 5%, rgba(81,214,74,1) 98%, rgba(81,214,74,1) 100%);
         }
       }
+      .my-rangeslider-2 {
+        display: none;
+      }
+    }
+    .solv-svg {
+      height: 220px;
+      width: 220px;
+    }
+    .eth-svg {
+      height: 250px;
+      width: 250px;
     }
   }
+}
+.rangeslider-vertical .rangeslider__labels {
+  width: 20px !important;
+}
+.rangeslider-vertical .rangeslider__handle:after {
+  content: ' ';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: #dadada;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
+}
+.rangeslider-horizontal .rangeslider__handle:after {
+  content: ' ';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 6px;
+  left: 6px;
+  border-radius: 50%;
+  background-color: #dadada;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset;
 }
 .row_39 {
   border: none;
@@ -1051,5 +1138,45 @@ video {
         }
       }
     }
+  }
+}
+.svg_con {
+  display: inline-flex;
+  text-align: center;
+  .svg_con > svg{
+    margin-top: 25px;
+  }
+  .svg_con > svg:last-child{
+    margin-left: 20px;
+  }
+  .eth-svg-con, .solv-svg-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 336px;
+    svg {
+      margin-bottom: 20px;
+    }
+  }
+  .counter{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    border-radius: 100px 100px 100px 100px;
+    svg{
+      margin-top: 10px;
+      margin-left: 5px;
+    }
+    p{
+      text-align: center;
+    }
+  }
+  .counter_eth{
+    background-color: #1b251a;
+  }
+  .counter_sol{
+    background-color: #5ebb46;
   }
 }

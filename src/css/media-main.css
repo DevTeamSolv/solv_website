@@ -54,6 +54,8 @@
 @media only screen and (min-width: 1024px) and (max-width: 1240px) {
   .row_58 {
     height: 1280px; }
+  .row_38 .row_41 {
+    width: 80%; }
   .team-details .team-container .members-row .member-container {
     width: 18%; } }
 
@@ -64,7 +66,12 @@
     position: fixed;
     top: 34% !important;
     left: 35% !important;
-    padding-top: 50px; } }
+    padding-top: 50px; }
+  .slider-calc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%; } }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .column_46 {
@@ -73,6 +80,14 @@
     justify-content: space-between; }
     .column_46 button {
       width: auto; }
+  .row_38 .row_41 {
+    width: 80%; }
+    .row_38 .row_41 svg.solv-svg {
+      height: 190px;
+      width: 190px; }
+    .row_38 .row_41 svg.eth-svg {
+      height: 220px;
+      width: 220px; }
   .slide-div .slide-track .slide2, .slide-div .slide-track .slide3, .slide-div .slide-track .slide4, .slide-div .slide-track .slide5 {
     width: 90% !important;
     padding-top: 30px !important; }
@@ -94,6 +109,11 @@
     width: 80%; }
   .row_51 .column_27 {
     padding-top: 5px; }
+  .slider-calc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%; }
   .scrolled .column_26, .scrolled .column_27, .scrolled .column_25, .row_51 .column_26, .row_51 .column_27, .row_51 .column_25 {
     min-height: 0px;
     height: auto; }
@@ -219,7 +239,25 @@
         font-size: 17px;
         margin-top: 41px; }
   .footer .box {
-    width: 40%; } }
+    width: 40%; }
+  .row_38 .row_41 {
+    padding-top: 60px; }
+    .row_38 .row_41 .inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 0px; }
+      .row_38 .row_41 .inner .slider-calc {
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-between; }
+      .row_38 .row_41 .inner .svg_con {
+        display: flex;
+        justify-content: space-between; }
+      .row_38 .row_41 .inner .data a.button {
+        margin-top: 35px; }
+      .row_38 .row_41 .inner .my-rangeslider {
+        width: 7%; } }
 
 @media only screen and (max-width: 767px) {
   .mobile-menu {
@@ -312,7 +350,7 @@
     .row_39 .column_36 {
       padding-bottom: 50px; }
   .row_38 {
-    height: 776px;
+    height: 846px;
     padding: 0px; }
     .row_38 .row_41 {
       padding: 0px; }
@@ -403,7 +441,34 @@
       left: 15px;
       z-index: 99; }
     .team-details .slick-next {
-      right: 13px; } }
+      right: 13px; }
+  .row_38 {
+    padding-top: 60px; }
+    .row_38 .row_41 {
+      padding-top: 25px; }
+      .row_38 .row_41 .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px; }
+        .row_38 .row_41 .inner .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between; }
+        .row_38 .row_41 .inner .svg_con {
+          display: flex;
+          justify-content: space-between; }
+          .row_38 .row_41 .inner .svg_con svg.eth-svg {
+            width: 210px;
+            height: 210px; }
+          .row_38 .row_41 .inner .svg_con svg.solv-svg {
+            width: 190px;
+            height: 190px; }
+        .row_38 .row_41 .inner .data a.button {
+          width: 92%;
+          margin-top: 35px; }
+        .row_38 .row_41 .inner .my-rangeslider {
+          width: 7%; } }
 
 @media only screen and (max-width: 600px) {
   .row_51 #nav-icon4 {
@@ -553,7 +618,38 @@
   .overlay.open {
     height: 100%; }
   .overlay {
-    top: 80px; } }
+    top: 80px; }
+  .row_38 {
+    height: 796px;
+    padding-top: 60px; }
+    .row_38 .row_41 {
+      padding-top: 25px;
+      width: 80%; }
+      .row_38 .row_41 .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px; }
+        .row_38 .row_41 .inner .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between; }
+        .row_38 .row_41 .inner .svg_con {
+          display: flex;
+          justify-content: space-between; }
+          .row_38 .row_41 .inner .svg_con .solv-svg-con, .row_38 .row_41 .inner .svg_con .eth-svg-con {
+            height: 290px; }
+          .row_38 .row_41 .inner .svg_con svg.eth-svg {
+            width: 120px;
+            height: 190px; }
+          .row_38 .row_41 .inner .svg_con svg.solv-svg {
+            width: 170px;
+            height: 170px; }
+        .row_38 .row_41 .inner .data a.button {
+          width: 92%;
+          margin-top: 35px; }
+        .row_38 .row_41 .inner .my-rangeslider {
+          width: 7%; } }
 
 @media only screen and (max-width: 434px) {
   .row_58 .mobile-view img.image-field1 {
@@ -652,7 +748,41 @@
     top: 31px;
     left: 8px; }
   .ant-notification-notice-closable .ant-notification-notice-message {
-    padding-right: 5px; } }
+    padding-right: 5px; }
+  .row_38 {
+    height: 796px;
+    padding-top: 60px; }
+    .row_38 .row_41 {
+      padding-top: 25px;
+      width: 80%; }
+      .row_38 .row_41 .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px; }
+        .row_38 .row_41 .inner .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between; }
+        .row_38 .row_41 .inner .svg_con {
+          display: flex;
+          justify-content: space-between; }
+          .row_38 .row_41 .inner .svg_con .solv-svg-con, .row_38 .row_41 .inner .svg_con .eth-svg-con {
+            height: 290px; }
+          .row_38 .row_41 .inner .svg_con .counter {
+            width: 120px; }
+          .row_38 .row_41 .inner .svg_con svg.eth-svg {
+            width: 100px;
+            height: 190px; }
+          .row_38 .row_41 .inner .svg_con svg.solv-svg {
+            width: 140px;
+            height: 140px; }
+        .row_38 .row_41 .inner .data a.button {
+          width: 100%;
+          margin-top: 35px;
+          padding: 7px 5px !important; }
+        .row_38 .row_41 .inner .my-rangeslider {
+          width: 7%; } }
 
 @media only screen and (max-width: 379px) {
   .countdown_with_background_v1 {
@@ -756,7 +886,47 @@
           line-height: 36px; }
         .row_30 .home-section h1.heading1 span.span13 {
           font-size: 17px;
-          letter-spacing: 0px; } }
+          letter-spacing: 0px; }
+  .row_38 {
+    height: 796px;
+    padding-top: 60px; }
+    .row_38 .row_41 {
+      padding-top: 25px;
+      width: 80%; }
+      .row_38 .row_41 .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px; }
+        .row_38 .row_41 .inner .data {
+          width: 100%; }
+        .row_38 .row_41 .inner .slider-calc {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between; }
+        .row_38 .row_41 .inner .svg_con {
+          display: flex;
+          justify-content: space-between; }
+          .row_38 .row_41 .inner .svg_con .solv-svg-con, .row_38 .row_41 .inner .svg_con .eth-svg-con {
+            height: 290px; }
+          .row_38 .row_41 .inner .svg_con .counter {
+            width: 120px; }
+          .row_38 .row_41 .inner .svg_con svg.eth-svg {
+            width: 100px;
+            height: 190px; }
+          .row_38 .row_41 .inner .svg_con svg.solv-svg {
+            width: 140px;
+            height: 140px; }
+        .row_38 .row_41 .inner .data a.button {
+          width: 100%;
+          margin-top: 35px;
+          padding: 7px 5px !important; }
+        .row_38 .row_41 .inner .my-rangeslider {
+          display: none; }
+        .row_38 .row_41 .inner .my-rangeslider-2 {
+          display: block; }
+        .row_38 .row_41 .inner .rangeslider-horizontal .rangeslider__fill {
+          background: linear-gradient(to right, #166d13 0%, #2c532d 1%, #2c542d 5%, #51d64a 98%, #51d64a 100%); } }
 
 @media only screen and (max-width: 350px) {
   .countdown_with_background_v1 {
