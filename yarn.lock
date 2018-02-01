@@ -119,6 +119,22 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+annois@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/annois/-/annois-0.2.0.tgz#4d76b61a2c6f8a39d1269617e93b33a8c16532ce"
+
+annotate@0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/annotate/-/annotate-0.6.7.tgz#0f9eedefb38dec706ad4226081f9f4772860b575"
+  dependencies:
+    is-js "== 0.1.1"
+
+"annotate@== 0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/annotate/-/annotate-0.6.2.tgz#11665f6fe2a9ec2a49f0a2a9baa8efc8d5c0a2cc"
+  dependencies:
+    is-js "== 0.1.1"
+
 ansi-align@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-1.1.0.tgz#2f0c1658829739add5ebb15e6b0c6e3423f016ba"
@@ -1536,7 +1552,7 @@ commander@2.12.x:
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.12.2.tgz#0f5946c427ed9ec0d91a46bb9def53e54650e555"
 
-commander@~2.13.0:
+"commander@>= 0.5.2", commander@~2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.13.0.tgz#6964bca67685df7c1f1430c584f07d7597885b9c"
 
@@ -2889,6 +2905,20 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
 
+funkit@0.7.7, "funkit@== 0.7.7":
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/funkit/-/funkit-0.7.7.tgz#22f4a2e77f7c3aa39446d7405ca8c1a8637cb733"
+  dependencies:
+    annotate "== 0.6.2"
+    is-js "== 0.1.1"
+
+"funkit@== 0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/funkit/-/funkit-0.3.2.tgz#c25cb3cb03fa0c15ea2e54343c2c40b314607a7c"
+  dependencies:
+    generators.js ">= 0.1.9"
+    suite.js ">= 0.1.1"
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -2901,6 +2931,15 @@ gauge@~2.7.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
+
+"generators.js@>= 0.1.9":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/generators.js/-/generators.js-0.5.0.tgz#abc51247f174eb9e1da9502c1f7866aae6aeef84"
+  dependencies:
+    annois "0.2.0"
+    annotate "0.6.7"
+    funkit "0.7.7"
+    require-dir "0.1.0"
 
 get-caller-file@^1.0.1:
   version "1.0.2"
@@ -3394,6 +3433,13 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
+"ioscript.js@== 0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ioscript.js/-/ioscript.js-0.2.0.tgz#e63dda77b6925767034c1d967f727201262b9165"
+  dependencies:
+    commander ">= 0.5.2"
+    funkit "== 0.3.2"
+
 ip@^1.1.0, ip@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
@@ -3493,6 +3539,10 @@ is-glob@^3.1.0:
   resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-3.1.0.tgz#7ba5ae24217804ac70707b96922567486cc3e84a"
   dependencies:
     is-extglob "^2.1.0"
+
+"is-js@== 0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/is-js/-/is-js-0.1.1.tgz#dfe498e487cd715bf6ce3ccdabf3c01eec37dc2c"
 
 is-npm@^1.0.0:
   version "1.0.0"
@@ -4441,6 +4491,13 @@ mo-js@^0.288.2:
   resolved "https://registry.yarnpkg.com/mo-js/-/mo-js-0.288.2.tgz#662c803d18a110cf7e422d569efcdea04880592e"
   dependencies:
     babel-runtime "^6.5.0"
+
+mojs@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/mojs/-/mojs-0.2.0.tgz#7a95d0804e6431738f61d7b45cd99be8fcb2256b"
+  dependencies:
+    ioscript.js "== 0.2.0"
+    suite.js ">= 0.1.1"
 
 moment@2.x, moment@^2.19.3, moment@^2.20.1:
   version "2.20.1"
@@ -6144,6 +6201,10 @@ request@^2.79.0:
     tunnel-agent "^0.6.0"
     uuid "^3.1.0"
 
+require-dir@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/require-dir/-/require-dir-0.1.0.tgz#81e01e299faf5b74c34b6594f8e5add5985ddec5"
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -6651,6 +6712,13 @@ style-loader@0.19.0:
   dependencies:
     loader-utils "^1.0.2"
     schema-utils "^0.3.0"
+
+"suite.js@>= 0.1.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/suite.js/-/suite.js-0.6.1.tgz#8dc58225924dbe03e2add317577cfb78ef82b464"
+  dependencies:
+    funkit "== 0.7.7"
+    is-js "== 0.1.1"
 
 supports-color@^2.0.0:
   version "2.0.0"

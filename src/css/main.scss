@@ -181,7 +181,21 @@
 
     }
   }
-
+  button p {
+    font-weight: 500;
+  }
+button.humanity p {
+  color: #f52c05;
+}
+button.water p {
+  color: #00d9ff;
+}
+button.game p {
+  color: #ff8b00;
+}
+button.wallet p {
+  color: #907b10;
+}
   .skylight-dialog {
     width: 90% !important;
     height: 83% !important;
@@ -215,7 +229,7 @@
 }
 .row_38 {
   //background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
-  background-image: url("../images/dotmap.png");
+  background-image: url("../images/sal-wallpaper-2.jpeg");
   padding-top: 360px;
   height: 976px;
   background-size: cover;
@@ -715,8 +729,8 @@ div.FM2_DWFullScreenPage1menu_container {
     img {
       width: 50px;
       height: 50px;
-      background: #ffffffbf;
-      border: 1px solid #212f1d;
+      background: #000;
+      border: 2px solid #2dfc0f;
       border-radius: 100%;
       padding: 6px;
       -webkit-transition: all 0.1s linear 0s;
@@ -724,8 +738,8 @@ div.FM2_DWFullScreenPage1menu_container {
       transition: all 0.1s linear 0s;
     }
     img:hover, img:focus, img:active {
-      background: #fffffff5;
-      border: 1px solid #212f1d;
+      //background: #fffffff5;
+      //border: 1px solid #212f1d;
       border-radius: 100%;
       padding: 6px;
     }
@@ -780,8 +794,8 @@ div.FM2_DWFullScreenPage1menu_container {
     img {
       width: 50px;
       height: 50px;
-      background: #ffffffbf;
-      border: 1px solid #212f1d;
+      background: #000;
+      border: 2px solid #2dfc0f;
       border-radius: 100%;
       padding: 6px;
       -webkit-transition: all 0.1s linear 0s;
@@ -789,8 +803,8 @@ div.FM2_DWFullScreenPage1menu_container {
       transition: all 0.1s linear 0s;
     }
     img:hover, img:focus, img:active {
-      background: #fffffff5;
-      border: 1px solid #212f1d;
+      //background: #fffffff5;
+      //border: 1px solid #212f1d;
       border-radius: 100%;
       padding: 6px;
     }
@@ -1257,10 +1271,36 @@ video {
   }
   .counter_eth{
     height: 41.5px;
-    background-color: #eab505;
+    background-color: #000;
   }
   .counter_sol{
     height: 38px;
-    background-color: #2CFC0E;
+    background-color: #3d9d3b;
   }
 }
+  .audio-controls {
+    width: 296px;
+    height: 52px;
+    background: #efeeee;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: fixed;
+    z-index: 999;
+    border-radius: 10px;
+    top: 100px;
+    left: 30px;
+    .outer-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60%;
+      .button-pause {
+        display: flex;
+        align-items: center;
+      }
+      img {
+        width: 40px;
+      }
+    }
+  }

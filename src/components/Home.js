@@ -14,6 +14,7 @@ import  SliderComp from './SliderComponent';
 import "../css/notification.css"
 import Notification from './Notification'
 import Sale from './Sale'
+import AudioPlayer from './AudioPlayer'
 
 
 
@@ -158,12 +159,6 @@ class Home extends React.Component {
             })
         }
     }
-    handleJq(){
-        // $('body').append(
-
-
-
-    }
     handleSetActive(){
         // $("#home-bar").removeClass('active');
     }
@@ -215,11 +210,15 @@ class Home extends React.Component {
                                 </Link>
                             </div>
                             <div onClick={this.handleMusic.bind(this)} className="music-btn">
-                                {!this.state.muted && <div><img src={require("../images/music.png")}/></div>}
+                                {!this.state.muted && <div><img src={require("../images/new-music.png")}/></div>}
                                 {this.state.muted && <div><img src={require("../images/no-music.png")}/></div>}
                             </div>
                             <div className="join-sale">
-                                <a>Join Token Sale</a>
+
+                                <Link to="sale" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1200}>
+                                    Join Token Sale
+                                </Link>
+                                {/*<a>Join Token Sale</a>*/}
                             </div>
                         </div>
 
@@ -263,7 +262,10 @@ class Home extends React.Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <a className="button-white" onClick={this.handleMobileMenuClick.bind(this)} href="#">Join Token Sale</a>
+                                        <Link className="test6" to="team" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
+                                            Join Token Sale
+                                        </Link>
+                                        {/*<a className="button-white" onClick={this.handleMobileMenuClick.bind(this)} href="#">Join Token Sale</a>*/}
                                     </li>
                                 </ul>
                             </nav>
@@ -276,11 +278,7 @@ class Home extends React.Component {
                         <source src={require("../images/gifs/SolutionToken WebVideo.mp4")} type="video/mp4" />
                         Your browser does not support HTML5 video.
                     </video>
-
-                    <audio src={require("../images/gifs/BG-music.mp3")} autoPlay={true} loop id="myAudio">
-                        <p>If you are reading this, it is because your browser does not support the audio element.</p>
-                    </audio>
-
+                    <AudioPlayer />
                     <div onClick={this.handleVideo.bind(this)} className="audio-icon">
                         {!this.state.paused && <img src={require("../images/paused-icon.png")}/>}
                         {this.state.paused && <img src={require("../images/play-icon.png")}/>}
@@ -336,18 +334,22 @@ class Home extends React.Component {
                                                 These three are the humanitarian program, water solutions, and interactive gaming. The only concept that does
                                                 not directly interact with the physical world will be the Solution wallet.</p>
                                             <div className="column_46 desktop-view">
-                                                <button onClick={this.handleDialog.bind(this, 1)}>
+                                                <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
                                                     <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
+                                                    <p>Operation Humanity</p>
                                                 </button>
-                                                <button onClick={this.handleDialog.bind(this, 2)}>
+                                                <button className="water" onClick={this.handleDialog.bind(this, 2)}>
                                                     <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
+                                                    <p>Water Solutions</p>
                                                 </button>
 
-                                                <button onClick={this.handleDialog.bind(this, 3)}>
+                                                <button className="game" onClick={this.handleDialog.bind(this, 3)}>
                                                     <img title="Gaming Plateform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                    <p>Street QRed Game</p>
                                                 </button>
-                                                <button onClick={this.handleDialog.bind(this, 4)}>
+                                                <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
                                                     <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
+                                                    <p>Solv Wallet</p>
                                                 </button>
                                             </div>
                                             <div className="mobile-view">
