@@ -1,6 +1,5 @@
 import React from "react";
 import moment from "moment";
-import mojs from "mo-js";
 
 class CountdownTimer extends React.Component {
     constructor(props) {
@@ -20,27 +19,9 @@ class CountdownTimer extends React.Component {
             min: new Date(),
             startTimer: false
         }
-        this.startCircle = this.startCircle.bind(this);
         this.tick = this.tick.bind(this);
     }
 
-    startCircle(_duration) {
-        new mojs.Shape({
-            shape: 'circle',
-            //scale:        { 0 : 1 },//size {starting :end}
-            top: '100px',//move from top
-            left: '100px',//move from left
-            radius: 40,//radius of circle
-            fill: 'none',//color
-            stroke: {'white': '#57DF2B'},//stroke color
-            strokeWidth: {10: 10},//strokeWidth {starting width :end width}
-            strokeDasharray: '100%',//joints
-            strokeDashoffset: {'100%': '0%'},//fill angles
-            angle: {270: 270},//angles of rotation
-            duration: _duration * 1000,//time/sec
-            repeat: 999,
-        }).play();
-    }
 
     componentDidMount() {
         this.state.interval = setInterval(this.tick, 1000)
@@ -165,12 +146,12 @@ class CountdownTimer extends React.Component {
                     <div className="section minutes">
                         <div className="time">{this.state.timeRemaining.m}</div>
                         <div className="label">Minutes</div>
-                        <svg >
-                            <ellipse rx="40" ry="40" cx="45" cy="45" fillOpacity="1" strokeLinecap=""
-                                     strokeDashoffset="5" fill="none" strokeDasharray="251"
-                                     strokeOpacity="1" strokeWidth="10" stroke="rgba(90,223,47,1)">
-                            </ellipse>
-                        </svg>
+                        {/*<svg >*/}
+                            {/*<ellipse rx="40" ry="40" cx="45" cy="45" fillOpacity="1" strokeLinecap=""*/}
+                                     {/*strokeDashoffset="5" fill="none" strokeDasharray="251"*/}
+                                     {/*strokeOpacity="1" strokeWidth="10" stroke="rgba(90,223,47,1)">*/}
+                            {/*</ellipse>*/}
+                        {/*</svg>*/}
                     </div>
                     // <div className="section minutes">
                     //     <div className="label">Minutes</div>
