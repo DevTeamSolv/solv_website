@@ -14,6 +14,7 @@
     width: 244px;
   }
   .row_47 {
+
     width: 77%;
   }
     .row_51, .scrolled {
@@ -325,6 +326,7 @@ p {
   .team-details {
     margin-top: 100px;
     .team-container .members-row .member-container {
+      height: 350px;
       width: 23%;
     }
   }
@@ -335,7 +337,7 @@ p {
     background-color: #356335 !important;
     margin: 0px auto;
     width: 70% !important;
-    height: 340px !important;
+    height: 420px !important;
     left: 40% !important;
   }
   .column_46 {
@@ -506,15 +508,23 @@ p {
   .top-bar-outer {
     display: none !important;
   }
-  .team-details .skylight-dialog {
-    text-align: center;
-    color: #fff;
-    padding: 20px 12px !important;
-    background-color: #356335 !important;
-    margin: 0px auto;
-    width: 80% !important;
-    height: 370px !important;
-    left: 35% !important;
+  .team-details {
+    p {
+      font-size: 19px !important;
+    }
+    .skylight-dialog {
+      text-align: center;
+      color: #fff;
+      padding: 20px 12px !important;
+      background-color: #356335 !important;
+      margin: 0px auto;
+      width: 80% !important;
+      height: 450px !important;
+      left: 35% !important;
+      p.description {
+        font-size: 18px !important;
+      }
+    }
   }
   .row_58 .skylight-dialog {
     height: 64% !important;
@@ -869,8 +879,10 @@ p {
     bottom: 30px;
     right: 20px;
   }
-  .team-details p {
-    text-align: center;
+  .team-details {
+    p.designation, p.name {
+      text-align: center !important;
+    }
   }
   .team-details .skylight-dialog {
     text-align: center;
@@ -879,8 +891,9 @@ p {
     background-color: #356335 !important;
     margin: 0px auto;
     width: 90% !important;
-    height: 400px !important;
+    height: 450px !important;
     left: 30% !important;
+    overflow: scroll;
     p.description {
       text-align: justify;
       padding: 0px;
@@ -1146,7 +1159,7 @@ p {
   }
   .countDown {
     padding: 0;
-    margin-top: 190px;
+    //margin-top: 190px;
     .timer {
       justify-content: space-between !important;
     }
@@ -1400,7 +1413,7 @@ p {
   }
   .countDown {
     padding: 0;
-    margin-top: 155px;
+    //margin-top: 155px;
     .timer {
       justify-content: space-between !important;
     }
@@ -1529,7 +1542,7 @@ p {
   }
   .countDown {
     padding: 0;
-    margin-top: 155px;
+    //margin-top: 155px;
     .timer {
       justify-content: space-between !important;
     }

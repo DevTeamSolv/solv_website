@@ -46,12 +46,42 @@
     <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
 
+
+    <style>
+      .outer-loader {
+        display: table;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+
+      .middle-loader {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      .inner-loader {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+      }
+    </style>
   </head>
   <body>
-    <noscript>
+  <div id="outer-loader" class="outer-loader">
+    <div class="middle-loader">
+      <div class="inner-loader">
+        <img src="loader.gif"/>
+      </div>
+    </div>
+  </div>
+
+  <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
+    <div id="root">
+
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

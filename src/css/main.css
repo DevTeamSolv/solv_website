@@ -359,15 +359,18 @@
   .column_36 h3 {
     font-weight: bold; }
 
+.team-details p {
+  margin: 0px;
+  font-size: 20px !important; }
 .team-details .skylight-dialog {
   text-align: center;
   color: #fff;
   padding: 20px 12px !important;
   background-color: #356335 !important;
   margin: 0px auto;
-  width: 40% !important;
+  width: 50% !important;
   height: auto !important;
-  left: 55% !important; }
+  left: 50% !important; }
   .team-details .skylight-dialog .member-img img {
     background-image: url("../images/team/sample.png");
     border: 3px solid #77b174;
@@ -385,7 +388,7 @@
     padding: 0px;
     margin: 0px;
     margin-top: 10px;
-    font-size: 15px; }
+    font-size: 19px !important; }
 
 h3 {
   font-weight: 600; }
@@ -995,7 +998,6 @@ video {
     display: flex;
     justify-content: space-between;
     width: 150px;
-    height: 40px;
     border-radius: 100px 100px 100px 100px; }
     .svg_con .counter svg {
       margin-top: 10px;
@@ -1003,8 +1005,10 @@ video {
     .svg_con .counter p {
       text-align: center; }
   .svg_con .counter_eth {
+    height: 41.5px;
     background-color: #1b251a; }
   .svg_con .counter_sol {
+    height: 38px;
     background-color: #5ebb46; }
 
 /*# sourceMappingURL=main.css.map */
