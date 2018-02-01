@@ -198,19 +198,19 @@ class Home extends React.Component {
                             <div className="empty-column">
                             </div>
                             <div className="nav-bar">
-                                <Link activeClass="active" id="home-bar" to="home" spy={true} offset={50} smooth={true} duration={500}>
+                                <Link activeClass="active"  offset={30} id="home-bar" to="home" spy={true} offset={50} smooth={true} duration={500}>
                                     Home
                                 </Link>
-                                <Link activeClass="active" to="platform" spy={true} smooth={true} duration={700}>
+                                <Link activeClass="active"  offset={30} to="platform" spy={true} smooth={true} duration={700}>
                                     Our Platforms
                                 </Link>
-                                <Link activeClass="active" onSetActive= {this.handleSetActive.bind(this)}to="whitepaper" spy={true} smooth={true} duration={900}>
+                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)}to="whitepaper" spy={true} smooth={true} duration={900}>
                                     Whitepaper
                                 </Link>
-                                <Link activeClass="active" to="sale" spy={true} smooth={true} duration={1200}>
+                                <Link activeClass="active" to="sale" offset={30} spy={true} smooth={true} duration={1200}>
                                     Token Sale
                                 </Link>
-                                <Link activeClass="active" to="team" spy={true} smooth={true} duration={1500}>
+                                <Link activeClass="active" to="team" offset={30} spy={true} smooth={true} duration={1500}>
                                     Team Members
                                 </Link>
                             </div>
@@ -482,7 +482,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/david.png")}/>
+                                                        <img src={require("../images/team/David.jpeg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "david")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -548,7 +548,7 @@ class Home extends React.Component {
                                                         <hr className="hassan"/>
                                                         <div className="hassan info">
                                                             <p className="name">Hassan</p>
-                                                            <p className="designation">ReactJS & FrontEnd Developer</p>
+                                                            <p className="designation">FrontEnd Developer</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -739,7 +739,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/david.png")}/>
+                                                            <img src={require("../images/team/David.jpeg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "david")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -808,7 +808,7 @@ class Home extends React.Component {
                                                             <hr className="hassan"/>
                                                             <div className="hassan info">
                                                                 <p className="name">Hassan</p>
-                                                                <p className="designation">ReactJS & FrontEnd Developer</p>
+                                                                <p className="designation">FrontEnd Developer</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -988,7 +988,7 @@ class Home extends React.Component {
                     {/*<div className="fp-arrow-c" onClick={this.onClickFooter.bind(this)}> <span className="fp-arrow"> <i className="fa fa-chevron-down arrow" aria-hidden="true"></i></span> </div>*/}
                     <div className="footer">
                         <div className="box">
-                            <a href="#" className="facebook2">
+                            <a href="#https://www.facebook.com/solutiontoken/" className="facebook2">
                                 <img  className="white" src={require("../images/facebook_w.png")}/>
                                 <img className="original" src={require("../images/facebook.png")}/>
                             </a>
