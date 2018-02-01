@@ -32,7 +32,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "david" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/david.png")}/>
+                            <img src={require("../images/team/David.jpeg")}/>
                         </div>
                         <p className="name">David Casciato</p>
                         <p className="designation">Humanitarian Director</p>
@@ -92,7 +92,7 @@ class TeamDetail extends React.Component {
                             <img src={require("../images/team/hasan-small.jpg")}/>
                         </div>
                         <p className="name">Hassan</p>
-                        <p className="designation">ReactJS & FrontEnd Developer</p>
+                        <p className="designation">FrontEnd Developer</p>
                         <p className="description">Hassan is lead FrontEnd and ReactJS developer and Blockchain Enthusiast. Hassan has worked previously on different ICOs and non-Blockchain platforms.</p>
                     </div>
                 }
