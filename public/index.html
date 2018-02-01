@@ -48,6 +48,7 @@
 
 
     <style>
+
       .outer-loader {
         display: table;
         position: absolute;
@@ -67,14 +68,15 @@
       }
     </style>
   </head>
-  <body>
-  <div id="outer-loader" class="outer-loader">
-    <div class="middle-loader">
-      <div class="inner-loader">
-        <img src="loader.gif"/>
+  <body id="body">
+  <div id="body-inner">
+    <div id="outer-loader" class="outer-loader">
+      <div class="middle-loader">
+        <div class="inner-loader">
+          <img src="loader.gif"/>
+        </div>
       </div>
     </div>
-  </div>
 
   <noscript>
       You need to enable JavaScript to run this app.
@@ -82,6 +84,7 @@
     <div id="root">
 
     </div>
+  </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

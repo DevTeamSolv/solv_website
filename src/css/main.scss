@@ -215,7 +215,7 @@
 }
 .row_38 {
   //background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
-  background-image: url("../images/futuristic-technology-interface_13339-51296.jpg");
+  background-image: url("../images/dotmap.png");
   padding-top: 360px;
   height: 976px;
   background-size: cover;
@@ -249,6 +249,9 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        p.presale-heading {
+          font-size: 25px !important;
+        }
       }
       .slider-part {
         display: flex;
@@ -266,6 +269,7 @@
         color: #fff;
         margin: 0px;
         text-align: left;
+        font-weight: 500;
       }
       .data {
         display: flex;
@@ -1123,7 +1127,7 @@ video {
       .member-container {
         color: #1e8e1a;
         width: 15%;
-        height: 330px;
+        height: 350px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1241,6 +1245,7 @@ video {
     display: flex;
     justify-content: space-between;
     width: 150px;
+    align-items: center;
     border-radius: 100px 100px 100px 100px;
     svg{
       margin-top: 10px;
@@ -1252,10 +1257,10 @@ video {
   }
   .counter_eth{
     height: 41.5px;
-    background-color: #1b251a;
+    background-color: #eab505;
   }
   .counter_sol{
     height: 38px;
-    background-color: #5ebb46;
+    background-color: #2CFC0E;
   }
 }

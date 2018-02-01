@@ -15,10 +15,21 @@ import '../src/css/HoverFX.css';
 import '../src/css/main.css';
 import '../src/css/media-main.css';
 // import "./js/afterLoading";
+import $ from "jquery";
 
 class App extends Component {
   componentDidMount(){
+      window.scrollTo(0,0);
+      var height = $(window).height();
+      document.getElementById('root').style.opacity = '0';
+      document.getElementById('body').style.height = height + 'px';
+      document.getElementById('body').style.overflow = 'hidden';
+      setTimeout(function () {
       document.getElementById('outer-loader').style.display = 'none';
+      document.getElementById('root').style.opacity = '1';
+          document.getElementById('body').style.height = 'auto';
+          document.getElementById('body').style.overflowY = 'scroll';
+      }, 3000)
   }
   render() {
     return (

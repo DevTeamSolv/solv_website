@@ -1,6 +1,18 @@
 @media only screen and (min-width: 1400px) {
   .scrolled, .row_51 {
     background-position: 0px 41%; } }
+@media only screen and (min-width: 1600px) {
+  .scrolled {
+    height: 81px;
+    padding-top: 12px; } }
+@media only screen and (min-width: 1600px) {
+  .scrolled {
+    height: 91px;
+    padding-top: 15px; }
+
+  .row_51 {
+    height: 99px;
+    padding-top: 17px; } }
 @media only screen and (max-width: 1600px) {
   .team-details .team-container {
     width: 100%; } }

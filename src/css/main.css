@@ -176,7 +176,7 @@
     font-weight: 300; }
 
 .row_38 {
-  background-image: url("../images/futuristic-technology-interface_13339-51296.jpg");
+  background-image: url("../images/dotmap.png");
   padding-top: 360px;
   height: 976px;
   background-size: cover;
@@ -207,6 +207,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start; }
+        .row_38 .row_41 .inner .slider-calc p.presale-heading {
+          font-size: 25px !important; }
       .row_38 .row_41 .inner .slider-part {
         display: flex;
         flex-direction: column; }
@@ -219,7 +221,8 @@
       .row_38 .row_41 .inner p {
         color: #fff;
         margin: 0px;
-        text-align: left; }
+        text-align: left;
+        font-weight: 500; }
       .row_38 .row_41 .inner .data {
         display: flex;
         width: 100%;
@@ -910,7 +913,7 @@ video {
       .team-details .team-container .members-row .member-container {
         color: #1e8e1a;
         width: 15%;
-        height: 330px;
+        height: 350px;
         display: flex;
         flex-direction: column;
         align-items: center; }
@@ -998,6 +1001,7 @@ video {
     display: flex;
     justify-content: space-between;
     width: 150px;
+    align-items: center;
     border-radius: 100px 100px 100px 100px; }
     .svg_con .counter svg {
       margin-top: 10px;
@@ -1006,9 +1010,9 @@ video {
       text-align: center; }
   .svg_con .counter_eth {
     height: 41.5px;
-    background-color: #1b251a; }
+    background-color: #eab505; }
   .svg_con .counter_sol {
     height: 38px;
-    background-color: #5ebb46; }
+    background-color: #2CFC0E; }
 
 /*# sourceMappingURL=main.css.map */
