@@ -442,6 +442,10 @@
   }
 }
 .team-details {
+  p {
+    margin: 0px;
+    font-size: 20px !important;
+  }
   .skylight-dialog {
 
     text-align: center;
@@ -449,9 +453,9 @@
     padding: 20px 12px !important;
     background-color: #356335 !important;
     margin: 0px auto;
-    width: 40% !important;
+    width: 50% !important;
     height: auto !important;;
-    left: 55% !important;;
+    left: 50% !important;;
 
     .member-img {
       img {
@@ -475,7 +479,7 @@
       padding: 0px;
       margin: 0px;
       margin-top: 10px;
-      font-size: 15px;
+      font-size: 19px !important;
     }
   }
 }
@@ -1237,7 +1241,6 @@ video {
     display: flex;
     justify-content: space-between;
     width: 150px;
-    height: 40px;
     border-radius: 100px 100px 100px 100px;
     svg{
       margin-top: 10px;
@@ -1248,9 +1251,11 @@ video {
     }
   }
   .counter_eth{
+    height: 41.5px;
     background-color: #1b251a;
   }
   .counter_sol{
+    height: 38px;
     background-color: #5ebb46;
   }
 }

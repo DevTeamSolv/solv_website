@@ -214,24 +214,24 @@ class Home extends React.Component {
                                     Team Members
                                 </Link>
                             </div>
-                            <div className="join-sale">
-                                <a>Join Token Sale</a>
-                            </div>
                             <div onClick={this.handleMusic.bind(this)} className="music-btn">
                                 {!this.state.muted && <div><img src={require("../images/music.png")}/></div>}
                                 {this.state.muted && <div><img src={require("../images/no-music.png")}/></div>}
+                            </div>
+                            <div className="join-sale">
+                                <a>Join Token Sale</a>
                             </div>
                         </div>
 
                         <div className="hamburger-button mobile-menu">
+                            <div onClick={this.handleMusic.bind(this)} className="music-btn">
+                                {!this.state.muted && <div><img src={require("../images/music.png")}/></div>}
+                                {this.state.muted && <div><img src={require("../images/no-music.png")}/></div>}
+                            </div>
                             <div onClick={this.handleHamburger.bind(this)} id="nav-icon4">
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                            </div>
-                            <div onClick={this.handleMusic.bind(this)} className="music-btn">
-                                {!this.state.muted && <div><img src={require("../images/music.png")}/></div>}
-                                {this.state.muted && <div><img src={require("../images/no-music.png")}/></div>}
                             </div>
                         </div>
                         <div id="overlay" className=" mobile-menu overlay">
@@ -272,7 +272,7 @@ class Home extends React.Component {
                 </div>
                 <Element name="video" className="element">
 
-                    <video onClick={this.handleVideo.bind(this)} loop id="myVideo">
+                    <video onClick={this.handleVideo.bind(this)} loop autoPlay id="myVideo">
                         <source src={require("../images/gifs/SolutionToken WebVideo.mp4")} type="video/mp4" />
                         Your browser does not support HTML5 video.
                     </video>
