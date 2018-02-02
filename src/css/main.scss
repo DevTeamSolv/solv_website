@@ -183,6 +183,11 @@
   }
   button p {
     font-weight: 500;
+    margin-bottom: 0px;
+  }
+  button p.read-more {
+    margin: 0px;
+    font-size: 17px !important;
   }
 button.humanity p {
   color: #f52c05;

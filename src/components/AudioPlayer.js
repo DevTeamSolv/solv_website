@@ -7,7 +7,7 @@ class AudioPlayer extends React.Component {
         this.state = {
             currentTrackId: 0,
             currentTrackName: "",
-            audioPaused: false,
+            audioPaused: true,
             controlsShow: true,
             allTracks: [
                 require("../images/musics/BG-music.mp3"),
@@ -80,7 +80,7 @@ class AudioPlayer extends React.Component {
     render() {
         return (
             <div>
-                <audio onEnded={this.handleTrancEnded.bind(this)} src={this.state.allTracks[this.state.currentTrackId]} autoPlay={true} loop={false} id="myAudio">
+                <audio onEnded={this.handleTrancEnded.bind(this)} src={this.state.allTracks[this.state.currentTrackId]} loop={false} id="myAudio">
                     <p>If you are reading this, it is because your browser does not support the audio element.</p>
                 </audio>
                 <div className="audio-controls">

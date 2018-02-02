@@ -23,7 +23,7 @@ class App extends Component {
       setTimeout(function () {
       document.getElementById('outer-loader').style.display = 'none';
       document.getElementById('root').style.display = 'block';
-      }, 100)
+      }, 4000)
   }
   render() {
     return (

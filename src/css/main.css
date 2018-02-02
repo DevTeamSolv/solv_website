@@ -151,7 +151,11 @@
     width: 80%;
     margin: 0px auto; }
   .row_58 button p {
-    font-weight: 500; }
+    font-weight: 500;
+    margin-bottom: 0px; }
+  .row_58 button p.read-more {
+    margin: 0px;
+    font-size: 17px !important; }
   .row_58 button.humanity p {
     color: #f52c05; }
   .row_58 button.water p {

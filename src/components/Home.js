@@ -337,19 +337,23 @@ class Home extends React.Component {
                                                 <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
                                                     <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
                                                     <p>Operation Humanity</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
                                                 <button className="water" onClick={this.handleDialog.bind(this, 2)}>
                                                     <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
                                                     <p>Water Solutions</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
 
                                                 <button className="game" onClick={this.handleDialog.bind(this, 3)}>
                                                     <img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                     <p>Street QRed Game</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
                                                 <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
                                                     <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
                                                     <p>Solv Wallet</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
                                             </div>
                                             <div className="mobile-view">
@@ -441,7 +445,7 @@ class Home extends React.Component {
                                             <div className="row_48">
                                                 <div className="column_36">
                                                     <h3>Team Members</h3>
-                                                    <p>"We are a team, we are a family. This is our whole crew. This was created not by big names Eli karadsheh
+                                                    <p>"We are a team, we are a family. This is our whole crew. This was created not by big names
                                                         or powerful corporations, but bright and passionate individuals who want to change the world for the better."</p>
                                                     {/*<a className="button" href="#">Learn more</a>*/}
                                                 </div>
