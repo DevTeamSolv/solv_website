@@ -406,32 +406,6 @@
 h3 {
   font-weight: 600; }
 
-.countDown {
-  padding: 0 20%; }
-  .countDown .timer .section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 100px;
-    min-height: 100px;
-    background-color: #2c532d;
-    border-radius: 100%;
-    width: 120px;
-    height: 120px; }
-  .countDown .timer .time {
-    color: #fff;
-    font-size: 70px;
-    font-weight: 300;
-    margin-top: 43px; }
-  .countDown .timer .label {
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    min-width: 0px;
-    color: #51d64b;
-    font-weight: 500;
-    margin-top: 65px; }
-
 button {
   cursor: pointer; }
 
@@ -586,6 +560,7 @@ div.FM2_DWFullScreenPage1menu_container {
         padding: 7px 18px;
         border-radius: 100px; }
   .row_51 .music-btn {
+    display: none !important;
     margin-right: 15px;
     margin-top: -13px; }
     .row_51 .music-btn img {
@@ -639,6 +614,7 @@ div.FM2_DWFullScreenPage1menu_container {
         padding: 7px 18px;
         border-radius: 100px; }
   .scrolled .music-btn {
+    display: none !important;
     margin-right: 15px;
     margin-top: -13px; }
     .scrolled .music-btn img {
@@ -1022,26 +998,99 @@ video {
     background-color: #3d9d3b; }
 
 .audio-controls {
+  -webkit-transition: all 0.3s cubic-bezier(0.77, 0.01, 0.88, 0.71) 0s;
+  -o-transition: all 0.3s cubic-bezier(0.77, 0.01, 0.88, 0.71) 0s;
+  transition: all 0.3s cubic-bezier(0.77, 0.01, 0.88, 0.71) 0s;
   width: 296px;
   height: 52px;
-  background: #efeeee;
+  background: #ffffff12;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   position: fixed;
   z-index: 999;
   border-radius: 10px;
   top: 100px;
-  left: 30px; }
+  right: -220px; }
   .audio-controls .outer-box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-grow: 3;
     width: 60%; }
     .audio-controls .outer-box .button-pause {
       display: flex;
-      align-items: center; }
-    .audio-controls .outer-box img {
-      width: 40px; }
+      align-items: center;
+      -webkit-transition: all 0.1s linear 0s;
+      -o-transition: all 0.1s linear 0s;
+      transition: all 0.1s linear 0s; }
+  .audio-controls .button-music {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .audio-controls img {
+    width: 40px; }
+
+.countDown {
+  padding: 0 20%; }
+  .countDown .timer {
+    margin-top: 43px; }
+    .countDown .timer .seconds #ell {
+      stroke: #f2e207; }
+    .countDown .timer .seconds .label, .countDown .timer .seconds .time {
+      color: #f2e207; }
+    .countDown .timer .minutes #ell {
+      stroke: #ff8b00; }
+    .countDown .timer .minutes .label, .countDown .timer .minutes .time {
+      color: #ff8b00; }
+    .countDown .timer .days #ell {
+      stroke: #f52c05; }
+    .countDown .timer .days .label, .countDown .timer .days .time {
+      color: #f52c05; }
+    .countDown .timer .hours #ell {
+      stroke: #00d9ff; }
+    .countDown .timer .hours .label, .countDown .timer .hours .time {
+      color: #00d9ff; }
+    .countDown .timer .section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 100px;
+      min-height: 100px;
+      background-color: #2c532d;
+      border-radius: 100%;
+      width: 120px;
+      height: 120px; }
+    .countDown .timer .time {
+      color: #fff;
+      font-size: 70px;
+      font-weight: 100;
+      transform: translateY(-260%); }
+    .countDown .timer .label {
+      font-size: 22px;
+      display: flex;
+      justify-content: center;
+      min-width: 0px;
+      font-weight: 100;
+      margin-top: 7px; }
+
+#ell {
+  rx: 40;
+  ry: 40;
+  cx: 45;
+  cy: 45;
+  fill-opacity: 1;
+  fill: #ffffff33;
+  stroke-dasharray: 251;
+  stroke-opacity: 1;
+  stroke-width: 1;
+  stroke: #5adf2f; }
+
+.svg-style {
+  display: block;
+  width: 90px;
+  height: 90px;
+  transform: translate(0px, 0%) rotate(270deg) scale(1.5, 1.5); }
 
 /*# sourceMappingURL=main.css.map */

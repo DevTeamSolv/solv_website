@@ -275,7 +275,7 @@ class Home extends React.Component {
                 <Element name="video" className="element">
 
                     <video onClick={this.handleVideo.bind(this)} loop autoPlay id="myVideo">
-                        <source src={require("../images/gifs/SolutionToken WebVideo.mp4")} type="video/mp4" />
+                        <source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />
                         Your browser does not support HTML5 video.
                     </video>
                     <AudioPlayer />
@@ -315,7 +315,7 @@ class Home extends React.Component {
                                         {/*</ul>*/}
                                         {/*</div>*/}
                                         <div className="countDown">
-                                        <CountdownTimer endDate={moment('06/2/2018 12:00:00', 'DD/MM/YYYY hh:mm:ss')}/>
+                                        <CountdownTimer endDate={moment('25/2/2018 6:00:00', 'DD/MM/YYYY hh:mm:ss')}/>
                                         </div>
                                     </div>
                                 </div>
@@ -344,7 +344,7 @@ class Home extends React.Component {
                                                 </button>
 
                                                 <button className="game" onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img title="Gaming Plateform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                    <img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                     <p>Street QRed Game</p>
                                                 </button>
                                                 <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
