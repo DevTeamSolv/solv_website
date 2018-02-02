@@ -20,6 +20,18 @@ import $ from "jquery";
 class App extends Component {
   componentDidMount(){
       window.scrollTo(0,0);
+      var i1 = require('./images/wallpaper.png');
+      var i2 = require('./images/sal-wallpaper-2.jpeg');
+      var my_image = new Image();
+      var my_image2 = new Image();
+      my_image.src = i1;
+      my_image2.src = i2;
+      console.log(my_image)
+      console.log(my_image2)
+      $("body").append(my_image)
+      $("body").append(my_image2)
+      $(my_image).css("display", 'none')
+      $(my_image2).css("visibility", 'hidden')
       setTimeout(function () {
       document.getElementById('outer-loader').style.display = 'none';
       document.getElementById('root').style.display = 'block';

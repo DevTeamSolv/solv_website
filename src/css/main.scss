@@ -1377,3 +1377,146 @@ video {
   height: 90px;
   transform: translate(0px, 0%) rotate(270deg) scale(1.5,1.5);
 }
+
+.roadmap {
+  height: 600px;
+  width: 100%;
+  background: #e2e2e2;
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 140px;
+  }
+  .outer {
+    //background-color: #5ebb46;
+    flex-grow: 1;
+    //border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .even {
+    .longer {
+      height: 70%;
+    }
+    .shorter {
+      height: 30%;
+      border-bottom: 1px solid #1d8f19;
+      //background-color: red;
+    }
+    .shorter::before {
+      content: '';
+      position: relative;
+      top: 180px;
+      right: 1px;
+      height: 239px;
+      width: 1px;
+      background: #1d8f19;
+      -webkit-transition: 100ms ease all;
+      -o-transition: 100ms ease all;
+      transition: 100ms ease all;
+    }
+  }
+  .odd {
+    .longer {
+      height: 70%;
+      border-bottom: 1px solid #1d8f19;
+    }
+    .shorter {
+      height: 30%;
+      //background-color: red;
+    }
+    .longer::before {
+      content: '';
+      position: relative;
+      top: 180px;
+      right: 1px;
+      height: 239px;
+      width: 1px;
+      background: #1d8f19;
+      -webkit-transition: 100ms ease all;
+      -o-transition: 100ms ease all;
+      transition: 100ms ease all;
+    }
+  }
+  .first{
+    .longer {
+      border: none;
+    }
+    .longer::after {
+      content: '';
+      position: relative;
+      top: 180px;
+      right: -50%;
+      height: 1px;
+      width: 50%;
+      background: #1d8f19;
+      -webkit-transition: 100ms ease all;
+      -o-transition: 100ms ease all;
+      transition: 100ms ease all;
+    }
+  }
+  .last{
+    .longer {
+      border: none;
+    }
+    .longer::after {
+      content: '';
+      position: relative;
+      top: 180px;
+      //right: -50%;
+      height: 1px;
+      width: 50%;
+      background: #1d8f19;
+      -webkit-transition: 100ms ease all;
+      -o-transition: 100ms ease all;
+      transition: 100ms ease all;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -436,6 +436,38 @@ class Home extends React.Component {
                             </Element>
 
                             <Element name="sale" className="element">
+                                {/*<div className="roadmap">*/}
+                                    {/*<div className="outer odd first">*/}
+                                        {/*<div className="longer">*/}
+                                            {/*<img src={require("../images/solution-logo.png")}/>*/}
+                                        {/*</div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer even">*/}
+                                        {/*<div className="shorter"></div>*/}
+                                        {/*<div className="longer"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer odd">*/}
+                                        {/*<div className="longer"></div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer even">*/}
+                                        {/*<div className="shorter"></div>*/}
+                                        {/*<div className="longer"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer odd">*/}
+                                        {/*<div className="longer"></div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer even">*/}
+                                        {/*<div className="shorter"></div>*/}
+                                        {/*<div className="longer"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer odd last">*/}
+                                        {/*<div className="longer"></div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
                                 <div>
                                     <img src={require("../images/roadmap.png")}/>
                                 </div>
