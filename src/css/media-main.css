@@ -304,17 +304,19 @@ p {
       font-size: 45px; }
     .row_30 .heading1 .span13 {
       font-size: 25px; }
-    .row_30 .countDown .section {
-      width: 90px;
-      height: 90px;
-      min-width: 0px;
-      min-height: 0px; }
-      .row_30 .countDown .section .time {
-        font-size: 47px;
-        margin-top: 31px; }
-      .row_30 .countDown .section .label {
-        font-size: 17px;
-        margin-top: 41px; }
+    .row_30 .countDown {
+      padding: 0 7%; }
+      .row_30 .countDown .section {
+        width: 90px;
+        height: 90px;
+        min-width: 0px;
+        min-height: 0px; }
+        .row_30 .countDown .section .time {
+          font-size: 47px;
+          margin-top: 31px; }
+        .row_30 .countDown .section .label {
+          font-size: 17px;
+          margin-top: 41px; }
 
   .footer .box {
     width: 40%; }
@@ -444,9 +446,16 @@ p {
       width: 79%; }
     .row_58 button {
       border: 0px;
-      background: transparent; }
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px; }
     .row_58 .mobile-view img.image-field1 {
       width: 85%; }
+    .row_58 img.image-field1, .row_58 img.image-field2 {
+      padding-right: 0px;
+      margin-bottom: 0px; }
 
   .row_47 {
     width: 77%; }
@@ -471,6 +480,7 @@ p {
   .countDown {
     padding: 0; }
     .countDown .timer {
+      margin-top: 0px !important;
       justify-content: space-between !important; }
     .countDown .section {
       min-height: 0px !important;
@@ -478,8 +488,7 @@ p {
       height: 100px !important;
       width: 100px !important; }
     .countDown .time {
-      font-size: 50px !important;
-      margin-top: 37px !important; }
+      font-size: 50px !important; }
     .countDown .label {
       font-size: 19px !important;
       display: -ms-flexbox;
@@ -489,7 +498,13 @@ p {
       min-width: 0px;
       color: #51d64b;
       font-weight: 500;
-      margin-top: 43px !important; }
+      margin-top: -12px !important; }
+
+  .svg-style {
+    display: block;
+    width: 90px;
+    height: 90px;
+    transform: translate(0px, 0%) rotate(270deg) scale(1.2, 1.2); }
 
   .row_39 {
     padding-bottom: 120px;
@@ -735,8 +750,7 @@ p {
       height: 80px !important;
       width: 80px !important; }
     .countDown .time {
-      font-size: 40px !important;
-      margin-top: 27px !important; }
+      font-size: 40px !important; }
     .countDown .label {
       font-size: 17px !important;
       display: -ms-flexbox;
@@ -745,8 +759,13 @@ p {
       justify-content: center;
       min-width: 0px;
       color: #51d64b;
-      font-weight: 500;
-      margin-top: 29px !important; }
+      font-weight: 500; }
+
+  .svg-style {
+    display: block;
+    width: 90px;
+    height: 90px;
+    transform: translate(0px, 0%) rotate(270deg) scale(1, 1); }
 
   p {
     text-align: justify; }
@@ -906,15 +925,14 @@ p {
   .countDown {
     padding: 0; }
     .countDown .timer {
-      justify-content: space-between !important; }
+      justify-content: center !important; }
     .countDown .section {
       min-height: 0px !important;
       min-width: 0px !important;
       height: 70px !important;
       width: 70px !important; }
     .countDown .time {
-      font-size: 36px !important;
-      margin-top: 23px !important; }
+      font-size: 36px !important; }
     .countDown .label {
       font-size: 14px !important;
       display: -ms-flexbox;
@@ -924,7 +942,13 @@ p {
       min-width: 0px;
       color: #51d64b;
       font-weight: 500;
-      margin-top: 23px !important; }
+      margin-top: -30px !important; }
+
+  .svg-style {
+    display: block;
+    width: 86px;
+    height: 86px;
+    transform: translate(0px, 0%) rotate(270deg) scale(0.8, 0.8); }
 
   .row_30 {
     height: 500px; }
@@ -1100,15 +1124,14 @@ p {
   .countDown {
     padding: 0; }
     .countDown .timer {
-      justify-content: space-between !important; }
+      justify-content: center !important; }
     .countDown .section {
       min-height: 0px !important;
       min-width: 0px !important;
       height: 60px !important;
       width: 60px !important; }
     .countDown .time {
-      font-size: 30px !important;
-      margin-top: 18px !important; }
+      font-size: 30px !important; }
     .countDown .label {
       font-size: 13px !important;
       display: -ms-flexbox;
@@ -1117,8 +1140,7 @@ p {
       justify-content: center;
       min-width: 0px;
       color: #51d64b;
-      font-weight: 500;
-      margin-top: 17px !important; }
+      font-weight: 500; }
 
   .ant-notification-notice-close {
     right: 12px;
@@ -1178,6 +1200,9 @@ p {
   .countdown_with_background_v1 {
     display: none; }
 
+  .audio-controls {
+    right: -250px; }
+
   .slick-dots {
     bottom: -60px; }
 
@@ -1203,25 +1228,37 @@ p {
   .countDown {
     padding: 0; }
     .countDown .timer {
-      justify-content: space-between !important; }
+      justify-content: center !important; }
     .countDown .section {
       min-height: 0px !important;
       min-width: 0px !important;
       height: 55px !important;
       width: 55px !important; }
+    .countDown .days, .countDown .hours, .countDown .minutes, .countDown .seconds {
+      width: 60px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
     .countDown .time {
-      font-size: 27px !important;
-      margin-top: 19px !important; }
+      width: 36px !important;
+      font-size: 27px !important; }
     .countDown .label {
-      font-size: 12px !important;
+      font-size: 14px !important;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: center;
       justify-content: center;
       min-width: 0px;
       color: #51d64b;
-      font-weight: 500;
-      margin-top: 17px !important; }
+      width: 36px !important;
+      font-weight: 500; }
+
+  .svg-style {
+    display: block;
+    width: 88px;
+    height: 88px;
+    transform: translate(0px, 0%) rotate(270deg) scale(0.65, 0.65); }
 
   .row_38 {
     height: 796px;

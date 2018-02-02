@@ -47,15 +47,12 @@ class SliderComponent extends React.Component {
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
-                                className="client-name1"><span>Humanitity</span> Platform</span>
+                                className="client-name1"><span>Operation</span> Humanity</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                         <p>
-                                                            The solution humanitarian program is what solution believes will be the set standard for donations of
-                                                            any sort in the future, which is for 100% of the donations to be going to theexact place of intention.
-                                                            By building a donational module on a blockchain, it will allow people to make decentralised donations
-                                                            without having to worry about cuts and admin fees from middle parties.
+                                                            Operation Humanity is what Solution believes will set the standard for all donations of any sort in the future - for 100% of donated funds to go directly to their intended recipient. Building our donation module on a blockchain will allow people to make decentralised donations without having to worry about cuts and administrative fees from third parties.
                                                         </p>
                                                     </div>
                                                 </span>
@@ -71,10 +68,7 @@ class SliderComponent extends React.Component {
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          Bringing Crypto to the real world for productivity. Breaking this barrier will help solutiongo to
-                                                          new heights as well as bringing the world closer to mass adoption. Solution decided to create and
-                                                          market solution bottles of water to stores world wide, why Solution believes this will be a success
-                                                          is because of the benefits the consumer gets from purchasing a solution water bottle.
+                                                          Bringing crypto to the real world - breaking this barrier will help Solution soar to new heights, as well as bring the world closer to mass adoption. Solution has decided to create and market Solution bottles of water to stores worldwide. The benefits that consumers will get from purchasing a Solution water bottle will give this program a sure shot at success.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -85,15 +79,12 @@ class SliderComponent extends React.Component {
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
-                                className="client-name1"><span>Gaming</span> Platform</span>
+                                className="client-name1"><span>Street</span> QRed</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          This peer to peer platform will allow users to have a fun and interactive way to enjoy a game within the crypto
-                                                          realm. This game will allow you to level up and constantly grow and edit your character while putting them into
-                                                          events and competitions which willresult in a prize. Since it is a skilled game it will allow users to make an
-                                                          active incomeform work rate and use of the game.
+                                                          Street QRed will bring users a fun and interactive game within the cryptoverse. The peer to peer, skill-based game will allow players to level up, constantly growing and upgrading their character by participating in events and competitions for rewards. Players will also be able to generate an active income from their in-game winnings.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -104,14 +95,12 @@ class SliderComponent extends React.Component {
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Reward-logo-Render.gif")}/><span
-                                className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
+                                className="client-name1"><span>SOLV Wallet</span></span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          The Rewards Wallet will allow the user to hold Solution Tokens and gain KEY tokens (KEY Tokens are a secondary
-                                                          token with a decreasing supply that is capped) The user will be rewarded the tokens for holding solution tokens
-                                                          which helps the value stability.
+                                                          The SOLV Wallet will allow the user to hold Solution Tokens and generate KEY tokens - a secondary token with a capped, decreasing supply - through staking. The user will be rewarded KEY tokens for holding Solution Tokens, which will help stabilize Solution Token’s value.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -127,15 +116,12 @@ class SliderComponent extends React.Component {
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
-                                className="client-name1"><span>Humanitity</span> Platform</span>
+                                className="client-name1"><span>Operation</span> Humanity</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                         <p>
-                                                            The solution humanitarian program is what solution believes will be the set standard for donations of
-                                                            any sort in the future, which is for 100% of the donations to be going to theexact place of intention.
-                                                            By building a donational module on a blockchain, it will allow people to make decentralised donations
-                                                            without having to worry about cuts and admin fees from middle parties.
+                                                            Operation Humanity is what Solution believes will set the standard for all donations of any sort in the future - for 100% of donated funds to go directly to their intended recipient. Building our donation module on a blockchain will allow people to make decentralised donations without having to worry about cuts and administrative fees from third parties.
                                                         </p>
                                                     </div>
                                                 </span>
@@ -151,10 +137,7 @@ class SliderComponent extends React.Component {
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          Bringing Crypto to the real world for productivity. Breaking this barrier will help solutiongo to
-                                                          new heights as well as bringing the world closer to mass adoption. Solution decided to create and
-                                                          market solution bottles of water to stores world wide, why Solution believes this will be a success
-                                                          is because of the benefits the consumer gets from purchasing a solution water bottle.
+                                                          Bringing crypto to the real world - breaking this barrier will help Solution soar to new heights, as well as bring the world closer to mass adoption. Solution has decided to create and market Solution bottles of water to stores worldwide. The benefits that consumers will get from purchasing a Solution water bottle will give this program a sure shot at success.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -165,15 +148,12 @@ class SliderComponent extends React.Component {
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
-                                className="client-name1"><span>Gaming</span> Platform</span>
+                                className="client-name1"><span>Street</span> QRed</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          This peer to peer platform will allow users to have a fun and interactive way to enjoy a game within the crypto
-                                                          realm. This game will allow you to level up and constantly grow and edit your character while putting them into
-                                                          events and competitions which willresult in a prize. Since it is a skilled game it will allow users to make an
-                                                          active incomeform work rate and use of the game.
+                                                          Street QRed will bring users a fun and interactive game within the cryptoverse. The peer to peer, skill-based game will allow players to level up, constantly growing and upgrading their character by participating in events and competitions for rewards. Players will also be able to generate an active income from their in-game winnings.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -184,14 +164,12 @@ class SliderComponent extends React.Component {
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Reward-logo-Render.gif")}/><span
-                                className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
+                                className="client-name1"><span>SOLV Wallet</span></span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          The Rewards Wallet will allow the user to hold Solution Tokens and gain KEY tokens (KEY Tokens are a secondary
-                                                          token with a decreasing supply that is capped) The user will be rewarded the tokens for holding solution tokens
-                                                          which helps the value stability.
+                                                          The SOLV Wallet will allow the user to hold Solution Tokens and generate KEY tokens - a secondary token with a capped, decreasing supply - through staking. The user will be rewarded KEY tokens for holding Solution Tokens, which will help stabilize Solution Token’s value.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -207,15 +185,12 @@ class SliderComponent extends React.Component {
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
-                                className="client-name1"><span>Humanitity</span> Platform</span>
+                                className="client-name1"><span>Operation</span> Humanity</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                         <p>
-                                                            The solution humanitarian program is what solution believes will be the set standard for donations of
-                                                            any sort in the future, which is for 100% of the donations to be going to theexact place of intention.
-                                                            By building a donational module on a blockchain, it will allow people to make decentralised donations
-                                                            without having to worry about cuts and admin fees from middle parties.
+                                                            Operation Humanity is what Solution believes will set the standard for all donations of any sort in the future - for 100% of donated funds to go directly to their intended recipient. Building our donation module on a blockchain will allow people to make decentralised donations without having to worry about cuts and administrative fees from third parties.
                                                         </p>
                                                     </div>
                                                 </span>
@@ -231,10 +206,7 @@ class SliderComponent extends React.Component {
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          Bringing Crypto to the real world for productivity. Breaking this barrier will help solutiongo to
-                                                          new heights as well as bringing the world closer to mass adoption. Solution decided to create and
-                                                          market solution bottles of water to stores world wide, why Solution believes this will be a success
-                                                          is because of the benefits the consumer gets from purchasing a solution water bottle.
+                                                          Bringing crypto to the real world - breaking this barrier will help Solution soar to new heights, as well as bring the world closer to mass adoption. Solution has decided to create and market Solution bottles of water to stores worldwide. The benefits that consumers will get from purchasing a Solution water bottle will give this program a sure shot at success.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -245,15 +217,12 @@ class SliderComponent extends React.Component {
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
-                                className="client-name1"><span>Gaming</span> Platform</span>
+                                className="client-name1"><span>Street</span> QRed</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          This peer to peer platform will allow users to have a fun and interactive way to enjoy a game within the crypto
-                                                          realm. This game will allow you to level up and constantly grow and edit your character while putting them into
-                                                          events and competitions which willresult in a prize. Since it is a skilled game it will allow users to make an
-                                                          active incomeform work rate and use of the game.
+                                                          Street QRed will bring users a fun and interactive game within the cryptoverse. The peer to peer, skill-based game will allow players to level up, constantly growing and upgrading their character by participating in events and competitions for rewards. Players will also be able to generate an active income from their in-game winnings.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -264,14 +233,12 @@ class SliderComponent extends React.Component {
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Reward-logo-Render.gif")}/><span
-                                className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
+                                className="client-name1"><span>SOLV Wallet</span></span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          The Rewards Wallet will allow the user to hold Solution Tokens and gain KEY tokens (KEY Tokens are a secondary
-                                                          token with a decreasing supply that is capped) The user will be rewarded the tokens for holding solution tokens
-                                                          which helps the value stability.
+                                                          The SOLV Wallet will allow the user to hold Solution Tokens and generate KEY tokens - a secondary token with a capped, decreasing supply - through staking. The user will be rewarded KEY tokens for holding Solution Tokens, which will help stabilize Solution Token’s value.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -287,15 +254,12 @@ class SliderComponent extends React.Component {
                              data-anchor="humanitarian" id="human">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Heart-Logo-Render.gif")}/><span
-                                className="client-name1"><span>Humanitity</span> Platform</span>
+                                className="client-name1"><span>Operation</span> Humanity</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                         <p>
-                                                            The solution humanitarian program is what solution believes will be the set standard for donations of
-                                                            any sort in the future, which is for 100% of the donations to be going to theexact place of intention.
-                                                            By building a donational module on a blockchain, it will allow people to make decentralised donations
-                                                            without having to worry about cuts and admin fees from middle parties.
+                                                            Operation Humanity is what Solution believes will set the standard for all donations of any sort in the future - for 100% of donated funds to go directly to their intended recipient. Building our donation module on a blockchain will allow people to make decentralised donations without having to worry about cuts and administrative fees from third parties.
                                                         </p>
                                                     </div>
                                                 </span>
@@ -311,10 +275,7 @@ class SliderComponent extends React.Component {
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          Bringing Crypto to the real world for productivity. Breaking this barrier will help solutiongo to
-                                                          new heights as well as bringing the world closer to mass adoption. Solution decided to create and
-                                                          market solution bottles of water to stores world wide, why Solution believes this will be a success
-                                                          is because of the benefits the consumer gets from purchasing a solution water bottle.
+                                                          Bringing crypto to the real world - breaking this barrier will help Solution soar to new heights, as well as bring the world closer to mass adoption. Solution has decided to create and market Solution bottles of water to stores worldwide. The benefits that consumers will get from purchasing a Solution water bottle will give this program a sure shot at success.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -325,15 +286,12 @@ class SliderComponent extends React.Component {
                              data-anchor="gaming" id="game">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Gaming-logo-Render.gif")}/><span
-                                className="client-name1"><span>Gaming</span> Platform</span>
+                                className="client-name1"><span>Street</span> QRed</span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          This peer to peer platform will allow users to have a fun and interactive way to enjoy a game within the crypto
-                                                          realm. This game will allow you to level up and constantly grow and edit your character while putting them into
-                                                          events and competitions which willresult in a prize. Since it is a skilled game it will allow users to make an
-                                                          active incomeform work rate and use of the game.
+                                                          Street QRed will bring users a fun and interactive game within the cryptoverse. The peer to peer, skill-based game will allow players to level up, constantly growing and upgrading their character by participating in events and competitions for rewards. Players will also be able to generate an active income from their in-game winnings.
                                                       </p>
                                                     </div>
                                                 </span>
@@ -344,14 +302,12 @@ class SliderComponent extends React.Component {
                              data-anchor="rewards" id="wallet">
                             <div className="custom-post-content1"><img className="image-field2"
                                                                        src={require("../images/gifs/Reward-logo-Render.gif")}/><span
-                                className="client-name1"><span>Solution Wallet</span> &amp; Rewards</span>
+                                className="client-name1"><span>SOLV Wallet</span></span>
                                 <div className="testimonials-content-inner1">
                                                 <span>
                                                     <div className="testimonials-content-inner">
                                                       <p>
-                                                          The Rewards Wallet will allow the user to hold Solution Tokens and gain KEY tokens (KEY Tokens are a secondary
-                                                          token with a decreasing supply that is capped) The user will be rewarded the tokens for holding solution tokens
-                                                          which helps the value stability.
+                                                          The SOLV Wallet will allow the user to hold Solution Tokens and generate KEY tokens - a secondary token with a capped, decreasing supply - through staking. The user will be rewarded KEY tokens for holding Solution Tokens, which will help stabilize Solution Token’s value.
                                                       </p>
                                                     </div>
                                                 </span>

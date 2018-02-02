@@ -296,14 +296,10 @@ class Home extends React.Component {
                                                 {/*<ReactRotatingText items={['SOLUTION TOKEN']} eraseMode="erase"/>*/}
                                             </h3>
                                             <p className="span13">
-                                            Here at Solution Token, the benefit of our users - which we hope will span across all kinds of humanity - is our priority.
-                                            This website outlines a summary of our goals for the four different platforms that we are building so that you can learn
-                                            what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it,
-                                            and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed
-                                            decision possible, you can also explore our interactive whitepaper.<br/>
+                                                Here at Solution Token, the benefit of our users - who we hope will span across all kinds of humanity - is our priority. This website outlines our goals for the four different platforms that we are building, so you can learn what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it, and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed decision possible, you can also explore our interactive whitepaper.<br/>
                                                 {/*<ReactRotatingText items={['A TOKEN FOR HUMANITY']} />*/}
                                         </p>
-                                            <h4 className="pre-sale-news">Pre Sale Coming Soon</h4>
+                                            <h4 className="pre-sale-news">Presale Coming Soon</h4>
                                         </div>
 
                                         {/*<div id="countdown_with_background_v1">*/}
@@ -327,12 +323,9 @@ class Home extends React.Component {
                                     <div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">
                                         <div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>
                                             <p>
-                                                <span>Solution Token prides itself on the platforms it provides, these are the pieces that make a Solution.</span>
+                                                <span>Solution Token prides itself on the platforms that we provide. These are the pieces that, together, form a Solution.</span>
                                                 <br/>
-                                                The goal of Solution is to aid causes to help solve humanitarian issues and disasters around the world. Solution&#8217;s platform
-                                                will be widely based around real world uses, with three out of the four concepts directly applicable to the real world.
-                                                These three are the humanitarian program, water solutions, and interactive gaming. The only concept that does
-                                                not directly interact with the physical world will be the Solution wallet.</p>
+                                                Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>
                                             <div className="column_46 desktop-view">
                                                 <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
                                                     <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
@@ -358,19 +351,27 @@ class Home extends React.Component {
                                             </div>
                                             <div className="mobile-view">
                                                 <div>
-                                                    <button onClick={this.handleDialog.bind(this, 1)}>
+                                                    <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
                                                         <img className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
+                                                        <p>Operation Humanity</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
-                                                    <button onClick={this.handleDialog.bind(this, 2)}>
+                                                    <button className="water" onClick={this.handleDialog.bind(this, 2)}>
                                                         <img className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
+                                                        <p>Water Solutions</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
                                                 </div>
                                                 <div>
-                                                    <button onClick={this.handleDialog.bind(this, 3)}>
+                                                    <button className="game" onClick={this.handleDialog.bind(this, 3)}>
                                                         <img className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                        <p>Street QRed Game</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
-                                                    <button onClick={this.handleDialog.bind(this, 4)}>
+                                                    <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
                                                         <img className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
+                                                        <p>Solv Wallet</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
                                                 </div>
                                             </div>
@@ -445,8 +446,7 @@ class Home extends React.Component {
                                             <div className="row_48">
                                                 <div className="column_36">
                                                     <h3>Team Members</h3>
-                                                    <p>"We are a team, we are a family. This is our whole crew. This was created not by big names
-                                                        or powerful corporations, but bright and passionate individuals who want to change the world for the better."</p>
+                                                    <p>"We are a team, we are a family. This is our whole crew. This was created by bright and passionate individuals who want to change the world for the better."</p>
                                                     {/*<a className="button" href="#">Learn more</a>*/}
                                                 </div>
                                             </div>
@@ -474,7 +474,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/sample.png")}/>
+                                                        <img src={require("../images/no-body.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -591,7 +591,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/sample.png")}/>
+                                                        <img src={require("../images/no-body.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "sean")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -729,7 +729,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../")}/>
+                                                            <img src={require("../images/no-body.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -851,7 +851,7 @@ class Home extends React.Component {
 
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/sample.png")}/>
+                                                            <img src={require("../images/no-body.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "sean")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>

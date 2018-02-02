@@ -93,7 +93,7 @@ class AudioPlayer extends React.Component {
                         </div>
 
                         <div className="button-pause">
-                            {this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/icons8-play-50 (1).png")}/>}
+                            {this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/110962-glowing-green-neon-icon-arrows-arrow3-right-solid-circle.png")}/>}
                             {!this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/icons8-pause-100.png")}/>}
                         </div>
                         <div className="button-next">
