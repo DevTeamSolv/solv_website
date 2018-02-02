@@ -37,6 +37,8 @@ class App extends Component {
             img[i] = new Image();
             img[i].src = myImgArr[i];
             console.log(img[i])
+          $("body").append(img[i]);
+          $(img[i]).css('opacity', '0');
       }
 
 
