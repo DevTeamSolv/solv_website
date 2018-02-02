@@ -280,8 +280,8 @@ class Home extends React.Component {
                     </video>
                     <AudioPlayer />
                     <div onClick={this.handleVideo.bind(this)} className="audio-icon">
-                        {!this.state.paused && <img src={require("../images/paused-icon.png")}/>}
-                        {this.state.paused && <img src={require("../images/play-icon.png")}/>}
+                        {!this.state.paused && <img src={require("../images/pause-coloured.png")}/>}
+                        {this.state.paused && <img src={require("../images/110962-glowing-green-neon-icon-arrows-arrow3-right-solid-circle.png")}/>}
                     </div>
 
                     <div className="content">
@@ -436,6 +436,9 @@ class Home extends React.Component {
                             </Element>
 
                             <Element name="sale" className="element">
+                                <div>
+                                    <img src={require("../images/roadmap.png")}/>
+                                </div>
                                 <Sale />
                             </Element>
 
