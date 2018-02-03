@@ -13,7 +13,7 @@
       text-align: center;
       margin: 0px auto; }
     .row_30 .home-section h4.pre-sale-news {
-      font-size: 22px;
+      font-size: 24px;
       font-weight: 500;
       color: #fff;
       letter-spacing: 1px;
@@ -152,7 +152,9 @@
     margin: 0px auto; }
   .row_58 button p {
     font-weight: 500;
-    margin-bottom: 0px; }
+    text-align: center !important;
+    margin-bottom: 0px;
+    margin-top: 0px; }
   .row_58 button p.read-more {
     margin: 0px;
     font-size: 17px !important; }
@@ -883,7 +885,7 @@ video {
   margin-top: 67px; }
 
 .content {
-  margin-top: -1%; }
+  margin-top: -6px; }
 
 .team-details {
   margin-top: 70px; }
@@ -1166,5 +1168,26 @@ video {
     -webkit-transition: 100ms ease all;
     -o-transition: 100ms ease all;
     transition: 100ms ease all; }
+
+.third-section {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+  background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/whtebg.png"); }
+  .third-section .inner-container {
+    width: 80%;
+    margin: 0px auto; }
+    .third-section .inner-container .box {
+      float: left;
+      width: 33%;
+      padding: 0 20px; }
+      .third-section .inner-container .box img {
+        width: 50px; }
+      .third-section .inner-container .box p {
+        color: #777777; }
+
+.clearfix {
+  overflow: auto; }
 
 /*# sourceMappingURL=main.css.map */
