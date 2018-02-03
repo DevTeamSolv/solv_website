@@ -1506,7 +1506,7 @@ video {
       background-size: cover;
       display: flex;
       //align-items: center;
-      padding: 150px 0px;
+      padding: 0px;
       justify-content: center;
       .row-container {
         width: 80%;
@@ -1516,22 +1516,24 @@ video {
       }
     }
     .even {
-      background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/whtebg.png");
-      .box:hover {
-        box-shadow: 0px 0px 7px 1px #d0cfcf;
-      }
+      //background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/whtebg.png");
+      //.box:hover {
+      //  box-shadow: 0px 0px 7px 1px #d0cfcf;
+      //}
     }
     .odd {
-      background-image: url("../images/white-gray-background12.png");
-      .box:hover {
-        box-shadow: 0px 0px 7px 1px #dcdbdb;
-      }
+      //background-image: url("../images/white-gray-background12.png");
+      //.box:hover {
+      //  box-shadow: 0px 0px 7px 1px #dcdbdb;
+      //}
     }
     .box {
       //float: left;
-      width: 30%;
+      width: 33%;
       margin: 4px 0 0 4px;
       padding: 20px;
+      max-height: 600px;
+      overflow: scroll;
       img {
         width: 50px;
       }
@@ -1552,6 +1554,9 @@ video {
       .hide-text {
         display: none;
       }
+    }
+    .box:hover {
+      box-shadow: 0px 0px 7px 1px #dcdbdb;
     }
   }
 }
