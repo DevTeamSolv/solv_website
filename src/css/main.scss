@@ -1481,7 +1481,7 @@ video {
   background-position: center;
   background-size: cover;
   padding: 150px 0;
-  background-image: url("../images/white-gray-background12.png");
+  //background-image: url("../images/white-gray-background12.png");
   h2 {
     color: #1d8f19;
     text-transform: uppercase;
@@ -1493,14 +1493,42 @@ video {
     color: #1d8f19;
     text-transform: uppercase;
     text-align: center;
+    height: 40px;
     letter-spacing: 2px;
-    font: normal normal bold 25px/normal Source Sans Pro, sans-serif;
+    font: normal normal bold 22px/normal Source Sans Pro, sans-serif;
   }
   .inner-container{
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
+    .inner-row {
+      //height: 700px;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      //align-items: center;
+      padding: 150px 0px;
+      justify-content: center;
+      .row-container {
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .even {
+      background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/whtebg.png");
+      .box:hover {
+        box-shadow: 0px 0px 7px 1px #d0cfcf;
+      }
+    }
+    .odd {
+      background-image: url("../images/white-gray-background12.png");
+      .box:hover {
+        box-shadow: 0px 0px 7px 1px #dcdbdb;
+      }
+    }
     .box {
-      float: left;
+      //float: left;
       width: 30%;
       margin: 4px 0 0 4px;
       padding: 20px;
@@ -1524,9 +1552,6 @@ video {
       .hide-text {
         display: none;
       }
-    }
-    .box:hover {
-      box-shadow: 0px 0px 7px 1px #e2e2e2;
     }
   }
 }

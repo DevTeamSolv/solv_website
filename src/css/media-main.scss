@@ -115,6 +115,16 @@
   .team-details .team-container .members-row .member-container {
     width: 18%;
   }
+
+  .third-section {
+    .inner-container {
+      .inner-row {
+        .row-container{
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 @media only screen and (min-width: 1024px) {
   .row_58 .skylight-dialog {
@@ -145,6 +155,15 @@ p {
     }
   }
 
+  .third-section {
+    .inner-container {
+      .inner-row {
+        .row-container{
+          width: 100%;
+        }
+      }
+    }
+  }
   .row_51 .top-bar-outer .empty-column, .scrolled .top-bar-outer .empty-column {
     flex-grow: 6;
   }
@@ -303,6 +322,21 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .row_30 {
     height: 800px;
+  }
+  .third-section {
+    .inner-container {
+      .inner-row {
+        .row-container{
+          width: 100%;
+          p {
+            text-align: justify;
+          }
+          .box {
+            overflow: scroll;
+          }
+        }
+      }
+    }
   }
   p {
     font-size: 20px !important;
@@ -483,6 +517,27 @@ p {
     display: block;
   }
 
+  .third-section {
+    .inner-container {
+      .inner-row {
+        .row-container{
+          width: 90%;
+          flex-direction: column;
+          p {
+            text-align: justify;
+          }
+          .box {
+            height: auto;
+            width: 100%;
+            padding: 0 20px;
+            .third-section h3 {
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
   .row_30 .home-section p {
     width: 100%;
     text-align: center;

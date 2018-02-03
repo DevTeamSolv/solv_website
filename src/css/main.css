@@ -1173,8 +1173,7 @@ video {
   width: 100%;
   background-position: center;
   background-size: cover;
-  padding: 150px 0;
-  background-image: url("../images/white-gray-background12.png"); }
+  padding: 150px 0; }
   .third-section h2 {
     color: #1d8f19;
     text-transform: uppercase;
@@ -1185,13 +1184,32 @@ video {
     color: #1d8f19;
     text-transform: uppercase;
     text-align: center;
+    height: 40px;
     letter-spacing: 2px;
-    font: normal normal bold 25px/normal Source Sans Pro, sans-serif; }
+    font: normal normal bold 22px/normal Source Sans Pro, sans-serif; }
   .third-section .inner-container {
-    width: 80%;
+    width: 100%;
     margin: 0px auto; }
+    .third-section .inner-container .inner-row {
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      padding: 150px 0px;
+      justify-content: center; }
+      .third-section .inner-container .inner-row .row-container {
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between; }
+    .third-section .inner-container .even {
+      background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/whtebg.png"); }
+      .third-section .inner-container .even .box:hover {
+        box-shadow: 0px 0px 7px 1px #d0cfcf; }
+    .third-section .inner-container .odd {
+      background-image: url("../images/white-gray-background12.png"); }
+      .third-section .inner-container .odd .box:hover {
+        box-shadow: 0px 0px 7px 1px #dcdbdb; }
     .third-section .inner-container .box {
-      float: left;
       width: 30%;
       margin: 4px 0 0 4px;
       padding: 20px; }
@@ -1210,8 +1228,6 @@ video {
           cursor: pointer; }
       .third-section .inner-container .box .hide-text {
         display: none; }
-    .third-section .inner-container .box:hover {
-      box-shadow: 0px 0px 7px 1px #e2e2e2; }
 
 .clearfix {
   overflow: auto; }

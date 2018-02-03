@@ -83,7 +83,10 @@
     font-size: 18px; }
 
   .team-details .team-container .members-row .member-container {
-    width: 18%; } }
+    width: 18%; }
+
+  .third-section .inner-container .inner-row .row-container {
+    width: 100%; } }
 @media only screen and (min-width: 1024px) {
   .row_58 .skylight-dialog {
     width: 80% !important;
@@ -108,6 +111,9 @@ p {
     justify-content: space-between; }
     .column_46 button {
       width: auto; }
+
+  .third-section .inner-container .inner-row .row-container {
+    width: 100%; }
 
   .row_51 .top-bar-outer .empty-column, .scrolled .top-bar-outer .empty-column {
     flex-grow: 6; }
@@ -224,6 +230,13 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .row_30 {
     height: 800px; }
+
+  .third-section .inner-container .inner-row .row-container {
+    width: 100%; }
+    .third-section .inner-container .inner-row .row-container p {
+      text-align: justify; }
+    .third-section .inner-container .inner-row .row-container .box {
+      overflow: scroll; }
 
   p {
     font-size: 20px !important; }
@@ -362,6 +375,18 @@ p {
 @media only screen and (max-width: 767px) {
   .mobile-menu {
     display: block; }
+
+  .third-section .inner-container .inner-row .row-container {
+    width: 90%;
+    flex-direction: column; }
+    .third-section .inner-container .inner-row .row-container p {
+      text-align: justify; }
+    .third-section .inner-container .inner-row .row-container .box {
+      height: auto;
+      width: 100%;
+      padding: 0 20px; }
+      .third-section .inner-container .inner-row .row-container .box .third-section h3 {
+        height: auto; }
 
   .row_30 .home-section p {
     width: 100%;
