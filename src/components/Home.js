@@ -15,6 +15,7 @@ import "../css/notification.css"
 import Notification from './Notification'
 import Sale from './Sale'
 import AudioPlayer from './AudioPlayer'
+import ThirdSection from './ThirdSection';
 
 
 
@@ -335,59 +336,7 @@ class Home extends React.Component {
                                 </div>
                             </Element>
 
-                            <div className="third-section section">
-                                <div className="inner-container clearfix">
-                                    <div className="box">
-                                        <img src={require("../images/icons8-heart-outline-100.png")}/>
-                                        <h3>100% DONATIONS</h3>
-                                        <p>
-                                            We want to revolutionise the set standard in donations. Here at solution we want to take out all admin fees and cost so that whatever you want to donate will be completely transparent and cost free of charges, in simple words you know where your money goes, how iyts spent and mostly it's not tampered with!
-                                        </p>
-                                    </div>
-                                    <div className="box">
-                                        <img src={require("../images/icons8-globe-earth-100.png")}/>
-                                        <h3>REAL WORLD IMPLEMENTATION</h3>
-                                        <p>
-                                            Our platforms is based of real world problems to provide a real world solution, as exciting as it seems with the new technology in the world and advancements, there are still issues in the world without any resolutions. Therefore Solution Token has decided to tackle these problems through long term solutions instead of temporary solutions. Our technology will adapt as we move forward into moving the world forward.
-                                        </p>
-                                    </div>
-                                    <div className="box">
-                                        <img src={require("../images/icons8-checked-checkbox-100.png")}/>
-                                        <h3>FIAT BACKING</h3>
-                                        <p>
-                                            As Cryptocurrencies advances closer to mass adoption, it is not yet the set standard currency so we have decided that we will not purely base the company on crypto but to use both Fiat and crypto in correlation with each other. By doing this it will help the company deal with potential issues regarding in finances in a smooth way without many hazards. Since we are doing real world implementation off the get go, it makes sense for us to have a fiat income stream to fund resources of the company to make productivity and work. Explanation of how we make fiat income streams you can find below in profitability.
-                                        </p>
-                                    </div>
-                                    <div className="box">
-                                        <img src={require("../images/icons8-customer-100.png")}/>
-                                        <h3>EVERYONE'S A WINNER</h3>
-                                        <p>
-                                            Everyone’s a winner baby, that’s alright! Let's think for a second, what's the best way to get everyone involved while the people that are involved is actually benefiting others without any effort at all. Well what we have found from our team is that by having multiple platforms it allows us to create a cross platform experience. By using one platform of solution token it allows someone else to indirectly benefit from this use while being involved on another platform.
-                                        </p>
-                                    </div>
-                                    <div className="box">
-                                        <img src={require("../images/icons8-customer-100.png")}/>
-                                        <h3>GIVING BACK</h3>
-                                        <p>
-                                            Let's focus on giving back, our main goal is to help those in need. For the support and use of our platforms this will help us create solutions. Putting this into example, for everytime someone gets involved with our Water Solutions platform, such as buying a simple water bottle, it allows us to not just gain fiat backing but help fund, wells and clean water sources to places without sustainable water. We will be doing this on our own good will, without the aid of operation humanity.
-                                        </p>
-                                    </div>
-                                    <div className="box">
-                                        <img src={require("../images/icons8-customer-100.png")}/>
-                                        <h3>MERCHANDISE</h3>
-                                        <p>
-                                            We will be opening up a merchandise store for you Solution masterminds #SOLVCREW! We will be bringing out from clothes, stickers, posters, bags you name it. Fun fact little thing that we have with our merchandise and brand products, is they will all have a unique QR code which you will be able to scan for fun prizes and even Tokens if you are lucky! These prizes can be used and redeemed to our other platforms such as Street QRed or even SOLV Wallet. From the public's support this will be one form of fiat backing for the company.
-                                        </p>
-                                    </div>
-                                    <div className="box">
-                                        <img src={require("../images/icons8-customer-100.png")}/>
-                                        <h3>GLOBAL FUTURE BENEFIT</h3>
-                                        <p>
-                                            Moving to the future with new technology and innovators that are consistently evolving the world everyday, solution token wants to not only be among great inventors and revolutions but a stand out. Our goal is to not only break the barriers of a real world company or a crypto company but as a Brand. Solution as a brand will have more of an impact on the world than just being a crypto company.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+
 
                             <Element name="platform" className="element">
 
@@ -500,6 +449,8 @@ class Home extends React.Component {
                                         </SkyLight>
                                 </div>
                             </Element>
+
+                            <ThirdSection />
 
                             <Element name="whitepaper" className="element">
                                 <div className="section row_31" data-tooltip="Whitepaper" data-section-name="whitepaper" data-alternate-header="true" data-arrow="#1d8f19" data-id="whitepaper" data-anchor="whitepaper">

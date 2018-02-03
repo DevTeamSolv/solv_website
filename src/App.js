@@ -58,7 +58,7 @@ class App extends Component {
           for(var i=0; i<myImgArr.length; i++){
               $(img[i]).css('display', 'none');
           }
-      }, 4000)
+      }, 100)
   }
   render() {
     return (
