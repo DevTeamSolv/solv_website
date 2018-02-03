@@ -217,7 +217,10 @@ class Home extends React.Component {
                                 <Link activeClass="active"  offset={30} to="platform" spy={true} smooth={true} duration={700}>
                                     Our Platforms
                                 </Link>
-                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)}to="whitepaper" spy={true} smooth={true} duration={900}>
+                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)} to="roadmap" spy={true} smooth={true} duration={900}>
+                                    RoadMap
+                                </Link>
+                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)} to="whitepaper" spy={true} smooth={true} duration={900}>
                                     Whitepaper
                                 </Link>
                                 <Link activeClass="active" to="sale" offset={30} spy={true} smooth={true} duration={1200}>
@@ -265,6 +268,11 @@ class Home extends React.Component {
                                         </Link>
                                     </li>
                                     <li>
+                                        <Link className="test6" to="roadmap" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
+                                            RoadMap
+                                        </Link>
+                                    </li>
+                                    <li>
                                         <Link className="test6" to="whitepaper" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
                                             Whitepaper
                                         </Link>
@@ -292,7 +300,7 @@ class Home extends React.Component {
                 </div>
                 <Element name="video" className="element">
 
-                    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&autoplay=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     {/*<video onClick={this.handleVideo.bind(this)} loop autoPlay id="myVideo">*/}
                         {/*<source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />*/}
                         {/*Your browser does not support HTML5 video.*/}
@@ -448,11 +456,18 @@ class Home extends React.Component {
                                             }
                                         </SkyLight>
                                 </div>
+                                <ThirdSection />
+
                             </Element>
 
-                            <ThirdSection />
 
+                            <Element name="roadmap" className="element">
+                                <div>
+                                    <img className="roadmap" src={require("../images/roadmap11111.PNG")}/>
+                                </div>
+                            </Element>
                             <Element name="whitepaper" className="element">
+
                                 <div className="section row_31" data-tooltip="Whitepaper" data-section-name="whitepaper" data-alternate-header="true" data-arrow="#1d8f19" data-id="whitepaper" data-anchor="whitepaper">
                                     <div className="full_row_4 full_row_type_fs_t2 row_35">
                                         <div className="gridContainer row_36">
@@ -504,9 +519,6 @@ class Home extends React.Component {
                                         {/*<div className="shorter"></div>*/}
                                     {/*</div>*/}
                                 {/*</div>*/}
-                                <div>
-                                    <img src={require("../images/roadmap.png")}/>
-                                </div>
                                 <Sale />
                             </Element>
 

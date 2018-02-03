@@ -91,6 +91,24 @@ class ThirdSection extends React.Component {
                                         Having 100% donations is great but how long can the company sustain itself without a positive income stream... well not that long. Solution token have adapted a process in which they can generate 100% donations without taking admin fees!<span className="hide-text"> With multiple platforms of the company we are able to create a positive income stream in both crypto and fiat in which it can help the life of the company without issues of finances running out.</span><br/><a onClick={this.readMore.bind(this, "b8")}>read more</a>
                                     </p>
                                 </div>
+                                <div className="box b9">
+                                    <img src={require("../images/images (1).png")}/>
+                                    <h3>PEER TO PEER</h3>
+                                    <p>
+                                        Our platform is focused on peer to peer action with minimal assistance from us, to be as decentralised as a platform can be. Allowing users to donate to there intended need without us doing it for you, at most that we need to<span className="hide-text"> take part in is setting up the system for you guys to make the process possible.</span><br/><a onClick={this.readMore.bind(this, "b9")}>read more</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="inner-row even">
+                            <div className="row-container">
+                                <div className="box b10">
+                                    <img src={require("../images/images (2).png")}/>
+                                    <h3>USER BENEFIT</h3>
+                                    <p>
+                                        You guys are legends! We make all this possible with you and you aren't helping us for free, not on our watch! So we have decided by participation in any of our platforms or purchasing a product you will be rewarded in some way.<span className="hide-text"> Here is some ways you guys can make an income from us. Using and playing our game and receiving tokens from the game, holding your tokens in our wallet you will be gaining tokens every month, purchasing our water bottles or any merchandise you will be in a chance to receive tokens and extra prizes.... Be sure not to forget the competitions that we run , even participating in operation humanity one special donator will be in a draw to collect a prize at the end of every quarter.</span><br/><a onClick={this.readMore.bind(this, "b10")}>read more</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
