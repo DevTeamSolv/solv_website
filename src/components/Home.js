@@ -25,6 +25,11 @@ let scroll     = Scroll.animateScroll;
 let scrollSpy  = Scroll.scrollSpy;
 
 
+
+
+
+
+
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -39,6 +44,8 @@ class Home extends React.Component {
             phrase: ['S','O','L','U','T','I','O','N',' ','T','O','K','E','N'],
         }
     }
+
+
     handleSlide(state) {
 
         $(".slide-track").css("transition", "-webkit-transform 500ms ease")
@@ -1054,6 +1061,7 @@ class Home extends React.Component {
         };
     }
 }
+
 
 
 export default Home;
