@@ -300,16 +300,16 @@ class Home extends React.Component {
                 </div>
                 <Element name="video" className="element">
 
-                    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&autoplay=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-                    {/*<video onClick={this.handleVideo.bind(this)} loop autoPlay id="myVideo">*/}
-                        {/*<source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />*/}
-                        {/*Your browser does not support HTML5 video.*/}
-                    {/*</video>*/}
+                    {/*<iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&autoplay=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>*/}
+                    <video onClick={this.handleVideo.bind(this)} loop id="myVideo">
+                        <source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />
+                        Your browser does not support HTML5 video.
+                    </video>
                     <AudioPlayer />
-                    {/*<div onClick={this.handleVideo.bind(this)} className="audio-icon">*/}
-                        {/*{!this.state.paused && <img src={require("../images/pause-coloured.png")}/>}*/}
-                        {/*{this.state.paused && <img src={require("../images/110962-glowing-green-neon-icon-arrows-arrow3-right-solid-circle.png")}/>}*/}
-                    {/*</div>*/}
+                    <div onClick={this.handleVideo.bind(this)} className="audio-icon">
+                        {!this.state.paused && <img src={require("../images/pause-coloured.png")}/>}
+                        {this.state.paused && <img src={require("../images/110962-glowing-green-neon-icon-arrows-arrow3-right-solid-circle.png")}/>}
+                    </div>
 
                     <div className="content">
                         <div className="page-content DWFullScreenPage_container" id="DWFullScreenPage1">
