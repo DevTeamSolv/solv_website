@@ -73,6 +73,9 @@
   .row_58 {
     height: 1280px; }
 
+  iframe {
+    height: 750px; }
+
   .row_38 .row_41 {
     width: 80%; }
 
@@ -111,6 +114,9 @@ p {
     justify-content: space-between; }
     .column_46 button {
       width: auto; }
+
+  iframe {
+    height: 750px; }
 
   .third-section .inner-container .inner-row .row-container {
     width: 100%; }

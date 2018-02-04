@@ -97,7 +97,9 @@ class AudioPlayer extends React.Component {
                             {!this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/pause-coloured.png")}/>}
                         </div>
                         <div className="button-next">
-                            <img onClick={this.next.bind(this)} src={require("../images/icons8-end-filled-100.png")}/>
+                            {this.state.currentTrackId < 9 && <img onClick={this.next.bind(this)} src={require("../images/images (4).jpeg")}/>}
+                            {this.state.currentTrackId >= 9 && <img onClick={this.next.bind(this)} src={require("../images/icons8-end-filled-100.png")}/>}
+
                         </div>
                     </div>
                 </div>
