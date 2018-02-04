@@ -2,124 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="487f68a5-6a7c-4460-b65a-4d51a3a8883d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/SE_facts_blue_Earth_Europe-Africa.png" afterPath="$PROJECT_DIR$/src/images/size-/SE_facts_blue_Earth_Europe-Africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/SE_value_prop_money.png" afterPath="$PROJECT_DIR$/src/images/size-/SE_value_prop_money.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/round-close-sign-26965.jpg" afterPath="$PROJECT_DIR$/src/images/size-/round-close-sign-26965.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/service.jpg" afterPath="$PROJECT_DIR$/src/images/size-/service.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/slack.png" afterPath="$PROJECT_DIR$/src/images/size-/slack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/slack_w.png" afterPath="$PROJECT_DIR$/src/images/size-/slack_w.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/solution-logo-white.png" afterPath="$PROJECT_DIR$/src/images/size-/solution-logo-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/size-/solution-logo.png" afterPath="$PROJECT_DIR$/src/images/size-/solution-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/solution-token-web.iml" afterPath="$PROJECT_DIR$/.idea/solution-token-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="$PROJECT_DIR$/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AudioPlayer.js" afterPath="$PROJECT_DIR$/src/components/AudioPlayer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CountdownTimer.js" afterPath="$PROJECT_DIR$/src/components/CountdownTimer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home.js" afterPath="$PROJECT_DIR$/src/components/Home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Notification.js" afterPath="$PROJECT_DIR$/src/components/Notification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Sale.js" afterPath="$PROJECT_DIR$/src/components/Sale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SliderComponent.js" afterPath="$PROJECT_DIR$/src/components/SliderComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TeamDetail.js" afterPath="$PROJECT_DIR$/src/components/TeamDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThirdSection.js" afterPath="$PROJECT_DIR$/src/components/ThirdSection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/uniqueData.json" afterPath="$PROJECT_DIR$/src/components/uniqueData.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/DWFullScreenPage1-footer-ie.css" afterPath="$PROJECT_DIR$/src/css/DWFullScreenPage1-footer-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/DWFullScreenPage1-footer.css" afterPath="$PROJECT_DIR$/src/css/DWFullScreenPage1-footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/DWFullScreenPage1-header-ie.css" afterPath="$PROJECT_DIR$/src/css/DWFullScreenPage1-header-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/DWFullScreenPage1-header.css" afterPath="$PROJECT_DIR$/src/css/DWFullScreenPage1-header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/DWFullScreenPage1-ie.css" afterPath="$PROJECT_DIR$/src/css/DWFullScreenPage1-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/HoverFX-ie.css" afterPath="$PROJECT_DIR$/src/css/HoverFX-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/HoverFX.css" afterPath="$PROJECT_DIR$/src/css/HoverFX.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/animate.css" afterPath="$PROJECT_DIR$/src/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/animsition.css" afterPath="$PROJECT_DIR$/src/css/animsition.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/animsition.min.css" afterPath="$PROJECT_DIR$/src/css/animsition.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/carousel-style.css" afterPath="$PROJECT_DIR$/src/css/carousel-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/flipclock.css" afterPath="$PROJECT_DIR$/src/css/flipclock.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/linklightbox-ie.css" afterPath="$PROJECT_DIR$/src/css/linklightbox-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/linklightbox.css" afterPath="$PROJECT_DIR$/src/css/linklightbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css.map" afterPath="$PROJECT_DIR$/src/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.scss" afterPath="$PROJECT_DIR$/src/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.v1.css" afterPath="$PROJECT_DIR$/src/css/main.v1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/media-main.css" afterPath="$PROJECT_DIR$/src/css/media-main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/media-main.css.map" afterPath="$PROJECT_DIR$/src/css/media-main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/media-main.scss" afterPath="$PROJECT_DIR$/src/css/media-main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/modal.css.map" afterPath="$PROJECT_DIR$/src/css/modal.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/modal.scss" afterPath="$PROJECT_DIR$/src/css/modal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/normalize.css" afterPath="$PROJECT_DIR$/src/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/notification.css" afterPath="$PROJECT_DIR$/src/css/notification.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/owl.carousel.css" afterPath="$PROJECT_DIR$/src/css/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/owl.theme.css" afterPath="$PROJECT_DIR$/src/css/owl.theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/owl.transitions.css" afterPath="$PROJECT_DIR$/src/css/owl.transitions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/reset.css" afterPath="$PROJECT_DIR$/src/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/responsive.css" afterPath="$PROJECT_DIR$/src/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/slicknav.css" afterPath="$PROJECT_DIR$/src/css/slicknav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style-2.css" afterPath="$PROJECT_DIR$/src/css/style-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style-ie.css" afterPath="$PROJECT_DIR$/src/css/style-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/sweetalert.css" afterPath="$PROJECT_DIR$/src/css/sweetalert.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/xtdContactForms.css" afterPath="$PROJECT_DIR$/src/css/xtdContactForms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/font-awesome-4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/ETH_1-2.svg" afterPath="$PROJECT_DIR$/src/images/ETH_1-2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/if_slack_2916286.svg" afterPath="$PROJECT_DIR$/src/images/if_slack_2916286.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/sol.svg" afterPath="$PROJECT_DIR$/src/images/sol.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/afterLoading.js" afterPath="$PROJECT_DIR$/src/js/afterLoading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/animsition.js" afterPath="$PROJECT_DIR$/src/js/animsition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/animsition.min.js" afterPath="$PROJECT_DIR$/src/js/animsition.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/app.js" afterPath="$PROJECT_DIR$/src/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/flipclock.js" afterPath="$PROJECT_DIR$/src/js/flipclock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/flipclock.min.js" afterPath="$PROJECT_DIR$/src/js/flipclock.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/DWFullScreenPage1.js" afterPath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/DWFullScreenPage1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/extendDWFullScreenPage.js" afterPath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/extendDWFullScreenPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/jquery.fullpage.css" afterPath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/jquery.fullpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/jquery.fullpage.js" afterPath="$PROJECT_DIR$/src/js/includes/DWFullScreenPage/jquery.fullpage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menu-ie.css" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menu-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menu.css" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menualt-ie.css" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menualt-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menualt.css" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menualt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/PIE.htc" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/PIE.htc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/PIE_IE678.js" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/PIE_IE678.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/PIE_IE9.js" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/PIE_IE9.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/fleximenus2.js" afterPath="$PROJECT_DIR$/src/js/includes/FlexiMenus2/fleximenus2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/includes/extendjQuery.js" afterPath="$PROJECT_DIR$/src/js/includes/extendjQuery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/index.js" afterPath="$PROJECT_DIR$/src/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/jquery.scrollUp.min.js" afterPath="$PROJECT_DIR$/src/js/jquery.scrollUp.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/jquery.scrollify.js" afterPath="$PROJECT_DIR$/src/js/jquery.scrollify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/jquery.slicknav.min.js" afterPath="$PROJECT_DIR$/src/js/jquery.slicknav.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/lazyLoad.js" afterPath="$PROJECT_DIR$/src/js/lazyLoad.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/src/js/owl.carousel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/particles.js" afterPath="$PROJECT_DIR$/src/js/particles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/plugins.js" afterPath="$PROJECT_DIR$/src/js/plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/sweetalert-dev.js" afterPath="$PROJECT_DIR$/src/js/sweetalert-dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/typed.js" afterPath="$PROJECT_DIR$/src/js/typed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/vendor/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/src/js/vendor/jquery-3.3.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/vendor/jquery.initialize.js" afterPath="$PROJECT_DIR$/src/js/vendor/jquery.initialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/src/js/vendor/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/vendor/modernizr-2.8.3.min.js" afterPath="$PROJECT_DIR$/src/js/vendor/modernizr-2.8.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/waterbubble.js" afterPath="$PROJECT_DIR$/src/js/waterbubble.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wow.min.js" afterPath="$PROJECT_DIR$/src/js/wow.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="$PROJECT_DIR$/src/logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -147,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4635">
-              <caret line="309" column="29" lean-forward="false" selection-start-line="309" selection-start-column="29" selection-end-line="309" selection-end-column="29" />
+            <state relative-caret-position="261">
+              <caret line="487" column="34" lean-forward="true" selection-start-line="487" selection-start-column="34" selection-end-line="487" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -160,18 +44,18 @@
       <file leaf-file-name="Sale.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Sale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
+            <state relative-caret-position="786">
               <caret line="155" column="18" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThirdSection.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThirdSection.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ThirdSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
+            <state relative-caret-position="126">
+              <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -179,13 +63,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sol.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/sol.svg">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="960" column="96" lean-forward="true" selection-start-line="960" selection-start-column="96" selection-end-line="960" selection-end-column="96" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="David.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/team/size-/David.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="David.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/team/size-/David.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dave.jpeg.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/team/size-/dave.jpeg.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallpaper.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/size-/wallpaper.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -210,8 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ant-notification-notice-description</find>
-      <find>slide</find>
       <find>slideOut-Right</find>
       <find>.row_30</find>
       <find>Joshua</find>
@@ -240,6 +150,8 @@
       <find>hr</find>
       <find>Arik</find>
       <find>Hassan</find>
+      <find>src={require(&quot;../images/</find>
+      <find>../images/team</find>
     </findStrings>
     <replaceStrings>
       <replace>(&quot;</replace>
@@ -250,6 +162,7 @@
       <replace>className=</replace>
       <replace>xlinkHref</replace>
       <replace>i className=</replace>
+      <replace>../images/team/size-</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/css</dir>
@@ -284,16 +197,16 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/css/notification.css" />
         <option value="$PROJECT_DIR$/src/css/media-main.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/Notification.js" />
         <option value="$PROJECT_DIR$/src/images/if_ETH.svg" />
         <option value="$PROJECT_DIR$/src/images/Shape 1-1.svg" />
         <option value="$PROJECT_DIR$/src/images/ETH_1-2.svg" />
-        <option value="$PROJECT_DIR$/src/css/main.scss" />
         <option value="$PROJECT_DIR$/src/images/sol.svg" />
         <option value="$PROJECT_DIR$/src/components/Sale.js" />
         <option value="$PROJECT_DIR$/src/components/TeamDetail.js" />
         <option value="$PROJECT_DIR$/src/components/ThirdSection.js" />
+        <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/css/main.scss" />
       </list>
     </option>
   </component>
@@ -309,10 +222,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
-    <option name="y" value="115" />
-    <option name="width" value="1756" />
-    <option name="height" value="989" />
+    <option name="x" value="39" />
+    <option name="y" value="23" />
+    <option name="width" value="1457" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -332,8 +245,93 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="size-" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solution-token-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -454,34 +452,35 @@
       <workItem from="1517664408037" duration="1515000" />
       <workItem from="1517666023751" duration="4426000" />
       <workItem from="1517729402544" duration="344000" />
+      <workItem from="1517736655488" duration="587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150758000" />
+    <option name="totallyTimeSpent" value="151345000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="115" width="1756" height="989" extended-state="1" />
-    <editor active="false" />
+    <frame x="39" y="23" width="1457" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17002882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16991644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.5083566" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34225196" sideWeight="0.49164346" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34152046" sideWeight="0.49164346" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,40 +494,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/ajax-loading.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/solution-logo1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -690,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/media-main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24525">
@@ -715,47 +673,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4635">
-          <caret line="309" column="29" lean-forward="false" selection-start-line="309" selection-start-column="29" selection-end-line="309" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="155" column="18" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThirdSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/sol.svg">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TeamDetail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="95" column="202" lean-forward="false" selection-start-line="95" selection-start-column="202" selection-end-line="95" selection-end-column="202" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/team/Micheal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="155" column="18" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/team/Michael.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ThirdSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="960" column="96" lean-forward="true" selection-start-line="960" selection-start-column="96" selection-end-line="960" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/team/size-/David.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/team/size-/David.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/team/size-/dave.jpeg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/size-/wallpaper.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="487" column="34" lean-forward="true" selection-start-line="487" selection-start-column="34" selection-end-line="487" selection-end-column="34" />
           <folding />
         </state>
       </provider>

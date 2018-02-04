@@ -551,7 +551,7 @@ class Home extends React.Component {
                                             <div className="members-row">
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/ingram.jpg")}/>
+                                                        <img src={require("../images/team/size-/ingram.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "andrew")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -579,7 +579,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/David.jpeg")}/>
+                                                        <img src={require("../images/team/size-/David.jpeg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "david")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -593,7 +593,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/Micheal.png")}/>
+                                                        <img src={require("../images/team/size-/Micheal.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "mike")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -609,7 +609,7 @@ class Home extends React.Component {
                                             <div className="members-row">
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/ali_Zain.jpg")}/>
+                                                        <img src={require("../images/team/size-/ali_Zain.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "zain")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -623,7 +623,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/mahar_husnain.jpg")}/>
+                                                        <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "mahar")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -637,7 +637,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container member-hassan">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/has.png")}/>
+                                                        <img src={require("../images/team/size-/has.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "hassan")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -651,7 +651,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/Joshua L.jpg")}/>
+                                                        <img src={require("../images/team/size-/Joshua L.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "legaspi")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -668,7 +668,7 @@ class Home extends React.Component {
                                             <div className="members-row">
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/Dean_James.jpg")}/>
+                                                        <img src={require("../images/team/size-/Dean_James.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "dean")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -696,7 +696,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/eli-1.jpg")}/>
+                                                        <img src={require("../images/team/size-/eli-1.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "eli")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -710,7 +710,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/SOLV PROFILES 005.jpg")}/>
+                                                        <img src={require("../images/team/size-/SOLV PROFILES 005.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "daniel")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -727,7 +727,7 @@ class Home extends React.Component {
                                             <div className="members-row">
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/James fawk.jpg")}/>
+                                                        <img src={require("../images/team/size-/James fawk.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "james")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -741,7 +741,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/Damian.png")}/>
+                                                        <img src={require("../images/team/size-/Damian.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "damian")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -755,7 +755,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/Arik.jpg")}/>
+                                                        <img src={require("../images/team/size-/Arik.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "arik")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -769,7 +769,7 @@ class Home extends React.Component {
                                                 </div>
                                                 {/* <div className="member-container">
                                                  <div className="inner-member-container">
-                                                 <img src={require("../images/team/sample.png")}/>
+                                                 <img src={require("../images/team/size-/sample.png")}/>
                                                  <div className="links">
                                                  <a onClick={this.handleDetails.bind(this, "joshua")}>BIO</a>
                                                  <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -786,7 +786,7 @@ class Home extends React.Component {
                                             {/*<div className="members-row">
                                              <div className="member-container">
                                              <div className="inner-member-container">
-                                             <img src={require("../images/team/sample.png")}/>
+                                             <img src={require("../images/team/size-/sample.png")}/>
                                              <div className="links">
                                              <a onClick={this.handleDetails.bind(this, "kamil")}>BIO</a>
                                              <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -806,7 +806,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/ingram.jpg")}/>
+                                                            <img src={require("../images/team/size-/ingram.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "andrew")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -836,7 +836,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/David.jpeg")}/>
+                                                            <img src={require("../images/team/size-/David.jpeg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "david")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -850,7 +850,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/Micheal.png")}/>
+                                                            <img src={require("../images/team/size-/Micheal.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "mike")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -866,7 +866,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/ali_Zain.jpg")}/>
+                                                            <img src={require("../images/team/size-/ali_Zain.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "zain")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -880,7 +880,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/mahar_husnain.jpg")}/>
+                                                            <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "mahar")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -897,7 +897,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container member-hassan">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/has.png")}/>
+                                                            <img src={require("../images/team/size-/has.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "hassan")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -911,7 +911,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/Joshua L.jpg")}/>
+                                                            <img src={require("../images/team/size-/Joshua L.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "legaspi")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -927,7 +927,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/Dean_James.jpg")}/>
+                                                            <img src={require("../images/team/size-/Dean_James.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "dean")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -959,7 +959,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/eli-1.jpg")}/>
+                                                            <img src={require("../images/team/size-/eli-1.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "eli")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -973,7 +973,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/SOLV PROFILES 005.jpg")}/>
+                                                            <img src={require("../images/team/size-/SOLV PROFILES 005.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "daniel")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -990,7 +990,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/James fawk.jpg")}/>
+                                                            <img src={require("../images/team/size-/James fawk.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "james")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -1004,7 +1004,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/Damian.png")}/>
+                                                            <img src={require("../images/team/size-/Damian.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "damian")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -1021,7 +1021,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/Arik.jpg")}/>
+                                                            <img src={require("../images/team/size-/Arik.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "arik")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -1036,7 +1036,7 @@ class Home extends React.Component {
 
                                                     {/*<div className="member-container">
                                                      <div className="inner-member-container">
-                                                     <img src={require("../images/team/sample.png")}/>
+                                                     <img src={require("../images/team/size-/sample.png")}/>
                                                      <div className="links">
                                                      <a onClick={this.handleDetails.bind(this, "joshua")}>BIO</a>
                                                      <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -1053,7 +1053,7 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     {/*<div className="member-container">
                                                      <div className="inner-member-container">
-                                                     <img src={require("../images/team/sample.png")}/>
+                                                     <img src={require("../images/team/size-/sample.png")}/>
                                                      <div className="links">
                                                      <a onClick={this.handleDetails.bind(this, "kamil")}>BIO</a>
                                                      <i className="fa fa-envelope" aria-hidden="true"></i>
