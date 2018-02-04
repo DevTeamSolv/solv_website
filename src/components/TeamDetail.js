@@ -93,7 +93,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Hassan</p>
                         <p className="designation">FrontEnd Engineer</p>
-                        <p className="description">Hassan is lead FrontEnd and ReactJS developer and Blockchain Enthusiast. Hassan has worked previously on different ICOs and non-Blockchain platforms.</p>
+                        <p className="description">Hassan is a lead FrontEnd and ReactJS developer and Blockchain Enthusiast. Hassan has worked previously on different ICOs and non-Blockchain platforms.</p>
                     </div>
                 }
                 {
@@ -139,7 +139,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Arik Balolong</p>
                         <p className="designation">Web & Graphic Designer</p>
-                        <p className="description">Arik works closely with Solution Token’s creative designers and developers to produce graphics and elements of websites, visual media, and ad hoc admin decisions.
+                        <p className="description">Arik works closely with Solution Token’s creative designers and developers to produce graphics and elements of websites, visual media, and ad hoc administrative decisions.
                         </p>
                     </div>
                 }
@@ -163,7 +163,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Damian Godlewski</p>
                         <p className="designation">Public Relations Europe</p>
-                        <p className="description">Damian deals with the European market for the company. He is responsible for engaging the community within his region. He is also gaining support for the company through international conferences throughout europe.</p>
+                        <p className="description">Damian deals with the European market for the company. He is responsible for engaging the community within his region. He is also gaining support for the company through international conferences throughout Europe.</p>
                     </div>
                 }
                 {
