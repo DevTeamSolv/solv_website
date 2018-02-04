@@ -5,10 +5,7 @@
 // })
 var $  = require('jquery');
 
-document.getElementById('outer-loader').style.display = 'none';
-document.getElementById('root').style.display = 'block';
 $(window).on("load", function() {
-    //
     document.getElementById('outer-loader').style.display = 'none';
     document.getElementById('root').style.display = 'block';
     // document.getElementById('myVideo').play();
