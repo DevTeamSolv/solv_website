@@ -1,6 +1,6 @@
 import React from "react";
 import moment from "moment";
-
+// import $ from "jwue"
 class CountdownTimer extends React.Component {
     constructor(props) {
         super(props);
@@ -35,7 +35,9 @@ class CountdownTimer extends React.Component {
     tick() {
         if (typeof this.props.endDate === typeof new Date()) {
             this.afterEachSecond(this.props.endDate);
-        } else {
+        }
+        else {
+
         }
     }
 
@@ -121,57 +123,59 @@ class CountdownTimer extends React.Component {
             <div className="timer" style={timer}>
                 {
                     this.state.timeRemaining.months &&
-                    <div className="section months">
+                    <div className="months">
+                        <svg className="svg-style">
+                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.months)) * 4.183)} id="ell"></ellipse>
+                        </svg>
                         <div className="time">{this.state.timeRemaining.months}</div>
                         <div className="label">Months</div>
                     </div>
                 }
                 {
                     this.state.timeRemaining.days &&
-                    <div className="section days">
+                    <div className="days">
+
+                        <svg className="svg-style">
+                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.days)) * 8.374)} id="ell"></ellipse>
+                        </svg>
                         <div className="time">{this.state.timeRemaining.days}</div>
                         <div className="label">Days</div>
                     </div>
                 }
                 {
                     this.state.timeRemaining.h &&
-                    <div className="section hours">
+                    <div className="hours">
+                        <svg className="svg-style">
+                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.h)) * 10.454)} id="ell"></ellipse>
+                        </svg>
                         <div className="time">{this.state.timeRemaining.h}</div>
                         <div className="label">Hours</div>
                     </div>
                 }
                 {
                     this.state.timeRemaining.m &&
-
-                    <div className="section minutes">
+                    <div className="minutes">
+                        {/*<div className="section minutes">*/}
+                        <svg className="svg-style">
+                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.m)) * 4.183)} id="ell"></ellipse>
+                        </svg>
                         <div className="time">{this.state.timeRemaining.m}</div>
                         <div className="label">Minutes</div>
-                        {/*<svg >*/}
-                            {/*<ellipse rx="40" ry="40" cx="45" cy="45" fillOpacity="1" strokeLinecap=""*/}
-                                     {/*strokeDashoffset="5" fill="none" strokeDasharray="251"*/}
-                                     {/*strokeOpacity="1" strokeWidth="10" stroke="rgba(90,223,47,1)">*/}
-                            {/*</ellipse>*/}
-                        {/*</svg>*/}
                     </div>
-                    // <div className="section minutes">
-                    //     <div className="label">Minutes</div>
-                    // </div>
                 }
                 {
                     this.state.timeRemaining.s &&
-                    <div className="section seconds">
+                    <div className="seconds">
+                        <svg className="svg-style">
+                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.s)) * 4.183)} id="ell"></ellipse>
+                        </svg>
                         <div className="time">{this.state.timeRemaining.s}</div>
                         <div className="label">Seconds</div>
                     </div>
                 }
-                {/*<svg>*/}
-                {/*<ellipse rx="40" ry="40" cx="45" cy="45" fillOpacity="1" strokeLinecap=""*/}
-                {/*fill="none" strokeDasharray="251.32741228718345 "*/}
-                {/*strokeOpacity="1" strokeWidth="10" stroke="rgba(206,245,193,1)"></ellipse>*/}
-                {/*</svg>*/}
-                </div>
-                )
-                }
-                }
+            </div>
+        )
+    }
+}
 
-                export default CountdownTimer;
+export default CountdownTimer;

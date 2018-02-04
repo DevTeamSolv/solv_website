@@ -14,16 +14,12 @@ import '../src/js/includes/FlexiMenus2/CSSMenu_DWFullScreenPage1menualt.css';
 import '../src/css/HoverFX.css';
 import '../src/css/main.css';
 import '../src/css/media-main.css';
-// import "./js/afterLoading";
+import "./js/afterLoading";
 import $ from "jquery";
 
 class App extends Component {
   componentDidMount(){
       window.scrollTo(0,0);
-      setTimeout(function () {
-      document.getElementById('outer-loader').style.display = 'none';
-      document.getElementById('root').style.display = 'block';
-      }, 100)
   }
   render() {
     return (

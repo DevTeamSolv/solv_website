@@ -5849,6 +5849,12 @@ react-rangeslider@^2.2.0:
     classnames "^2.2.3"
     resize-observer-polyfill "^1.4.2"
 
+react-read-more@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-read-more/-/react-read-more-1.0.0.tgz#86a9e8ac14fa37863d99187d8d500457ce32b840"
+  dependencies:
+    rimraf "^2.5.4"
+
 react-rotating-text@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-rotating-text/-/react-rotating-text-1.2.1.tgz#0a0ec5c3dbb8e5db0146056d2f18dbb2bd3602f9"
@@ -6270,7 +6276,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.5.4, rimraf@^2.6.1:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:

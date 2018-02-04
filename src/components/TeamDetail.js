@@ -36,14 +36,14 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">David Casciato</p>
                         <p className="designation">Humanitarian Director</p>
-                        <p className="description">David is responsible for building the humanitarian platform by reaching out and maintaining communications with charities and setting up arrangements with existing organizations using effective program management, David will also seek out potential projects to benefit individual groups or areas, such as providing relief after natural disasters or setting up green energy in areas without electricity shelter and water readily available.</p>
+                        <p className="description">David is responsible for building the humanitarian platform by reaching out and maintaining communications with charities and setting up arrangements with existing organizations using effective program management. David will also seek out potential projects to benefit individual groups or areas, such as providing relief after natural disasters or setting up green energy in areas without electricity, shelter, and water readily available.</p>
                     </div>
                 }
                 {
                     this.props.member === "matthew" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../")}/>
+                            <img src={require("../images/no-body.png")}/>
                         </div>
                         <p className="name">Matthew Wolff</p>
                         <p className="designation">COO</p>
@@ -58,7 +58,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Michael Gogarty</p>
                         <p className="designation">Communications Manager</p>
-                        <p className="description">Responsible for handling internal and external relations for Solution Token, including many positions involving community relations, corporate and integrated communication, media & public affairs. Michael’s core fundamentals reflect onto Solution with pride and full transparency to the public.
+                        <p className="description">Responsible for handling internal and external relations for Solution Token, including many positions involving community relations, corporate and integrated communication, media, & public affairs. Michael’s core fundamentals reflect onto Solution with pride and full transparency to the public.
                         </p>
                     </div>
                 }
@@ -81,7 +81,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Mahar Husnain</p>
                         <p className="designation">Lead Developer</p>
-                        <p className="description">Mahar is a seasoned full-stack web developer, and great contributor to assist building this website. Besides hundreds of hours of coding and development, Mahar also had to work closely with other team members to combine text, graphics, and visual ideas into one smooth and polished website.
+                        <p className="description">Mahar is a seasoned full-stack developer, and greatly contributed to building this website and backend smart contracts work. Besides hundreds of hours of coding and development for Solution Token’s server and smart contract testing, Mahar also had to work closely with other team members to combine text, graphics, and visual ideas into one smooth and polished website.
                         </p>
                     </div>
                 }
@@ -100,7 +100,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "sean" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/sample.png")}/>
+                            <img src={require("../images/no-body.png")}/>
                         </div>
                         <p className="name">Sean Gallagher</p>
                         <p className="designation">Chief Editor</p>
@@ -116,7 +116,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Eli Karadsheh</p>
                         <p className="designation">Social Media Manager</p>
-                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                        <p className="description">Eli is involved with managing all social media platforms and communications with spokespeople to the company. Eli has been pursuing business relationships with current and future spokespeople through each social platform.</p>
                     </div>
                 }
                 {
@@ -139,7 +139,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Arik Balolong</p>
                         <p className="designation">Web & Graphic Designer</p>
-                        <p className="description">Arik works closely with Solution Token’s creative designers and developers to produce graphics and elements of websites, visual media and ad hoc admin decisions.
+                        <p className="description">Arik works closely with Solution Token’s creative designers and developers to produce graphics and elements of websites, visual media, and ad hoc admin decisions.
                         </p>
                     </div>
                 }
@@ -163,7 +163,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Damian Godlewski</p>
                         <p className="designation">Public Relations Europe</p>
-                        <p className="description">Dev is a full-stack developer and cryptocurrency enthusiast who has built both platforms, both crypto and non-crypto.</p>
+                        <p className="description">Damian deals with the European market for the company. He is responsible for engaging the community within his region. He is also gaining support for the company through international conferences throughout europe.</p>
                     </div>
                 }
                 {
@@ -174,7 +174,7 @@ class TeamDetail extends React.Component {
                         </div>
                         <p className="name">Joshua Legaspi</p>
                         <p className="designation">Lead Graphics</p>
-                        <p className="description">Joshua is one of Solution Token’s graphics design team, and works closely with other graphics designers, web designers, and the marketing and media team to produce the graphics we need for all purposes.</p>
+                        <p className="description">Joshua is one of Solution Token’s graphics design team, and works closely with other graphics designers, web designers, and the marketing and media team to produce the graphics we need for all purposes. He is also the one behind our amazing motion and video graphics.</p>
                     </div>
                 }
             </div>

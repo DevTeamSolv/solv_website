@@ -15,6 +15,7 @@ import "../css/notification.css"
 import Notification from './Notification'
 import Sale from './Sale'
 import AudioPlayer from './AudioPlayer'
+import ThirdSection from './ThirdSection';
 
 
 
@@ -41,6 +42,7 @@ class Home extends React.Component {
             paused: false,
             muted: false,
             member: "",
+            popup: "",
             phrase: ['S','O','L','U','T','I','O','N',' ','T','O','K','E','N'],
         }
     }
@@ -61,15 +63,27 @@ class Home extends React.Component {
     }
     handleDialog(evt){
         if(evt === 1) {
+            this.setState({
+                popup: "humanity"
+            })
             this.sliderDialog1.show();
         }
         else if (evt === 2) {
+            this.setState({
+                popup: "water"
+            })
             this.sliderDialog2.show();
         }
         else if (evt === 3) {
+            this.setState({
+                popup: "game"
+            })
             this.sliderDialog3.show();
         }
         else if (evt === 4) {
+            this.setState({
+                popup: "wallet"
+            })
             this.sliderDialog4.show();
         }
     }
@@ -88,9 +102,9 @@ class Home extends React.Component {
     }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll.bind(this));
-        var el = document.getElementById('myVideo')
-        el.play();
-        el.muted = false;
+        // var el = document.getElementById('myVideo')
+        // el.play();
+        // el.muted = false;
     }
     mount = true;
     componentWillUnmount () {
@@ -118,7 +132,11 @@ class Home extends React.Component {
             }
         }
     }
-
+    afterPlatformClosed(){
+        this.setState({
+            popup: ""
+        })
+    }
     handleHamburger(){
         $("#nav-icon4").toggleClass('open');
         $("#overlay").toggleClass('open');
@@ -206,7 +224,10 @@ class Home extends React.Component {
                                 <Link activeClass="active"  offset={30} to="platform" spy={true} smooth={true} duration={700}>
                                     Our Platforms
                                 </Link>
-                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)}to="whitepaper" spy={true} smooth={true} duration={900}>
+                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)} to="roadmap" spy={true} smooth={true} duration={900}>
+                                    RoadMap
+                                </Link>
+                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)} to="whitepaper" spy={true} smooth={true} duration={900}>
                                     Whitepaper
                                 </Link>
                                 <Link activeClass="active" to="sale" offset={30} spy={true} smooth={true} duration={1200}>
@@ -254,6 +275,11 @@ class Home extends React.Component {
                                         </Link>
                                     </li>
                                     <li>
+                                        <Link className="test6" to="roadmap" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
+                                            RoadMap
+                                        </Link>
+                                    </li>
+                                    <li>
                                         <Link className="test6" to="whitepaper" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
                                             Whitepaper
                                         </Link>
@@ -281,14 +307,15 @@ class Home extends React.Component {
                 </div>
                 <Element name="video" className="element">
 
-                    <video onClick={this.handleVideo.bind(this)} loop autoPlay id="myVideo">
-                        <source src={require("../images/gifs/SolutionToken WebVideo.mp4")} type="video/mp4" />
+                    {/*<iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&autoplay=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>*/}
+                    <video onClick={this.handleVideo.bind(this)} loop id="myVideo">
+                        <source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />
                         Your browser does not support HTML5 video.
                     </video>
                     <AudioPlayer />
                     <div onClick={this.handleVideo.bind(this)} className="audio-icon">
-                        {!this.state.paused && <img src={require("../images/paused-icon.png")}/>}
-                        {this.state.paused && <img src={require("../images/play-icon.png")}/>}
+                        {!this.state.paused && <img src={require("../images/pause-coloured.png")}/>}
+                        {this.state.paused && <img src={require("../images/110962-glowing-green-neon-icon-arrows-arrow3-right-solid-circle.png")}/>}
                     </div>
 
                     <div className="content">
@@ -299,18 +326,14 @@ class Home extends React.Component {
                                     <div className="home-section container-hero">
                                         <div className="heading1">
                                             <h3>
-                                                ARE YOU A PART OF THE SOLUTION?
+                                                ARE YOU PART OF THE SOLUTION?
                                                 {/*<ReactRotatingText items={['SOLUTION TOKEN']} eraseMode="erase"/>*/}
                                             </h3>
                                             <p className="span13">
-                                            Here at Solution Token, the benefit of our users - which we hope will span across all kinds of humanity - is our priority.
-                                            This website outlines a summary of our goals for the four different platforms that we are building so that you can learn
-                                            what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it,
-                                            and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed
-                                            decision possible, you can also explore our interactive whitepaper.<br/>
+                                                Here at Solution Token, the benefit of our users - who we hope will span across all kinds of humanity - is our priority. This website outlines our goals for the four different platforms that we are building, so you can learn what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it, and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed decision possible, you can also explore our interactive whitepaper.<br/>
                                                 {/*<ReactRotatingText items={['A TOKEN FOR HUMANITY']} />*/}
                                         </p>
-                                            <h4 className="pre-sale-news">Pre Sale Coming Soon</h4>
+                                            <h4 className="pre-sale-news">Presale Coming Soon</h4>
                                         </div>
 
                                         {/*<div id="countdown_with_background_v1">*/}
@@ -322,11 +345,13 @@ class Home extends React.Component {
                                         {/*</ul>*/}
                                         {/*</div>*/}
                                         <div className="countDown">
-                                        <CountdownTimer endDate={moment('06/2/2018 12:00:00', 'DD/MM/YYYY hh:mm:ss')}/>
+                                        <CountdownTimer endDate={moment('25/2/2018 6:00:00', 'DD/MM/YYYY hh:mm:ss')}/>
                                         </div>
                                     </div>
                                 </div>
                             </Element>
+
+
 
                             <Element name="platform" className="element">
 
@@ -334,46 +359,55 @@ class Home extends React.Component {
                                     <div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">
                                         <div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>
                                             <p>
-                                                <span>Solution Token prides itself on the platforms it provides, these are the pieces that make a Solution.</span>
+                                                <span>Solution Token prides itself on the platforms that we provide. These are the pieces that, together, form a Solution.</span>
                                                 <br/>
-                                                The goal of Solution is to aid causes to help solve humanitarian issues and disasters around the world. Solution&#8217;s platform
-                                                will be widely based around real world uses, with three out of the four concepts directly applicable to the real world.
-                                                These three are the humanitarian program, water solutions, and interactive gaming. The only concept that does
-                                                not directly interact with the physical world will be the Solution wallet.</p>
+                                                Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>
                                             <div className="column_46 desktop-view">
                                                 <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
                                                     <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
                                                     <p>Operation Humanity</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
                                                 <button className="water" onClick={this.handleDialog.bind(this, 2)}>
                                                     <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
                                                     <p>Water Solutions</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
 
                                                 <button className="game" onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img title="Gaming Plateform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                    <img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
                                                     <p>Street QRed Game</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
                                                 <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
                                                     <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
                                                     <p>Solv Wallet</p>
+                                                    <p className="read-more">Read more</p>
                                                 </button>
                                             </div>
                                             <div className="mobile-view">
                                                 <div>
-                                                    <button onClick={this.handleDialog.bind(this, 1)}>
+                                                    <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
                                                         <img className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
+                                                        <p>Operation Humanity</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
-                                                    <button onClick={this.handleDialog.bind(this, 2)}>
+                                                    <button className="water" onClick={this.handleDialog.bind(this, 2)}>
                                                         <img className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
+                                                        <p>Water Solutions</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
                                                 </div>
                                                 <div>
-                                                    <button onClick={this.handleDialog.bind(this, 3)}>
+                                                    <button className="game" onClick={this.handleDialog.bind(this, 3)}>
                                                         <img className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                        <p>Street QRed Game</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
-                                                    <button onClick={this.handleDialog.bind(this, 4)}>
+                                                    <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
                                                         <img className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
+                                                        <p>Solv Wallet</p>
+                                                        <p className="read-more">Read more</p>
                                                     </button>
                                                 </div>
                                             </div>
@@ -383,42 +417,64 @@ class Home extends React.Component {
                                             </span>
                                             </div>
                                         </div>
-                                    </div><SkyLight
-                                    hideOnOverlayClicked={true}
-                                    ref={ref => this.sliderDialog1 = ref}
-                                >
-                                    <div className="slider-type">
-                                        <SliderComp sliderNumber="1"/>
                                     </div>
-                                </SkyLight>
-                                    <SkyLight
-                                        hideOnOverlayClicked={true}
-                                        ref={ref => this.sliderDialog2 = ref}
-                                    >
-                                        <div className="slider-type">
-                                            <SliderComp sliderNumber="2"/>
-                                        </div>
-                                    </SkyLight>
-                                    <SkyLight
-                                        hideOnOverlayClicked={true}
-                                        ref={ref => this.sliderDialog3 = ref}
-                                    >
-                                        <div className="slider-type">
-                                            <SliderComp sliderNumber="3"/>
-                                        </div>
-                                    </SkyLight>
-                                    <SkyLight
-                                        hideOnOverlayClicked={true}
-                                        ref={ref => this.sliderDialog4 = ref}
-                                    >
-                                        <div className="slider-type">
-                                            <SliderComp sliderNumber="4"/>
-                                        </div>
-                                    </SkyLight>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog1 = ref}
+                                        >
+                                            { this.state.popup === "humanity" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="1"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog2 = ref}
+                                        >
+                                            { this.state.popup === "water" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="2"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog3 = ref}
+                                        >
+                                            { this.state.popup === "game" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="3"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog4 = ref}
+                                        >
+                                            { this.state.popup === "wallet" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="4"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
                                 </div>
+                                <ThirdSection />
+
                             </Element>
 
+
+                            <Element name="roadmap" className="element">
+                                <div>
+                                    <img className="roadmap" src={require("../images/roadmap11111.PNG")}/>
+                                </div>
+                            </Element>
                             <Element name="whitepaper" className="element">
+
                                 <div className="section row_31" data-tooltip="Whitepaper" data-section-name="whitepaper" data-alternate-header="true" data-arrow="#1d8f19" data-id="whitepaper" data-anchor="whitepaper">
                                     <div className="full_row_4 full_row_type_fs_t2 row_35">
                                         <div className="gridContainer row_36">
@@ -438,6 +494,38 @@ class Home extends React.Component {
                             </Element>
 
                             <Element name="sale" className="element">
+                                {/*<div className="roadmap">*/}
+                                    {/*<div className="outer odd first">*/}
+                                        {/*<div className="longer">*/}
+                                            {/*<img src={require("../images/solution-logo.png")}/>*/}
+                                        {/*</div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer even">*/}
+                                        {/*<div className="shorter"></div>*/}
+                                        {/*<div className="longer"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer odd">*/}
+                                        {/*<div className="longer"></div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer even">*/}
+                                        {/*<div className="shorter"></div>*/}
+                                        {/*<div className="longer"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer odd">*/}
+                                        {/*<div className="longer"></div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer even">*/}
+                                        {/*<div className="shorter"></div>*/}
+                                        {/*<div className="longer"></div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="outer odd last">*/}
+                                        {/*<div className="longer"></div>*/}
+                                        {/*<div className="shorter"></div>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
                                 <Sale />
                             </Element>
 
@@ -448,8 +536,7 @@ class Home extends React.Component {
                                             <div className="row_48">
                                                 <div className="column_36">
                                                     <h3>Team Members</h3>
-                                                    <p>"We are a team, we are a family. This is our whole crew. This was created not by big names Eli karadsheh
-                                                        or powerful corporations, but bright and passionate individuals who want to change the world for the better."</p>
+                                                    <p>"We are a team, we are a family. This is our whole crew. This was created by bright and passionate individuals who want to change the world for the better."</p>
                                                     {/*<a className="button" href="#">Learn more</a>*/}
                                                 </div>
                                             </div>
@@ -477,7 +564,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/sample.png")}/>
+                                                        <img src={require("../images/no-body.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -594,7 +681,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/sample.png")}/>
+                                                        <img src={require("../images/no-body.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "sean")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -732,7 +819,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../")}/>
+                                                            <img src={require("../images/no-body.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -854,7 +941,7 @@ class Home extends React.Component {
 
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/sample.png")}/>
+                                                            <img src={require("../images/no-body.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "sean")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>

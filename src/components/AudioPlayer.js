@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from "jquery";
 
 class AudioPlayer extends React.Component {
     constructor(props){
@@ -6,7 +7,8 @@ class AudioPlayer extends React.Component {
         this.state = {
             currentTrackId: 0,
             currentTrackName: "",
-            audioPaused: false,
+            audioPaused: true,
+            controlsShow: true,
             allTracks: [
                 require("../images/musics/BG-music.mp3"),
                 require("../images/musics/Cloud 9 NCS Release.mp3"),
@@ -18,6 +20,19 @@ class AudioPlayer extends React.Component {
                 require("../images/musics/Happy Days Non - Copyrighted Music.mp3"),
                 require("../images/musics/You re The Best.mp3")
             ]
+        }
+    }
+    handleTrancEnded(){
+        var x = this.state.currentTrackId;
+        if(this.state.currentTrackId <9) {
+            this.setState({
+                currentTrackId: x+1
+            })
+        }
+        else {
+            this.setState({
+                currentTrackId: 0
+            })
         }
     }
     previous(){
@@ -49,24 +64,42 @@ class AudioPlayer extends React.Component {
             audioPaused: audio.paused
         })
     }
+    hideToggle(){
+        var x = this.state.controlsShow;
+
+        if(x){
+            $('.audio-controls').css('transform', 'translateX(-80%)');
+        }
+        else {
+            $('.audio-controls').css('transform', 'translateX(0%)');
+        }
+        this.setState({
+            controlsShow: !x
+        })
+    }
     render() {
         return (
             <div>
-                <audio src={this.state.allTracks[this.state.currentTrackId]} autoPlay={true} loop id="myAudio">
+                <audio onEnded={this.handleTrancEnded.bind(this)} src={this.state.allTracks[this.state.currentTrackId]} loop={false} id="myAudio">
                     <p>If you are reading this, it is because your browser does not support the audio element.</p>
                 </audio>
                 <div className="audio-controls">
+                    <div className="button-music">
+                        <img onClick={this.hideToggle.bind(this)} src={require("../images/new-music.png")}/>
+                    </div>
                     <div className="outer-box">
                         <div className="button-prev">
                             <img onClick={this.previous.bind(this)} src={require("../images/icons8-skip-to-start-filled-100.png")}/>
                         </div>
 
                         <div className="button-pause">
-                            {this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/icons8-play-50 (1).png")}/>}
-                            {!this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/icons8-pause-100.png")}/>}
+                            {this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/110962-glowing-green-neon-icon-arrows-arrow3-right-solid-circle.png")}/>}
+                            {!this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/pause-coloured.png")}/>}
                         </div>
                         <div className="button-next">
-                            <img onClick={this.next.bind(this)} src={require("../images/icons8-end-filled-100.png")}/>
+                            {this.state.currentTrackId < 9 && <img onClick={this.next.bind(this)} src={require("../images/images (4).jpeg")}/>}
+                            {this.state.currentTrackId >= 9 && <img onClick={this.next.bind(this)} src={require("../images/icons8-end-filled-100.png")}/>}
+
                         </div>
                     </div>
                 </div>
