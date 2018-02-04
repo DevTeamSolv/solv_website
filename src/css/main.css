@@ -192,7 +192,7 @@
     font-weight: 300; }
 
 .row_38 {
-  background-image: url("../images/sal-wallpaper-2.jpeg");
+  background-image: url("../images/1.jpg");
   padding-top: 360px;
   height: 976px;
   background-size: cover;
@@ -1099,76 +1099,6 @@ video {
   height: 90px;
   transform: translate(0px, 0%) rotate(270deg) scale(1.5, 1.5); }
 
-.roadmap {
-  height: 600px;
-  width: 100%;
-  background: #e2e2e2;
-  display: flex;
-  flex-direction: row; }
-  .roadmap img {
-    width: 140px; }
-  .roadmap .outer {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column; }
-  .roadmap .even .longer {
-    height: 70%; }
-  .roadmap .even .shorter {
-    height: 30%;
-    border-bottom: 1px solid #1d8f19; }
-  .roadmap .even .shorter::before {
-    content: '';
-    position: relative;
-    top: 180px;
-    right: 1px;
-    height: 239px;
-    width: 1px;
-    background: #1d8f19;
-    -webkit-transition: 100ms ease all;
-    -o-transition: 100ms ease all;
-    transition: 100ms ease all; }
-  .roadmap .odd .longer {
-    height: 70%;
-    border-bottom: 1px solid #1d8f19; }
-  .roadmap .odd .shorter {
-    height: 30%; }
-  .roadmap .odd .longer::before {
-    content: '';
-    position: relative;
-    top: 180px;
-    right: 1px;
-    height: 239px;
-    width: 1px;
-    background: #1d8f19;
-    -webkit-transition: 100ms ease all;
-    -o-transition: 100ms ease all;
-    transition: 100ms ease all; }
-  .roadmap .first .longer {
-    border: none; }
-  .roadmap .first .longer::after {
-    content: '';
-    position: relative;
-    top: 180px;
-    right: -50%;
-    height: 1px;
-    width: 50%;
-    background: #1d8f19;
-    -webkit-transition: 100ms ease all;
-    -o-transition: 100ms ease all;
-    transition: 100ms ease all; }
-  .roadmap .last .longer {
-    border: none; }
-  .roadmap .last .longer::after {
-    content: '';
-    position: relative;
-    top: 180px;
-    height: 1px;
-    width: 50%;
-    background: #1d8f19;
-    -webkit-transition: 100ms ease all;
-    -o-transition: 100ms ease all;
-    transition: 100ms ease all; }
-
 .third-section {
   width: 100%;
   background-position: center;
@@ -1237,14 +1167,130 @@ video {
 .clearfix {
   overflow: auto; }
 
-.roadmap {
-  width: 100%;
-  height: 900px; }
-
 @keyframes fade {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+.roadmap {
+  width: 100%;
+  background: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .roadmap h3 {
+    text-align: center; }
+  .roadmap .outer-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .roadmap .outer-container .inner-container {
+      width: 68%; }
+      .roadmap .outer-container .inner-container .inner-row {
+        height: 220px;
+        width: 100%;
+        border: 1px solid green;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: none;
+        border-top: none; }
+        .roadmap .outer-container .inner-container .inner-row .box {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .roadmap .outer-container .inner-container .inner-row .box img {
+            width: 120px;
+            transform: translateY(75%); }
+          .roadmap .outer-container .inner-container .inner-row .box p {
+            text-align: center;
+            margin: 0px;
+            transform: translateY(190%);
+            padding: 0px 21px;
+            border: 1px solid green;
+            font-weight: 500; }
+      .roadmap .outer-container .inner-container hr {
+        background: linear-gradient(to left, #166d13 0%, #2c532d 1%, #2c542d 2%, #51d64a 98%, #51d64a 100%);
+        height: 1px;
+        border: none;
+        width: 100%;
+        margin: 0px;
+        display: block; }
+      .roadmap .outer-container .inner-container .first-dot, .roadmap .outer-container .inner-container .last-dot {
+        height: 0px;
+        margin: 0px;
+        width: 100%; }
+      .roadmap .outer-container .inner-container .first-dot::after {
+        content: "\B7";
+        display: flex;
+        font-size: 145px;
+        align-items: center;
+        color: #2c542d;
+        justify-content: flex-end;
+        margin-right: -25px;
+        margin-top: -24.5px; }
+      .roadmap .outer-container .inner-container .last-dot::after {
+        content: "\B7";
+        display: flex;
+        font-size: 145px;
+        color: #51d64a;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: -25px;
+        margin-top: -24.5px; }
+      .roadmap .outer-container .inner-container .one {
+        height: 150px;
+        border-top: none; }
+        .roadmap .outer-container .inner-container .one img {
+          transform: translateY(46%) !important; }
+        .roadmap .outer-container .inner-container .one p {
+          transform: translateY(100%) !important; }
+      .roadmap .outer-container .inner-container .two, .roadmap .outer-container .inner-container .four, .roadmap .outer-container .inner-container .one {
+        border-left-color: #51d64a;
+        border-right: none; }
+      .roadmap .outer-container .inner-container .one, .roadmap .outer-container .inner-container .three, .roadmap .outer-container .inner-container .four {
+        border-left: none; }
+      .roadmap .outer-container .inner-container .three {
+        border-bottom: none; }
+    .roadmap .outer-container .animated {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; }
+    .roadmap .outer-container .fadeInUp {
+      -webkit-animation-name: fadeInUp;
+      animation-name: fadeInUp; }
+    .roadmap .outer-container .des-container {
+      padding-top: 120px;
+      width: 28%;
+      margin-left: 2%; }
+      .roadmap .outer-container .des-container .outer-container {
+        opacity: 0.8;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #fff;
+        box-shadow: 0 0 3px 2px #e2e2e2;
+        overflow: hidden; }
+        .roadmap .outer-container .des-container .outer-container p.date, .roadmap .outer-container .des-container .outer-container p.title {
+          font-weight: 500; }
+        .roadmap .outer-container .des-container .outer-container ul {
+          list-style: none;
+          padding: 0px; }
+        .roadmap .outer-container .des-container .outer-container .hide {
+          display: none; }
+        .roadmap .outer-container .des-container .outer-container p {
+          text-align: center;
+          margin: 0px; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 
 /*# sourceMappingURL=main.css.map */

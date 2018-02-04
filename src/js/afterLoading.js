@@ -4,11 +4,14 @@
 //     // el.style.display="none !important";
 // })
 var $  = require('jquery');
-$(window).on("load", function() {
 
+document.getElementById('outer-loader').style.display = 'none';
+document.getElementById('root').style.display = 'block';
+$(window).on("load", function() {
+    //
     document.getElementById('outer-loader').style.display = 'none';
     document.getElementById('root').style.display = 'block';
-    document.getElementById('myVideo').play();
+    // document.getElementById('myVideo').play();
     // $("div.row_30, div.row_38").lazyload({
     //     effect : "fadeIn"
     // });
