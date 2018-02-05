@@ -185,8 +185,15 @@ class Home extends React.Component {
             })
         }
     }
-    handleSetActive(){
-        // $("#home-bar").removeClass('active');
+    handleSetActive(state){
+        console.log(state)
+        $(".nav-bar a").removeClass('active');
+        $("#" + state).addClass('active');
+    }
+    scrollTo(state){
+        // $('html, body').animate({
+        //     scrollTop: $("#" + state).offset().top
+        // }, 2000);
     }
     render() {
         var settings = {
@@ -219,22 +226,22 @@ class Home extends React.Component {
                             <div className="empty-column">
                             </div>
                             <div className="nav-bar">
-                                <Link activeClass="active"  id="home-bar" to="home" spy={true} offset={50} smooth={true} duration={500}>
+                                <Link activeClass="active"  id="home-bar" onSetActive={this.handleSetActive.bind(this, "home-bar")} to="home" spy={true} offset={50} smooth={true} duration={500}>
                                     Home
                                 </Link>
-                                <Link activeClass="active"  offset={30} to="platform" spy={true} smooth={true} duration={700}>
+                                <Link activeClass="active"  id="platform" onClick={this.scrollTo.bind(this, "sale-sect")} onSetActive={this.handleSetActive.bind(this, "platform")}  offset={30} to="platform" spy={true} smooth={true} duration={700}>
                                     Our Platforms
                                 </Link>
-                                <Link activeClass="active" offset={-50} to="roadmap" spy={true} smooth={true} duration={900}>
+                                <Link activeClass="active" offset={-50}  onSetActive={this.handleSetActive.bind(this, "roadmap")}  id="roadmap" to="roadmap" spy={true} smooth={true} duration={900}>
                                     RoadMap
                                 </Link>
-                                <Link activeClass="active" offset={30} to="whitepaper" spy={true} smooth={true} duration={900}>
+                                <Link activeClass="active" offset={30}  id="whitepaper" to="whitepaper" spy={true} smooth={true} duration={900}>
                                     Whitepaper
                                 </Link>
-                                <Link activeClass="active" to="sale" offset={30} spy={true} smooth={true} duration={1200}>
+                                <Link activeClass="active" to="sale"  onClick={this.scrollTo.bind(this, "sale-sect")} id="tokensale" offset={30} spy={true} smooth={true} duration={1200}>
                                     Token Sale
                                 </Link>
-                                <Link activeClass="active" to="team" offset={30} spy={true} smooth={true} duration={1500}>
+                                <Link activeClass="active" to="team"  id="team" offset={30} spy={true} smooth={true} duration={1500}>
                                     Team Members
                                 </Link>
                             </div>
@@ -506,6 +513,9 @@ class Home extends React.Component {
                             </Element>
 
                             <Element name="sale" className="element">
+                                <div id="sale-sect">
+                                    <Sale />
+                                </div>
                                 {/*<div className="roadmap">*/}
                                     {/*<div className="outer odd first">*/}
                                         {/*<div className="longer">*/}
@@ -538,7 +548,6 @@ class Home extends React.Component {
                                         {/*<div className="shorter"></div>*/}
                                     {/*</div>*/}
                                 {/*</div>*/}
-                                <Sale />
                             </Element>
                             <Element name="community" className="element">
                                 <div className="full_row_4 full_row_type_fs_t2 row_351 community">

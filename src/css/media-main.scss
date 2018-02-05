@@ -332,6 +332,13 @@ p {
   .row_30 {
     height: 800px;
   }
+  .column_281 {
+    width: 20%;
+    padding: 0px;
+  }
+  .column_291 {
+    width: 80%;
+  }
   .third-section {
     .inner-container {
       .inner-row {
@@ -533,6 +540,14 @@ p {
 @media only screen and (max-width: 767px) {
   .mobile-menu {
     display: block;
+  }
+
+  .column_281 {
+    width: 20%;
+    padding: 0px;
+  }
+  .column_291 {
+    width: 80%;
   }
   iframe {
     height: 400px;
