@@ -541,15 +541,15 @@ class Home extends React.Component {
                                 <Sale />
                             </Element>
                             <Element name="community" className="element">
-                                <div className="full_row_4 full_row_type_fs_t2 row_35 community">
+                                <div className="full_row_4 full_row_type_fs_t2 row_351 community">
                                     <div className="gridContainer row_36">
                                         <div className="row_37">
                                             <div className="column_281">
                                                 <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="social_right_icon">
-                                                    <img src={require("../images/facebook.png")}/>
+                                                    <img title="Facebook" src={require("../images/facebook.png")}/>
                                                 </a>
-                                                <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="social_right_icon">
-                                                    <img  src={require("../images/facebook.png")}/>
+                                                <a href="#" target="_blank" className="social_right_icon social_right_inactive">
+                                                    <img title="Discord (Comming Soon)"  src={require("../images/Discord.png")}/>
                                                 </a>
                                             </div>
                                             <div className="column_291">
@@ -559,17 +559,30 @@ class Home extends React.Component {
                                                     <p>We base our community on trust, so here are the platforms that our main community will be based,  follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow!</p>
                                                     <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
                                                     <div className="social_box">
-                                                        <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="sociallink">
-                                                            <img  src={require("../images/facebook.png")}/>
+                                                        <a href="#" target="_blank" className="sociallink sociallink_inactive" >
+                                                            <img title="Instagram (Comming Soon)" src={require("../images/instagram.png")}/>
+                                                        </a>
+                                                        <a href="https://www.youtube.com/channel/UCV_kICMUixyMnoj5gCgVdCA" className="sociallink" target="_blank" >
+                                                            <img title="Youtube" src={require("../images/youtube.png")}/>
+                                                        </a>
+
+                                                        <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <img title="Snapchat (Comming soon)"  src={require("../images/snapchat.png")}/>
+                                                        </a>
+                                                        <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <img title="Steemit (Comming Soon)"  src={require("../images/steemit.jpg")}/>
                                                         </a>
                                                         <a href="https://twitter.com/solutiontoken" className="sociallink" target="_blank" >
-                                                            <img src={require("../images/twitter.png")}/>
+                                                            <img title="Twitter"  src={require("../images/twitter.png")}/>
                                                         </a>
-                                                        <a href="solutiontoken.slack.com" className="sociallink" target="_blank" >
-                                                            <img src={require("../images/slack.png")}/>
+                                                        <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <img title="Reddit (Comming Soon)"  src={require("../images/reddit.png")}/>
                                                         </a>
-                                                        <a href="#" className="sociallink" target="_blank" >
-                                                            <img  src={require("../images/btc.png")}/>
+                                                        <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <img title="BitcoinTalk (Comming Soon)"  src={require("../images/btctalk.jpg")}/>
+                                                        </a>
+                                                        <a href="https://www.linkedin.com/company/solution-token/" className="sociallink" target="_blank" >
+                                                            <img title="LinkedIn"  src={require("../images/linkedin.png")}/>
                                                         </a>
 
                                                     </div>

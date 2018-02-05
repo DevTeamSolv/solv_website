@@ -5,10 +5,26 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#00ffffff',GradientType=0 );
 }
 .social_right_icon{
-    width: 40%;
+    width: 36%;
     display: block;
     margin: 0px auto;
     margin-top: 80px;
+    transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+}
+.social_right_icon:hover{
+    width: 39%;
+}
+.social_right_inactive{
+    transition: none !important;
+    width: 36% !important;
+}
+.row_351{
+    clear: both;
+    min-height: 820px;
+    max-height: 860px;
 }
 .column_291{
     float: left;
@@ -36,4 +52,18 @@
     display: block;
     float: left;
     padding: 10px;
+    transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+
+}
+.sociallink:hover{
+    width: 11.5%;
+}
+.sociallink_inactive{
+    transition: none !important;
+}
+.sociallink_inactive:hover{
+    width: 10% !important;
 }
