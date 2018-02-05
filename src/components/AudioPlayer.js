@@ -40,20 +40,22 @@ class AudioPlayer extends React.Component {
         audio.play();
     }
     previous(){
-        if(this.state.currentTrackId >0 ) {
+        if(this.state.currentTrackId >1 ) {
+            console.log(this.state.currentTrackId, "trancID --- PREVIUS")
             var audio = document.getElementById('myAudio');
             var prevTID = this.state.currentTrackId;
             this.setState({
                 currentTrackId: prevTID-1
             })
-            audio.src = this.state.allTracks[prevTID + 1];
+            audio.src = this.state.allTracks[prevTID - 1];
             if(!this.state.audioPaused) {
                 audio.play();
             }
         }
     }
     next(){
-        if(this.state.currentTrackId) {
+        if(this.state.currentTrackId < 8) {
+            console.log(this.state.currentTrackId, "trancID --- NEXT")
             var audio = document.getElementById('myAudio');
             var nextTID = this.state.currentTrackId;
             this.setState({
