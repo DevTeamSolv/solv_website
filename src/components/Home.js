@@ -365,23 +365,23 @@ class Home extends React.Component {
                                                 Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>
                                             <div className="column_46 desktop-view">
                                                 <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
-                                                    <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
+                                                    <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>
                                                     <p>Operation Humanity</p>
                                                     <p className="read-more">Read more</p>
                                                 </button>
                                                 <button className="water" onClick={this.handleDialog.bind(this, 2)}>
-                                                    <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
+                                                    <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>
                                                     <p>Water Solutions</p>
                                                     <p className="read-more">Read more</p>
                                                 </button>
 
                                                 <button className="game" onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                    <img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>
                                                     <p>Street QRed Game</p>
                                                     <p className="read-more">Read more</p>
                                                 </button>
                                                 <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
-                                                    <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
+                                                    <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>
                                                     <p>Solv Wallet</p>
                                                     <p className="read-more">Read more</p>
                                                 </button>
@@ -389,24 +389,24 @@ class Home extends React.Component {
                                             <div className="mobile-view">
                                                 <div>
                                                     <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Heart-Logo-Render.gif")}/>
+                                                        <img className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>
                                                         <p>Operation Humanity</p>
                                                         <p className="read-more">Read more</p>
                                                     </button>
                                                     <button className="water" onClick={this.handleDialog.bind(this, 2)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Water-Logo-Render.gif")}/>
+                                                        <img className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>
                                                         <p>Water Solutions</p>
                                                         <p className="read-more">Read more</p>
                                                     </button>
                                                 </div>
                                                 <div>
                                                     <button className="game" onClick={this.handleDialog.bind(this, 3)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Gaming-logo-Render.gif")}/>
+                                                        <img className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>
                                                         <p>Street QRed Game</p>
                                                         <p className="read-more">Read more</p>
                                                     </button>
                                                     <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Reward-logo-Render.gif")}/>
+                                                        <img className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>
                                                         <p>Solv Wallet</p>
                                                         <p className="read-more">Read more</p>
                                                     </button>
@@ -549,7 +549,7 @@ class Home extends React.Component {
                                                     <img title="Facebook" src={require("../images/facebook.png")}/>
                                                 </a>
                                                 <a href="#" target="_blank" className="social_right_icon social_right_inactive">
-                                                    <img title="Discord (Comming Soon)"  src={require("../images/Discord.png")}/>
+                                                    <img title="Discord (Comming Soon)"  src={require("../images/icons/if_discord_2308078.png")}/>
                                                 </a>
                                             </div>
                                             <div className="column_291">
@@ -560,29 +560,29 @@ class Home extends React.Component {
                                                     <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
                                                     <div className="social_box">
                                                         <a href="#" target="_blank" className="sociallink sociallink_inactive" >
-                                                            <img title="Instagram (Comming Soon)" src={require("../images/instagram.png")}/>
+                                                            <img title="Instagram (Comming Soon)" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
                                                         </a>
                                                         <a href="https://www.youtube.com/channel/UCV_kICMUixyMnoj5gCgVdCA" className="sociallink" target="_blank" >
-                                                            <img title="Youtube" src={require("../images/youtube.png")}/>
+                                                            <img title="Youtube" src={require("../images/icons/if_youtube_317714.png")}/>
                                                         </a>
 
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <img title="Snapchat (Comming soon)"  src={require("../images/snapchat.png")}/>
+                                                            <img title="Snapchat (Comming soon)"  src={require("../images/icons/if_snapchat_386706.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <img title="Steemit (Comming Soon)"  src={require("../images/steemit.jpg")}/>
+                                                            <img title="Steemit (Comming Soon)"  src={require("../images/icons/Layer 1.png")}/>
                                                         </a>
                                                         <a href="https://twitter.com/solutiontoken" className="sociallink" target="_blank" >
                                                             <img title="Twitter"  src={require("../images/twitter.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <img title="Reddit (Comming Soon)"  src={require("../images/reddit.png")}/>
+                                                            <img title="Reddit (Comming Soon)"  src={require("../images/icons/if_reddit_2308126.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <img title="BitcoinTalk (Comming Soon)"  src={require("../images/btctalk.jpg")}/>
+                                                            <img title="BitcoinTalk (Comming Soon)"  src={require("../images/icons/Layer 2.png")}/>
                                                         </a>
                                                         <a href="https://www.linkedin.com/company/solution-token/" className="sociallink" target="_blank" >
-                                                            <img title="LinkedIn"  src={require("../images/linkedin.png")}/>
+                                                            <img title="LinkedIn"  src={require("../images/icons/if_square-linkedin_317725.png")}/>
                                                         </a>
 
                                                     </div>
@@ -706,7 +706,7 @@ class Home extends React.Component {
                                                         </div>
                                                         <hr className="hassan"/>
                                                         <div className="hassan info">
-                                                            <p className="name">Hassan</p>
+                                                            <p className="name">Tauqeer Hassan</p>
                                                             <p className="designation">FrontEnd Engineer</p>
                                                         </div>
                                                     </div>
@@ -966,7 +966,7 @@ class Home extends React.Component {
                                                             </div>
                                                             <hr className="hassan"/>
                                                             <div className="hassan info">
-                                                                <p className="name">Hassan</p>
+                                                                <p className="name">Tauqeer Hassan</p>
                                                                 <p className="designation">FrontEnd Engineer</p>
                                                             </div>
                                                         </div>

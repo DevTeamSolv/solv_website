@@ -91,9 +91,9 @@ class TeamDetail extends React.Component {
                         <div className="member-img">
                             <img src={require("../images/team/size-/has.jpg")}/>
                         </div>
-                        <p className="name">Hassan</p>
+                        <p className="name">Tauqeer Hassan</p>
                         <p className="designation">FrontEnd Engineer</p>
-                        <p className="description">Hassan is a lead FrontEnd and ReactJS developer and Blockchain Enthusiast. Hassan has worked previously on different ICOs and non-Blockchain platforms.</p>
+                        <p className="description">Tauqeer Hassan is a lead FrontEnd and ReactJS developer and Blockchain Enthusiast. Tauqeer Hassan has worked previously on different ICOs and non-Blockchain platforms.</p>
                     </div>
                 }
                 {
