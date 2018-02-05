@@ -9,7 +9,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "andrew" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/ingram.jpg")}/>
+                            <img src={require("../images/team/size-/ingram.jpg")}/>
                         </div>
                         <p className="name">Andrew Ingram</p>
                         <p className="designation">CEO & Founder</p>
@@ -20,7 +20,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "zain" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/ali_Zain.jpg")}/>
+                            <img src={require("../images/team/size-/ali_Zain.jpg")}/>
                         </div>
                         <p className="name">Ali Zain</p>
                         <p className="designation">Head Developer</p>
@@ -32,7 +32,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "david" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/David.jpeg")}/>
+                            <img src={require("../images/team/size-/David.jpg")}/>
                         </div>
                         <p className="name">David Casciato</p>
                         <p className="designation">Humanitarian Director</p>
@@ -43,7 +43,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "matthew" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/no-body.png")}/>
+                            <img src={require("../images/size-/no-body.jpg")}/>
                         </div>
                         <p className="name">Matthew Wolff</p>
                         <p className="designation">COO</p>
@@ -54,7 +54,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "mike" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/Micheal.png")}/>
+                            <img src={require("../images/team/size-/Micheal.png")}/>
                         </div>
                         <p className="name">Michael Gogarty</p>
                         <p className="designation">Communications Manager</p>
@@ -66,7 +66,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "dean" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/Dean_James.jpg")}/>
+                            <img src={require("../images/team/size-/Dean_James.jpg")}/>
                         </div>
                         <p className="name">Dean James</p>
                         <p className="designation">Marketing Director</p>
@@ -77,7 +77,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "mahar" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/mahar_husnain.jpg")}/>
+                            <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
                         </div>
                         <p className="name">Mahar Husnain</p>
                         <p className="designation">Lead Developer</p>
@@ -89,7 +89,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "hassan" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/has.png")}/>
+                            <img src={require("../images/team/size-/has.jpg")}/>
                         </div>
                         <p className="name">Hassan</p>
                         <p className="designation">FrontEnd Engineer</p>
@@ -100,7 +100,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "sean" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/no-body.png")}/>
+                            <img src={require("../images/team/size-/new-sean.jpg")}/>
                         </div>
                         <p className="name">Sean Gallagher</p>
                         <p className="designation">Chief Editor</p>
@@ -112,7 +112,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "eli" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/eli-1.jpg")}/>
+                            <img src={require("../images/team/size-/eli-1.jpg")}/>
                         </div>
                         <p className="name">Eli Karadsheh</p>
                         <p className="designation">Social Media Manager</p>
@@ -123,7 +123,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "james" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/James fawk.jpg")}/>
+                            <img src={require("../images/team/size-/James fawk.jpg")}/>
                         </div>
                         <p className="name">James Fawke</p>
                         <p className="designation">Public Relation Australia</p>
@@ -135,7 +135,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "arik" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/Arik.jpg")}/>
+                            <img src={require("../images/team/size-/Arik.jpg")}/>
                         </div>
                         <p className="name">Arik Balolong</p>
                         <p className="designation">Web & Graphic Designer</p>
@@ -147,7 +147,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "daniel" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/SOLV PROFILES 005.jpg")}/>
+                            <img src={require("../images/team/size-/SOLV PROFILES 005.jpg")}/>
                         </div>
                         <p className="name">Daniel Faraj</p>
                         <p className="designation">Digital Media Manager</p>
@@ -159,7 +159,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "damian" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/Damian.png")}/>
+                            <img src={require("../images/team/size-/Damian.jpg")}/>
                         </div>
                         <p className="name">Damian Godlewski</p>
                         <p className="designation">Public Relations Europe</p>
@@ -170,7 +170,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "legaspi" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/Joshua L.jpg")}/>
+                            <img src={require("../images/team/size-/Joshua L.jpg")}/>
                         </div>
                         <p className="name">Joshua Legaspi</p>
                         <p className="designation">Lead Graphics</p>
