@@ -239,8 +239,8 @@ class Home extends React.Component {
                                 </Link>
                             </div>
                             <div onClick={this.handleMusic.bind(this)} className="music-btn">
-                                {!this.state.muted && <div><img src={require("../images/new-music.png")}/></div>}
-                                {this.state.muted && <div><img src={require("../images/no-music.png")}/></div>}
+                                {!this.state.muted && <div><img src={require("../images/size-/new-music.png")}/></div>}
+                                {this.state.muted && <div><img src={require("../images/size-/no-music.png")}/></div>}
                             </div>
                             <div className="join-sale">
 
@@ -318,7 +318,7 @@ class Home extends React.Component {
                         {/*{!this.state.paused && <img src={require("../images/pause-coloured.png")}/>}*/}
                         {/*{this.state.paused && <img src={require("../images/110962-glowing-green-neon-icon-arrows-arrow3-right-solid-circle.png")}/>}*/}
                     {/*</div>*/}
-
+                    <img className="display-none" src={require("../images/size-/wallpaper.png")}/>
                     <div className="content">
                         <div className="page-content DWFullScreenPage_container" id="DWFullScreenPage1">
                             <Element name="home" className="element">
@@ -473,13 +473,12 @@ class Home extends React.Component {
                                 <div>
                                     <div className="desktop-view roadmap-img">
                                         <h3>ROADMAP</h3>
-                                        <p>(Interactive Roadmap Coming Soon)</p>
+                                        <p>Interactive Roadmap Coming Soon</p>
                                         <img  src={require("../images/roadmap.png")}/>
-                                        <h3>&nbsp;</h3>
                                     </div>
                                     <div className="mobile-view roadmap-img">
                                         <h3>ROADMAP</h3>
-                                        <p>(Interactive Roadmap Coming Soon)</p>
+                                        <p>Interactive Roadmap Coming Soon</p>
                                         <img src={require("../images/mobile-roadmapfinaldave.PNG")}/>
                                     </div>
                                     {/*<RoadMap />*/}
@@ -1097,19 +1096,19 @@ class Home extends React.Component {
                     {/*<div className="fp-arrow-c" onClick={this.onClickFooter.bind(this)}> <span className="fp-arrow"> <i className="fa fa-chevron-down arrow" aria-hidden="true"></i></span> </div>*/}
                     <div className="footer">
                         <div className="box">
-                            <a href="#https://www.facebook.com/solutiontoken/" className="facebook2">
+                            <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="facebook2">
                                 <img  className="white" src={require("../images/facebook_w.png")}/>
                                 <img className="original" src={require("../images/facebook.png")}/>
                             </a>
-                            <a href="#" className="twitter2">
+                            <a href="#" className="twitter2" target="_blank" >
                                 <img className="white" src={require("../images/twitter_w.png")}/>
                                 <img className="original" src={require("../images/twitter.png")}/>
                             </a>
-                            <a href="#" className="slack2">
+                            <a href="#" className="slack2" target="_blank" >
                                 <img className="white" src={require("../images/slack_w.png")}/>
                                 <img className="original" src={require("../images/slack.png")}/>
                             </a>
-                            <a href="#" className="btc2 forcedState__hover">
+                            <a href="#" className="btc2 forcedState__hover" target="_blank" >
                                 <img className="white" src={require("../images/btc_w.png")}/>
                                 <img className="original" src={require("../images/btc.png")}/>
                             </a>

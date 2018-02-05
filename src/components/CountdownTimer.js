@@ -125,7 +125,7 @@ class CountdownTimer extends React.Component {
                     this.state.timeRemaining.months &&
                     <div className="months">
                         <svg className="svg-style">
-                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.months)) * 4.183)} id="ell"></ellipse>
+                            <ellipse rx="40" ry="40" cx="45" cy="45" strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.months)) * 4.183)} id="ell"></ellipse>
                         </svg>
                         <div className="time">{this.state.timeRemaining.months}</div>
                         <div className="label">Months</div>
@@ -136,7 +136,7 @@ class CountdownTimer extends React.Component {
                     <div className="days">
 
                         <svg className="svg-style">
-                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.days)) * 8.374)} id="ell"></ellipse>
+                            <ellipse rx="40" ry="40" cx="45" cy="45"  strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.days)) * 8.374)} id="ell"></ellipse>
                         </svg>
                         <div className="time">{this.state.timeRemaining.days}</div>
                         <div className="label">Days</div>
@@ -146,7 +146,7 @@ class CountdownTimer extends React.Component {
                     this.state.timeRemaining.h &&
                     <div className="hours">
                         <svg className="svg-style">
-                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.h)) * 10.454)} id="ell"></ellipse>
+                            <ellipse  rx="40" ry="40" cx="45" cy="45" strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.h)) * 10.454)} id="ell"></ellipse>
                         </svg>
                         <div className="time">{this.state.timeRemaining.h}</div>
                         <div className="label">Hours</div>
@@ -157,7 +157,7 @@ class CountdownTimer extends React.Component {
                     <div className="minutes">
                         {/*<div className="section minutes">*/}
                         <svg className="svg-style">
-                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.m)) * 4.183)} id="ell"></ellipse>
+                            <ellipse  rx="40" ry="40" cx="45" cy="45" strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.m)) * 4.183)} id="ell"></ellipse>
                         </svg>
                         <div className="time">{this.state.timeRemaining.m}</div>
                         <div className="label">Minutes</div>
@@ -167,7 +167,7 @@ class CountdownTimer extends React.Component {
                     this.state.timeRemaining.s &&
                     <div className="seconds">
                         <svg className="svg-style">
-                            <ellipse strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.s)) * 4.183)} id="ell"></ellipse>
+                            <ellipse  rx="40" ry="40" cx="45" cy="45" strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.s)) * 4.183)} id="ell"></ellipse>
                         </svg>
                         <div className="time">{this.state.timeRemaining.s}</div>
                         <div className="label">Seconds</div>

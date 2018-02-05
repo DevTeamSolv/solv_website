@@ -85,7 +85,7 @@ class AudioPlayer extends React.Component {
                 </audio>
                 <div className="audio-controls">
                     <div className="button-music">
-                        <img onClick={this.hideToggle.bind(this)} src={require("../images/size-/new-music.jpg")}/>
+                        <img onClick={this.hideToggle.bind(this)} src={require("../images/size-/new-music.png")}/>
                     </div>
                     <div className="outer-box">
                         <div className="button-prev">
@@ -97,7 +97,7 @@ class AudioPlayer extends React.Component {
                             {!this.state.audioPaused && <img onClick={this.pausePlay.bind(this)} src={require("../images/size-/pause-coloured.png")}/>}
                         </div>
                         <div className="button-next">
-                            {this.state.currentTrackId < 9 && <img onClick={this.next.bind(this)} src={require("../images/size-/images (4).jpeg")}/>}
+                            {this.state.currentTrackId < 9 && <img onClick={this.next.bind(this)} src={require("../images/images (4).jpeg")}/>}
                             {this.state.currentTrackId >= 9 && <img onClick={this.next.bind(this)} src={require("../images/size-/icons8-end-filled-100.png")}/>}
 
                         </div>

@@ -378,6 +378,9 @@
   .column_36 h3 {
     font-weight: bold; }
 
+.display-none {
+  display: none !important; }
+
 .team-details p {
   margin: 0px;
   font-size: 20px !important; }
@@ -1053,21 +1056,21 @@ video {
   .countDown .timer {
     margin-top: 43px; }
     .countDown .timer .seconds #ell {
-      stroke: #f2e207; }
+      stroke: #fff; }
     .countDown .timer .seconds .label, .countDown .timer .seconds .time {
-      color: #f2e207; }
+      color: #fff; }
     .countDown .timer .minutes #ell {
-      stroke: #ff8b00; }
+      stroke: #fff; }
     .countDown .timer .minutes .label, .countDown .timer .minutes .time {
-      color: #ff8b00; }
+      color: #fff; }
     .countDown .timer .days #ell {
-      stroke: #f52c05; }
+      stroke: #fff; }
     .countDown .timer .days .label, .countDown .timer .days .time {
-      color: #f52c05; }
+      color: #fff; }
     .countDown .timer .hours #ell {
-      stroke: #00d9ff; }
+      stroke: #fff; }
     .countDown .timer .hours .label, .countDown .timer .hours .time {
-      color: #00d9ff; }
+      color: #fff; }
     .countDown .timer .section {
       display: flex;
       flex-direction: column;
@@ -1100,7 +1103,7 @@ video {
   fill: #ffffff33;
   stroke-dasharray: 251;
   stroke-opacity: 1;
-  stroke-width: 1;
+  stroke-width: 3;
   stroke: #5adf2f; }
 
 .svg-style {
@@ -1297,9 +1300,10 @@ video {
 
 .desktop-view.roadmap-img {
   display: flex;
+  background-color: #37424a;
+  padding-bottom: 100px;
   flex-direction: column; }
   .desktop-view.roadmap-img p, .desktop-view.roadmap-img h3 {
-    background-color: #37424a;
     text-align: center;
     margin: 0px;
     padding: 20px 0; }
@@ -1308,16 +1312,20 @@ video {
     padding-top: 130px; }
   .desktop-view.roadmap-img p {
     color: #fff;
-    padding-bottom: 40px;
-    padding-top: 0px; }
+    padding: 10px 15px;
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 20px auto 40px; }
   .desktop-view.roadmap-img img {
     width: 100%; }
 
 .mobile-view.roadmap-img {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: #2e2f42;
+  padding-bottom: 100px; }
   .mobile-view.roadmap-img p, .mobile-view.roadmap-img h3 {
-    background-color: #2e2f42;
     text-align: center !important;
     margin: 0px;
     padding: 20px 0; }
@@ -1326,8 +1334,11 @@ video {
     padding-bottom: 0px; }
   .mobile-view.roadmap-img p {
     color: #fff;
-    padding-top: 0px;
-    padding-bottom: 40px; }
+    padding: 10px 15px;
+    width: 310px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 20px auto 40px; }
   .mobile-view.roadmap-img img {
     width: 100%; }
 
