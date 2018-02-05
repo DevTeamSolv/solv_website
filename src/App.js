@@ -6,6 +6,7 @@ import '../src/js/includes/DWFullScreenPage/jquery.fullpage.css';
 import '../src/font-awesome-4.7.0/css/font-awesome.min.css';
 import '../src/css/animate.css';
 import '../src/css/style.css';
+import '../src/css/community.css'
 import '../src/css/DWFullScreenPage1.css';
 import '../src/css/DWFullScreenPage1-header.css';
 import '../src/css/DWFullScreenPage1-footer.css';
