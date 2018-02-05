@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="487f68a5-6a7c-4460-b65a-4d51a3a8883d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AudioPlayer.js" afterPath="$PROJECT_DIR$/src/components/AudioPlayer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home.js" afterPath="$PROJECT_DIR$/src/components/Home.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="342" column="50" lean-forward="true" selection-start-line="342" selection-start-column="50" selection-end-line="342" selection-end-column="50" />
+            <state relative-caret-position="171">
+              <caret line="310" column="159" lean-forward="false" selection-start-line="310" selection-start-column="159" selection-end-line="310" selection-end-column="159" />
               <folding>
                 <element signature="n#!!block;n#handleDetails#0;n#Home#0" expanded="false" />
                 <element signature="n#!!block;n#onClickFooter#0;n#Home#0" expanded="false" />
@@ -44,74 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="AudioPlayer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/AudioPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="628">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="afterLoading.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/afterLoading.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loader.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/loader.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountdownTimer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CountdownTimer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20745">
-              <caret line="1383" column="6" lean-forward="false" selection-start-line="1383" selection-start-column="6" selection-end-line="1383" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media-main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/media-main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23640">
-              <caret line="1652" column="17" lean-forward="false" selection-start-line="1652" selection-start-column="17" selection-end-line="1652" selection-end-column="17" />
-              <folding>
-                <element signature="e#523#1742#0" expanded="false" />
+                <element signature="n#!!block;n#handleTrancEnded#0;n#AudioPlayer#0" expanded="false" />
+                <element signature="n#!!block;n#hideToggle#0;n#AudioPlayer#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,8 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>size-/gifs</find>
-      <find>scrolled</find>
       <find>content</find>
       <find>.content</find>
       <find>.scrolled</find>
@@ -158,6 +98,8 @@
       <find>.png</find>
       <find>350</find>
       <find>countDown</find>
+      <find>paused</find>
+      <find>audioPaused</find>
     </findStrings>
     <replaceStrings>
       <replace>(&quot;</replace>
@@ -192,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/js/jquery.scrollsteps-full-min.js" />
         <option value="$PROJECT_DIR$/src/js/jquery.scrollify.js" />
         <option value="$PROJECT_DIR$/src/js/vendor/jquery.min.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -217,11 +158,12 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/RoadMap.js" />
         <option value="$PROJECT_DIR$/src/components/TeamDetail.js" />
-        <option value="$PROJECT_DIR$/src/components/AudioPlayer.js" />
         <option value="$PROJECT_DIR$/src/components/CountdownTimer.js" />
         <option value="$PROJECT_DIR$/src/css/media-main.scss" />
         <option value="$PROJECT_DIR$/src/css/main.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/AudioPlayer.js" />
       </list>
     </option>
   </component>
@@ -456,10 +398,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163892000" />
+    <option name="totallyTimeSpent" value="167074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="23" width="1465" height="947" extended-state="1" />
+    <frame x="67" y="23" width="1465" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17728531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -493,11 +435,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/images/team/Micheal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sale.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="786">
@@ -675,13 +612,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AudioPlayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="99" column="143" lean-forward="false" selection-start-line="99" selection-start-column="143" selection-end-line="99" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/size-/wallpaper.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -773,10 +703,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="342" column="50" lean-forward="true" selection-start-line="342" selection-start-column="50" selection-end-line="342" selection-end-column="50" />
+        <state relative-caret-position="171">
+          <caret line="310" column="159" lean-forward="false" selection-start-line="310" selection-start-column="159" selection-end-line="310" selection-end-column="159" />
           <folding>
             <element signature="n#!!block;n#handleDetails#0;n#Home#0" expanded="false" />
             <element signature="n#!!block;n#onClickFooter#0;n#Home#0" expanded="false" />
@@ -790,6 +728,17 @@
             <element signature="e#5119#5703#0" expanded="false" />
             <element signature="e#5807#11787#0" expanded="false" />
             <element signature="e#8232#8924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AudioPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#handleTrancEnded#0;n#AudioPlayer#0" expanded="false" />
+            <element signature="n#!!block;n#hideToggle#0;n#AudioPlayer#0" expanded="false" />
           </folding>
         </state>
       </provider>

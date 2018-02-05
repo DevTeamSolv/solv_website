@@ -308,7 +308,7 @@ class Home extends React.Component {
                 {/*</div>*/}
                 <Element name="video" className="element">
 
-                    <iframe id="iframe" width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&modestbranding=1&autohide=1&autoplay=1&controls=0&showinfo=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                    <iframe id="iframe" width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&modestbranding=1&autohide=1&autoplay=0&controls=0&showinfo=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     {/*<video onClick={this.handleVideo.bind(this)} loop id="myVideo">*/}
                         {/*<source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />*/}
                         {/*Your browser does not support HTML5 video.*/}
