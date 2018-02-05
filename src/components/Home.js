@@ -244,8 +244,8 @@ class Home extends React.Component {
                             </div>
                             <div className="join-sale">
 
-                                <Link to="sale" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1200}>
-                                    Join Token Sale
+                                <Link activeClass="active" to="community" offset={30} spy={true} smooth={true} duration={1500}>
+                                    Join Community
                                 </Link>
                                 {/*<a>Join Token Sale</a>*/}
                             </div>
@@ -540,7 +540,45 @@ class Home extends React.Component {
                                 {/*</div>*/}
                                 <Sale />
                             </Element>
+                            <Element name="community" className="element">
+                                <div className="full_row_4 full_row_type_fs_t2 row_35 community">
+                                    <div className="gridContainer row_36">
+                                        <div className="row_37">
+                                            <div className="column_281">
+                                                <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="social_right_icon">
+                                                    <img src={require("../images/facebook.png")}/>
+                                                </a>
+                                                <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="social_right_icon">
+                                                    <img  src={require("../images/facebook.png")}/>
+                                                </a>
+                                            </div>
+                                            <div className="column_291">
+                                                <div id="editable-wrapping-node">
+                                                    <h3><span >Join Our Community</span> </h3>
+                                                    <p>Solution Token wishes you to join the community, this will allow you to interact with all team members and founders which you will be able to get to know each and everyone properly through out Solution Token's journey. You will also be able to interact with other members in the community, where you can share ideas and join forces to help each other in projects to come. </p>
+                                                    <p>We base our community on trust, so here are the platforms that our main community will be based,  follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow!</p>
+                                                    <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
+                                                    <div className="social_box">
+                                                        <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="sociallink">
+                                                            <img  src={require("../images/facebook.png")}/>
+                                                        </a>
+                                                        <a href="https://twitter.com/solutiontoken" className="sociallink" target="_blank" >
+                                                            <img src={require("../images/twitter.png")}/>
+                                                        </a>
+                                                        <a href="solutiontoken.slack.com" className="sociallink" target="_blank" >
+                                                            <img src={require("../images/slack.png")}/>
+                                                        </a>
+                                                        <a href="#" className="sociallink" target="_blank" >
+                                                            <img  src={require("../images/btc.png")}/>
+                                                        </a>
 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Element>
                             <Element name="team" className="element">
                                 <div className="section row_39" data-section-name="team" data-tooltip="Team Members" data-alternate-header="true" data-arrow="#1d8f19" data-id="team" data-anchor="team">
                                     <div className="full_row_8 full_row_type_fs_t4 row_44">
@@ -1094,17 +1132,19 @@ class Home extends React.Component {
                     </div>
                     {/*<div className="footer"></div>*/}
                     {/*<div className="fp-arrow-c" onClick={this.onClickFooter.bind(this)}> <span className="fp-arrow"> <i className="fa fa-chevron-down arrow" aria-hidden="true"></i></span> </div>*/}
+
+
                     <div className="footer">
                         <div className="box">
                             <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="facebook2">
                                 <img  className="white" src={require("../images/facebook_w.png")}/>
                                 <img className="original" src={require("../images/facebook.png")}/>
                             </a>
-                            <a href="#" className="twitter2" target="_blank" >
+                            <a href="https://twitter.com/solutiontoken" className="twitter2" target="_blank" >
                                 <img className="white" src={require("../images/twitter_w.png")}/>
                                 <img className="original" src={require("../images/twitter.png")}/>
                             </a>
-                            <a href="#" className="slack2" target="_blank" >
+                            <a href="solutiontoken.slack.com" className="slack2" target="_blank" >
                                 <img className="white" src={require("../images/slack_w.png")}/>
                                 <img className="original" src={require("../images/slack.png")}/>
                             </a>
