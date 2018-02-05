@@ -2,7 +2,7 @@
 .row_30 {
   height: auto !important;
   padding-bottom: 100px;
-  background-image: url("../images/gifs/wallpaper.png") !important; }
+  background-image: url("../images/size-/wallpaper.png") !important; }
   .row_30 .home-section {
     height: 100%;
     padding: 120px 0px; }
@@ -391,7 +391,7 @@
   height: auto !important;
   left: 50% !important; }
   .team-details .skylight-dialog .member-img img {
-    background-image: url("../images/no-body.png");
+    background-image: url("../images/size-/no-body.png");
     border: 3px solid #77b174;
     width: 100px;
     background-size: cover;
@@ -583,6 +583,16 @@ div.FM2_DWFullScreenPage1menu_container {
       border-radius: 100%;
       padding: 6px; }
 
+.animated-scroll {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.fadeIn {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
+
 .scrolled {
   height: 69px;
   padding-top: 5px;
@@ -591,7 +601,10 @@ div.FM2_DWFullScreenPage1menu_container {
   background-repeat: no-repeat;
   -webkit-transition: all .2s linear 0s;
   -o-transition: all .2s linear 0s;
-  transition: all .2s linear 0s; }
+  transition: all .2s linear 0s;
+  position: fixed;
+  width: 100%;
+  z-index: 9999; }
   .scrolled .active {
     color: #58e02a !important; }
   .scrolled .top-bar-outer {
@@ -884,9 +897,6 @@ video {
   width: 100%;
   margin-top: 67px; }
 
-.content {
-  margin-top: -6px; }
-
 .team-details {
   margin-top: 70px; }
   .team-details .team-container {
@@ -936,7 +946,7 @@ video {
             -o-transition: all 0.2s linear 0s;
             transition: all 0.2s linear 0s; }
           .team-details .team-container .members-row .member-container .inner-member-container img {
-            background-image: url("../images/no-body.png") !important;
+            background-image: url("../images/size-/no-body.png") !important;
             width: 150px;
             background-position: center;
             background-size: cover;
@@ -1016,7 +1026,7 @@ video {
   position: fixed;
   z-index: 999;
   border-radius: 10px;
-  top: 100px;
+  top: 200px;
   right: -220px; }
   .audio-controls .outer-box {
     display: flex;
@@ -1284,6 +1294,42 @@ video {
         .roadmap .outer-container .des-container .outer-container p {
           text-align: center;
           margin: 0px; }
+
+.desktop-view.roadmap-img {
+  display: flex;
+  flex-direction: column; }
+  .desktop-view.roadmap-img p, .desktop-view.roadmap-img h3 {
+    background-color: #37424a;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0; }
+  .desktop-view.roadmap-img h3 {
+    padding-bottom: 0px;
+    padding-top: 130px; }
+  .desktop-view.roadmap-img p {
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 0px; }
+  .desktop-view.roadmap-img img {
+    width: 100%; }
+
+.mobile-view.roadmap-img {
+  display: flex;
+  flex-direction: column; }
+  .mobile-view.roadmap-img p, .mobile-view.roadmap-img h3 {
+    background-color: #2e2f42;
+    text-align: center !important;
+    margin: 0px;
+    padding: 20px 0; }
+  .mobile-view.roadmap-img h3 {
+    padding-top: 70px;
+    padding-bottom: 0px; }
+  .mobile-view.roadmap-img p {
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 40px; }
+  .mobile-view.roadmap-img img {
+    width: 100%; }
 
 @keyframes fadeInUp {
   from {

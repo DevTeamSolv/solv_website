@@ -89,28 +89,28 @@ class RoadMap extends React.Component {
                                     <li><p>Blah Blah blah</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                 </ul>
-                                <ul className={this.state.currentEvent === "l4" ? "fadeInUp" : 'hide'}>
+                                <ul className={this.state.currentEvent === "l4" ? "animated fadeInUp" : 'animated hide'}>
                                     <li><p className="date">Q4 - 2018</p></li>
                                     <li><p className="title">Solution Wallet</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                 </ul>
-                                <ul className={this.state.currentEvent === "l5" ? "fadeInUp" : 'hide'}>
+                                <ul className={this.state.currentEvent === "l5" ? "animated fadeInUp" : 'animated hide'}>
                                     <li><p className="date">Q1 - 2019</p></li>
                                     <li><p className="title">Operation Humanity</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                 </ul>
-                                <ul className={this.state.currentEvent === "l6" ? "fadeInUp" : 'hide'}>
+                                <ul className={this.state.currentEvent === "l6" ? "animated fadeInUp" : 'animated hide'}>
                                     <li><p className="date">Q3 - 2019</p></li>
                                     <li><p className="title">Water Solutions</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                     <li><p>Blah Blah blah</p></li>
                                 </ul>
-                                <ul className={this.state.currentEvent === "l7" ? "fadeInUp" : 'hide'}>
+                                <ul className={this.state.currentEvent === "l7" ? "animated fadeInUp" : 'animated hide'}>
                                     <li><p className="date">Q4 - 2019</p></li>
                                     <li><p className="title">Gaming</p></li>
                                     <li><p>Blah Blah blah</p></li>

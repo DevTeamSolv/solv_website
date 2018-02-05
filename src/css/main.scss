@@ -1,7 +1,7 @@
 .row_30 {
   height: auto !important;
   padding-bottom: 100px;
-  background-image: url("../images/size-/gifs/wallpaper.png") !important;
+  background-image: url("../images/size-/wallpaper.png") !important;
   .home-section {
     height: 100%;
     padding: 120px 0px;
@@ -236,7 +236,7 @@ button.wallet p {
 }
 .row_38 {
   //background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
-  background-image: url("../images/size-/1.jpg");
+  background-image: url("../images/1.jpg");
   padding-top: 360px;
   height: 976px;
   background-size: cover;
@@ -654,7 +654,7 @@ div.FM2_DWFullScreenPage1menu_container {
 }
 .row_51 {
   padding-top: 15px;
-  background-image: url("../images/size-/gifs/Nav-Bar_ver-4.gif");
+  background-image: url("../images/gifs/Nav-Bar_ver-4.gif");
   background-size: cover;
   height: 93px;
   background-repeat: no-repeat;
@@ -720,15 +720,29 @@ div.FM2_DWFullScreenPage1menu_container {
     }
   }
 }
+
+.animated-scroll {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fadeIn {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
 .scrolled {
   height: 69px;
   padding-top: 5px;
-  background-image: url("../images/size-/gifs/Nav-Bar_ver-4.gif");
+  background-image: url("../images/gifs/Nav-Bar_ver-4.gif");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all .2s linear 0s;
   -o-transition: all .2s linear 0s;
   transition: all .2s linear 0s;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
   .active {
     color: #58e02a !important;
   }
@@ -1100,7 +1114,7 @@ video {
   margin-top: 67px;
 }
 .content {
-  margin-top: -6px;
+  //margin-top: -6px;
 }
 
 .team-details {
@@ -1267,7 +1281,7 @@ video {
     position: fixed;
     z-index: 999;
     border-radius: 10px;
-    top: 100px;
+    top: 200px;
     right: -220px;
     .outer-box {
       display: flex;
@@ -1631,6 +1645,51 @@ video {
         }
       }
     }
+  }
+}
+.desktop-view.roadmap-img {
+  display: flex;
+  flex-direction: column;
+  p, h3 {
+    background-color: #37424a;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0;
+  }
+  h3 {
+    padding-bottom: 0px;
+    padding-top: 130px;
+  }
+  p {
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 0px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.mobile-view.roadmap-img {
+  display: flex;
+  flex-direction: column;
+  p, h3 {
+    background-color: #2e2f42;
+    text-align: center !important;
+    margin: 0px;
+    padding: 20px 0;
+  }
+  h3 {
+    padding-top: 70px;
+    padding-bottom: 0px;
+  }
+  p {
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  img {
+    width: 100%;
   }
 }
 

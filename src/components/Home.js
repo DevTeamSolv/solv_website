@@ -121,7 +121,7 @@ class Home extends React.Component {
                 docHeight = $(document).height(),
                 value = $(window).scrollTop(),
                 max, percent;
-            if(value > 4) {
+            if(value > 20) {
                 this.setState({
                     hide: false
                 })
@@ -213,8 +213,8 @@ class Home extends React.Component {
         };
         return (
             <div>
-                <div className="header">
-                    <div className={!this.state.hide ? "scrolled" : "row_51 "}>
+                {/*<div className="header">*/}
+                    <div className={!this.state.hide ? "scrolled animated-scroll fadeIn" : "row_51 animated-scroll"}>
                         <div className="top-bar-outer">
                             <div className="empty-column">
                             </div>
@@ -225,10 +225,10 @@ class Home extends React.Component {
                                 <Link activeClass="active"  offset={30} to="platform" spy={true} smooth={true} duration={700}>
                                     Our Platforms
                                 </Link>
-                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)} to="roadmap" spy={true} smooth={true} duration={900}>
+                                <Link activeClass="active" offset={-50} to="roadmap" spy={true} smooth={true} duration={900}>
                                     RoadMap
                                 </Link>
-                                <Link activeClass="active" offset={30} onSetActive= {this.handleSetActive.bind(this)} to="whitepaper" spy={true} smooth={true} duration={900}>
+                                <Link activeClass="active" offset={30} to="whitepaper" spy={true} smooth={true} duration={900}>
                                     Whitepaper
                                 </Link>
                                 <Link activeClass="active" to="sale" offset={30} spy={true} smooth={true} duration={1200}>
@@ -276,7 +276,7 @@ class Home extends React.Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="test6" to="roadmap" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
+                                        <Link className="test6" to="roadmap" offset={-50} onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
                                             RoadMap
                                         </Link>
                                     </li>
@@ -305,10 +305,10 @@ class Home extends React.Component {
                             </nav>
                         </div>
                     </div>
-                </div>
+                {/*</div>*/}
                 <Element name="video" className="element">
 
-                    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&autoplay=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                    <iframe id="iframe" width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&autoplay=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     {/*<video onClick={this.handleVideo.bind(this)} loop id="myVideo">*/}
                         {/*<source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />*/}
                         {/*Your browser does not support HTML5 video.*/}
@@ -471,7 +471,18 @@ class Home extends React.Component {
 
                             <Element name="roadmap" className="element">
                                 <div>
-                                    <RoadMap />
+                                    <div className="desktop-view roadmap-img">
+                                        <h3>ROADMAP</h3>
+                                        <p>(Interactive Roadmap Coming Soon)</p>
+                                        <img  src={require("../images/roadmap.png")}/>
+                                        <h3>&nbsp;</h3>
+                                    </div>
+                                    <div className="mobile-view roadmap-img">
+                                        <h3>ROADMAP</h3>
+                                        <p>(Interactive Roadmap Coming Soon)</p>
+                                        <img src={require("../images/mobile-roadmapfinaldave.PNG")}/>
+                                    </div>
+                                    {/*<RoadMap />*/}
                                 </div>
                             </Element>
                             <Element name="whitepaper" className="element">
@@ -486,7 +497,8 @@ class Home extends React.Component {
                                                         <h3><span >Interactive</span> <span className="span14">Whitepaper</span></h3>
                                                         <p>The simplicity of an interactive whitepaper draws the attention to the key aspects of Solution Token. <br/>
                                                             <span >This will allow users to both have visual and a virtual experience.&nbsp;</span></p>
-                                                        <a className="button" href="#">Coming Soon</a></div>
+                                                        <a className="button" href="#">Coming Soon</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
