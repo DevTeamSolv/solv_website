@@ -9,6 +9,7 @@ class AudioPlayer extends React.Component {
             currentTrackName: "",
             audioPaused: true,
             controlsShow: true,
+            paused: true,
             allTracks: [
                 require("../images/musics/BG-music.mp3"),
                 require("../images/musics/Cloud 9 NCS Release.mp3"),
@@ -23,6 +24,7 @@ class AudioPlayer extends React.Component {
         }
     }
     handleTrancEnded(){
+        var audio = document.getElementById('myAudio');
         var x = this.state.currentTrackId;
         if(this.state.currentTrackId <9) {
             this.setState({
@@ -34,23 +36,34 @@ class AudioPlayer extends React.Component {
                 currentTrackId: 0
             })
         }
+        audio.pause();
+        audio.play();
     }
     previous(){
-        console.log(this.state.currentTrackId)
-        var prevTID = this.state.currentTrackId;
-        this.setState({
-            currentTrackId: prevTID-1
-        })
-        // if(this.state.currentTrackId > 0){
-        //
-        // }
+        if(this.state.currentTrackId >0 ) {
+            var audio = document.getElementById('myAudio');
+            var prevTID = this.state.currentTrackId;
+            this.setState({
+                currentTrackId: prevTID-1
+            })
+            audio.src = this.state.allTracks[prevTID + 1];
+            if(!this.state.audioPaused) {
+                audio.play();
+            }
+        }
     }
     next(){
-        console.log(this.state.currentTrackId)
-        var nextTID = this.state.currentTrackId;
-        this.setState({
-            currentTrackId: nextTID+1
-        })
+        if(this.state.currentTrackId) {
+            var audio = document.getElementById('myAudio');
+            var nextTID = this.state.currentTrackId;
+            this.setState({
+                currentTrackId: nextTID+1
+            })
+            audio.src = this.state.allTracks[nextTID + 1];
+            if(!this.state.audioPaused) {
+                audio.play();
+            }
+        }
     }
     pausePlay () {
         var audio = document.getElementById('myAudio');
@@ -61,7 +74,7 @@ class AudioPlayer extends React.Component {
             audio.pause();
         }
         this.setState({
-            audioPaused: audio.paused
+            audioPaused: audio.paused,
         })
     }
     hideToggle(){
@@ -80,7 +93,7 @@ class AudioPlayer extends React.Component {
     render() {
         return (
             <div>
-                <audio onEnded={this.handleTrancEnded.bind(this)} src={this.state.allTracks[this.state.currentTrackId]} loop={false} id="myAudio">
+                <audio onEnded={this.handleTrancEnded.bind(this)} src={require("../images/musics/BG-music.mp3")} loop={false} id="myAudio">
                     <p>If you are reading this, it is because your browser does not support the audio element.</p>
                 </audio>
                 <div className="audio-controls">
