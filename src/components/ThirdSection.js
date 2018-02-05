@@ -84,7 +84,7 @@ class ThirdSection extends React.Component {
                                     Moving to the future with new technology and innovators that are consistently evolving the world every day, Solution Token wants to not only stand among great innovators, but stand out. Our goal is to not only be a <span className="hide-text">household name as a real world company or a crypto company, but as a brand. Solution as a brand will have more of an impact on the world than just being a crypto company. We want to make a difference, change the world in a positive way, and make a lasting impact.</span><br/><a onClick={this.readMore.bind(this, "b7")}>read more</a>
                                 </p>
                             </div>
-                            <div className="box b8">
+                            <div className="boox b8">
                                 <img src={require("../images/971de19592654f9b2ad89c8a7bb35364.png")}/>
                                 <h3>USER BENEFIT</h3>
                                 <p>
