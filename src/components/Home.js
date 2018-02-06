@@ -478,17 +478,17 @@ class Home extends React.Component {
 
                             <Element name="roadmap" className="element">
                                 <div>
-                                    <div className="desktop-view roadmap-img">
-                                        <h3>ROADMAP</h3>
-                                        <p>Interactive Roadmap Coming Soon</p>
-                                        <img  src={require("../images/roadmap.png")}/>
-                                    </div>
-                                    <div className="mobile-view roadmap-img">
-                                        <h3>ROADMAP</h3>
-                                        <p>Interactive Roadmap Coming Soon</p>
-                                        <img src={require("../images/mobile-roadmapfinaldave.PNG")}/>
-                                    </div>
-                                    {/*<RoadMap />*/}
+                                    {/*<div className="desktop-view roadmap-img">*/}
+                                        {/*<h3>ROADMAP</h3>*/}
+                                        {/*<p>Interactive Roadmap Coming Soon</p>*/}
+                                        {/*<img  src={require("../images/roadmap.png")}/>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="mobile-view roadmap-img">*/}
+                                        {/*<h3>ROADMAP</h3>*/}
+                                        {/*<p>Interactive Roadmap Coming Soon</p>*/}
+                                        {/*<img src={require("../images/mobile-roadmapfinaldave.PNG")}/>*/}
+                                    {/*</div>*/}
+                                    <RoadMap />
                                 </div>
                             </Element>
                             <Element name="whitepaper" className="element">

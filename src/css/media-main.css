@@ -398,6 +398,19 @@ p {
   .mobile-menu {
     display: block; }
 
+  .mobile-roadmap .mobile-view-roadmap {
+    display: block; }
+  .mobile-roadmap ul, .mobile-roadmap p, .mobile-roadmap h3, .mobile-roadmap li {
+    text-align: center !important; }
+  .mobile-roadmap ul {
+    margin: 0px auto !important; }
+  .mobile-roadmap .inner-box {
+    width: 230px; }
+  .mobile-roadmap .right-side .inner-box {
+    flex-direction: column; }
+  .mobile-roadmap .left-side .inner-box {
+    flex-direction: column-reverse; }
+
   .column_281 {
     width: 20%;
     padding: 0px; }
