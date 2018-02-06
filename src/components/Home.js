@@ -556,8 +556,8 @@ class Home extends React.Component {
                                     <div className="gridContainer row_36">
                                         <div className="row_37">
                                             <div className="column_281">
-                                                <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="social_right_icon">
-                                                    <img title="Facebook" src={require("../images/facebook.png")}/>
+                                                <a href="https://www.facebook.com/groups/251807885358730/" target="_blank" className="social_right_icon">
+                                                    <img title="Facebook Group" src={require("../images/facebook.png")}/>
                                                 </a>
                                                 <a href="#" target="_blank" className="social_right_icon social_right_inactive">
                                                     <span className="tooltiptext">Discord Coming Soon</span>
@@ -571,8 +571,15 @@ class Home extends React.Component {
                                                     <p>We base our community on trust, so here are the platforms that our main community will be based,  follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow!</p>
                                                     <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
                                                     <div className="social_box">
+<<<<<<< HEAD
                                                         <a href="#" target="_blank" className="sociallink sociallink_inactive" >
                                                             <span className="tooltiptext">Instagram Coming Soon</span>
+=======
+                                                        <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="sociallink" >
+                                                            <img title="Facebook Page" src={require("../images/facebook.png")}/>
+                                                        </a>
+                                                        <a href="https://www.instagram.com/solution_token/" target="_blank" className="sociallink" >
+>>>>>>> a67f753a9cd332ef55045e542ea691b4d48d5456
                                                             <img title="Instagram (Comming Soon)" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
                                                         </a>
                                                         <a href="https://www.youtube.com/channel/UCV_kICMUixyMnoj5gCgVdCA" className="sociallink" target="_blank" >
@@ -644,7 +651,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/size-/no-body.jpg")}/>
+                                                        <img src={require("../images/team/matt.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>

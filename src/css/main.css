@@ -143,7 +143,9 @@
         opacity: 1;
         position: relative;
         right: 50%; }
-
+    .ad_img{
+      width: 30%;
+    }
 .row_58 {
   padding-top: 130px;
   padding-bottom: 130px; }
