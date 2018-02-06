@@ -393,23 +393,39 @@ p {
     height: 500px; } }
 @media only screen and (min-width: 768px) {
   .mobile-view {
-    display: none !important; } }
+    display: none !important; }
+
+  .mobile-roadmap {
+    display: none; } }
 @media only screen and (max-width: 767px) {
   .mobile-menu {
     display: block; }
 
-  .mobile-roadmap .mobile-view-roadmap {
+  .mobile-roadmap {
     display: block; }
-  .mobile-roadmap ul, .mobile-roadmap p, .mobile-roadmap h3, .mobile-roadmap li {
-    text-align: center !important; }
-  .mobile-roadmap ul {
-    margin: 0px auto !important; }
-  .mobile-roadmap .inner-box {
-    width: 230px; }
-  .mobile-roadmap .right-side .inner-box {
-    flex-direction: column; }
-  .mobile-roadmap .left-side .inner-box {
-    flex-direction: column-reverse; }
+    .mobile-roadmap .roadmap {
+      align-items: center;
+      padding: 100px 50px; }
+      .mobile-roadmap .roadmap .mobile-view-roadmap {
+        display: block; }
+      .mobile-roadmap .roadmap ul, .mobile-roadmap .roadmap p, .mobile-roadmap .roadmap h3, .mobile-roadmap .roadmap li {
+        text-align: center !important; }
+      .mobile-roadmap .roadmap ul {
+        margin: 0px auto !important; }
+      .mobile-roadmap .roadmap .inner-box {
+        width: 340px;
+        flex-direction: row;
+        justify-content: center; }
+      .mobile-roadmap .roadmap .inner-container {
+        justify-content: flex-start; }
+        .mobile-roadmap .roadmap .inner-container .right-side {
+          border-left: 2px solid;
+          border-image: linear-gradient(to bottom, #166d13, #2c532d, #2c542d, #51d64a, #51d64a) 0% 1% 2% 48%; }
+      .mobile-roadmap .roadmap .inner-box {
+        flex-direction: row;
+        padding-left: 10px; }
+      .mobile-roadmap .roadmap .mid-dot-top, .mobile-roadmap .roadmap .mid-dot-bottom {
+        margin-left: -388.2px; }
 
   .column_281 {
     width: 20%;
@@ -968,6 +984,31 @@ p {
   img.image-field2 {
     width: 55%; }
 
+  .mobile-roadmap {
+    display: block; }
+    .mobile-roadmap .roadmap {
+      align-items: center;
+      padding: 100px 50px; }
+      .mobile-roadmap .roadmap .mobile-view-roadmap {
+        display: block; }
+      .mobile-roadmap .roadmap ul, .mobile-roadmap .roadmap p, .mobile-roadmap .roadmap h3, .mobile-roadmap .roadmap li {
+        text-align: center !important; }
+      .mobile-roadmap .roadmap ul {
+        margin: 0px auto !important; }
+      .mobile-roadmap .roadmap .inner-box {
+        width: 280px;
+        flex-direction: column !important;
+        justify-content: center; }
+      .mobile-roadmap .roadmap .inner-container {
+        justify-content: flex-start; }
+        .mobile-roadmap .roadmap .inner-container .right-side {
+          border-left: 2px solid #1e8e1a; }
+      .mobile-roadmap .roadmap .inner-box {
+        flex-direction: row;
+        padding-left: 10px; }
+      .mobile-roadmap .roadmap .mid-dot-top, .mobile-roadmap .roadmap .mid-dot-bottom {
+        margin-left: -329.2px; }
+
   .mobile-view.roadmap-img p {
     width: 250px;
     line-height: 1.3;
@@ -1283,6 +1324,33 @@ p {
 
   .audio-controls {
     right: -250px; }
+
+  .mobile-roadmap {
+    display: block; }
+    .mobile-roadmap .roadmap {
+      align-items: center;
+      padding: 100px 50px; }
+      .mobile-roadmap .roadmap .mobile-view-roadmap {
+        display: block; }
+      .mobile-roadmap .roadmap ul, .mobile-roadmap .roadmap p, .mobile-roadmap .roadmap h3, .mobile-roadmap .roadmap li {
+        text-align: center !important; }
+      .mobile-roadmap .roadmap ul {
+        margin: 0px auto !important; }
+      .mobile-roadmap .roadmap .inner-box {
+        width: 200px;
+        flex-direction: column !important;
+        justify-content: center; }
+        .mobile-roadmap .roadmap .inner-box .image {
+          width: 100px; }
+      .mobile-roadmap .roadmap .inner-container {
+        justify-content: flex-start; }
+        .mobile-roadmap .roadmap .inner-container .right-side {
+          border-left: 2px solid #1e8e1a; }
+      .mobile-roadmap .roadmap .inner-box {
+        flex-direction: row;
+        padding-left: 10px; }
+      .mobile-roadmap .roadmap .mid-dot-top, .mobile-roadmap .roadmap .mid-dot-bottom {
+        margin-left: -249.2px; }
 
   .mobile-view.roadmap-img p {
     width: 230px;

@@ -17,6 +17,7 @@ import Sale from './Sale'
 import AudioPlayer from './AudioPlayer'
 import ThirdSection from './ThirdSection';
 import RoadMap from './RoadMap';
+import MobileRoadMap from './MobileRoadMap';
 
 
 
@@ -489,6 +490,7 @@ class Home extends React.Component {
                                         {/*<img src={require("../images/mobile-roadmapfinaldave.PNG")}/>*/}
                                     {/*</div>*/}
                                     <RoadMap />
+                                    <MobileRoadMap />
                                 </div>
                             </Element>
                             <Element name="whitepaper" className="element">
@@ -558,6 +560,7 @@ class Home extends React.Component {
                                                     <img title="Facebook" src={require("../images/facebook.png")}/>
                                                 </a>
                                                 <a href="#" target="_blank" className="social_right_icon social_right_inactive">
+                                                    <span className="tooltiptext">Discord Coming Soon</span>
                                                     <img title="Discord (Comming Soon)"  src={require("../images/icons/if_discord_2308078.png")}/>
                                                 </a>
                                             </div>
@@ -569,6 +572,7 @@ class Home extends React.Component {
                                                     <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
                                                     <div className="social_box">
                                                         <a href="#" target="_blank" className="sociallink sociallink_inactive" >
+                                                            <span className="tooltiptext">Instagram Coming Soon</span>
                                                             <img title="Instagram (Comming Soon)" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
                                                         </a>
                                                         <a href="https://www.youtube.com/channel/UCV_kICMUixyMnoj5gCgVdCA" className="sociallink" target="_blank" >
@@ -576,18 +580,22 @@ class Home extends React.Component {
                                                         </a>
 
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <span className="tooltiptext">Snapchat Coming Soon</span>
                                                             <img title="Snapchat (Comming soon)"  src={require("../images/icons/if_snapchat_386706.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <span className="tooltiptext">Steemit Coming Soon</span>
                                                             <img title="Steemit (Comming Soon)"  src={require("../images/icons/Layer 1.png")}/>
                                                         </a>
                                                         <a href="https://twitter.com/solutiontoken" className="sociallink" target="_blank" >
                                                             <img title="Twitter"  src={require("../images/twitter.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <span className="tooltiptext">Reddit Coming Soon</span>
                                                             <img title="Reddit (Comming Soon)"  src={require("../images/icons/if_reddit_2308126.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
+                                                            <span className="tooltiptext">BitcoinTalk Coming Soon</span>
                                                             <img title="BitcoinTalk (Comming Soon)"  src={require("../images/icons/Layer 2.png")}/>
                                                         </a>
                                                         <a href="https://www.linkedin.com/company/solution-token/" className="sociallink" target="_blank" >
