@@ -571,21 +571,17 @@ class Home extends React.Component {
                                                     <p>We base our community on trust, so here are the platforms that our main community will be based,  follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow!</p>
                                                     <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
                                                     <div className="social_box">
-<<<<<<< HEAD
-                                                        <a href="#" target="_blank" className="sociallink sociallink_inactive" >
-                                                            <span className="tooltiptext">Instagram Coming Soon</span>
-=======
+
                                                         <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="sociallink" >
                                                             <img title="Facebook Page" src={require("../images/facebook.png")}/>
-                                                        </a>
-                                                        <a href="https://www.instagram.com/solution_token/" target="_blank" className="sociallink" >
->>>>>>> a67f753a9cd332ef55045e542ea691b4d48d5456
-                                                            <img title="Instagram (Comming Soon)" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
                                                         </a>
                                                         <a href="https://www.youtube.com/channel/UCV_kICMUixyMnoj5gCgVdCA" className="sociallink" target="_blank" >
                                                             <img title="Youtube" src={require("../images/icons/if_youtube_317714.png")}/>
                                                         </a>
-
+                                                        <a href="#" target="_blank" className="sociallink sociallink_inactive" >
+                                                            <span className="tooltiptext">Instagram Coming Soon</span>
+                                                            <img title="Youtube" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
+                                                        </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
                                                             <span className="tooltiptext">Snapchat Coming Soon</span>
                                                             <img title="Snapchat (Comming soon)"  src={require("../images/icons/if_snapchat_386706.png")}/>
