@@ -555,15 +555,11 @@ class Home extends React.Component {
                                 <div className="full_row_4 full_row_type_fs_t2 row_351 community">
                                     <div className="gridContainer row_36">
                                         <div className="row_37">
-                                            <div className="column_281">
-                                                <a href="https://www.facebook.com/groups/251807885358730/" target="_blank" className="social_right_icon">
-                                                    <img title="Facebook Group" src={require("../images/facebook.png")}/>
-                                                </a>
-                                                <a href="#" target="_blank" className="social_right_icon social_right_inactive">
-                                                    <span className="tooltiptext">Discord Coming Soon</span>
-                                                    <img title="Discord (Comming Soon)"  src={require("../images/icons/if_discord_2308078.png")}/>
-                                                </a>
-                                            </div>
+                                            {/*<div className="column_281">*/}
+                                                {/*/!*<a href="https://www.facebook.com/groups/251807885358730/" target="_blank" className="social_right_icon">*!/*/}
+                                                    {/*/!*<img title="Facebook Group" src={require("../images/facebook.png")}/>*!/*/}
+                                                {/*/!*</a>*!/*/}
+                                            {/*</div>*/}
                                             <div className="column_291">
                                                 <div id="editable-wrapping-node">
                                                     <h3><span >Join Our Community</span> </h3>
@@ -579,26 +575,30 @@ class Home extends React.Component {
                                                             <img title="Youtube" src={require("../images/icons/if_youtube_317714.png")}/>
                                                         </a>
                                                         <a href="#" target="_blank" className="sociallink sociallink_inactive" >
-                                                            <span className="tooltiptext">Instagram Coming Soon</span>
+                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
                                                             <img title="Youtube" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
                                                         </a>
+                                                        <a href="#" target="_blank" className="sociallink sociallink_inactive" >
+                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
+                                                            <img title="Discord (Comming Soon)"  src={require("../images/icons/if_discord_2308078.png")}/>
+                                                        </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <span className="tooltiptext">Snapchat Coming Soon</span>
+                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
                                                             <img title="Snapchat (Comming soon)"  src={require("../images/icons/if_snapchat_386706.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <span className="tooltiptext">Steemit Coming Soon</span>
+                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
                                                             <img title="Steemit (Comming Soon)"  src={require("../images/icons/Layer 1.png")}/>
                                                         </a>
                                                         <a href="https://twitter.com/solutiontoken" className="sociallink" target="_blank" >
                                                             <img title="Twitter"  src={require("../images/twitter.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <span className="tooltiptext">Reddit Coming Soon</span>
+                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
                                                             <img title="Reddit (Comming Soon)"  src={require("../images/icons/if_reddit_2308126.png")}/>
                                                         </a>
                                                         <a href="#" className="sociallink sociallink_inactive" target="_blank" >
-                                                            <span className="tooltiptext">BitcoinTalk Coming Soon</span>
+                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
                                                             <img title="BitcoinTalk (Comming Soon)"  src={require("../images/icons/Layer 2.png")}/>
                                                         </a>
                                                         <a href="https://www.linkedin.com/company/solution-token/" className="sociallink" target="_blank" >
@@ -647,7 +647,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/matt.jpg")}/>
+                                                        <img src={require("../images/team/size-/matt.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -902,7 +902,7 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/size-/no-body.jpg")}/>
+                                                            <img src={require("../images/team/size-/matt.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "matthew")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -1169,25 +1169,26 @@ class Home extends React.Component {
 
                     <div className="footer">
                         <div className="box">
-                            <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="facebook2">
-                                <img  className="white" src={require("../images/facebook_w.png")}/>
-                                <img className="original" src={require("../images/facebook.png")}/>
-                            </a>
-                            <a href="https://twitter.com/solutiontoken" className="twitter2" target="_blank" >
-                                <img className="white" src={require("../images/twitter_w.png")}/>
-                                <img className="original" src={require("../images/twitter.png")}/>
-                            </a>
-                            <a href="solutiontoken.slack.com" className="slack2" target="_blank" >
-                                <img className="white" src={require("../images/slack_w.png")}/>
-                                <img className="original" src={require("../images/slack.png")}/>
-                            </a>
-                            <a href="#" className="btc2 forcedState__hover" target="_blank" >
-                                <img className="white" src={require("../images/btc_w.png")}/>
-                                <img className="original" src={require("../images/btc.png")}/>
-                            </a>
-                            <a href="#" className="steem2">
+                            <p>&copy; COPYRIGHT ALL RIGHT RESERVED BY | SOLUTION TOKEN</p>
+                            {/*<a href="https://www.facebook.com/solutiontoken/" target="_blank" className="facebook2">*/}
+                                {/*<img  className="white" src={require("../images/facebook_w.png")}/>*/}
+                                {/*<img className="original" src={require("../images/facebook.png")}/>*/}
+                            {/*</a>*/}
+                            {/*<a href="https://twitter.com/solutiontoken" className="twitter2" target="_blank" >*/}
+                                {/*<img className="white" src={require("../images/twitter_w.png")}/>*/}
+                                {/*<img className="original" src={require("../images/twitter.png")}/>*/}
+                            {/*</a>*/}
+                            {/*<a href="solutiontoken.slack.com" className="slack2" target="_blank" >*/}
+                                {/*<img className="white" src={require("../images/slack_w.png")}/>*/}
+                                {/*<img className="original" src={require("../images/slack.png")}/>*/}
+                            {/*</a>*/}
+                            {/*<a href="#" className="btc2 forcedState__hover" target="_blank" >*/}
+                                {/*<img className="white" src={require("../images/btc_w.png")}/>*/}
+                                {/*<img className="original" src={require("../images/btc.png")}/>*/}
+                            {/*</a>*/}
+                            {/*<a href="#" className="steem2">*/}
 
-                            </a>
+                            {/*</a>*/}
                         </div>
                         {/*<div className="box">
                          <a href="#" className="facebook2">

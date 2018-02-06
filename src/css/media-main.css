@@ -401,6 +401,12 @@ p {
   .mobile-menu {
     display: block; }
 
+  .social_box {
+    display: inline-block; }
+    .social_box img {
+      width: 45px !important;
+      margin: 10px; }
+
   .mobile-roadmap {
     display: block; }
     .mobile-roadmap .roadmap {
@@ -417,8 +423,9 @@ p {
         flex-direction: row;
         justify-content: center; }
       .mobile-roadmap .roadmap .inner-container {
-        justify-content: flex-start; }
+        justify-content: center; }
         .mobile-roadmap .roadmap .inner-container .right-side {
+          width: 100%;
           border-left: 2px solid;
           border-image: linear-gradient(to bottom, #166d13, #2c532d, #2c542d, #51d64a, #51d64a) 0% 1% 2% 48%; }
       .mobile-roadmap .roadmap .inner-box {
@@ -432,7 +439,8 @@ p {
     padding: 0px; }
 
   .column_291 {
-    width: 80%; }
+    width: 80%;
+    margin: 0px auto !important; }
 
   iframe {
     height: 400px; }
@@ -642,10 +650,14 @@ p {
           width: 100%; }
 
   .row_31 {
-    padding-top: 0px;
+    padding-top: 30px;
     padding-bottom: 100px; }
     .row_31 .row_36 {
       width: 80%; }
+      .row_31 .row_36 .row_37 {
+        flex-direction: column; }
+        .row_31 .row_36 .row_37 img {
+          width: 70%; }
 
   .team-details {
     margin-top: 70px; }
@@ -879,6 +891,10 @@ p {
     padding-bottom: 140px; }
     .row_31 .row_36 {
       padding: 0px; }
+      .row_31 .row_36 .row_37 {
+        flex-direction: column; }
+        .row_31 .row_36 .row_37 img {
+          width: 70%; }
       .row_31 .row_36 .column_29 {
         padding-top: 20px; }
 
@@ -944,6 +960,10 @@ p {
   .overlay {
     top: 80px; }
 
+  .column_291 {
+    width: 80%;
+    margin: 0px auto !important; }
+
   .row_38 {
     height: 876px;
     padding-top: 60px; }
@@ -980,6 +1000,14 @@ p {
 @media only screen and (max-width: 434px) {
   .row_58 .mobile-view img.image-field1 {
     width: 100%; }
+
+  .column_291 {
+    width: 80%;
+    margin: 0px auto !important; }
+
+  .social_box img {
+    width: 33px !important;
+    margin: 10px; }
 
   img.image-field2 {
     width: 55%; }
