@@ -24,6 +24,7 @@ class ThirdSection extends React.Component {
         return (
             <div className="third-section section">
                 <h2>What Makes US Unique?</h2>
+                <img className="ad_img" src={require("../images/100ad.png")}/>
                 <div className="inner-container">
                     <div className="inner-row even">
                         <div className="row-container">
