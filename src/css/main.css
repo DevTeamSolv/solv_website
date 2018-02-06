@@ -1440,4 +1440,90 @@ video {
   display: flex;
   margin: 0px !important; }
 
+.mobile-roadmap {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  padding: 100px 0;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #1e8f19;
+  border-top: 1px solid #1e8f19; }
+  .mobile-roadmap .mid-dot-top {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #1e8e1a;
+    font-size: 200px !important;
+    line-height: 30px;
+    margin-left: -1.2px; }
+  .mobile-roadmap .mid-dot-bottom {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #1e8e1a;
+    font-size: 200px !important;
+    line-height: 30px;
+    margin-left: -1.2px;
+    margin-top: -13px; }
+  .mobile-roadmap .inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .mobile-roadmap .inner-container .left-side, .mobile-roadmap .inner-container .right-side {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      .mobile-roadmap .inner-container .left-side .hr-box, .mobile-roadmap .inner-container .right-side .hr-box {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      .mobile-roadmap .inner-container .left-side hr, .mobile-roadmap .inner-container .right-side hr {
+        width: 50px;
+        height: 2px;
+        border: none;
+        background: #1e8e1a; }
+      .mobile-roadmap .inner-container .left-side .image, .mobile-roadmap .inner-container .right-side .image {
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .mobile-roadmap .inner-container .left-side .image img, .mobile-roadmap .inner-container .right-side .image img {
+          width: 80%;
+          -webkit-transition: all 0.3s linear 0s;
+          -o-transition: all 0.3s linear 0s;
+          transition: all 0.3s linear 0s; }
+    .mobile-roadmap .inner-container .left-side {
+      border-right: 2px solid #1e8e1a;
+      align-items: flex-end; }
+      .mobile-roadmap .inner-container .left-side ul, .mobile-roadmap .inner-container .left-side p, .mobile-roadmap .inner-container .left-side h3, .mobile-roadmap .inner-container .left-side li {
+        text-align: right;
+        margin: 0px;
+        padding: 0px; }
+      .mobile-roadmap .inner-container .left-side .inner-box {
+        padding-left: 10px; }
+    .mobile-roadmap .inner-container .right-side {
+      align-items: flex-start; }
+      .mobile-roadmap .inner-container .right-side ul, .mobile-roadmap .inner-container .right-side p, .mobile-roadmap .inner-container .right-side h3, .mobile-roadmap .inner-container .right-side li {
+        text-align: left;
+        margin: 0px;
+        padding: 0px; }
+      .mobile-roadmap .inner-container .right-side .inner-box {
+        padding-right: 10px; }
+    .mobile-roadmap .inner-container .box {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px; }
+    .mobile-roadmap .inner-container .inner-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0; }
+    .mobile-roadmap .inner-container .inner-box:hover {
+      box-shadow: 0 0 1px 1px #e2e2e2; }
+      .mobile-roadmap .inner-container .inner-box:hover img {
+        width: 95%; }
+    .mobile-roadmap .inner-container ul {
+      list-style: none; }
+
 /*# sourceMappingURL=main.css.map */
