@@ -1187,14 +1187,17 @@ video {
     opacity: 1; } }
 .roadmap {
   width: 100%;
-  background: #ebebeb;
+  background: #fff;
   display: flex;
+  padding: 100px 0;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 1px solid #1e8f19;
+  border-top: 1px solid #1e8f19; }
   .roadmap h3 {
     text-align: center; }
   .roadmap .outer-container {
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1213,10 +1216,16 @@ video {
         .roadmap .outer-container .inner-container .inner-row .box {
           display: flex;
           flex-direction: column;
-          align-items: center; }
+          align-items: center;
+          width: 150px; }
           .roadmap .outer-container .inner-container .inner-row .box img {
-            width: 120px;
-            transform: translateY(75%); }
+            width: 80%;
+            transform: translateY(75%);
+            -webkit-transition: all 0.3s linear 0s;
+            -o-transition: all 0.3s linear 0s;
+            transition: all 0.3s linear 0s; }
+          .roadmap .outer-container .inner-container .inner-row .box img:hover {
+            width: 90%; }
           .roadmap .outer-container .inner-container .inner-row .box p {
             text-align: center;
             margin: 0px;
@@ -1297,6 +1306,20 @@ video {
         .roadmap .outer-container .des-container .outer-container p {
           text-align: center;
           margin: 0px; }
+        .roadmap .outer-container .des-container .outer-container ul.l1 p.date, .roadmap .outer-container .des-container .outer-container ul.l1 p.title {
+          color: #1e8f19; }
+        .roadmap .outer-container .des-container .outer-container ul.l2 p.date, .roadmap .outer-container .des-container .outer-container ul.l2 p.title {
+          color: #5a5a5a; }
+        .roadmap .outer-container .des-container .outer-container ul.l4 p.date, .roadmap .outer-container .des-container .outer-container ul.l4 p.title {
+          color: #5400fe; }
+        .roadmap .outer-container .des-container .outer-container ul.l3 p.date, .roadmap .outer-container .des-container .outer-container ul.l3 p.title {
+          color: #715717; }
+        .roadmap .outer-container .des-container .outer-container ul.l5 p.date, .roadmap .outer-container .des-container .outer-container ul.l5 p.title {
+          color: #f7390a; }
+        .roadmap .outer-container .des-container .outer-container ul.l6 p.date, .roadmap .outer-container .des-container .outer-container ul.l6 p.title {
+          color: #00d9ff; }
+        .roadmap .outer-container .des-container .outer-container ul.l7 p.date, .roadmap .outer-container .des-container .outer-container ul.l7 p.title {
+          color: #ff8e00; }
 
 .desktop-view.roadmap-img {
   display: flex;

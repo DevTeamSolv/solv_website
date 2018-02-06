@@ -1514,15 +1514,18 @@ video {
 
 .roadmap {
   width: 100%;
-  background: #ebebeb;
+  background: #fff;
   display: flex;
+  padding: 100px 0;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid #1e8f19;
+  border-top: 1px solid #1e8f19;
   h3 {
     text-align: center;
   }
   .outer-container {
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1545,9 +1548,16 @@ video {
           display: flex;
           flex-direction: column;
           align-items: center;
+          width: 150px;
           img {
-            width: 120px;
+            width: 80%;
             transform: translateY(75%);
+            -webkit-transition: all 0.3s linear 0s;
+            -o-transition: all 0.3s linear 0s;
+            transition: all 0.3s linear 0s;
+          }
+          img:hover {
+            width: 90%;
           }
           p {
             text-align: center;
@@ -1649,6 +1659,41 @@ video {
         p {
           text-align: center;
           margin: 0px;
+        }
+        ul.l1 {
+          p.date, p.title {
+            color: #1e8f19;
+          }
+        }
+        ul.l2 {
+          p.date, p.title {
+            color: #5a5a5a;
+          }
+        }
+        ul.l4 {
+          p.date, p.title {
+            color: #5400fe;
+          }
+        }
+        ul.l3 {
+          p.date, p.title {
+            color: #715717;
+          }
+        }
+        ul.l5 {
+          p.date, p.title {
+            color: #f7390a;
+          }
+        }
+        ul.l6 {
+          p.date, p.title {
+            color: #00d9ff;
+          }
+        }
+        ul.l7 {
+          p.date, p.title {
+            color: #ff8e00;
+          }
         }
       }
     }
