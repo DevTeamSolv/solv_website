@@ -1861,6 +1861,9 @@ video {
   align-items: center;
   border-bottom: 1px solid #1e8f19;
   border-top: 1px solid #1e8f19;
+  .mobile-view-roadmap{
+    display: none;
+  }
   .mid-dot-top {
     text-align: center;
     margin: 0px;

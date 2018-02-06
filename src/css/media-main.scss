@@ -541,7 +541,32 @@ p {
   .mobile-menu {
     display: block;
   }
+.mobile-roadmap {
+  .mobile-view-roadmap{
+    display: block;
+  }
+  ul, p, h3, li {
+    text-align: center !important;
+  }
+  ul {
+    //width: 90%;
+    margin: 0px auto !important;
 
+  }
+  .inner-box {
+    width: 230px;
+  }
+  .right-side {
+    .inner-box {
+      flex-direction: column;
+    }
+  }
+  .left-side {
+    .inner-box {
+      flex-direction: column-reverse;
+    }
+  }
+}
   .column_281 {
     width: 20%;
     padding: 0px;
@@ -967,6 +992,13 @@ p {
   }
 }
 
+@media only screen and (max-width: 650px) and (min-width: 550px) {
+  //.mobile-roadmap {
+  //  .inner-box {
+  //    width: 240px;
+  //  }
+  //}
+}
 @media only screen and (max-width: 600px) {
   .row_51 #nav-icon4 {
     width: 50px;
