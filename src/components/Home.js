@@ -445,11 +445,7 @@ class Home extends React.Component {
                                                     </button>
                                                 </div>
                                             </div>
-                                            <div className="testimonials-content-inner1">
-                                            <span>
-                                                <div className="testimonials-content-inner"></div>
-                                            </span>
-                                            </div>
+
                                         </div>
                                     </div>
                                         <SkyLight

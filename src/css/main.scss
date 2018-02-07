@@ -1,10 +1,12 @@
 .row_30 {
   height: auto !important;
-  padding-bottom: 100px;
+  //padding-bottom: 100px;
   background-image: url("../images/size-/wallpaper.png") !important;
+  padding-top: 60px;
+  padding-bottom: 80px;
   .home-section {
     height: 100%;
-    padding: 120px 0px;
+    //padding: 120px 0px;
     p, h3 {
     color: #fff;
     }
@@ -177,8 +179,8 @@
 }
 
 .row_58 {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   .custom-post-content1 {
     width: 80%;
     margin: 0px auto;
@@ -1439,7 +1441,7 @@ video {
   //height: 777px;
   background-position: center;
   background-size: cover;
-  padding: 150px 0;
+  padding: 60px 0;
   //background-image: url("../images/size-/white-gray-background12.png");
   h2 {
     color: #1d8f19;
@@ -1974,7 +1976,8 @@ a.sociallink_inactive:hover .tooltiptext, a.social_right_inactive:hover .tooltip
   width: 100%;
   background: #fff;
   display: flex;
-  padding: 100px 0;
+  padding-top: 60px;
+  padding-bottom: 94px;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #1e8f19;

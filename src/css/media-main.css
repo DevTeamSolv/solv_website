@@ -210,8 +210,9 @@ p {
   span.client-name1 {
     padding-bottom: 0px; }
 
-  .row_30 .home-section {
-    padding: 60px 0; }
+  .row_30 {
+    padding-top: 60px;
+    padding-bottom: 80px; }
     .row_30 .home-section .heading1 .span12 {
       font-size: 43px; }
     .row_30 .home-section .heading1 .span13 {
@@ -230,8 +231,9 @@ p {
   span.client-name1 {
     padding-bottom: 0px; }
 
-  .row_30 .home-section {
-    padding: 80px 0; }
+  .row_30 {
+    padding-top: 60px;
+    padding-bottom: 80px; }
     .row_30 .home-section .heading1 .span12 {
       font-size: 45px; }
     .row_30 .home-section .heading1 .span13 {
@@ -419,7 +421,8 @@ p {
     display: block; }
     .mobile-roadmap .roadmap {
       align-items: center;
-      padding: 100px 50px; }
+      padding-top: 60px;
+      padding-bottom: 90px; }
       .mobile-roadmap .roadmap .mobile-view-roadmap {
         display: block; }
       .mobile-roadmap .roadmap ul, .mobile-roadmap .roadmap p, .mobile-roadmap .roadmap h3, .mobile-roadmap .roadmap li {
@@ -580,7 +583,6 @@ p {
     height: 546px; }
     .row_30 .home-section {
       width: 80%;
-      padding-top: 40px;
       margin: 0px auto; }
       .row_30 .home-section h1.heading1 span.span12 {
         font-size: 40px; }
@@ -896,11 +898,12 @@ p {
     text-align: justify; }
 
   .row_30 {
-    height: 546px; }
+    height: 546px;
+    padding-top: 60px;
+    padding-bottom: 80px; }
     .row_30 .home-section {
       width: 80%;
-      margin: 0px auto;
-      padding: 30px 0; }
+      margin: 0px auto; }
       .row_30 .home-section h1.heading1 span.span12 {
         font-size: 35px; }
       .row_30 .home-section h1.heading1 span.span13 {
@@ -1048,7 +1051,8 @@ p {
     display: block; }
     .mobile-roadmap .roadmap {
       align-items: center;
-      padding: 100px 50px; }
+      padding-top: 60px;
+      padding-bottom: 90px; }
       .mobile-roadmap .roadmap .mobile-view-roadmap {
         display: block; }
       .mobile-roadmap .roadmap ul, .mobile-roadmap .roadmap p, .mobile-roadmap .roadmap h3, .mobile-roadmap .roadmap li {
@@ -1136,8 +1140,7 @@ p {
     height: 500px; }
     .row_30 .home-section {
       width: 80%;
-      margin: 0px auto;
-      padding-top: 10px; }
+      margin: 0px auto; }
       .row_30 .home-section h1.heading1 span.span12 {
         margin-bottom: 15px;
         font-size: 33px; }
@@ -1389,7 +1392,8 @@ p {
     display: block; }
     .mobile-roadmap .roadmap {
       align-items: center;
-      padding: 100px 50px; }
+      padding-top: 60px;
+      padding-bottom: 90px; }
       .mobile-roadmap .roadmap .mobile-view-roadmap {
         display: block; }
       .mobile-roadmap .roadmap ul, .mobile-roadmap .roadmap p, .mobile-roadmap .roadmap h3, .mobile-roadmap .roadmap li {
