@@ -16,8 +16,8 @@ import Notification from './Notification'
 import Sale from './Sale'
 import AudioPlayer from './AudioPlayer'
 import ThirdSection from './ThirdSection';
-import RoadMap from './RoadMap';
-import MobileRoadMap from './MobileRoadMap';
+// import RoadMap from './RoadMap';
+// import MobileRoadMap from './MobileRoadMap';
 
 
 
@@ -133,6 +133,23 @@ class Home extends React.Component {
                 })
             }
         }
+
+        var scrollPos = $(document).scrollTop();
+        $('.animated-scroll a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            // console.log(currLink, currLink.position(), scrollPos)
+            // console.log(refElement, refElement.position(), refElement.height())
+            if(refElement.position()) {
+                if (refElement.position().top-68 <= scrollPos && refElement.position().top + refElement.height() > scrollPos+68) {
+                    $('.animated-scroll a').removeClass("active");
+                    currLink.addClass("active");
+                }
+                else{
+                    currLink.removeClass("active");
+                }
+            }
+        });
     }
     afterPlatformClosed(){
         this.setState({
@@ -191,10 +208,28 @@ class Home extends React.Component {
         $(".nav-bar a").removeClass('active');
         $("#" + state).addClass('active');
     }
-    scrollTo(state){
-        // $('html, body').animate({
-        //     scrollTop: $("#" + state).offset().top
-        // }, 2000);
+    scrollTo(state, evt){
+        // console.log(evt, state)
+        evt.preventDefault();
+        $(document).off("scroll");
+
+        $('.nav-bar a').each(function () {
+            $(this).removeClass('active');
+        })
+        $("a" + "#" + state).addClass('active');
+        var self = this
+
+        var target = this.hash, menu = "#" + state;
+        var $target = $(menu);
+        console.log($target, state)
+        // if($target.offset()) {
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 1500, 'swing', function () {
+                window.location.hash = menu;
+                $(document).on("scroll", self.handleScroll());
+            });
+        // }
     }
     render() {
         var settings = {
@@ -227,35 +262,22 @@ class Home extends React.Component {
                             <div className="empty-column">
                             </div>
                             <div className="nav-bar">
-                                <Link activeClass="active"  id="home-bar" onSetActive={this.handleSetActive.bind(this, "home-bar")} to="home" spy={true} offset={50} smooth={true} duration={500}>
-                                    Home
-                                </Link>
-                                <Link activeClass="active"  id="platform" onClick={this.scrollTo.bind(this, "sale-sect")} onSetActive={this.handleSetActive.bind(this, "platform")}  offset={30} to="platform" spy={true} smooth={true} duration={700}>
-                                    Our Platforms
-                                </Link>
-                                <Link activeClass="active" offset={-50}  onSetActive={this.handleSetActive.bind(this, "roadmap")}  id="roadmap" to="roadmap" spy={true} smooth={true} duration={900}>
-                                    RoadMap
-                                </Link>
-                                <Link activeClass="active" offset={30}  id="whitepaper" to="whitepaper" spy={true} smooth={true} duration={900}>
-                                    Whitepaper
-                                </Link>
-                                <Link activeClass="active" to="sale"  onClick={this.scrollTo.bind(this, "sale-sect")} id="tokensale" offset={30} spy={true} smooth={true} duration={1200}>
-                                    Token Sale
-                                </Link>
-                                <Link activeClass="active" to="team"  id="team" offset={30} spy={true} smooth={true} duration={1500}>
-                                    Team Members
-                                </Link>
+                                <div className="inner-nav">
+                                    <a onClick={this.scrollTo.bind(this, "home")} className="active" href="#home">Home</a>
+                                    <a  onClick={this.scrollTo.bind(this, "platform")}  href="#platform">Platform</a>
+                                    <a  onClick={this.scrollTo.bind(this, "roadmap")}  href="#roadmap">Roadmap</a>
+                                    <a  onClick={this.scrollTo.bind(this, "whitepaper")}  href="#whitepaper">Whitepaper</a>
+                                    <a  onClick={this.scrollTo.bind(this, "token-sale")}  href="#token-sale">Token Sale</a>
+                                    <a  onClick={this.scrollTo.bind(this, "team")}  href="#team">Team</a>
+
+                                </div>
+                                <div className="join-sale">
+                                    <a  onClick={this.scrollTo.bind(this, "community")}  href="#community">Join Community</a>
+                                </div>
                             </div>
                             <div onClick={this.handleMusic.bind(this)} className="music-btn">
                                 {!this.state.muted && <div><img src={require("../images/size-/new-music.png")}/></div>}
                                 {this.state.muted && <div><img src={require("../images/size-/no-music.png")}/></div>}
-                            </div>
-                            <div className="join-sale">
-
-                                <Link activeClass="active" to="community" offset={30} spy={true} smooth={true} duration={1500}>
-                                    Join Community
-                                </Link>
-                                {/*<a>Join Token Sale</a>*/}
                             </div>
                         </div>
 
@@ -274,7 +296,7 @@ class Home extends React.Component {
                             <nav className="overlay-menu">
                                 <ul>
                                     <li>
-                                        <Link onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={500}>
+                                        <Link to="home" onClick={this.handleMobileMenuClick.bind(this)} spy={true} offset={-60} smooth={true} duration={500}>
                                             Home
                                         </Link>
                                     </li>
@@ -304,8 +326,8 @@ class Home extends React.Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="test6" to="team" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
-                                            Join Token Sale
+                                        <Link className="test6" to="community" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
+                                            Join Our Community
                                         </Link>
                                         {/*<a className="button-white" onClick={this.handleMobileMenuClick.bind(this)} href="#">Join Token Sale</a>*/}
                                     </li>
@@ -331,7 +353,7 @@ class Home extends React.Component {
                         <div className="page-content DWFullScreenPage_container" id="DWFullScreenPage1">
                             <Element name="home" className="element">
 
-                                <div className="section row_30" data-tooltip="Home" data-section-name="home" data-arrow="#FFFFFF" data-id="home" data-anchor="home">
+                                <div className="section row_30" id="home" data-tooltip="Home" data-section-name="home" data-arrow="#FFFFFF" data-id="home" data-anchor="home">
                                     <div className="home-section container-hero">
                                         <div className="heading1">
                                             <h3>
@@ -362,123 +384,123 @@ class Home extends React.Component {
 
 
 
-                            <Element name="platform" className="element">
+                            <div  id="platform">
 
-                                <div className="section row_58" data-section-name="platforms" data-tooltip="Our Platforms" data-arrow="#1d8f19" data-alternate-header="true" data-id="platforms" data-anchor="platforms" data-slider="true">
-                                    <div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">
-                                        <div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>
-                                            <p>
-                                                <span>Solution Token prides itself on the platforms that we provide. These are the pieces that, together, form a Solution.</span>
-                                                <br/>
-                                                Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>
-                                            <div className="column_46 desktop-view">
-                                                <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
-                                                    <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>
-                                                    <p>Operation Humanity</p>
-                                                    <p className="read-more">Read more</p>
-                                                </button>
-                                                <button className="water" onClick={this.handleDialog.bind(this, 2)}>
-                                                    <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>
-                                                    <p>Water Solutions</p>
-                                                    <p className="read-more">Read more</p>
-                                                </button>
+                                {/*<div className="section row_58" data-section-name="platforms" data-tooltip="Our Platforms" data-arrow="#1d8f19" data-alternate-header="true" data-id="platforms" data-anchor="platforms" data-slider="true">*/}
+                                    {/*<div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">*/}
+                                        {/*<div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>*/}
+                                            {/*<p>*/}
+                                                {/*<span>Solution Token prides itself on the platforms that we provide. These are the pieces that, together, form a Solution.</span>*/}
+                                                {/*<br/>*/}
+                                                {/*Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>*/}
+                                            {/*<div className="column_46 desktop-view">*/}
+                                                {/*<button className="humanity" onClick={this.handleDialog.bind(this, 1)}>*/}
+                                                    {/*<img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>*/}
+                                                    {/*<p>Operation Humanity</p>*/}
+                                                    {/*<p className="read-more">Read more</p>*/}
+                                                {/*</button>*/}
+                                                {/*<button className="water" onClick={this.handleDialog.bind(this, 2)}>*/}
+                                                    {/*<img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>*/}
+                                                    {/*<p>Water Solutions</p>*/}
+                                                    {/*<p className="read-more">Read more</p>*/}
+                                                {/*</button>*/}
 
-                                                <button className="game" onClick={this.handleDialog.bind(this, 3)}>
-                                                    <img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>
-                                                    <p>Street QRed Game</p>
-                                                    <p className="read-more">Read more</p>
-                                                </button>
-                                                <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
-                                                    <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>
-                                                    <p>Solv Wallet</p>
-                                                    <p className="read-more">Read more</p>
-                                                </button>
-                                            </div>
-                                            <div className="mobile-view">
-                                                <div>
-                                                    <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>
-                                                        <p>Operation Humanity</p>
-                                                        <p className="read-more">Read more</p>
-                                                    </button>
-                                                    <button className="water" onClick={this.handleDialog.bind(this, 2)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>
-                                                        <p>Water Solutions</p>
-                                                        <p className="read-more">Read more</p>
-                                                    </button>
-                                                </div>
-                                                <div>
-                                                    <button className="game" onClick={this.handleDialog.bind(this, 3)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>
-                                                        <p>Street QRed Game</p>
-                                                        <p className="read-more">Read more</p>
-                                                    </button>
-                                                    <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
-                                                        <img className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>
-                                                        <p>Solv Wallet</p>
-                                                        <p className="read-more">Read more</p>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div className="testimonials-content-inner1">
-                                            <span>
-                                                <div className="testimonials-content-inner"></div>
-                                            </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                        <SkyLight
-                                            afterClose={this.afterPlatformClosed.bind(this)}
-                                            hideOnOverlayClicked={true}
-                                            ref={ref => this.sliderDialog1 = ref}
-                                        >
-                                            { this.state.popup === "humanity" &&
-                                                <div className="slider-type">
-                                                    <SliderComp sliderNumber="1"/>
-                                                </div>
-                                            }
-                                        </SkyLight>
-                                        <SkyLight
-                                            afterClose={this.afterPlatformClosed.bind(this)}
-                                            hideOnOverlayClicked={true}
-                                            ref={ref => this.sliderDialog2 = ref}
-                                        >
-                                            { this.state.popup === "water" &&
-                                                <div className="slider-type">
-                                                    <SliderComp sliderNumber="2"/>
-                                                </div>
-                                            }
-                                        </SkyLight>
-                                        <SkyLight
-                                            afterClose={this.afterPlatformClosed.bind(this)}
-                                            hideOnOverlayClicked={true}
-                                            ref={ref => this.sliderDialog3 = ref}
-                                        >
-                                            { this.state.popup === "game" &&
-                                                <div className="slider-type">
-                                                    <SliderComp sliderNumber="3"/>
-                                                </div>
-                                            }
-                                        </SkyLight>
-                                        <SkyLight
-                                            afterClose={this.afterPlatformClosed.bind(this)}
-                                            hideOnOverlayClicked={true}
-                                            ref={ref => this.sliderDialog4 = ref}
-                                        >
-                                            { this.state.popup === "wallet" &&
-                                                <div className="slider-type">
-                                                    <SliderComp sliderNumber="4"/>
-                                                </div>
-                                            }
-                                        </SkyLight>
-                                </div>
+                                                {/*<button className="game" onClick={this.handleDialog.bind(this, 3)}>*/}
+                                                    {/*<img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>*/}
+                                                    {/*<p>Street QRed Game</p>*/}
+                                                    {/*<p className="read-more">Read more</p>*/}
+                                                {/*</button>*/}
+                                                {/*<button className="wallet" onClick={this.handleDialog.bind(this, 4)}>*/}
+                                                    {/*<img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>*/}
+                                                    {/*<p>Solv Wallet</p>*/}
+                                                    {/*<p className="read-more">Read more</p>*/}
+                                                {/*</button>*/}
+                                            {/*</div>*/}
+                                            {/*<div className="mobile-view">*/}
+                                                {/*<div>*/}
+                                                    {/*<button className="humanity" onClick={this.handleDialog.bind(this, 1)}>*/}
+                                                        {/*<img className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>*/}
+                                                        {/*<p>Operation Humanity</p>*/}
+                                                        {/*<p className="read-more">Read more</p>*/}
+                                                    {/*</button>*/}
+                                                    {/*<button className="water" onClick={this.handleDialog.bind(this, 2)}>*/}
+                                                        {/*<img className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>*/}
+                                                        {/*<p>Water Solutions</p>*/}
+                                                        {/*<p className="read-more">Read more</p>*/}
+                                                    {/*</button>*/}
+                                                {/*</div>*/}
+                                                {/*<div>*/}
+                                                    {/*<button className="game" onClick={this.handleDialog.bind(this, 3)}>*/}
+                                                        {/*<img className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>*/}
+                                                        {/*<p>Street QRed Game</p>*/}
+                                                        {/*<p className="read-more">Read more</p>*/}
+                                                    {/*</button>*/}
+                                                    {/*<button className="wallet" onClick={this.handleDialog.bind(this, 4)}>*/}
+                                                        {/*<img className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>*/}
+                                                        {/*<p>Solv Wallet</p>*/}
+                                                        {/*<p className="read-more">Read more</p>*/}
+                                                    {/*</button>*/}
+                                                {/*</div>*/}
+                                            {/*</div>*/}
+                                            {/*<div className="testimonials-content-inner1">*/}
+                                            {/*<span>*/}
+                                                {/*<div className="testimonials-content-inner"></div>*/}
+                                            {/*</span>*/}
+                                            {/*</div>*/}
+                                        {/*</div>*/}
+                                    {/*</div>*/}
+                                        {/*<SkyLight*/}
+                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
+                                            {/*hideOnOverlayClicked={true}*/}
+                                            {/*ref={ref => this.sliderDialog1 = ref}*/}
+                                        {/*>*/}
+                                            {/*{ this.state.popup === "humanity" &&*/}
+                                                {/*<div className="slider-type">*/}
+                                                    {/*<SliderComp sliderNumber="1"/>*/}
+                                                {/*</div>*/}
+                                            {/*}*/}
+                                        {/*</SkyLight>*/}
+                                        {/*<SkyLight*/}
+                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
+                                            {/*hideOnOverlayClicked={true}*/}
+                                            {/*ref={ref => this.sliderDialog2 = ref}*/}
+                                        {/*>*/}
+                                            {/*{ this.state.popup === "water" &&*/}
+                                                {/*<div className="slider-type">*/}
+                                                    {/*<SliderComp sliderNumber="2"/>*/}
+                                                {/*</div>*/}
+                                            {/*}*/}
+                                        {/*</SkyLight>*/}
+                                        {/*<SkyLight*/}
+                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
+                                            {/*hideOnOverlayClicked={true}*/}
+                                            {/*ref={ref => this.sliderDialog3 = ref}*/}
+                                        {/*>*/}
+                                            {/*{ this.state.popup === "game" &&*/}
+                                                {/*<div className="slider-type">*/}
+                                                    {/*<SliderComp sliderNumber="3"/>*/}
+                                                {/*</div>*/}
+                                            {/*}*/}
+                                        {/*</SkyLight>*/}
+                                        {/*<SkyLight*/}
+                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
+                                            {/*hideOnOverlayClicked={true}*/}
+                                            {/*ref={ref => this.sliderDialog4 = ref}*/}
+                                        {/*>*/}
+                                            {/*{ this.state.popup === "wallet" &&*/}
+                                                {/*<div className="slider-type">*/}
+                                                    {/*<SliderComp sliderNumber="4"/>*/}
+                                                {/*</div>*/}
+                                            {/*}*/}
+                                        {/*</SkyLight>*/}
+                                {/*</div>*/}
                                 <ThirdSection />
 
-                            </Element>
+                            </div>
 
 
                             <Element name="roadmap" className="element">
-                                <div>
+                                <div id="roadmap">
                                     {/*<div className="desktop-view roadmap-img">*/}
                                         {/*<h3>ROADMAP</h3>*/}
                                         {/*<p>Interactive Roadmap Coming Soon</p>*/}
@@ -489,13 +511,13 @@ class Home extends React.Component {
                                         {/*<p>Interactive Roadmap Coming Soon</p>*/}
                                         {/*<img src={require("../images/mobile-roadmapfinaldave.PNG")}/>*/}
                                     {/*</div>*/}
-                                    <RoadMap />
-                                    <MobileRoadMap />
+                                    {/*<RoadMap />*/}
+                                    {/*<MobileRoadMap />*/}
                                 </div>
                             </Element>
                             <Element name="whitepaper" className="element">
 
-                                <div className="section row_31" data-tooltip="Whitepaper" data-section-name="whitepaper" data-alternate-header="true" data-arrow="#1d8f19" data-id="whitepaper" data-anchor="whitepaper">
+                                <div className="section row_31" id="whitepaper" data-tooltip="Whitepaper" data-section-name="whitepaper" data-alternate-header="true" data-arrow="#1d8f19" data-id="whitepaper" data-anchor="whitepaper">
                                     <div className="full_row_4 full_row_type_fs_t2 row_35">
                                         <div className="gridContainer row_36">
                                             <div className="row_37">
@@ -515,7 +537,7 @@ class Home extends React.Component {
                             </Element>
 
                             <Element name="sale" className="element">
-                                <div id="sale-sect">
+                                <div id="token-sale">
                                     <Sale />
                                 </div>
                                 {/*<div className="roadmap">*/}
@@ -552,7 +574,7 @@ class Home extends React.Component {
                                 {/*</div>*/}
                             </Element>
                             <Element name="community" className="element">
-                                <div className="full_row_4 full_row_type_fs_t2 row_351 community">
+                                <div id="community" className="full_row_4 full_row_type_fs_t2 row_351 community">
                                     <div className="gridContainer row_36">
                                         <div className="row_37">
                                             {/*<div className="column_281">*/}
@@ -563,11 +585,13 @@ class Home extends React.Component {
                                             <div className="column_291">
                                                 <div id="editable-wrapping-node">
                                                     <h3><span >Join Our Community</span> </h3>
+                                                    <div className="social">
+
+                                                    </div>
                                                     <p>Solution Token wishes you to join the community, this will allow you to interact with all team members and founders which you will be able to get to know each and everyone properly through out Solution Token's journey. You will also be able to interact with other members in the community, where you can share ideas and join forces to help each other in projects to come. </p>
                                                     <p>We base our community on trust, so here are the platforms that our main community will be based,  follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow!</p>
                                                     <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
                                                     <div className="social_box">
-
                                                         <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="sociallink" >
                                                             <img title="Facebook Page" src={require("../images/facebook.png")}/>
                                                         </a>
@@ -604,7 +628,6 @@ class Home extends React.Component {
                                                         <a href="https://www.linkedin.com/company/solution-token/" className="sociallink" target="_blank" >
                                                             <img title="LinkedIn"  src={require("../images/icons/if_square-linkedin_317725.png")}/>
                                                         </a>
-
                                                     </div>
                                                 </div>
                                             </div>
@@ -613,7 +636,7 @@ class Home extends React.Component {
                                 </div>
                             </Element>
                             <Element name="team" className="element">
-                                <div className="section row_39" data-section-name="team" data-tooltip="Team Members" data-alternate-header="true" data-arrow="#1d8f19" data-id="team" data-anchor="team">
+                                <div id="team" className="section row_39" data-section-name="team" data-tooltip="Team Members" data-alternate-header="true" data-arrow="#1d8f19" data-id="team" data-anchor="team">
                                     <div className="full_row_8 full_row_type_fs_t4 row_44">
                                         <div className="gridContainer row_47">
                                             <div className="row_48">

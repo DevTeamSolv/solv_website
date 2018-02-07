@@ -662,7 +662,7 @@ div.FM2_DWFullScreenPage1menu_container {
 }
 .row_51 {
   padding-top: 15px;
-  background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
+  //background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
   background-size: cover;
   height: 93px;
   background-repeat: no-repeat;
@@ -680,9 +680,10 @@ div.FM2_DWFullScreenPage1menu_container {
     display: flex;
     justify-content: space-between;
     .empty-column {
-      flex-grow: 4;
+      flex-grow: 1;
     }
     a {
+      text-decoration: none;
       color: #fff;
       font-size: 19px;
       font-weight: 400;
@@ -694,14 +695,19 @@ div.FM2_DWFullScreenPage1menu_container {
     .nav-bar {
       display: flex;
       justify-content: space-between;
-      flex-grow: 5;
-    }
-    .join-sale {
-      flex-grow: 1;
-      a {
-        border: 2px solid #fff;
-        padding: 7px 18px;
-        border-radius: 100px;
+      flex-grow: 4;
+      .inner-nav {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 4;
+      }
+      .join-sale {
+        flex-grow: 1;
+        a {
+          border: 2px solid #fff;
+          padding: 7px 18px;
+          border-radius: 100px;
+        }
       }
     }
   }
@@ -742,7 +748,7 @@ div.FM2_DWFullScreenPage1menu_container {
 .scrolled {
   height: 69px;
   padding-top: 5px;
-  background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
+  //background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all .2s linear 0s;
@@ -762,7 +768,7 @@ div.FM2_DWFullScreenPage1menu_container {
     display: flex;
     justify-content: space-between;
     .empty-column {
-      flex-grow: 4;
+      flex-grow: 1;
     }
     a {
       cursor: pointer;
@@ -770,18 +776,24 @@ div.FM2_DWFullScreenPage1menu_container {
       font-size: 18px;
       font-weight: 400;
       text-transform: uppercase;
+      text-decoration: none;
     }
     .nav-bar {
       display: flex;
       justify-content: space-between;
-      flex-grow: 5;
-    }
-    .join-sale {
-      flex-grow: 1;
-      a {
-        border: 2px solid #fff;
-        padding: 7px 18px;
-        border-radius: 100px;
+      flex-grow: 4;
+      .inner-nav {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 4;
+      }
+      .join-sale {
+        flex-grow: 1;
+        a {
+          border: 2px solid #fff;
+          padding: 7px 18px;
+          border-radius: 100px;
+        }
       }
     }
   }

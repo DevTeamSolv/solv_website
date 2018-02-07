@@ -104,7 +104,7 @@ class AudioPlayer extends React.Component {
                     </div>
                     <div className="outer-box">
                         <div className="button-prev">
-                            <img onClick={this.previous.bind(this)} src={require("../images/size-/images-(4).png")}/>
+                            <img onClick={this.previous.bind(this)} src={require("../images/size-/prev-music.png")}/>
                         </div>
 
                         <div className="button-pause">
