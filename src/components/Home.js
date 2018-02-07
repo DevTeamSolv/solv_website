@@ -524,7 +524,9 @@ class Home extends React.Component {
                                     <div className="full_row_4 full_row_type_fs_t2 row_35">
                                         <div className="gridContainer row_36">
                                             <div className="row_37">
-                                                <div className="column_28"><img className="image5" src={require("../images/gifs/gif-faster-smaller.gif" )}/></div>
+                                                <div className="column_28">
+                                                    {/*<img className="image5" src={require("../images/gifs/gif-faster-smaller.gif" )}/>*/}
+                                                </div>
                                                 <div className="column_29">
                                                     <div id="editable-wrapping-node">
                                                         <h3><span >Interactive</span> <span className="span14">Whitepaper</span></h3>
