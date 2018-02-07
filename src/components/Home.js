@@ -16,8 +16,8 @@ import Notification from './Notification'
 import Sale from './Sale'
 import AudioPlayer from './AudioPlayer'
 import ThirdSection from './ThirdSection';
-// import RoadMap from './RoadMap';
-// import MobileRoadMap from './MobileRoadMap';
+import RoadMap from './RoadMap';
+import MobileRoadMap from './MobileRoadMap';
 
 
 
@@ -386,114 +386,114 @@ class Home extends React.Component {
 
                             <div  id="platform">
 
-                                {/*<div className="section row_58" data-section-name="platforms" data-tooltip="Our Platforms" data-arrow="#1d8f19" data-alternate-header="true" data-id="platforms" data-anchor="platforms" data-slider="true">*/}
-                                    {/*<div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">*/}
-                                        {/*<div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>*/}
-                                            {/*<p>*/}
-                                                {/*<span>Solution Token prides itself on the platforms that we provide. These are the pieces that, together, form a Solution.</span>*/}
-                                                {/*<br/>*/}
-                                                {/*Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>*/}
-                                            {/*<div className="column_46 desktop-view">*/}
-                                                {/*<button className="humanity" onClick={this.handleDialog.bind(this, 1)}>*/}
-                                                    {/*<img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>*/}
-                                                    {/*<p>Operation Humanity</p>*/}
-                                                    {/*<p className="read-more">Read more</p>*/}
-                                                {/*</button>*/}
-                                                {/*<button className="water" onClick={this.handleDialog.bind(this, 2)}>*/}
-                                                    {/*<img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>*/}
-                                                    {/*<p>Water Solutions</p>*/}
-                                                    {/*<p className="read-more">Read more</p>*/}
-                                                {/*</button>*/}
+                                <div className="section row_58" data-section-name="platforms" data-tooltip="Our Platforms" data-arrow="#1d8f19" data-alternate-header="true" data-id="platforms" data-anchor="platforms" data-slider="true">
+                                    <div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">
+                                        <div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>
+                                            <p>
+                                                <span>Solution Token prides itself on the platforms that we provide. These are the pieces that, together, form a Solution.</span>
+                                                <br/>
+                                                Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>
+                                            <div className="column_46 desktop-view">
+                                                <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
+                                                    <img title="Humanity" className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>
+                                                    <p>Operation Humanity</p>
+                                                    <p className="read-more">Read more</p>
+                                                </button>
+                                                <button className="water" onClick={this.handleDialog.bind(this, 2)}>
+                                                    <img title="Water Solution" className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>
+                                                    <p>Water Solutions</p>
+                                                    <p className="read-more">Read more</p>
+                                                </button>
 
-                                                {/*<button className="game" onClick={this.handleDialog.bind(this, 3)}>*/}
-                                                    {/*<img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>*/}
-                                                    {/*<p>Street QRed Game</p>*/}
-                                                    {/*<p className="read-more">Read more</p>*/}
-                                                {/*</button>*/}
-                                                {/*<button className="wallet" onClick={this.handleDialog.bind(this, 4)}>*/}
-                                                    {/*<img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>*/}
-                                                    {/*<p>Solv Wallet</p>*/}
-                                                    {/*<p className="read-more">Read more</p>*/}
-                                                {/*</button>*/}
-                                            {/*</div>*/}
-                                            {/*<div className="mobile-view">*/}
-                                                {/*<div>*/}
-                                                    {/*<button className="humanity" onClick={this.handleDialog.bind(this, 1)}>*/}
-                                                        {/*<img className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>*/}
-                                                        {/*<p>Operation Humanity</p>*/}
-                                                        {/*<p className="read-more">Read more</p>*/}
-                                                    {/*</button>*/}
-                                                    {/*<button className="water" onClick={this.handleDialog.bind(this, 2)}>*/}
-                                                        {/*<img className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>*/}
-                                                        {/*<p>Water Solutions</p>*/}
-                                                        {/*<p className="read-more">Read more</p>*/}
-                                                    {/*</button>*/}
-                                                {/*</div>*/}
-                                                {/*<div>*/}
-                                                    {/*<button className="game" onClick={this.handleDialog.bind(this, 3)}>*/}
-                                                        {/*<img className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>*/}
-                                                        {/*<p>Street QRed Game</p>*/}
-                                                        {/*<p className="read-more">Read more</p>*/}
-                                                    {/*</button>*/}
-                                                    {/*<button className="wallet" onClick={this.handleDialog.bind(this, 4)}>*/}
-                                                        {/*<img className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>*/}
-                                                        {/*<p>Solv Wallet</p>*/}
-                                                        {/*<p className="read-more">Read more</p>*/}
-                                                    {/*</button>*/}
-                                                {/*</div>*/}
-                                            {/*</div>*/}
-                                            {/*<div className="testimonials-content-inner1">*/}
-                                            {/*<span>*/}
-                                                {/*<div className="testimonials-content-inner"></div>*/}
-                                            {/*</span>*/}
-                                            {/*</div>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                        {/*<SkyLight*/}
-                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
-                                            {/*hideOnOverlayClicked={true}*/}
-                                            {/*ref={ref => this.sliderDialog1 = ref}*/}
-                                        {/*>*/}
-                                            {/*{ this.state.popup === "humanity" &&*/}
-                                                {/*<div className="slider-type">*/}
-                                                    {/*<SliderComp sliderNumber="1"/>*/}
-                                                {/*</div>*/}
-                                            {/*}*/}
-                                        {/*</SkyLight>*/}
-                                        {/*<SkyLight*/}
-                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
-                                            {/*hideOnOverlayClicked={true}*/}
-                                            {/*ref={ref => this.sliderDialog2 = ref}*/}
-                                        {/*>*/}
-                                            {/*{ this.state.popup === "water" &&*/}
-                                                {/*<div className="slider-type">*/}
-                                                    {/*<SliderComp sliderNumber="2"/>*/}
-                                                {/*</div>*/}
-                                            {/*}*/}
-                                        {/*</SkyLight>*/}
-                                        {/*<SkyLight*/}
-                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
-                                            {/*hideOnOverlayClicked={true}*/}
-                                            {/*ref={ref => this.sliderDialog3 = ref}*/}
-                                        {/*>*/}
-                                            {/*{ this.state.popup === "game" &&*/}
-                                                {/*<div className="slider-type">*/}
-                                                    {/*<SliderComp sliderNumber="3"/>*/}
-                                                {/*</div>*/}
-                                            {/*}*/}
-                                        {/*</SkyLight>*/}
-                                        {/*<SkyLight*/}
-                                            {/*afterClose={this.afterPlatformClosed.bind(this)}*/}
-                                            {/*hideOnOverlayClicked={true}*/}
-                                            {/*ref={ref => this.sliderDialog4 = ref}*/}
-                                        {/*>*/}
-                                            {/*{ this.state.popup === "wallet" &&*/}
-                                                {/*<div className="slider-type">*/}
-                                                    {/*<SliderComp sliderNumber="4"/>*/}
-                                                {/*</div>*/}
-                                            {/*}*/}
-                                        {/*</SkyLight>*/}
-                                {/*</div>*/}
+                                                <button className="game" onClick={this.handleDialog.bind(this, 3)}>
+                                                    <img title="Gaming Platform" className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>
+                                                    <p>Street QRed Game</p>
+                                                    <p className="read-more">Read more</p>
+                                                </button>
+                                                <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
+                                                    <img title="Wallet & Reward" className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>
+                                                    <p>Solv Wallet</p>
+                                                    <p className="read-more">Read more</p>
+                                                </button>
+                                            </div>
+                                            <div className="mobile-view">
+                                                <div>
+                                                    <button className="humanity" onClick={this.handleDialog.bind(this, 1)}>
+                                                        <img className="image-field1" src={require("../images/gifs/Heart-Logo-gif.gif")}/>
+                                                        <p>Operation Humanity</p>
+                                                        <p className="read-more">Read more</p>
+                                                    </button>
+                                                    <button className="water" onClick={this.handleDialog.bind(this, 2)}>
+                                                        <img className="image-field1" src={require("../images/gifs/Water-Logo-gif.gif")}/>
+                                                        <p>Water Solutions</p>
+                                                        <p className="read-more">Read more</p>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <button className="game" onClick={this.handleDialog.bind(this, 3)}>
+                                                        <img className="image-field1" src={require("../images/gifs/Gaming-logo-gif.gif")}/>
+                                                        <p>Street QRed Game</p>
+                                                        <p className="read-more">Read more</p>
+                                                    </button>
+                                                    <button className="wallet" onClick={this.handleDialog.bind(this, 4)}>
+                                                        <img className="image-field1" src={require("../images/gifs/Reward-logo-Gif.gif")}/>
+                                                        <p>Solv Wallet</p>
+                                                        <p className="read-more">Read more</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div className="testimonials-content-inner1">
+                                            <span>
+                                                <div className="testimonials-content-inner"></div>
+                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog1 = ref}
+                                        >
+                                            { this.state.popup === "humanity" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="1"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog2 = ref}
+                                        >
+                                            { this.state.popup === "water" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="2"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog3 = ref}
+                                        >
+                                            { this.state.popup === "game" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="3"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
+                                        <SkyLight
+                                            afterClose={this.afterPlatformClosed.bind(this)}
+                                            hideOnOverlayClicked={true}
+                                            ref={ref => this.sliderDialog4 = ref}
+                                        >
+                                            { this.state.popup === "wallet" &&
+                                                <div className="slider-type">
+                                                    <SliderComp sliderNumber="4"/>
+                                                </div>
+                                            }
+                                        </SkyLight>
+                                </div>
                                 <ThirdSection />
 
                             </div>
@@ -511,8 +511,8 @@ class Home extends React.Component {
                                         {/*<p>Interactive Roadmap Coming Soon</p>*/}
                                         {/*<img src={require("../images/mobile-roadmapfinaldave.PNG")}/>*/}
                                     {/*</div>*/}
-                                    {/*<RoadMap />*/}
-                                    {/*<MobileRoadMap />*/}
+                                    <RoadMap />
+                                    <MobileRoadMap />
                                 </div>
                             </Element>
                             <Element name="whitepaper" className="element">
