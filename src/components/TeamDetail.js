@@ -100,7 +100,7 @@ class TeamDetail extends React.Component {
                     this.props.member === "sean" &&
                     <div>
                         <div className="member-img">
-                            <img src={require("../images/team/size-/new-sean.jpg")}/>
+                            <img src={require("../images/team/size-/new-sean.png")}/>
                         </div>
                         <p className="name">Sean Gallagher</p>
                         <p className="designation">Chief Editor</p>

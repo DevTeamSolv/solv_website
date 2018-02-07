@@ -340,8 +340,8 @@ class Home extends React.Component {
                     </div>
                 {/*</div>*/}
                 <Element name="video" className="element">
-
-                    <iframe id="iframe" width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&modestbranding=1&autohide=1&autoplay=1&controls=0&showinfo=0" frameBorder="0" allow="autoplay; encrypted-media" loop allowFullScreen></iframe>
+                    {/*<iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&controls=0&loop=1&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>*/}
+                    <iframe id="iframe" width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&controls=0&loop=1&showinfo=0&loop=1" frameBorder="0" allow="autoplay; encrypted-media" loop allowFullScreen></iframe>
                     {/*<video onClick={this.handleVideo.bind(this)} loop id="myVideo">*/}
                         {/*<source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />*/}
                         {/*Your browser does not support HTML5 video.*/}
@@ -819,7 +819,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
-                                                        <img src={require("../images/team/size-/new-sean.jpg")}/>
+                                                        <img src={require("../images/team/size-/new-sean.png")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "sean")}>BIO</a>
                                                             <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -1079,7 +1079,7 @@ class Home extends React.Component {
 
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
-                                                            <img src={require("../images/team/size-/new-sean.jpg")}/>
+                                                            <img src={require("../images/team/size-/new-sean.png")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "sean")}>BIO</a>
                                                                 <i className="fa fa-envelope" aria-hidden="true"></i>
