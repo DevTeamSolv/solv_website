@@ -607,6 +607,17 @@ p {
   .column_291 {
     width: 80%;
     margin: 0px auto !important;
+    .social-boxer {
+      flex-direction: column;
+      align-items: center;
+      .social {
+        flex-direction: row;
+        justify-content: center;
+        img {
+          width: 70px;
+        }
+      }
+    }
   }
   iframe {
     height: 400px;

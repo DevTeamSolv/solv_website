@@ -341,7 +341,7 @@ class Home extends React.Component {
                 {/*</div>*/}
                 <Element name="video" className="element">
 
-                    <iframe id="iframe" width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&modestbranding=1&autohide=1&autoplay=1&controls=0&showinfo=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                    <iframe id="iframe" width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&modestbranding=1&autohide=1&autoplay=1&controls=0&showinfo=0" frameBorder="0" allow="autoplay; encrypted-media" loop allowFullScreen></iframe>
                     {/*<video onClick={this.handleVideo.bind(this)} loop id="myVideo">*/}
                         {/*<source src={require("../images/gifs/Solv web video.mp4")} type="video/mp4" />*/}
                         {/*Your browser does not support HTML5 video.*/}
@@ -591,54 +591,58 @@ class Home extends React.Component {
                                             <div className="column_291">
                                                 <div id="editable-wrapping-node">
                                                     <h3><span >Join Our Community</span> </h3>
-                                                    <div className="social">
-                                                        <a href="https://www.facebook.com/groups/251807885358730/" target="_blank" className="social_right_icon">
-                                                            <img title="Facebook Group" src={require("../images/facebook.png")}/>
-                                                        </a>
-                                                        <a href="javascript:;" onClick={this.handleContact.bind(this)} className="social_right_icon">
-                                                            <img title="Facebook Group" src={require("../images/icons/if_discord_2308078.png")}/>
-                                                        </a>
-                                                    </div>
-                                                    <p>Solution Token wishes you to join the community, this will allow you to interact with all team members and founders which you will be able to get to know each and everyone properly through out Solution Token's journey. You will also be able to interact with other members in the community, where you can share ideas and join forces to help each other in projects to come. </p>
-                                                    <p>We base our community on trust, so here are the platforms that our main community will be based,  follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow!</p>
-                                                    <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
-                                                    <div className="social_box">
-                                                        <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="sociallink" >
-                                                            <img title="Facebook Page" src={require("../images/facebook.png")}/>
-                                                        </a>
-                                                        <a href="https://www.youtube.com/channel/UCV_kICMUixyMnoj5gCgVdCA" className="sociallink" target="_blank" >
-                                                            <img title="Youtube" src={require("../images/icons/if_youtube_317714.png")}/>
-                                                        </a>
-                                                        <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive" >
-                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
-                                                            <img title="Youtube" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
-                                                        </a>
-                                                        <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive" >
-                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
-                                                            <img title="Discord (Comming Soon)"  src={require("../images/icons/if_discord_2308078.png")}/>
-                                                        </a>
-                                                        <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive">
-                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
-                                                            <img title="Snapchat (Comming soon)"  src={require("../images/icons/if_snapchat_386706.png")}/>
-                                                        </a>
-                                                        <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive"  >
-                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
-                                                            <img title="Steemit (Comming Soon)"  src={require("../images/icons/Layer 1.png")}/>
-                                                        </a>
-                                                        <a href="https://twitter.com/solutiontoken" className="sociallink"  >
-                                                            <img title="Twitter"  src={require("../images/twitter.png")}/>
-                                                        </a>
-                                                        <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive"  >
-                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
-                                                            <img title="Reddit (Comming Soon)"  src={require("../images/icons/if_reddit_2308126.png")}/>
-                                                        </a>
-                                                        <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive"  >
-                                                            <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
-                                                            <img title="BitcoinTalk (Comming Soon)"  src={require("../images/icons/Layer 2.png")}/>
-                                                        </a>
-                                                        <a href="https://www.linkedin.com/company/solution-token/" className="sociallink" >
-                                                            <img title="LinkedIn"  src={require("../images/icons/if_square-linkedin_317725.png")}/>
-                                                        </a>
+                                                    <div className="social-boxer">
+                                                        <div className="social">
+                                                            <a href="https://www.facebook.com/groups/251807885358730/" target="_blank" className="social_right_icon">
+                                                                <img title="Facebook Group" src={require("../images/facebook.png")}/>
+                                                            </a>
+                                                            <a href="javascript:;" onClick={this.handleContact.bind(this)} className="social_right_icon">
+                                                                <img title="Facebook Group" src={require("../images/icons/if_discord_2308078.png")}/>
+                                                            </a>
+                                                        </div>
+                                                        <div className="social-data">
+                                                            <p>Solution Token wishes you to join the community, this will allow you to interact with all team members and founders which you will be able to get to know each and everyone properly through out Solution Token's journey. You will also be able to interact with other members in the community, where you can share ideas and join forces to help each other in projects to come. </p>
+                                                            <p>We base our community on trust, so here are the platforms that our main community will be based,  follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow!</p>
+                                                            <p><b>FOLLOW NOW #YouAreTheSolution</b></p>
+                                                            <div className="social_box">
+                                                                <a href="https://www.facebook.com/solutiontoken/" target="_blank" className="sociallink" >
+                                                                    <img title="Facebook Page" src={require("../images/facebook.png")}/>
+                                                                </a>
+                                                                <a href="https://www.youtube.com/channel/UCV_kICMUixyMnoj5gCgVdCA" className="sociallink" target="_blank" >
+                                                                    <img title="Youtube" src={require("../images/icons/if_youtube_317714.png")}/>
+                                                                </a>
+                                                                <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive" >
+                                                                    <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
+                                                                    <img title="Youtube" src={require("../images/icons/if_Popular_Social_Media-07_2329236.png")}/>
+                                                                </a>
+                                                                <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive" >
+                                                                    <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
+                                                                    <img title="Discord (Comming Soon)"  src={require("../images/icons/if_discord_2308078.png")}/>
+                                                                </a>
+                                                                <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive">
+                                                                    <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
+                                                                    <img title="Snapchat (Comming soon)"  src={require("../images/icons/if_snapchat_386706.png")}/>
+                                                                </a>
+                                                                <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive"  >
+                                                                    <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
+                                                                    <img title="Steemit (Comming Soon)"  src={require("../images/icons/Layer 1.png")}/>
+                                                                </a>
+                                                                <a href="https://twitter.com/solutiontoken" className="sociallink"  >
+                                                                    <img title="Twitter"  src={require("../images/twitter.png")}/>
+                                                                </a>
+                                                                <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive"  >
+                                                                    <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
+                                                                    <img title="Reddit (Comming Soon)"  src={require("../images/icons/if_reddit_2308126.png")}/>
+                                                                </a>
+                                                                <a href="javascript:;" onClick={this.handleContact.bind(this)} className="sociallink sociallink_inactive"  >
+                                                                    <span className="tooltiptext">We are working on getting this up for you guys, stay tuned for it will be coming soon!</span>
+                                                                    <img title="BitcoinTalk (Comming Soon)"  src={require("../images/icons/Layer 2.png")}/>
+                                                                </a>
+                                                                <a href="https://www.linkedin.com/company/solution-token/" className="sociallink" >
+                                                                    <img title="LinkedIn"  src={require("../images/icons/if_square-linkedin_317725.png")}/>
+                                                                </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

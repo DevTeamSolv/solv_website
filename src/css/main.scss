@@ -1876,14 +1876,26 @@ video {
   }
   .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 10px;
     a {
       margin: 0px !important;
       width: auto;
+      padding: 20px;
       img {
-        width: 50px;
+        width: 700px;
       }
     }
+  }
+  .social-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-boxer {
+    display: flex;
+    flex-direction: row;
   }
 }
 .column_281{

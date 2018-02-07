@@ -1316,12 +1316,22 @@ video {
     text-align: center; }
   .column_291 .social {
     display: flex;
-    justify-content: space-between; }
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 10px; }
     .column_291 .social a {
       margin: 0px !important;
-      width: auto; }
+      width: auto;
+      padding: 20px; }
       .column_291 .social a img {
-        width: 50px; }
+        width: 700px; }
+  .column_291 .social-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .column_291 .social-boxer {
+    display: flex;
+    flex-direction: row; }
 
 .column_281 {
   float: left;

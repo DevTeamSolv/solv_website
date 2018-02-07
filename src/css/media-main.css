@@ -449,6 +449,14 @@ p {
   .column_291 {
     width: 80%;
     margin: 0px auto !important; }
+    .column_291 .social-boxer {
+      flex-direction: column;
+      align-items: center; }
+      .column_291 .social-boxer .social {
+        flex-direction: row;
+        justify-content: center; }
+        .column_291 .social-boxer .social img {
+          width: 70px; }
 
   iframe {
     height: 400px; }
