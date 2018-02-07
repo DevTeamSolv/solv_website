@@ -662,7 +662,7 @@ div.FM2_DWFullScreenPage1menu_container {
 }
 .row_51 {
   padding-top: 15px;
-  //background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
+  background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
   background-size: cover;
   height: 93px;
   background-repeat: no-repeat;
@@ -734,7 +734,24 @@ div.FM2_DWFullScreenPage1menu_container {
     }
   }
 }
-
+#community {
+  .community-popup {
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      color: #000000a6;
+    }
+  }
+  .skylight-dialog {
+    height: 250px !important;
+    a.skylight-close-button {
+      right: 20px !important;
+      top: 20px !important;
+    }
+  }
+}
 .animated-scroll {
   -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s;
@@ -748,7 +765,7 @@ div.FM2_DWFullScreenPage1menu_container {
 .scrolled {
   height: 69px;
   padding-top: 5px;
-  //background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
+  background-image: url("../images/gifs/Nav-Bar_2-60fps-gif.gif");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all .2s linear 0s;
@@ -1856,6 +1873,17 @@ video {
   margin: 0px auto;
   h3 {
     text-align: center;
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    a {
+      margin: 0px !important;
+      width: auto;
+      img {
+        width: 50px;
+      }
+    }
   }
 }
 .column_281{

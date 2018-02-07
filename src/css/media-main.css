@@ -401,6 +401,14 @@ p {
   .mobile-menu {
     display: block; }
 
+  #community .skylight-dialog {
+    height: 250px !important;
+    width: 70% !important;
+    left: 40% !important; }
+    #community .skylight-dialog a.skylight-close-button {
+      right: 20px !important;
+      top: 20px !important; }
+
   .social_box {
     display: inline-block; }
     .social_box img {
@@ -782,6 +790,14 @@ p {
     width: 100%;
     margin-top: 66px; }
 
+  #community .skylight-dialog {
+    height: 250px !important;
+    width: 80% !important;
+    left: 35% !important; }
+    #community .skylight-dialog a.skylight-close-button {
+      right: 20px !important;
+      top: 20px !important; }
+
   iframe {
     height: 350px; }
 
@@ -1000,6 +1016,14 @@ p {
 @media only screen and (max-width: 434px) {
   .row_58 .mobile-view img.image-field1 {
     width: 100%; }
+
+  #community .skylight-dialog {
+    height: 300px !important;
+    width: 80% !important;
+    left: 35% !important; }
+    #community .skylight-dialog a.skylight-close-button {
+      right: 20px !important;
+      top: 20px !important; }
 
   .column_291 {
     width: 80%;
