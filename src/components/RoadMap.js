@@ -26,7 +26,7 @@ class RoadMap extends React.Component {
                     <div className="inner-container">
                         <div className="left-side">
                             <div className="box">
-                                <div className="inner-box">
+                                <div className="inner-box active">
                                     <div className="data">
                                         <h3>Q1-2018</h3>
                                         <p>Marketing & Whitepaper</p>

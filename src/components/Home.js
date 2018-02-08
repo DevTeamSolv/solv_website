@@ -870,21 +870,7 @@ class Home extends React.Component {
                                                         <hr/>
                                                         <div className="info">
                                                             <p className="name">James Fawke</p>
-                                                            <p className="designation">Public Relation Australia</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="member-container">
-                                                    <div className="inner-member-container">
-                                                        <img src={require("../images/team/size-/Damian.jpg")}/>
-                                                        <div className="links">
-                                                            <a onClick={this.handleDetails.bind(this, "damian")}>BIO</a>
-                                                            <i className="fa fa-envelope" aria-hidden="true"></i>
-                                                        </div>
-                                                        <hr/>
-                                                        <div className="info">
-                                                            <p className="name">Damian Godlewski</p>
-                                                            <p className="designation">Public Relations Europe</p>
+                                                            <p className="designation">Public Relation</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1133,21 +1119,7 @@ class Home extends React.Component {
                                                             <hr/>
                                                             <div className="info">
                                                                 <p className="name">James Fawke</p>
-                                                                <p className="designation">Public Relation Australia</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="member-container">
-                                                        <div className="inner-member-container">
-                                                            <img src={require("../images/team/size-/Damian.jpg")}/>
-                                                            <div className="links">
-                                                                <a onClick={this.handleDetails.bind(this, "damian")}>BIO</a>
-                                                                <i className="fa fa-envelope" aria-hidden="true"></i>
-                                                            </div>
-                                                            <hr/>
-                                                            <div className="info">
-                                                                <p className="name">Damian Godlewski</p>
-                                                                <p className="designation">Public Relations Europe</p>
+                                                                <p className="designation">Public Relation</p>
                                                             </div>
                                                         </div>
                                                     </div>

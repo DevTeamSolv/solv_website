@@ -24,7 +24,7 @@ class MobileRoadMap extends React.Component {
                                 <div className="hr-box">
                                     <hr/>
                                 </div>
-                                <div className="inner-box">
+                                <div className="inner-box active">
                                     <div className="image">
                                         <img src={require("../images/solution-logo.png")}/>
                                     </div>

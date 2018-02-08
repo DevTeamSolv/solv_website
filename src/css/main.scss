@@ -2083,12 +2083,23 @@ a.sociallink_inactive:hover .tooltiptext, a.social_right_inactive:hover .tooltip
         width: 95%;
       }
     }
+    .inner-box.active {
+      box-shadow: 0 0 1px 1px #e2e2e2;
+      img {
+        width: 95%;
+        animation: roadMapActive 1s infinite;
+      }
+    }
     ul {
       list-style: none;
     }
   }
 }
-
+@-webkit-keyframes roadMapActive {
+  0% {width: 80%}
+  50% {width: 95%}
+  100% {width: 80%}
+}
 
 
 

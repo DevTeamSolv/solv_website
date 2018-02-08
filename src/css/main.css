@@ -1485,7 +1485,20 @@ a.sociallink_inactive:hover .tooltiptext, a.social_right_inactive:hover .tooltip
       box-shadow: 0 0 1px 1px #e2e2e2; }
       .roadmap .inner-container .inner-box:hover img {
         width: 95%; }
+    .roadmap .inner-container .inner-box.active {
+      box-shadow: 0 0 1px 1px #e2e2e2; }
+      .roadmap .inner-container .inner-box.active img {
+        width: 95%;
+        animation: roadMapActive 1s infinite; }
     .roadmap .inner-container ul {
       list-style: none; }
+
+@-webkit-keyframes roadMapActive {
+  0% {
+    width: 80%; }
+  50% {
+    width: 95%; }
+  100% {
+    width: 80%; } }
 
 /*# sourceMappingURL=main.css.map */

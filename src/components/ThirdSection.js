@@ -111,7 +111,7 @@ class ThirdSection extends React.Component {
                                 </p>
                             </div>
                             <div className="box b10">
-                                <img src={require("../images/icons/Real world implementation-01.png")}/>
+                                <img src={require("../images/icons/real-crypto.jpg")}/>
                                 <h3>REAL WORLD & CRYPTO WORLD</h3>
                                 <p>
                                     Solution token is here to break barriers, link together and create bridges that currently separated the two worlds. What's the difference? Well simple, Real world companies consist on one currency backing which is fiat currency <span className="hide-text"> such as the dollar, opposed to a cryptocurrency company that is built off the block chanin and backed by their own token, coin or currency. For we will make it a norm that both fiat and crypto currencies will be useful to us and we will not neglect the use of them, as we are dependent on both to excel and also expand company productivity. We wish to set a sample for companies to follow in our way.</span><br/><a onClick={this.readMore.bind(this, "b10")}>read more</a>
