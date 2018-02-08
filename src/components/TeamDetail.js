@@ -126,7 +126,7 @@ class TeamDetail extends React.Component {
                             <img src={require("../images/team/size-/James fawk.jpg")}/>
                         </div>
                         <p className="name">James Fawke</p>
-                        <p className="designation">Public Relations</p>
+                        <p className="designation">Public Relations Australia</p>
                         <p className="description">As Solution Token’s public relations manager, James works with the marketing and media teams in order to distribute and specialize materials for the Australian market. He is also responsible for directly interacting with the Australian community and answering any of their questions about Solution.
                         </p>
                     </div>

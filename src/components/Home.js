@@ -874,7 +874,7 @@ class Home extends React.Component {
                                                         <hr/>
                                                         <div className="info">
                                                             <p className="name">James Fawke</p>
-                                                            <p className="designation">Public Relations</p>
+                                                            <p className="designation">Public Relations Australia</p>
                                                         </div>
                                                     </div>
                                                 </div>
