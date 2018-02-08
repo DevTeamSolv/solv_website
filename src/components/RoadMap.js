@@ -36,7 +36,7 @@ class RoadMap extends React.Component {
                                         </ul>
                                     </div>
                                     <div className="image">
-                                        <img src={require("../images/solution-logo.png")}/>
+                                        <img src={require("../images/gifs/solv_logo_animated.gif")}/>
                                     </div>
                                 </div>
                                 <div className="hr-box">

@@ -521,7 +521,7 @@ class Home extends React.Component {
                                         <div className="gridContainer row_36">
                                             <div className="row_37">
                                                 <div className="column_28">
-                                                    {/*<img className="image5" src={require("../images/gifs/gif-faster-smaller.gif" )}/>*/}
+                                                    <img className="image5" src={require("../images/gifs/gif-faster-smaller.gif" )}/>
                                                 </div>
                                                 <div className="column_29">
                                                     <div id="editable-wrapping-node">
