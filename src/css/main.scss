@@ -232,6 +232,7 @@ button.wallet p {
 }
 .row_31 {
   padding: 140px 0;
+  padding-top: 180px;
   span {
     font-weight: bold;
   }
@@ -246,11 +247,10 @@ button.wallet p {
   //background-image: url("../js/includes/DWFullScreenPage/DWFullScreenPage1/tokenbg.png");
   background-image: url("../images/1.jpg");
   padding-top: 360px;
-  height: 976px;
+  height: 706px;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 60px;
-  height: 976px;
   text-align: center;
   h3 {
     font-size: 42px;
@@ -1977,7 +1977,8 @@ a.sociallink_inactive:hover .tooltiptext, a.social_right_inactive:hover .tooltip
 }
 span.download-whitepaper {
   color: #1e8e1a;
-  text-decoration: underline;
+  font-size: 23px;
+  //text-decoration: underline;
 }
 .roadmap {
   width: 100%;

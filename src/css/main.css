@@ -188,7 +188,8 @@
     transition-duration: 200ms; }
 
 .row_31 {
-  padding: 140px 0; }
+  padding: 140px 0;
+  padding-top: 180px; }
   .row_31 span {
     font-weight: bold; }
   .row_31 span.span14 {
@@ -197,11 +198,10 @@
 .row_38 {
   background-image: url("../images/1.jpg");
   padding-top: 360px;
-  height: 976px;
+  height: 706px;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 60px;
-  height: 976px;
   text-align: center; }
   .row_38 h3 {
     font-size: 42px;
@@ -1398,7 +1398,7 @@ a.sociallink_inactive:hover .tooltiptext, a.social_right_inactive:hover .tooltip
 
 span.download-whitepaper {
   color: #1e8e1a;
-  text-decoration: underline; }
+  font-size: 23px; }
 
 .roadmap {
   width: 100%;
