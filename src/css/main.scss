@@ -249,7 +249,7 @@ button.wallet p {
   height: 976px;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 120px;
+  padding-top: 60px;
   height: 976px;
   text-align: center;
   h3 {
@@ -469,6 +469,7 @@ button.wallet p {
   }
 }
 .column_36 {
+  padding-top: 60px;
   width: 100%;
   h3 {
     font-weight: bold;
@@ -1863,7 +1864,8 @@ video {
 }
 .row_351{
   clear: both;
-  padding: 100px 0;
+  padding-bottom: 85px;
+  padding-top: 60px;
   border-bottom: 1px solid #1e8e1a;
 }
 .column_291{
@@ -1872,7 +1874,7 @@ video {
   min-height: 100px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 50px;
+  //padding-top: 50px;
   margin: 0px auto;
   h3 {
     text-align: center;

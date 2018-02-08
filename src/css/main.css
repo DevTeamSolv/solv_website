@@ -188,7 +188,7 @@
     transition-duration: 200ms; }
 
 .row_31 {
-  padding: 100px 0; }
+  padding: 140px 0; }
   .row_31 span {
     font-weight: bold; }
   .row_31 span.span14 {
@@ -200,8 +200,8 @@
   height: 976px;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 120px;
-  height: 775px;
+  padding-top: 60px;
+  height: 976px;
   text-align: center; }
   .row_38 h3 {
     font-size: 42px;
@@ -377,6 +377,7 @@
     font-size: 24px; }
 
 .column_36 {
+  padding-top: 60px;
   width: 100%; }
   .column_36 h3 {
     font-weight: bold; }
@@ -1307,14 +1308,14 @@ video {
 
 .row_351 {
   clear: both;
-  padding: 100px 0;
+  padding-bottom: 85px;
+  padding-top: 60px;
   border-bottom: 1px solid #1e8e1a; }
 
 .column_291 {
   min-height: 100px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 50px;
   margin: 0px auto; }
   .column_291 h3 {
     text-align: center; }
