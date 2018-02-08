@@ -873,7 +873,7 @@ class Home extends React.Component {
                                                         <hr/>
                                                         <div className="info">
                                                             <p className="name">James Fawke</p>
-                                                            <p className="designation">Public Relation</p>
+                                                            <p className="designation">Public relations Australia</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1029,7 +1029,7 @@ class Home extends React.Component {
                                                             <hr className="hassan"/>
                                                             <div className="hassan info">
                                                                 <p className="name">Tauqeer Hassan</p>
-                                                                <p className="designation">FrontEnd Engineer</p>
+                                                                <p className="designation">Front - End Engineer</p>
                                                             </div>
                                                         </div>
                                                     </div>

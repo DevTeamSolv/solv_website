@@ -26,7 +26,7 @@ class MobileRoadMap extends React.Component {
                                 </div>
                                 <div className="inner-box active">
                                     <div className="image">
-                                        <img src={require("../images/solution-logo.png")}/>
+                                        <img src={require("../images/gifs/solv_logo_animated.gif")}/>
                                     </div>
                                     <div className="data">
                                         <h3>Q1-2018</h3>
