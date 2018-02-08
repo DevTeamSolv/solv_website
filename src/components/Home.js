@@ -747,6 +747,20 @@ class Home extends React.Component {
                                             <div className="members-row">
                                                 <div className="member-container">
                                                     <div className="inner-member-container">
+                                                        <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
+                                                        <div className="links">
+                                                            <a onClick={this.handleDetails.bind(this, "mahar")}>BIO</a>
+                                                            <i className="fa fa-envelope" aria-hidden="true"></i>
+                                                        </div>
+                                                        <hr/>
+                                                        <div className="info">
+                                                            <p className="name">Mahar Husnain</p>
+                                                            <p className="designation">CTO</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="member-container">
+                                                    <div className="inner-member-container">
                                                         <img src={require("../images/team/size-/ali_Zain.jpg")}/>
                                                         <div className="links">
                                                             <a onClick={this.handleDetails.bind(this, "zain")}>BIO</a>
@@ -756,20 +770,6 @@ class Home extends React.Component {
                                                         <div className="info">
                                                             <p className="name">Ali Zain</p>
                                                             <p className="designation">Head Developer</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="member-container">
-                                                    <div className="inner-member-container">
-                                                        <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
-                                                        <div className="links">
-                                                            <a onClick={this.handleDetails.bind(this, "mahar")}>BIO</a>
-                                                            <i className="fa fa-envelope" aria-hidden="true"></i>
-                                                        </div>
-                                                        <hr/>
-                                                        <div className="info">
-                                                            <p className="name">Mahar Husnain</p>
-                                                            <p className="designation">Lead Developer</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -990,6 +990,20 @@ class Home extends React.Component {
                                                 <div className="slider-continer">
                                                     <div className="member-container">
                                                         <div className="inner-member-container">
+                                                            <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
+                                                            <div className="links">
+                                                                <a onClick={this.handleDetails.bind(this, "mahar")}>BIO</a>
+                                                                <i className="fa fa-envelope" aria-hidden="true"></i>
+                                                            </div>
+                                                            <hr/>
+                                                            <div className="info">
+                                                                <p className="name">Mahar Husnain</p>
+                                                                <p className="designation">CTO</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="member-container">
+                                                        <div className="inner-member-container">
                                                             <img src={require("../images/team/size-/ali_Zain.jpg")}/>
                                                             <div className="links">
                                                                 <a onClick={this.handleDetails.bind(this, "zain")}>BIO</a>
@@ -999,20 +1013,6 @@ class Home extends React.Component {
                                                             <div className="info">
                                                                 <p className="name">Ali Zain</p>
                                                                 <p className="designation">Head Developer</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="member-container">
-                                                        <div className="inner-member-container">
-                                                            <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
-                                                            <div className="links">
-                                                                <a onClick={this.handleDetails.bind(this, "mahar")}>BIO</a>
-                                                                <i className="fa fa-envelope" aria-hidden="true"></i>
-                                                            </div>
-                                                            <hr/>
-                                                            <div className="info">
-                                                                <p className="name">Mahar Husnain</p>
-                                                                <p className="designation">Lead Developer</p>
                                                             </div>
                                                         </div>
                                                     </div>

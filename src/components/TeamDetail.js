@@ -80,8 +80,8 @@ class TeamDetail extends React.Component {
                             <img src={require("../images/team/size-/mahar_husnain.jpg")}/>
                         </div>
                         <p className="name">Mahar Husnain</p>
-                        <p className="designation">Lead Developer</p>
-                        <p className="description">Mahar is a seasoned full-stack developer, and greatly contributed to building this website and backend smart contracts work. Besides hundreds of hours of coding and development for Solution Token’s server and smart contract testing, Mahar also had to work closely with other team members to combine text, graphics, and visual ideas into one smooth and polished website.
+                        <p className="designation">CTO</p>
+                        <p className="description">Mahar is company's CTO. Mahar has and greatly contributed to building this website and backend smart contracts work. Besides hundreds of hours of coding and development for Solution Token’s server and smart contract testing, Mahar also had to work closely with other team members to combine text, graphics, and visual ideas into one smooth and polished website.
                         </p>
                     </div>
                 }
@@ -126,8 +126,8 @@ class TeamDetail extends React.Component {
                             <img src={require("../images/team/size-/James fawk.jpg")}/>
                         </div>
                         <p className="name">James Fawke</p>
-                        <p className="designation">Public Relation Australia</p>
-                        <p className="description">As Solution Token’s Australian public relations manager, James works with the marketing and media teams in order to distribute and specialize materials for the Australian market. He is also responsible for directly interacting with the Australian community and answering any of their questions about Solution.
+                        <p className="designation">Public Relation</p>
+                        <p className="description">As Solution Token’s public relations manager, James works with the marketing and media teams in order to distribute and specialize materials for the Australian market. He is also responsible for directly interacting with the Australian community and answering any of their questions about Solution.
                         </p>
                     </div>
                 }
