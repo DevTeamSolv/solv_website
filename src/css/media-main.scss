@@ -1409,6 +1409,17 @@ p {
         flex-direction: column !important;
         justify-content:center;
       }
+      .inner-box.active {
+        box-shadow: 0 0 1px 1px #e2e2e2;
+        height: 300px;
+        .image {
+          height: 122px;
+        }
+        img {
+          width: 95%;
+          animation: roadMapActive 1s infinite;
+        }
+      }
       .inner-container {
         justify-content: flex-start;
         .right-side {

@@ -1063,6 +1063,14 @@ p {
         width: 280px;
         flex-direction: column !important;
         justify-content: center; }
+      .mobile-roadmap .roadmap .inner-box.active {
+        box-shadow: 0 0 1px 1px #e2e2e2;
+        height: 300px; }
+        .mobile-roadmap .roadmap .inner-box.active .image {
+          height: 122px; }
+        .mobile-roadmap .roadmap .inner-box.active img {
+          width: 95%;
+          animation: roadMapActive 1s infinite; }
       .mobile-roadmap .roadmap .inner-container {
         justify-content: flex-start; }
         .mobile-roadmap .roadmap .inner-container .right-side {
