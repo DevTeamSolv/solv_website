@@ -1975,6 +1975,10 @@ a.sociallink_inactive:hover .tooltiptext, a.social_right_inactive:hover .tooltip
   visibility: visible;
   opacity: 1;
 }
+span.download-whitepaper {
+  color: #1e8e1a;
+  text-decoration: underline;
+}
 .roadmap {
   width: 100%;
   background: #fff;
@@ -2087,7 +2091,7 @@ a.sociallink_inactive:hover .tooltiptext, a.social_right_inactive:hover .tooltip
       }
     }
     .inner-box.active {
-      box-shadow: 0 0 1px 1px #e2e2e2;
+      //box-shadow: 0 0 1px 1px #e2e2e2;
       img {
         width: 95%;
         animation: roadMapActive 1s infinite;

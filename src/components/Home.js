@@ -367,7 +367,7 @@ class Home extends React.Component {
                                                 {/*<ReactRotatingText items={['SOLUTION TOKEN']} eraseMode="erase"/>*/}
                                             </h3>
                                             <p className="span13">
-                                                Here at Solution Token, the benefit of our users - who we hope will span across all kinds of humanity - is our priority. This website outlines our goals for the four different platforms that we are building, so you can learn what Solution Token can do for you. We hope to earn your support by sharing our vision: what we are doing, why we are doing it, and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed decision possible, you can also explore our interactive whitepaper.<br/>
+                                                Here at Solution Token, the benefit of our users - who we hope will span across all kinds of humanity - is our priority. We hope to earn your support by sharing our vision: what we are doing, why we are doing it, and how we will accomplish it. For more technical details and hard numbers to help you make the most well-informed decision possible, you can also explore our interactive whitepaper.<br/>
                                                 {/*<ReactRotatingText items={['A TOKEN FOR HUMANITY']} />*/}
                                         </p>
                                             <h4 className="pre-sale-news">Presale Coming Soon</h4>
@@ -382,7 +382,7 @@ class Home extends React.Component {
                                         {/*</ul>*/}
                                         {/*</div>*/}
                                         <div className="countDown">
-                                        <CountdownTimer endDate={moment('25/2/2018 6:00:00', 'DD/MM/YYYY hh:mm:ss')}/>
+                                        <CountdownTimer endDate={moment('20/3/2018 12:00:00', 'DD/MM/YYYY hh:mm:ss')}/>
                                         </div>
                                     </div>
                                 </div>
@@ -396,7 +396,7 @@ class Home extends React.Component {
                                     <div className="slide slide1"  data-id="platform" data-tooltip="Platforms" data-anchor="platform">
                                         <div className="custom-post-content1"> <h3 className="client-name1">Platforms</h3>
                                             <p>
-                                                <span>Solution Token prides itself on the platforms that we provide. These are the pieces that, together, form a Solution.</span>
+                                                <span>Solution Token prides itself on the platforms that we provide. These are the pieces that together form a Solution.</span>
                                                 <br/>
                                                 Our goal is to aid causes to help solve humanitarian issues and disasters around the world. Solution’s platform will be widely based around real world uses, with three out of the four concepts directly applicable to the real world. These three are the humanitarian program, Water Solutions, and interactive gaming. The only concept that does not directly interact with the physical world will be the Solution Wallet.</p>
                                             <div className="column_46 desktop-view">
@@ -530,8 +530,9 @@ class Home extends React.Component {
                                                     <div id="editable-wrapping-node">
                                                         <h3><span >Interactive</span> <span className="span14">Whitepaper</span></h3>
                                                         <p>The simplicity of an interactive whitepaper draws the attention to the key aspects of Solution Token. <br/>
-                                                            <span >This will allow users to both have visual and a virtual experience.&nbsp;</span></p>
-                                                        <a className="button" href="#">Coming Soon</a>
+                                                            <span >This will allow users to both have visual and a virtual experience.&nbsp;</span><br/>
+                                                        <span className="download-whitepaper"><b>Coming Soon</b></span></p>
+                                                        <a className="button" href={require("../images/gifs/SolutionToken_WP_v1.0.pdf")} download>Download Whitepaper 1.0</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -873,7 +874,7 @@ class Home extends React.Component {
                                                         <hr/>
                                                         <div className="info">
                                                             <p className="name">James Fawke</p>
-                                                            <p className="designation">Public Relations Australia</p>
+                                                            <p className="designation">Public Relations</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1122,7 +1123,7 @@ class Home extends React.Component {
                                                             <hr/>
                                                             <div className="info">
                                                                 <p className="name">James Fawke</p>
-                                                                <p className="designation">Public Relations Australia</p>
+                                                                <p className="designation">Public Relations</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1197,7 +1198,7 @@ class Home extends React.Component {
 
                     <div className="footer">
                         <div className="box">
-                            <p>&copy; COPYRIGHT ALL RIGHT RESERVED BY | SOLUTION TOKEN</p>
+                            <p>&copy; ALL RIGHTS RESERVED BY | SOLUTION TOKEN</p>
                             {/*<a href="https://www.facebook.com/solutiontoken/" target="_blank" className="facebook2">*/}
                                 {/*<img  className="white" src={require("../images/facebook_w.png")}/>*/}
                                 {/*<img className="original" src={require("../images/facebook.png")}/>*/}

@@ -47,18 +47,18 @@ class CountdownTimer extends React.Component {
         var end = moment(endDate); // end date
         var duration = moment.duration(end.diff(now));
         if (duration.asSeconds() >= 0) {
-            if (Math.floor(duration.asMonths()) > 0) {
-                if (Math.floor(duration.asMonths()) < 10) {
-                    temp.months = '0' + Math.floor(duration.asMonths())
-                } else {
-                    temp.months = Math.floor(duration.asMonths())
-                }
-            }
+            // if (Math.floor(duration.asMonths()) > 0) {
+            //     if (Math.floor(duration.asMonths()) < 10) {
+            //         temp.months = '0' + Math.floor(duration.asMonths())
+            //     } else {
+            //         temp.months = Math.floor(duration.asMonths())
+            //     }
+            // }
             if (Math.floor(duration.asDays()) > 0) {
-                if (Math.floor(duration.days()) < 10) {
-                    temp.days = '0' + Math.floor(duration.days())
+                if (Math.floor(duration.asDays()) < 10) {
+                    temp.days = '0' + Math.floor(duration.asDays())
                 } else {
-                    temp.days = Math.floor(duration.days())
+                    temp.days = Math.floor(duration.asDays())
                 }
             }
             if (Math.floor(duration.asHours()) > 0) {
@@ -136,7 +136,7 @@ class CountdownTimer extends React.Component {
                     <div className="days">
 
                         <svg className="svg-style">
-                            <ellipse rx="40" ry="40" cx="45" cy="45"  strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.days)) * 8.374)} id="ell"></ellipse>
+                            <ellipse rx="40" ry="40" cx="45" cy="45"  strokeDashoffset={-251 +((parseInt(this.state.timeRemaining.days)) * 4.183)} id="ell"></ellipse>
                         </svg>
                         <div className="time">{this.state.timeRemaining.days}</div>
                         <div className="label">Days</div>

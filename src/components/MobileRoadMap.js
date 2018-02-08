@@ -32,7 +32,7 @@ class MobileRoadMap extends React.Component {
                                         <h3>Q1-2018</h3>
                                         <p>Marketing & Whitepaper</p>
                                         <ul>
-                                            <li>Completition of documents & marketing strategies</li>
+                                            <li>Completion of documents & marketing strategies</li>
                                             <li>PRE-SALE stage of ICO</li>
                                         </ul>
                                     </div>
