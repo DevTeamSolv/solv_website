@@ -39,6 +39,25 @@ class MobileRoadMap extends React.Component {
                                 </div>
                             </div>
                             <div className="box">
+
+                                <div className="hr-box">
+                                    <hr/>
+                                </div>
+                                <div className="inner-box">
+                                    <div className="image">
+                                        <img src={require("../images/gifs/Ethereum-render.gif")}/>
+                                    </div>
+                                    <div className="data">
+                                        <h3>Q2-2018</h3>
+                                        <p>Stage &#8544; &#8544;&#8544; &#8544;&#8544;&#8544;</p>
+                                        <ul>
+                                            <li>PRE-SALE Stage &#8544; &#8544;&#8544; &#8544;&#8544;&#8544;</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="box">
                                 <div className="hr-box">
                                     <hr/>
                                 </div>
@@ -55,6 +74,26 @@ class MobileRoadMap extends React.Component {
                                         </ul>
                                     </div>
                                 </div>
+
+                            </div>
+                            <div className="box">
+                                <div className="hr-box">
+                                    <hr/>
+                                </div>
+                                <div className="inner-box">
+                                    <div className="image">
+                                        <img src={require("../images/gifs/Reward-logo-Gif.gif")}/>
+                                    </div>
+                                    <div className="data">
+                                        <h3>Q4-2018</h3>
+                                        <p>Solution Wallet</p>
+                                        <ul>
+                                            <li>Solution Wallet Released</li>
+                                            <li>Rewards program implemented</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
                             </div>
                             <div className="box">
                                 <div className="hr-box">
@@ -77,6 +116,23 @@ class MobileRoadMap extends React.Component {
                                 <div className="hr-box">
                                     <hr/>
                                 </div>
+                                <div className="inner-box"><div className="image">
+                                    <img src={require("../images/gifs/Water-Logo-gif.gif")}/>
+                                </div>
+                                    <div className="data">
+                                        <h3>Q3-2019</h3>
+                                        <p>Water Solutions</p>
+                                        <ul>
+                                            <li>Registering public company</li>
+                                            <li>Distributing products</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box">
+                                <div className="hr-box">
+                                    <hr/>
+                                </div>
                                 <div className="inner-box">
                                     <div className="image">
                                         <img src={require("../images/gifs/Gaming-logo-gif.gif")}/>
@@ -90,58 +146,7 @@ class MobileRoadMap extends React.Component {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="box">
-                                <div className="hr-box">
-                                    <hr/>
-                                </div>
-                                <div className="inner-box">
-                                    <div className="image">
-                                        <img src={require("../images/gifs/Ethereum-render.gif")}/>
-                                    </div>
-                                    <div className="data">
-                                        <h3>Q2-2018</h3>
-                                        <p>Stage &#8544; &#8544;&#8544; &#8544;&#8544;&#8544;</p>
-                                        <ul>
-                                            <li>PRE-SALE Stage &#8544; &#8544;&#8544; &#8544;&#8544;&#8544;</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="box">
-                                <div className="hr-box">
-                                    <hr/>
-                                </div>
-                                <div className="inner-box">
-                                    <div className="image">
-                                        <img src={require("../images/gifs/Reward-logo-Gif.gif")}/>
-                                    </div>
-                                    <div className="data">
-                                        <h3>Q4-2018</h3>
-                                        <p>Solution Wallet</p>
-                                        <ul>
-                                            <li>Solution Wallet Released</li>
-                                            <li>Rewards program implemented</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="box">
-                                <div className="hr-box">
-                                    <hr/>
-                                </div>
-                                <div className="inner-box"><div className="image">
-                                    <img src={require("../images/gifs/Water-Logo-gif.gif")}/>
-                                </div>
-                                    <div className="data">
-                                        <h3>Q3-2019</h3>
-                                        <p>Water Solutions</p>
-                                        <ul>
-                                            <li>Registering public company</li>
-                                            <li>Distributing products</li>
-                                        </ul>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
