@@ -126,11 +126,13 @@ class Home extends React.Component {
                 this.setState({
                     hide: false
                 })
+                $('#overlay').css('top', '69px');
             }
             else {
                 this.setState({
                     hide: true
                 })
+                $('#overlay').css('top', '90px');
             }
         }
 
@@ -295,49 +297,50 @@ class Home extends React.Component {
                                 <span></span>
                             </div>
                         </div>
-                        <div id="overlay" className=" mobile-menu overlay">
-                            <nav className="overlay-menu">
-                                <ul>
-                                    <li>
-                                        <Link to="home" onClick={this.handleMobileMenuClick.bind(this)} spy={true} offset={-60} smooth={true} duration={500}>
-                                            Home
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="platform" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={700}>
-                                            Our Platforms
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link className="test6" to="roadmap" offset={-50} onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
-                                            RoadMap
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link className="test6" to="whitepaper" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
-                                            Whitepaper
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="sale" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1200}>
-                                            Token Sale
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link className="test6" to="team" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
-                                            Team Members
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link className="test6" to="community" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
-                                            Join Our Community
-                                        </Link>
-                                        {/*<a className="button-white" onClick={this.handleMobileMenuClick.bind(this)} href="#">Join Token Sale</a>*/}
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+
                     </div>
+                <div id="overlay" className=" mobile-menu overlay">
+                    <nav className="overlay-menu">
+                        <ul>
+                            <li>
+                                <Link to="home" onClick={this.handleMobileMenuClick.bind(this)} spy={true} offset={-60} smooth={true} duration={500}>
+                                    Home
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="platform" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={700}>
+                                    Our Platforms
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className="test6" to="roadmap" offset={-50} onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
+                                    RoadMap
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className="test6" to="whitepaper" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={900}>
+                                    Whitepaper
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="sale" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1200}>
+                                    Token Sale
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className="test6" to="team" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
+                                    Team Members
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className="test6" to="community" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
+                                    Join Our Community
+                                </Link>
+                                {/*<a className="button-white" onClick={this.handleMobileMenuClick.bind(this)} href="#">Join Token Sale</a>*/}
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
                 {/*</div>*/}
                 <Element name="video" className="element">
                     {/*<iframe width="100%" height="900px" src="https://www.youtube.com/embed/fzLdtFAyFFA?rel=0&controls=0&loop=1&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>*/}
