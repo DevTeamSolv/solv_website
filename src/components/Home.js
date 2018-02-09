@@ -43,6 +43,7 @@ class Home extends React.Component {
             mounted: true,
             paused: false,
             muted: false,
+            hamburgerOpen: false,
             member: "",
             popup: "",
             phrase: ['S','O','L','U','T','I','O','N',' ','T','O','K','E','N'],
@@ -104,6 +105,12 @@ class Home extends React.Component {
     }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll.bind(this));
+        console.log(window.innerWidth)
+        if(window.innerWidth < 768) {
+            this.setState({
+                hamburgerOpen: true
+            })
+        }
         // var el = document.getElementById('myVideo')
         // el.play();
         // el.muted = false;
@@ -147,14 +154,14 @@ class Home extends React.Component {
         }
 
         var scrollPos = $(document).scrollTop();
-        $('.animated-scroll a').each(function () {
+        $('.nav-bar a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
             // console.log(currLink, currLink.position(), scrollPos)
             // console.log(refElement, refElement.position(), refElement.height())
             if(refElement.position()) {
                 if (refElement.position().top-68 <= scrollPos && refElement.position().top + refElement.height() > scrollPos+68) {
-                    $('.animated-scroll a').removeClass("active");
+                    $('.nav-bar a').removeClass("active");
                     currLink.addClass("active");
                 }
                 else{
@@ -171,6 +178,9 @@ class Home extends React.Component {
     handleHamburger(){
         $("#nav-icon4").toggleClass('open');
         $("#overlay").toggleClass('open');
+        this.setState({
+            hamburgerOpen: true
+        })
     }
     handleMobileMenuClick(){
         $("#nav-icon4").removeClass('open');
@@ -272,7 +282,6 @@ class Home extends React.Component {
         return (
             <div>
                 {/*<div className="header">*/}
-                <div id="google_translate_element"></div>
                 <div className={!this.state.hide ? "scrolled animated-scroll fadeIn" : "row_51 animated-scroll"}>
                         <div className="top-bar-outer">
                             <div className="empty-column">
@@ -291,6 +300,8 @@ class Home extends React.Component {
                                     <a  onClick={this.scrollTo.bind(this, "community")}  href="#community">Join Community</a>
                                 </div>
                             </div>
+                            {!this.state.hamburgerOpen && <div id="google_translate_element"></div>}
+
                             <div onClick={this.handleMusic.bind(this)} className="music-btn">
                                 {!this.state.muted && <div><img src={require("../images/size-/new-music.png")}/></div>}
                                 {this.state.muted && <div><img src={require("../images/size-/no-music.png")}/></div>}
@@ -347,6 +358,10 @@ class Home extends React.Component {
                                 <Link className="test6" to="community" onClick={this.handleMobileMenuClick.bind(this)} spy={true} smooth={true} duration={1500}>
                                     Join Our Community
                                 </Link>
+                                {/*<a className="button-white" onClick={this.handleMobileMenuClick.bind(this)} href="#">Join Token Sale</a>*/}
+                            </li>
+                            <li>
+                                {this.state.hamburgerOpen && <div id="google_translate_element"></div>}
                                 {/*<a className="button-white" onClick={this.handleMobileMenuClick.bind(this)} href="#">Join Token Sale</a>*/}
                             </li>
                         </ul>

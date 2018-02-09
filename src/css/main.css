@@ -188,8 +188,8 @@
     transition-duration: 200ms; }
 
 .row_31 {
-  padding: 120px 0;
-  }
+  padding: 140px 0;
+  padding-top: 180px; }
   .row_31 span {
     font-weight: bold; }
   .row_31 span.span14 {
@@ -616,10 +616,21 @@ div.FM2_DWFullScreenPage1menu_container {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown; }
 
+.skiptranslate {
+  display: none; }
+
 .skiptranslate.goog-te-gadget {
   display: flex;
   justify-content: flex-end;
-  background: #040f0a; }
+  background: #040f0a;
+  margin-top: -10px;
+  color: #040f0a; }
+  .skiptranslate.goog-te-gadget span {
+    display: none; }
+  .skiptranslate.goog-te-gadget select {
+    padding: 15px;
+    width: 130px;
+    height: 35px; }
 
 .scrolled {
   height: 69px;

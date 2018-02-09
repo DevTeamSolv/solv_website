@@ -767,12 +767,22 @@ div.FM2_DWFullScreenPage1menu_container {
   animation-name: fadeInDown;
 }
 .skiptranslate {
-  //display: none;
+  display: none;
 }
 .skiptranslate.goog-te-gadget {
   display: flex;
   justify-content: flex-end;
   background: #040f0a;
+  margin-top: -10px;
+  span {
+      display: none;
+    }
+    color: #040f0a;
+    select {
+      padding: 15px;
+      width: 130px;
+      height: 35px;
+    }
 }
 .scrolled {
   height: 69px;
