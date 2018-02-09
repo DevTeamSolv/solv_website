@@ -766,6 +766,14 @@ div.FM2_DWFullScreenPage1menu_container {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
+.skiptranslate {
+  //display: none;
+}
+.skiptranslate.goog-te-gadget {
+  display: flex;
+  justify-content: flex-end;
+  background: #040f0a;
+}
 .scrolled {
   height: 69px;
   padding-top: 5px;
@@ -777,6 +785,7 @@ div.FM2_DWFullScreenPage1menu_container {
   transition: all .2s linear 0s;
   position: fixed;
   width: 100%;
+  top: 0px;
   z-index: 9999;
   .active {
     color: #58e02a !important;
