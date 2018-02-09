@@ -543,7 +543,7 @@ class Home extends React.Component {
                                                         <p>The simplicity of an interactive whitepaper draws the attention to the key aspects of Solution Token. <br/>
                                                             <span >This will allow users to both have visual and a virtual experience.&nbsp;</span><br/>
                                                         <span className="download-whitepaper"><b>Coming Soon</b></span></p>
-                                                        <a className="button" href={require("../images/gifs/SolutionToken_WP_v1.0.pdf")} download>Download Whitepaper 1.0</a>
+                                                        {/*<a className="button" href={require("../images/gifs/SolutionToken_WP_v1.0.pdf")} download>Download Whitepaper 1.0</a>*/}
                                                     </div>
                                                 </div>
                                             </div>
@@ -885,7 +885,7 @@ class Home extends React.Component {
                                                         <hr/>
                                                         <div className="info">
                                                             <p className="name">James Fawke</p>
-                                                            <p className="designation">Public Relations</p>
+                                                            <p className="designation">Public Relations Australia</p>
                                                         </div>
                                                     </div>
                                                 </div>
