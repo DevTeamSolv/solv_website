@@ -133,15 +133,15 @@ class Home extends React.Component {
                     hide: false
                 })
                 $('#overlay').css('top', '69px');
-                    $('.goog-te-banner-frame').css('display', 'none');
-                    $('body').css('top', '0px');
+                $('body').css('top', '40px');
+                $('.goog-te-banner-frame').css('display', 'none');
             }
             else {
                 this.setState({
                     hide: true
                 })
                 $('#overlay').css('top', '90px');
-                $('body').css('top', '40px');
+                $('body').css('top', '0px');
                 $('.goog-te-banner-frame').css('display', 'block');
             }
         }
